@@ -1,6 +1,6 @@
-# Ollama Streamlit Application
+# FIPS Chat
 
-A local Streamlit application for macOS that integrates with Ollama models to provide dual functionality: text-based chat conversations and image description capabilities.
+A multi-provider AI chat and image analysis platform designed for local and OpenShift deployment with FIPS compliance.
 
 ## Features
 
@@ -74,7 +74,7 @@ A local Streamlit application for macOS that integrates with Ollama models to pr
 ## Application Structure
 
 ```
-ollama-streamlit-app/
+fips-chat/
 ├── app.py                    # Main Streamlit application
 ├── config.py                # Configuration management
 ├── ollama_client.py          # Ollama API wrapper

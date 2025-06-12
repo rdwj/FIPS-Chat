@@ -1,10 +1,10 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ollama-streamlit
+  name: fips-chat
   labels:
-    app: ollama-streamlit
-    app.kubernetes.io/name: ollama-streamlit
+    app: fips-chat
+    app.kubernetes.io/name: fips-chat
     app.kubernetes.io/component: web-ui
     app.kubernetes.io/part-of: ollama-platform
     app.kubernetes.io/version: "1.0.0"
@@ -17,12 +17,12 @@ spec:
       maxUnavailable: 0
   selector:
     matchLabels:
-      app: ollama-streamlit
+      app: fips-chat
   template:
     metadata:
       labels:
-        app: ollama-streamlit
-        app.kubernetes.io/name: ollama-streamlit
+        app: fips-chat
+        app.kubernetes.io/name: fips-chat
         app.kubernetes.io/component: web-ui
         app.kubernetes.io/part-of: ollama-platform
       annotations:
@@ -37,7 +37,7 @@ spec:
       
       containers:
       - name: streamlit-app
-        image: quay.io/wjackson/ollama-streamlit:latest
+        image: quay.io/wjackson/fips-chat:latest
         imagePullPolicy: Always
         
         # Security context
@@ -69,7 +69,7 @@ spec:
         # Environment variables from ConfigMap
         envFrom:
         - configMapRef:
-            name: ollama-streamlit-config
+            name: fips-chat-config
         
         # Additional environment variables
         env:

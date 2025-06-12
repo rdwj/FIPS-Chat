@@ -1,6 +1,6 @@
 # OpenShift Deployment Files
 
-This directory contains all the necessary Kubernetes/OpenShift manifests for deploying the Ollama Streamlit application.
+This directory contains all the necessary Kubernetes/OpenShift manifests for deploying FIPS Chat.
 
 ## Files Overview
 
@@ -57,8 +57,8 @@ patchesStrategicMerge:
 - replica-patch.yaml
 
 images:
-- name: ollama-streamlit
-  newName: your-registry.com/namespace/ollama-streamlit
+- name: fips-chat
+  newName: your-registry.com/namespace/fips-chat
   newTag: v1.0.0
 EOF
 

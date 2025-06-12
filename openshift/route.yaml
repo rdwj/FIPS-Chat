@@ -1,10 +1,10 @@
 apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
-  name: ollama-streamlit
+  name: fips-chat
   labels:
-    app: ollama-streamlit
-    app.kubernetes.io/name: ollama-streamlit
+    app: fips-chat
+    app.kubernetes.io/name: fips-chat
     app.kubernetes.io/component: web-ui
     app.kubernetes.io/part-of: ollama-platform
   annotations:
@@ -15,7 +15,7 @@ spec:
   host: # Let OpenShift auto-generate the hostname
   to:
     kind: Service
-    name: ollama-streamlit
+    name: fips-chat
     weight: 100
   port:
     targetPort: http

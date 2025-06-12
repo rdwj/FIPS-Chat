@@ -1,4 +1,4 @@
-"""Chat interface component for the Chat Playground application."""
+"""Chat interface component for the FIPS Chat application."""
 
 import streamlit as st
 from typing import List, Dict

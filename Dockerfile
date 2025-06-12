@@ -1,5 +1,5 @@
-# OCI-compliant Containerfile for Ollama Streamlit Application
-# Optimized for OpenShift with FIPS mode support
+# OCI-compliant Dockerfile for FIPS Chat
+# Multi-provider AI chat platform optimized for OpenShift with FIPS mode support
 
 FROM registry.access.redhat.com/ubi9/python-311:latest
 
@@ -8,14 +8,14 @@ ENV OPENSSL_FIPS=1 \
     OPENSSL_FORCE_FIPS_MODE=1
 
 # Container metadata following OCI spec
-LABEL name="ollama-streamlit-app" \
+LABEL name="fips-chat" \
       version="1.0.0" \
-      description="Streamlit application for Ollama AI model interaction" \
+      description="Multi-provider AI chat and image analysis platform" \
       maintainer="Development Team" \
       vendor="Organization" \
-      io.k8s.description="Streamlit web interface for Ollama AI models" \
-      io.k8s.display-name="Ollama Streamlit App" \
-      io.openshift.tags="streamlit,ollama,ai,python"
+      io.k8s.description="Multi-provider AI chat platform supporting Ollama, vLLM, and other APIs" \
+      io.k8s.display-name="FIPS Chat" \
+      io.openshift.tags="streamlit,ai,chat,vllm,ollama,openai,python"
 
 # The UBI9 Python image already has a user with UID 1001, so we'll use it
 USER 0

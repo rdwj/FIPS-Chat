@@ -2,12 +2,12 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 metadata:
-  name: ollama-streamlit
+  name: fips-chat
 
 # Common labels applied to all resources
 commonLabels:
-  app: ollama-streamlit
-  app.kubernetes.io/name: ollama-streamlit
+  app: fips-chat
+  app.kubernetes.io/name: fips-chat
   app.kubernetes.io/component: web-ui
   app.kubernetes.io/part-of: ollama-platform
 
@@ -29,12 +29,12 @@ resources:
 
 # Images to replace (useful for different environments)
 images:
-- name: ollama-streamlit
+- name: fips-chat
   newTag: latest
 
 # ConfigMap generator for environment-specific configs
 configMapGenerator:
-- name: ollama-streamlit-env-config
+- name: fips-chat-env-config
   literals:
   - ENVIRONMENT=production
   - LOG_LEVEL=info
@@ -45,7 +45,7 @@ patchesStrategicMerge:
   apiVersion: apps/v1
   kind: Deployment
   metadata:
-    name: ollama-streamlit
+    name: fips-chat
   spec:
     template:
       spec:
@@ -55,7 +55,7 @@ patchesStrategicMerge:
           - name: ENVIRONMENT
             valueFrom:
               configMapKeyRef:
-                name: ollama-streamlit-env-config
+                name: fips-chat-env-config
                 key: ENVIRONMENT
 
 # Resource name prefix (useful for multiple deployments)

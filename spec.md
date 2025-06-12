@@ -1,8 +1,8 @@
-# Ollama Streamlit Application Specification
+# FIPS Chat Application Specification
 
 ## Project Overview
 
-Develop a local Streamlit application for macOS that integrates with Ollama models to provide dual functionality: text-based chat conversations and image description capabilities. The application should be optimized for mid-range hardware specifications while maintaining high performance and user experience.
+Develop a multi-provider AI chat and image analysis platform that integrates with Ollama models and external APIs. The application should provide dual functionality: text-based chat conversations and image description capabilities, with a focus on FIPS compliance and OpenShift deployment.
 
 ## Core Requirements
 
@@ -155,7 +155,7 @@ ollama >= 0.1.0  # Official Ollama Python client
 
 #### 9.2 File Structure
 ```
-ollama-streamlit-app/
+fips-chat/
 ├── app.py                 # Main Streamlit application
 ├── config.py             # Configuration management
 ├── ollama_client.py      # Ollama API wrapper

@@ -1,4 +1,4 @@
-"""Image analysis interface component for the Ollama Streamlit application."""
+"""Image analysis interface component for the FIPS Chat application."""
 
 import streamlit as st
 from PIL import Image

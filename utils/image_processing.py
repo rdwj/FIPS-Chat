@@ -1,4 +1,4 @@
-"""Image processing utilities for the Ollama Streamlit application."""
+"""Image processing utilities for the FIPS Chat application."""
 
 from PIL import Image, ImageOps
 import io

@@ -1,4 +1,4 @@
-"""Configuration management for the Ollama Streamlit application."""
+"""Configuration management for the FIPS Chat application."""
 
 import os
 from typing import List

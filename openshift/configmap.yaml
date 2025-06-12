@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: ollama-streamlit-config
+  name: fips-chat-config
   labels:
-    app: ollama-streamlit
-    app.kubernetes.io/name: ollama-streamlit
+    app: fips-chat
+    app.kubernetes.io/name: fips-chat
     app.kubernetes.io/component: web-ui
     app.kubernetes.io/part-of: ollama-platform
 data:

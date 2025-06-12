@@ -1,4 +1,4 @@
-"""Chat Playground - Multi-provider AI chat and image analysis platform."""
+"""FIPS Chat - Multi-provider AI chat and image analysis platform."""
 
 import streamlit as st
 import sys
@@ -26,7 +26,7 @@ def main():
     """Main application function."""
     # Page configuration
     st.set_page_config(
-        page_title="Chat Playground",
+        page_title="FIPS Chat",
         page_icon="💬",
         layout="wide",
         initial_sidebar_state="expanded"
@@ -50,8 +50,8 @@ def main():
 
 def render_header():
     """Render application header."""
-    st.title("💬 Chat Playground")
-    st.markdown("*Multi-provider AI chat and image analysis platform*")
+    st.title("💬 FIPS Chat")
+    st.markdown("*FIPS-compliant multi-provider AI chat and image analysis platform*")
     
     # Connection status
     check_ollama_connection()

@@ -1,6 +1,6 @@
 # OpenShift Deployment Guide
 
-This guide covers deploying the Ollama Streamlit application to OpenShift with FIPS compliance.
+This guide covers deploying FIPS Chat to OpenShift with FIPS compliance.
 
 ## Prerequisites
 
@@ -34,7 +34,7 @@ chmod +x scripts/*.sh
 ./scripts/build-podman.sh
 
 # Or manually:
-podman build -f Containerfile -t ollama-streamlit:latest .
+podman build -f Containerfile -t fips-chat:latest .
 ```
 
 ### 2. Test Locally
@@ -47,7 +47,7 @@ podman build -f Containerfile -t ollama-streamlit:latest .
 ./scripts/test-podman.sh --interactive
 
 # Manual run
-podman run -p 8080:8080 --rm ollama-streamlit:latest
+podman run -p 8080:8080 --rm fips-chat:latest
 ```
 
 ## OpenShift Deployment
@@ -68,10 +68,10 @@ oc get node -o jsonpath='{.items[*].status.nodeInfo.kubeletVersion}'
 
 ```bash
 # Build and tag for your registry
-podman build -f Containerfile -t your-registry.com/namespace/ollama-streamlit:latest .
+podman build -f Containerfile -t your-registry.com/namespace/fips-chat:latest .
 
 # Push to registry
-podman push your-registry.com/namespace/ollama-streamlit:latest
+podman push your-registry.com/namespace/fips-chat:latest
 ```
 
 ### 3. Deploy with Kustomize (Recommended)
@@ -102,7 +102,7 @@ oc apply -f openshift/serviceaccount.yaml
 oc apply -f openshift/configmap.yaml
 
 # 3. Update deployment image reference
-sed -i 's|ollama-streamlit:latest|your-registry.com/namespace/ollama-streamlit:latest|' openshift/deployment.yaml
+sed -i 's|fips-chat:latest|your-registry.com/namespace/fips-chat:latest|' openshift/deployment.yaml
 
 # 4. Deploy application
 oc apply -f openshift/deployment.yaml
@@ -177,16 +177,16 @@ The deployment includes:
 
 ```bash
 # Check pod status
-oc get pods -l app=ollama-streamlit
+oc get pods -l app=fips-chat
 
 # View logs
-oc logs -l app=ollama-streamlit -f
+oc logs -l app=fips-chat -f
 
 # Check health
-oc exec deployment/ollama-streamlit -- curl -f http://localhost:8080/_stcore/health
+oc exec deployment/fips-chat -- curl -f http://localhost:8080/_stcore/health
 
 # Port forward for local access
-oc port-forward service/ollama-streamlit 8080:8080
+oc port-forward service/fips-chat 8080:8080
 ```
 
 ## Security
@@ -214,10 +214,10 @@ Uses a dedicated service account with minimal permissions:
 
 ```bash
 # View service account
-oc get serviceaccount ollama-streamlit
+oc get serviceaccount fips-chat
 
 # Check permissions (should be minimal)
-oc auth can-i --list --as=system:serviceaccount:$(oc project -q):ollama-streamlit
+oc auth can-i --list --as=system:serviceaccount:$(oc project -q):fips-chat
 ```
 
 ## Troubleshooting
@@ -230,7 +230,7 @@ oc auth can-i --list --as=system:serviceaccount:$(oc project -q):ollama-streamli
    oc get events --sort-by='.lastTimestamp'
    
    # Check pod logs
-   oc logs deployment/ollama-streamlit
+   oc logs deployment/fips-chat
    
    # Check security context constraints
    oc get scc
@@ -240,19 +240,19 @@ oc auth can-i --list --as=system:serviceaccount:$(oc project -q):ollama-streamli
 2. **Health Checks Failing**
    ```bash
    # Test health endpoint manually
-   oc exec deployment/ollama-streamlit -- curl -v http://localhost:8080/_stcore/health
+   oc exec deployment/fips-chat -- curl -v http://localhost:8080/_stcore/health
    
    # Check application logs
-   oc logs deployment/ollama-streamlit --tail=50
+   oc logs deployment/fips-chat --tail=50
    ```
 
 3. **Cannot Connect to Ollama**
    ```bash
    # Test network connectivity
-   oc exec deployment/ollama-streamlit -- curl -v http://ollama-service:11434/api/tags
+   oc exec deployment/fips-chat -- curl -v http://ollama-service:11434/api/tags
    
    # Check DNS resolution
-   oc exec deployment/ollama-streamlit -- nslookup ollama-service
+   oc exec deployment/fips-chat -- nslookup ollama-service
    
    # Verify network policy
    oc get networkpolicy
@@ -261,8 +261,8 @@ oc auth can-i --list --as=system:serviceaccount:$(oc project -q):ollama-streamli
 4. **FIPS Mode Issues**
    ```bash
    # Check FIPS status in container
-   oc exec deployment/ollama-streamlit -- env | grep FIPS
-   oc exec deployment/ollama-streamlit -- cat /proc/sys/crypto/fips_enabled
+   oc exec deployment/fips-chat -- env | grep FIPS
+   oc exec deployment/fips-chat -- cat /proc/sys/crypto/fips_enabled
    ```
 
 ### Debug Pod
@@ -270,7 +270,7 @@ oc auth can-i --list --as=system:serviceaccount:$(oc project -q):ollama-streamli
 Create a debug pod for troubleshooting:
 
 ```bash
-oc debug deployment/ollama-streamlit --image=registry.access.redhat.com/ubi9/ubi:latest
+oc debug deployment/fips-chat --image=registry.access.redhat.com/ubi9/ubi:latest
 ```
 
 ## Scaling and Performance
@@ -279,10 +279,10 @@ oc debug deployment/ollama-streamlit --image=registry.access.redhat.com/ubi9/ubi
 
 ```bash
 # Scale up
-oc scale deployment ollama-streamlit --replicas=3
+oc scale deployment fips-chat --replicas=3
 
 # Auto-scaling (requires metrics server)
-oc autoscale deployment ollama-streamlit --min=2 --max=10 --cpu-percent=70
+oc autoscale deployment fips-chat --min=2 --max=10 --cpu-percent=70
 ```
 
 ### Resource Tuning
@@ -303,7 +303,7 @@ resources:
 
 ```bash
 # Check resource usage
-oc top pods -l app=ollama-streamlit
+oc top pods -l app=fips-chat
 
 # Monitor events
 oc get events -w
@@ -315,7 +315,7 @@ oc get events -w
 
 ```bash
 # Export all resources
-oc get all,configmap,secret,networkpolicy -l app=ollama-streamlit -o yaml > ollama-streamlit-backup.yaml
+oc get all,configmap,secret,networkpolicy -l app=fips-chat -o yaml > fips-chat-backup.yaml
 
 # Backup namespace
 oc get all -o yaml > namespace-backup.yaml
@@ -325,10 +325,10 @@ oc get all -o yaml > namespace-backup.yaml
 
 ```bash
 # Restore from backup
-oc apply -f ollama-streamlit-backup.yaml
+oc apply -f fips-chat-backup.yaml
 
 # Verify deployment
-oc rollout status deployment/ollama-streamlit
+oc rollout status deployment/fips-chat
 ```
 
 ## Updates and Rollbacks
@@ -337,23 +337,23 @@ oc rollout status deployment/ollama-streamlit
 
 ```bash
 # Update image
-oc set image deployment/ollama-streamlit streamlit-app=your-registry.com/namespace/ollama-streamlit:v2.0.0
+oc set image deployment/fips-chat streamlit-app=your-registry.com/namespace/fips-chat:v2.0.0
 
 # Monitor rollout
-oc rollout status deployment/ollama-streamlit
+oc rollout status deployment/fips-chat
 
 # Check rollout history
-oc rollout history deployment/ollama-streamlit
+oc rollout history deployment/fips-chat
 ```
 
 ### Rollbacks
 
 ```bash
 # Rollback to previous version
-oc rollout undo deployment/ollama-streamlit
+oc rollout undo deployment/fips-chat
 
 # Rollback to specific revision
-oc rollout undo deployment/ollama-streamlit --to-revision=3
+oc rollout undo deployment/fips-chat --to-revision=3
 ```
 
 ## Production Considerations

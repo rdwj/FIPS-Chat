@@ -1,4 +1,4 @@
-"""Health check endpoints for the Ollama Streamlit application."""
+"""Health check endpoints for the FIPS Chat application."""
 
 import streamlit as st
 import sys

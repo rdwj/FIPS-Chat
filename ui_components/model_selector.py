@@ -1,4 +1,4 @@
-"""Model selector component for the Ollama Streamlit application."""
+"""Model selector component for the FIPS Chat application."""
 
 import streamlit as st
 from typing import List, Optional

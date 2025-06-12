@@ -1,0 +1,110 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ollama
+  labels:
+    app: ollama
+    app.kubernetes.io/name: ollama
+    app.kubernetes.io/component: ai-backend
+    app.kubernetes.io/part-of: ollama-platform
+spec:
+  replicas: 1
+  strategy:
+    type: Recreate  # Since we need persistent storage
+  selector:
+    matchLabels:
+      app: ollama
+  template:
+    metadata:
+      labels:
+        app: ollama
+        app.kubernetes.io/name: ollama
+        app.kubernetes.io/component: ai-backend
+        app.kubernetes.io/part-of: ollama-platform
+    spec:
+      securityContext:
+        runAsNonRoot: true
+        seccompProfile:
+          type: RuntimeDefault
+      
+      containers:
+      - name: ollama
+        image: ollama/ollama:latest
+        imagePullPolicy: Always
+        
+        securityContext:
+          allowPrivilegeEscalation: false
+          runAsNonRoot: true
+          capabilities:
+            drop:
+            - ALL
+          readOnlyRootFilesystem: false
+          seccompProfile:
+            type: RuntimeDefault
+        
+        resources:
+          requests:
+            memory: "2Gi"
+            cpu: "500m"
+          limits:
+            memory: "8Gi"
+            cpu: "2000m"
+        
+        ports:
+        - containerPort: 11434
+          protocol: TCP
+          name: http
+        
+        env:
+        - name: OLLAMA_HOST
+          value: "0.0.0.0:11434"
+        - name: OLLAMA_MODELS
+          value: "/tmp/ollama/models"
+        - name: HOME
+          value: "/tmp"
+        
+        volumeMounts:
+        - name: ollama-data
+          mountPath: /tmp/ollama
+        
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 11434
+            scheme: HTTP
+          initialDelaySeconds: 30
+          periodSeconds: 30
+          timeoutSeconds: 10
+          failureThreshold: 3
+          successThreshold: 1
+        
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 11434
+            scheme: HTTP
+          initialDelaySeconds: 5
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 3
+          successThreshold: 1
+        
+        startupProbe:
+          httpGet:
+            path: /
+            port: 11434
+            scheme: HTTP
+          initialDelaySeconds: 10
+          periodSeconds: 5
+          timeoutSeconds: 5
+          failureThreshold: 24  # 2 minutes
+          successThreshold: 1
+      
+      volumes:
+      - name: ollama-data
+        emptyDir:
+          sizeLimit: 20Gi
+      
+      restartPolicy: Always
+      terminationGracePeriodSeconds: 30
+      dnsPolicy: ClusterFirst

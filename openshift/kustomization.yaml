@@ -1,0 +1,65 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+metadata:
+  name: ollama-streamlit
+
+# Common labels applied to all resources
+commonLabels:
+  app: ollama-streamlit
+  app.kubernetes.io/name: ollama-streamlit
+  app.kubernetes.io/component: web-ui
+  app.kubernetes.io/part-of: ollama-platform
+
+# Common annotations
+commonAnnotations:
+  app.kubernetes.io/version: "1.0.0"
+
+# Resources to include
+resources:
+- serviceaccount.yaml
+- configmap.yaml
+- deployment.yaml
+- service.yaml
+- route.yaml
+- networkpolicy.yaml
+
+# Namespace (uncomment and set if deploying to specific namespace)
+# namespace: ollama-platform
+
+# Images to replace (useful for different environments)
+images:
+- name: ollama-streamlit
+  newTag: latest
+
+# ConfigMap generator for environment-specific configs
+configMapGenerator:
+- name: ollama-streamlit-env-config
+  literals:
+  - ENVIRONMENT=production
+  - LOG_LEVEL=info
+
+# Patches for different environments
+patchesStrategicMerge:
+- |-
+  apiVersion: apps/v1
+  kind: Deployment
+  metadata:
+    name: ollama-streamlit
+  spec:
+    template:
+      spec:
+        containers:
+        - name: streamlit-app
+          env:
+          - name: ENVIRONMENT
+            valueFrom:
+              configMapKeyRef:
+                name: ollama-streamlit-env-config
+                key: ENVIRONMENT
+
+# Resource name prefix (useful for multiple deployments)
+# namePrefix: dev-
+
+# Resource name suffix
+# nameSuffix: -v1

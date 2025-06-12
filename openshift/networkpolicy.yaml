@@ -1,0 +1,57 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: ollama-streamlit-netpol
+  labels:
+    app: ollama-streamlit
+    app.kubernetes.io/name: ollama-streamlit
+    app.kubernetes.io/component: web-ui
+    app.kubernetes.io/part-of: ollama-platform
+spec:
+  podSelector:
+    matchLabels:
+      app: ollama-streamlit
+  policyTypes:
+  - Ingress
+  - Egress
+  
+  ingress:
+  # Allow traffic from OpenShift routers
+  - from:
+    - namespaceSelector:
+        matchLabels:
+          name: openshift-ingress
+    ports:
+    - protocol: TCP
+      port: 8080
+  
+  # Allow traffic from same namespace (for service mesh, monitoring, etc.)
+  - from:
+    - podSelector: {}
+    ports:
+    - protocol: TCP
+      port: 8080
+  
+  egress:
+  # Allow DNS resolution
+  - to: []
+    ports:
+    - protocol: UDP
+      port: 53
+    - protocol: TCP
+      port: 53
+  
+  # Allow connection to Ollama service
+  - to:
+    - podSelector:
+        matchLabels:
+          app: ollama
+    ports:
+    - protocol: TCP
+      port: 11434
+  
+  # Allow HTTPS for external dependencies (if needed)
+  - to: []
+    ports:
+    - protocol: TCP
+      port: 443

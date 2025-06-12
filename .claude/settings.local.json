@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(python -m pytest tests/ -v)",
+      "Bash(pip install:*)",
+      "Bash(pkill:*)",
+      "Bash(python -m pytest tests/test_app_integration.py -v)",
+      "Bash(timeout:*)",
+      "Bash(rg:*)",
+      "Bash(/Users/wjackson/.nvm/versions/node/v18.20.8/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/arm64-darwin/rg -n \"DES|3DES|RC4|RC2|Blowfish\" /Users/wjackson/Developer/FIPS-Chat --type py)",
+      "Bash(find:*)",
+      "Bash(chmod:*)",
+      "Bash(./scripts/build-podman.sh:*)",
+      "Bash(podman stop:*)",
+      "Bash(true)",
+      "Bash(oc new-project:*)",
+      "Bash(oc apply:*)",
+      "Bash(oc get pods:*)",
+      "Bash(oc get deployment:*)",
+      "Bash(oc get events:*)",
+      "Bash(oc delete:*)",
+      "Bash(oc describe:*)",
+      "Bash(oc new-build:*)",
+      "Bash(oc start-build:*)",
+      "Bash(cp Containerfile Dockerfile)",
+      "Bash(oc get:*)",
+      "Bash(oc patch:*)",
+      "Bash(oc logs:*)",
+      "Bash(oc exec:*)",
+      "Bash(oc project:*)",
+      "Bash(oc label:*)",
+      "Bash(oc rollout restart:*)",
+      "Bash(oc rollout status:*)",
+      "Bash(python3:*)",
+      "Bash(grep:*)",
+      "Bash(oc status:*)",
+      "Bash(oc:*)"
+    ],
+    "deny": []
+  }
+}

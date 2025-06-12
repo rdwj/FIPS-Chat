@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(oc get:*)",
+      "Bash(oc describe:*)",
+      "Bash(oc scale:*)",
+      "Bash(oc apply:*)",
+      "Bash(oc logs:*)",
+      "Bash(oc delete pod:*)"
+    ],
+    "deny": []
+  }
+}

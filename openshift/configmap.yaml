@@ -1,0 +1,47 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ollama-streamlit-config
+  labels:
+    app: ollama-streamlit
+    app.kubernetes.io/name: ollama-streamlit
+    app.kubernetes.io/component: web-ui
+    app.kubernetes.io/part-of: ollama-platform
+data:
+  # Ollama connection settings
+  OLLAMA_HOST: "http://ollama-service:11434"
+  
+  # Application settings
+  DEFAULT_CHAT_MODEL: "granite3.3:8b"
+  DEFAULT_VISION_MODEL: "llava:7b"
+  TEMPERATURE: "0.7"
+  MAX_TOKENS: "2048"
+  REQUEST_TIMEOUT: "60"
+  MAX_FILE_SIZE_MB: "10"
+  
+  # FIPS mode settings
+  OPENSSL_FIPS: "1"
+  OPENSSL_FORCE_FIPS_MODE: "1"
+  
+  # Streamlit configuration
+  streamlit-config.toml: |
+    [server]
+    port = 8080
+    address = "0.0.0.0"
+    enableCORS = false
+    enableXsrfProtection = true
+    maxUploadSize = 10
+    headless = true
+    
+    [browser]
+    gatherUsageStats = false
+    showErrorDetails = false
+    
+    [logger]
+    level = "info"
+    
+    [client]
+    toolbarMode = "minimal"
+    
+    [theme]
+    base = "light"

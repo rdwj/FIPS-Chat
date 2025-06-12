@@ -1,0 +1,32 @@
+# FIPS-Chat
+# Ignore node_modules directory
+node_modules/
+# Ignore build output directory
+dist/
+# Ignore log files
+*.log
+# Ignore environment variable files
+.env
+# Ignore coverage reports
+coverage/
+# Ignore IDE specific files
+.vscode/
+# Ignore system files
+.DS_Store
+# Ignore temporary files
+*.tmp
+# Ignore package lock files
+package-lock.json
+# Ignore yarn lock files
+yarn.lock
+# Ignore npm debug files
+npm-debug.log*
+# Ignore test output files
+test-output/
+# Ignore build artifacts
+build/
+# Ignore pytest cache
+__pycache__/
+.pytest_cache/
+.claude/
+CLAUDE.md

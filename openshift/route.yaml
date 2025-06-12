@@ -1,0 +1,25 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: ollama-streamlit
+  labels:
+    app: ollama-streamlit
+    app.kubernetes.io/name: ollama-streamlit
+    app.kubernetes.io/component: web-ui
+    app.kubernetes.io/part-of: ollama-platform
+  annotations:
+    # Enable edge termination for HTTPS
+    haproxy.router.openshift.io/timeout: 60s
+    haproxy.router.openshift.io/balance: roundrobin
+spec:
+  host: # Let OpenShift auto-generate the hostname
+  to:
+    kind: Service
+    name: ollama-streamlit
+    weight: 100
+  port:
+    targetPort: http
+  tls:
+    termination: edge
+    insecureEdgeTerminationPolicy: Redirect
+  wildcardPolicy: None

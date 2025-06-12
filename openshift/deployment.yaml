@@ -1,0 +1,150 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ollama-streamlit
+  labels:
+    app: ollama-streamlit
+    app.kubernetes.io/name: ollama-streamlit
+    app.kubernetes.io/component: web-ui
+    app.kubernetes.io/part-of: ollama-platform
+    app.kubernetes.io/version: "1.0.0"
+spec:
+  replicas: 2
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+  selector:
+    matchLabels:
+      app: ollama-streamlit
+  template:
+    metadata:
+      labels:
+        app: ollama-streamlit
+        app.kubernetes.io/name: ollama-streamlit
+        app.kubernetes.io/component: web-ui
+        app.kubernetes.io/part-of: ollama-platform
+      annotations:
+        # Trigger rollout on config changes
+        config-hash: "{{ configmap-hash }}"
+    spec:
+      # Security context for OpenShift
+      securityContext:
+        runAsNonRoot: true
+        seccompProfile:
+          type: RuntimeDefault
+      
+      containers:
+      - name: streamlit-app
+        image: quay.io/wjackson/ollama-streamlit:latest
+        imagePullPolicy: Always
+        
+        # Security context
+        securityContext:
+          allowPrivilegeEscalation: false
+          runAsNonRoot: true
+          capabilities:
+            drop:
+            - ALL
+          readOnlyRootFilesystem: false  # Streamlit needs to write temp files
+          seccompProfile:
+            type: RuntimeDefault
+        
+        # Container resources
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "250m"
+          limits:
+            memory: "2Gi"
+            cpu: "1000m"
+        
+        # Port configuration
+        ports:
+        - containerPort: 8080
+          protocol: TCP
+          name: http
+        
+        # Environment variables from ConfigMap
+        envFrom:
+        - configMapRef:
+            name: ollama-streamlit-config
+        
+        # Additional environment variables
+        env:
+        - name: PYTHONUNBUFFERED
+          value: "1"
+        - name: PYTHONDONTWRITEBYTECODE
+          value: "1"
+        
+        # Volume mounts
+        volumeMounts:
+        - name: streamlit-config
+          mountPath: /opt/app-root/src/.streamlit
+          readOnly: true
+        - name: tmp-volume
+          mountPath: /tmp
+        - name: streamlit-tmp
+          mountPath: /opt/app-root/src/.streamlit-tmp
+        
+        # Health checks
+        livenessProbe:
+          httpGet:
+            path: /_stcore/health
+            port: 8080
+            scheme: HTTP
+          initialDelaySeconds: 30
+          periodSeconds: 30
+          timeoutSeconds: 10
+          failureThreshold: 3
+          successThreshold: 1
+        
+        readinessProbe:
+          httpGet:
+            path: /_stcore/health
+            port: 8080
+            scheme: HTTP
+          initialDelaySeconds: 5
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 3
+          successThreshold: 1
+        
+        startupProbe:
+          httpGet:
+            path: /_stcore/health
+            port: 8080
+            scheme: HTTP
+          initialDelaySeconds: 10
+          periodSeconds: 5
+          timeoutSeconds: 5
+          failureThreshold: 12
+          successThreshold: 1
+      
+      # Volumes
+      volumes:
+      - name: streamlit-config
+        configMap:
+          name: ollama-streamlit-config
+          items:
+          - key: streamlit-config.toml
+            path: config.toml
+      - name: tmp-volume
+        emptyDir:
+          sizeLimit: 1Gi
+      - name: streamlit-tmp
+        emptyDir:
+          sizeLimit: 500Mi
+      
+      # Restart policy
+      restartPolicy: Always
+      
+      # Termination grace period
+      terminationGracePeriodSeconds: 30
+      
+      # DNS policy
+      dnsPolicy: ClusterFirst
+      
+      # Service account (create separately if needed)
+      serviceAccountName: ollama-streamlit

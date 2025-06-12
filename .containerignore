@@ -1,0 +1,47 @@
+# Container ignore file for optimized builds
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation (exclude from production image)
+README.md
+CLAUDE.md
+spec.md
+
+# Development tools
+.containerignore
+Containerfile.dev
+
+# Logs
+*.log
+logs/
+
+# Test files (optional - remove if you want tests in container)
+tests/

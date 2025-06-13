@@ -7,8 +7,8 @@ from typing import Optional
 import time
 from datetime import datetime
 
-from ollama_client import get_ollama_client
-from config import get_config, is_vision_model
+from ai_client import get_ai_client
+from config import get_config, is_vision_capable_model
 
 
 def initialize_image_session():
@@ -169,15 +169,22 @@ def analyze_current_image():
 
 def analyze_image_with_prompt(image_record, prompt: str):
     """Analyze image with custom prompt."""
-    client = get_ollama_client()
+    client = get_ai_client()
+    
+    if not client:
+        st.error("Please configure your API endpoint first.")
+        return
     
     # Get selected vision model
-    selected_model = st.session_state.get("selected_vision_model", st.session_state.vision_model)
+    selected_model = st.session_state.get("selected_vision_model")
     
-    # Check if model supports vision
-    if not is_vision_model(selected_model):
-        st.error(f"Model '{selected_model}' does not support image analysis. Please select a vision model.")
+    if not selected_model:
+        st.error("Please select a vision model first.")
         return
+    
+    # Check if model likely supports vision
+    if not is_vision_capable_model(selected_model):
+        st.warning(f"Model '{selected_model}' may not support image analysis. Results may vary.")
     
     # Create analysis record
     analysis_record = {
@@ -197,8 +204,15 @@ def analyze_image_with_prompt(image_record, prompt: str):
             start_time = time.time()
             full_response = ""
             
-            # Stream response
-            for chunk in client.generate_with_image(selected_model, prompt, image_record["data"], stream=True):
+            # Generate image analysis using unified client
+            for chunk in client.generate_with_image(
+                selected_model, 
+                prompt, 
+                image_record["data"], 
+                stream=True,
+                temperature=st.session_state.get("temperature", 0.7),
+                max_tokens=st.session_state.get("max_tokens", 2048)
+            ):
                 full_response += chunk
                 analysis_placeholder.markdown(f"**Analysis:** {full_response}▌")
             

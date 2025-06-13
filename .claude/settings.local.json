@@ -44,7 +44,10 @@
       "Bash(podman tag:*)",
       "Bash(podman push:*)",
       "Bash(podman images:*)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(git checkout:*)",
+      "Bash(cp:*)",
+      "Bash(git add:*)"
     ],
     "deny": []
   }

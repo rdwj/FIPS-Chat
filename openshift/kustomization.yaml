@@ -23,6 +23,7 @@ resources:
 - service.yaml
 - route.yaml
 - networkpolicy.yaml
+- ollama-admin-route.yaml
 
 # Namespace (uncomment and set if deploying to specific namespace)
 # namespace: ollama-platform

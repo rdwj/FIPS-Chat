@@ -4,17 +4,29 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Streamlit application that integrates with Ollama models to provide dual functionality: text-based chat conversations and image description capabilities. The application is designed for local deployment on macOS with optimization for mid-range hardware.
+This is a FIPS-compliant Streamlit application that integrates with Ollama models to provide dual functionality: text-based chat conversations and image description capabilities. 
+
+**⚠️ IMPORTANT: This application MUST be run in a container for FIPS compliance. Direct Python execution is not supported in production.**
 
 ## Development Commands
 
-### Running the Application
+### Container Development (Required for FIPS)
 ```bash
-streamlit run app.py
+# Build container
+./scripts/build-podman.sh
+
+# Test container locally
+./scripts/test-podman.sh
+
+# Run container
+podman run -p 8080:8080 --rm ollama-streamlit:latest
 ```
 
-### Installing Dependencies
+### Local Development Only (Non-FIPS, Development Only)
 ```bash
+# For development and testing only - NOT for production
+streamlit run app.py
+
 pip install -r requirements.txt
 ```
 

@@ -1,13 +1,15 @@
-# OpenShift Deployment Guide
+# FIPS Chat Container Deployment Guide
 
 This guide covers deploying FIPS Chat to OpenShift with FIPS compliance.
+
+**⚠️ MANDATORY: This application MUST be deployed as a container for FIPS compliance. Direct Python execution or local development approaches are not supported in production environments.**
 
 ## Prerequisites
 
 - OpenShift 4.8+ cluster with FIPS mode enabled
-- Podman for local testing
+- Podman for container building and testing
 - `oc` CLI tool configured for your cluster
-- Access to a container registry
+- Access to a container registry (Quay.io, Docker Hub, or internal registry)
 - Ollama service deployed in the same namespace (or accessible via network)
 
 ## FIPS Compliance
@@ -22,33 +24,109 @@ The codebase has been analyzed and contains no weak cryptographic functions:
 
 The container runs with `OPENSSL_FIPS=1` and `OPENSSL_FORCE_FIPS_MODE=1` for full FIPS compliance.
 
-## Local Testing with Podman
+## Container Development Workflow
 
-### 1. Build the Container
+### 1. Build the FIPS-Compliant Container
 
 ```bash
 # Make scripts executable
 chmod +x scripts/*.sh
 
-# Build with Podman
+# Build with Podman (REQUIRED)
 ./scripts/build-podman.sh
 
 # Or manually:
-podman build -f Containerfile -t fips-chat:latest .
+podman build -f Containerfile -t ollama-streamlit:latest .
 ```
 
-### 2. Test Locally
+### 2. Test Container Locally
 
 ```bash
-# Run automated tests
+# Run automated container tests
 ./scripts/test-podman.sh
 
-# Or run interactively
+# Or run interactively for development
 ./scripts/test-podman.sh --interactive
 
-# Manual run
-podman run -p 8080:8080 --rm fips-chat:latest
+# Manual container run
+podman run -p 8080:8080 --rm ollama-streamlit:latest
 ```
+
+### 3. Tag and Push to Registry
+
+```bash
+# Tag for your registry
+podman tag ollama-streamlit:latest quay.io/your-username/fips-chat:latest
+
+# Push to registry
+podman push quay.io/your-username/fips-chat:latest
+```
+
+## Ollama Model Management
+
+After deployment, Ollama will have no models installed. You have several options for model management:
+
+### Option 1: Admin Route (Recommended)
+
+A separate admin route is provided for model management:
+
+**Admin URL:** `https://ollama-admin-{namespace}.apps.{cluster-domain}/`
+
+#### Deploy Models via Admin Route:
+```bash
+# Deploy a small chat model (recommended for testing)
+curl -X POST https://ollama-admin-ollama-platform.apps.your-cluster.com/api/pull \
+  -d '{"name": "llama3.2:1b"}' \
+  -H "Content-Type: application/json"
+
+# Deploy recommended models
+curl -X POST https://ollama-admin-ollama-platform.apps.your-cluster.com/api/pull \
+  -d '{"name": "granite3.3:8b"}' \
+  -H "Content-Type: application/json"
+
+curl -X POST https://ollama-admin-ollama-platform.apps.your-cluster.com/api/pull \
+  -d '{"name": "llava:7b"}' \
+  -H "Content-Type: application/json"
+```
+
+#### Check Available Models:
+```bash
+curl -s https://ollama-admin-ollama-platform.apps.your-cluster.com/api/tags
+```
+
+### Option 2: CLI Access (Power Users)
+
+Use port-forwarding for direct CLI access:
+
+```bash
+# Port forward to Ollama service
+oc port-forward service/ollama-service 11434:11434 &
+
+# Deploy models via CLI
+curl -X POST http://localhost:11434/api/pull \
+  -d '{"name": "llama3.2:1b"}' \
+  -H "Content-Type: application/json"
+
+# Stop port-forward when done
+pkill -f "oc port-forward.*ollama"
+```
+
+### Option 3: Pre-loaded Container (Production)
+
+For production deployments, consider pre-loading models in the Ollama container image:
+
+```dockerfile
+# Add to Ollama Containerfile
+RUN ollama pull llama3.2:1b && \
+    ollama pull granite3.3:8b && \
+    ollama pull llava:7b
+```
+
+### Security Considerations
+
+- **Admin Route**: Secure with network policies and authentication
+- **Model Storage**: Models are stored in persistent volumes
+- **Resource Limits**: Set appropriate CPU/memory limits for model loading
 
 ## OpenShift Deployment
 
@@ -64,14 +142,14 @@ oc project ollama-platform
 oc get node -o jsonpath='{.items[*].status.nodeInfo.kubeletVersion}'
 ```
 
-### 2. Build and Push Container Image
+### 2. Update Deployment Configuration
 
 ```bash
-# Build and tag for your registry
-podman build -f Containerfile -t your-registry.com/namespace/fips-chat:latest .
+# Update image reference in deployment.yaml
+sed -i 's|quay.io/wjackson/fips-chat:latest|your-registry.com/namespace/fips-chat:latest|' openshift/deployment.yaml
 
-# Push to registry
-podman push your-registry.com/namespace/fips-chat:latest
+# If using private registry, ensure pull secrets are configured
+# See imagePullSecrets section in deployment.yaml
 ```
 
 ### 3. Deploy with Kustomize (Recommended)

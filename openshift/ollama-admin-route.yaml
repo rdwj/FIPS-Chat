@@ -1,0 +1,24 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: ollama-admin
+  labels:
+    app: ollama
+    app.kubernetes.io/name: ollama
+    app.kubernetes.io/component: model-management
+    app.kubernetes.io/part-of: ollama-platform
+  annotations:
+    haproxy.router.openshift.io/timeout: 300s
+    description: "Admin interface for Ollama model management"
+spec:
+  host: ollama-admin-ollama-platform.apps.cluster-vdmb2.vdmb2.sandbox1981.opentlc.com
+  to:
+    kind: Service
+    name: ollama-service
+    weight: 100
+  port:
+    targetPort: 11434
+  tls:
+    termination: edge
+    insecureEdgeTerminationPolicy: Redirect
+  wildcardPolicy: None

@@ -1,6 +1,6 @@
 # FIPS Chat
 
-A multi-provider AI chat and image analysis platform designed for local and OpenShift deployment with FIPS compliance.
+A FIPS 140-2 compliant multi-provider AI chat and image analysis platform designed for containerized deployment in OpenShift environments.
 
 ## Features
 
@@ -10,26 +10,63 @@ A multi-provider AI chat and image analysis platform designed for local and Open
 - **📊 Session Statistics**: Track usage, response times, and performance
 - **💾 Export Functionality**: Export conversations and analyses
 - **⚙️ Configurable Settings**: Adjust temperature, tokens, and other parameters
+- **🔒 FIPS Compliance**: Built with FIPS 140-2 cryptographic standards
+
+## 🚨 IMPORTANT: Production Deployment Requirements
+
+**This application MUST be deployed as a container for FIPS compliance. Direct Python execution is only supported for development.**
+
+### Production Deployment
+- ✅ **Container deployment** (Podman/Docker + OpenShift)
+- ✅ **FIPS-enabled environment** 
+- ✅ **Container registry access**
+
+### Development Only
+- ⚠️ **Local Python execution** (development/testing only)
 
 ## Prerequisites
 
+**For Production (Container Deployment):**
+- Podman or Docker
+- OpenShift 4.8+ cluster with FIPS mode enabled
+- Access to container registry (Quay.io, Docker Hub, etc.)
+- [Ollama](https://ollama.ai/) service deployed in OpenShift
+
+**For Development Only:**
 - Python 3.11+
 - [Ollama](https://ollama.ai/) installed and running locally
 - At least one Ollama model installed (see recommended models below)
 
-## Installation
+## Quick Start
 
-1. **Clone/Download the project**:
+### Production Deployment (Container)
+
+1. **Build the FIPS-compliant container**:
    ```bash
-   cd /path/to/FIPS-Chat
+   ./scripts/build-podman.sh
    ```
 
-2. **Install dependencies**:
+2. **Tag and push to registry**:
+   ```bash
+   podman tag ollama-streamlit:latest quay.io/your-username/fips-chat:latest
+   podman push quay.io/your-username/fips-chat:latest
+   ```
+
+3. **Deploy to OpenShift**:
+   ```bash
+   cd openshift/
+   # Update image reference in deployment.yaml
+   oc apply -k .
+   ```
+
+### Development Setup (Local Only)
+
+1. **Install dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Install Ollama models** (recommended):
+2. **Install Ollama models** (recommended):
    ```bash
    # Vision models for image analysis
    ollama pull llava:7b
@@ -44,19 +81,57 @@ A multi-provider AI chat and image analysis platform designed for local and Open
    ollama pull qwen2.5-coder:7b
    ```
 
-## Usage
-
-1. **Start Ollama** (if not already running):
+3. **Run the application** (development only):
    ```bash
+   # Start Ollama service
    ollama serve
-   ```
-
-2. **Run the Streamlit application**:
-   ```bash
+   
+   # Run Streamlit application
    streamlit run app.py
+   
+   # Open browser to http://localhost:8501
    ```
 
-3. **Open your browser** to `http://localhost:8501`
+## Container Testing
+
+Test the container locally before deploying:
+
+```bash
+# Test with provided script
+./scripts/test-podman.sh
+
+# Or manual testing
+podman run -p 8080:8080 --rm ollama-streamlit:latest
+# Open browser to http://localhost:8080
+```
+
+## Model Management
+
+After deployment, you'll need to install Ollama models. The application provides several ways to manage models:
+
+### 🔗 **Admin Route (Easiest)**
+Access the admin interface at: `https://ollama-admin-{namespace}.apps.{cluster}/`
+
+```bash
+# Deploy a test model
+curl -X POST https://ollama-admin-ollama-platform.apps.your-cluster.com/api/pull \
+  -d '{"name": "llama3.2:1b"}' -H "Content-Type: application/json"
+
+# Check available models  
+curl -s https://ollama-admin-ollama-platform.apps.your-cluster.com/api/tags
+```
+
+### 🔧 **CLI Access (Advanced)**
+```bash
+# Port forward to Ollama
+oc port-forward service/ollama-service 11434:11434 &
+
+# Deploy models
+curl -X POST http://localhost:11434/api/pull \
+  -d '{"name": "granite3.3:8b"}' -H "Content-Type: application/json"
+```
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for complete model management guide.
 
 ## Recommended Models
 

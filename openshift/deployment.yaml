@@ -126,7 +126,7 @@ spec:
       volumes:
       - name: streamlit-config
         configMap:
-          name: ollama-streamlit-config
+          name: fips-chat-config
           items:
           - key: streamlit-config.toml
             path: config.toml
@@ -147,4 +147,8 @@ spec:
       dnsPolicy: ClusterFirst
       
       # Service account (create separately if needed)
-      serviceAccountName: ollama-streamlit
+      serviceAccountName: fips-chat
+      
+      # Image pull secrets
+      imagePullSecrets:
+        - name: wjackson-wesjackson-pull-secret

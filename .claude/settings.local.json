@@ -35,7 +35,16 @@
       "Bash(python3:*)",
       "Bash(grep:*)",
       "Bash(oc status:*)",
-      "Bash(oc:*)"
+      "Bash(oc:*)",
+      "Bash(pip show:*)",
+      "Bash(python:*)",
+      "Bash(pipdeptree:*)",
+      "Bash(streamlit --version)",
+      "Bash(ls:*)",
+      "Bash(podman tag:*)",
+      "Bash(podman push:*)",
+      "Bash(podman images:*)",
+      "Bash(curl:*)"
     ],
     "deny": []
   }

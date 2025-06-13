@@ -37,7 +37,7 @@ spec:
       
       containers:
       - name: streamlit-app
-        image: quay.io/wjackson/fips-chat:api-first-v1
+        image: quay.io/wjackson/fips-chat:api-first-v2
         imagePullPolicy: Always
         
         # Security context

@@ -9,16 +9,16 @@ from config import get_config
 
 def initialize_session_state():
     """Initialize all session state variables."""
+    config = get_config()
+    
     default_values = {
         # Chat session
         "chat_messages": [],
-        "chat_model": get_config().default_chat_model,
         "selected_chat_model": None,
         
         # Image session
         "uploaded_images": [],
         "image_analyses": [],
-        "vision_model": get_config().default_vision_model,
         "selected_vision_model": None,
         
         # App state
@@ -27,17 +27,19 @@ def initialize_session_state():
         "session_start_time": datetime.now(),
         
         # Settings
-        "temperature": get_config().temperature,
-        "max_tokens": get_config().max_tokens,
-        "theme": get_config().theme,
+        "temperature": config.temperature,
+        "max_tokens": config.max_tokens,
+        "theme": config.theme,
         
-        # API Provider settings
-        "api_provider": "ollama",
-        "api_endpoint": "",
-        "api_key": "",
-        "api_type": "openai_compatible",
-        "external_model_name": "",
+        # API settings
+        "api_provider": config.default_api_provider,
+        "api_endpoint": config.default_api_endpoint or "",
+        "api_key": config.default_api_key or "",
         "agent_session_id": "",
+        
+        # Model discovery
+        "discovered_models": [],
+        "auto_discover_models": config.auto_discover_models,
         
         # Performance tracking
         "total_requests": 0,
@@ -192,8 +194,10 @@ def export_session_data() -> str:
         "chat_messages": st.session_state.get("chat_messages", []),
         "image_analyses": st.session_state.get("image_analyses", []),
         "settings": {
-            "chat_model": st.session_state.get("chat_model"),
-            "vision_model": st.session_state.get("vision_model"),
+            "selected_chat_model": st.session_state.get("selected_chat_model"),
+            "selected_vision_model": st.session_state.get("selected_vision_model"),
+            "api_endpoint": st.session_state.get("api_endpoint"),
+            "api_provider": st.session_state.get("api_provider"),
             "temperature": st.session_state.get("temperature"),
             "max_tokens": st.session_state.get("max_tokens"),
         }

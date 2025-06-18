@@ -1,0 +1,2631 @@
+{
+  "metadata": {
+    "doc_id": "d7413f6a2172d87509b75d64480455fc87124c6a590feb22cf70212a9bb72e95",
+    "filename": "tmpz6yagz8o.pdf",
+    "upload_timestamp": "2025-06-18T16:20:39.627875",
+    "total_pages": 14,
+    "total_chunks": 238,
+    "processing_status": "completed",
+    "file_size_bytes": 2433924
+  },
+  "chunks": [
+    {
+      "text": "## Maximo\u00ae Training HTM Admin User Guide PLAN AND APPROVE WORK SEPTEMBER 2022 User Guide Plan and Approve Work - HTM Admin THIS PAGE INTENTIONALLY LEFT BLANK. ## TABLE OF CONTENTS | Plan and Approve Work............................................................................................................1 | |---------------------------------------------------------------------------------------------------------------------------------------------| | Summary..............................................................................................................................1 | | User Roles and Responsibilities..........................................................................................1 | | Learning Objectives...........................................................................................................2 | | Agenda......................................................................................",
+      "metadata": {
+        "chunk_id": "chunk_001",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 0,
+        "char_end": 951,
+        "word_count": 53
+      }
+    },
+    {
+      "text": ".....................................................................................................2 | | Agenda.............................................................................................................................2 | | Acronyms Used in This Lesson...................................................................................................3 | | Update a Work Order................................................................................................................4 | | Reassign Responsible Department.............................................................................................6 | | Create a Job Plan.......................................................................................................................8 | | Change a Job Plan Status.....................................................................................................12 | | Revise a Job Plan ..............",
+      "metadata": {
+        "chunk_id": "chunk_002",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 752,
+        "char_end": 1702,
+        "word_count": 42
+      }
+    },
+    {
+      "text": ".............................8 | | Change a Job Plan Status.....................................................................................................12 | | Revise a Job Plan .................................................................................................................14 | | Apply a Job Plan to a Work Order............................................................................................17 | | Assign Ownership and Approve a Work Order..........................................................................20 | | Assign Ownership to Responsible Shop................................................................................20 | | Assign Ownership to a Person.............................................................................................22 | | Approve a Work Order........................................................................................................24 | | Assess Readiness.",
+      "metadata": {
+        "chunk_id": "chunk_003",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 1503,
+        "char_end": 2460,
+        "word_count": 58
+      }
+    },
+    {
+      "text": "............................................22 | | Approve a Work Order........................................................................................................24 | | Assess Readiness....................................................................................................................28 | | Review...................................................................................................................................29 | | Knowledge Check ................................................................................................................29 | | Appendix A - Plan and Approve Work Business Process...........................................................30 | | Appendix B - Schedule PMWork Business Process..................................................................32 | User Guide Plan and Approve Work - HTM Admin THIS PAGE INTENTIONALLY LEFT BLANK ## PLAN AND APPROVE WORK ## Summary This lesson provides an overview of planning and a",
+      "metadata": {
+        "chunk_id": "chunk_004",
+        "page_number": 2,
+        "section_title": "Content",
+        "char_start": 2261,
+        "char_end": 3260,
+        "word_count": 70
+      }
+    },
+    {
+      "text": "............................32 | User Guide Plan and Approve Work - HTM Admin THIS PAGE INTENTIONALLY LEFT BLANK ## PLAN AND APPROVE WORK ## Summary This lesson provides an overview of planning and approving Work Orders. In this lesson, you will learn how to update a Work Order, reassign the Responsible Department, develop a Job Plan, apply the Job Plan to the related Work Order, and finally assign ownership and approve the Work Order. For more information about this process, please go to Appendix A - Plan and Approve Work Business Process to view the flowchart and narrative for this process; also, please go to Appendix B - Schedule PM Work Business Process to view the flowchart and narrative for that closely related process. ## User Roles and Responsibilities The audience for this training includes the following user roles: | Role | Responsibility | |-------------------|-------------------------------------------------------------------------------------------------------------------",
+      "metadata": {
+        "chunk_id": "chunk_005",
+        "page_number": 2,
+        "section_title": "Content",
+        "char_start": 3061,
+        "char_end": 4060,
+        "word_count": 143
+      }
+    },
+    {
+      "text": "ng includes the following user roles: | Role | Responsibility | |-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | EPS Admin | Reviews,assigns and approves Work Orders; developsJob Plans; creates PMs (preventive maintenance);prioritizes and schedulesPM Work Orders | | EPS Work Lead | Reviews,assigns, prioritizes, and completes Work Orders | | FMAdmin | Receives, classifies and disposesbuilding service equipment(BSE) Assets; reviewsand approvesWork Orders; creates PMs (preventive maintenance); approves PMwork deferrals; creates Job Plans | | FMSupervisor | Reviewsand evaluates Service Requests;plans and approveswork; monitors and assigns Work Orders to FMTechs in their Responsible Shops. | | FMTech | Performswork and completes Work Orders; identifies needto deferwork; up",
+      "metadata": {
+        "chunk_id": "chunk_006",
+        "page_number": 2,
+        "section_title": "Content",
+        "char_start": 3860,
+        "char_end": 4860,
+        "word_count": 101
+      }
+    },
+    {
+      "text": "es Service Requests;plans and approveswork; monitors and assigns Work Orders to FMTechs in their Responsible Shops. | | FMTech | Performswork and completes Work Orders; identifies needto deferwork; updatesPM work status | | FMWork OrderClerk | Reviewsand evaluatesService Requests;receives, classifies and disposes building service equipment (BSE) Assets; reviewsand evaluates Service Requests;plans and approves work and assigns Work Ordersto FMshops; creates PMs(preventive maintenance) | | HTM Admin | Classifies Assets;reviewsand approves Work Orders; creates PMs (preventive maintenance);approvesPM workdeferrals; creates Job Plans; determinesneedfordecontamination/sanitization of turned in Assets | | HTM Tech Plus | Performswork, identifies needto deferwork,and updatesPM work status, work reassignment | | HTM Tech | Performswork and completes Work Orders, identifies needto deferwork; updatesPM workstatus; completes decontaminates/sanitizesWork Orders on turned in Assets | | IT Tech | Man",
+      "metadata": {
+        "chunk_id": "chunk_007",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 4660,
+        "char_end": 5660,
+        "word_count": 128
+      }
+    },
+    {
+      "text": "assignment | | HTM Tech | Performswork and completes Work Orders, identifies needto deferwork; updatesPM workstatus; completes decontaminates/sanitizesWork Orders on turned in Assets | | IT Tech | Manages IT Assetsand prints barcode labels; determinesneedfor decontamination/sanitization of turnedin Assetsandcompletes associated Work Orders | | Role | Responsibility | |---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | NX Admin | Creates newAssetrecords (individually or in bulk using Asset templates); runs EIL reports;updates Assetlocation and last inventory date;processes and records Assetturn ins and disposition; manages/coordinates report of surveyWork Orders | | NX Tech | Creates newequipmentrecords individually; runs EIL reports and updates location and last inventory date",
+      "metadata": {
+        "chunk_id": "chunk_008",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 5460,
+        "char_end": 6460,
+        "word_count": 99
+      }
+    },
+    {
+      "text": "rds Assetturn ins and disposition; manages/coordinates report of surveyWork Orders | | NX Tech | Creates newequipmentrecords individually; runs EIL reports and updates location and last inventory date for Assets;retrieves, processesand records Assetturn ins and disposition; manages/coordinatesReport of SurveyWork Orders | | VA Work Order Clerk | Reviewsand evaluates Service Requests;plans and approveswork and assigns Work Orders to HTM shops | ## Learning Objectives - \u00b7 Update a Work Order - \u00b7 Reassign Responsible Department - \u00b7 Develop a Job Plan - \u00b7 Apply a Job Plan to a Work Order - \u00b7 Assign ownership to a person and Approve a Work Order ## Agenda | Topic | Estimated Time | |-------------------------------------------|------------------| | Update a Work Order | 05 min | | Reassign Responsible Department | 05 min | | Create a Job Plan | 20 min | | Apply a Job Plan to a Work Order | 15 min | | Assign Ownership and Approve a Work Order | 20 min | | Review | 05 min | | TOTAL: | 70 min |",
+      "metadata": {
+        "chunk_id": "chunk_009",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6260,
+        "char_end": 7260,
+        "word_count": 175
+      }
+    },
+    {
+      "text": "nsible Department | 05 min | | Create a Job Plan | 20 min | | Apply a Job Plan to a Work Order | 15 min | | Assign Ownership and Approve a Work Order | 20 min | | Review | 05 min | | TOTAL: | 70 min | ## ACRONYMS USED IN THIS LESSON | Acronym | Description | |-----------|-----------------------------------| | CM | Corrective Maintenance | | EAWM | Enterprise Asset& Work Management | | PM | Preventive Maintenance | ## UPDATE A WORK ORDER As the work progresses on a Work Order, updates and information can be added using the Log tab. Step 1. From the Start Center , select Work Order Tracking in the Favorite Applications portlet. The Work Order Tracking application opens with the List tab selected. Figure 1. Work Order - List Tab Step 2. On the List tab, to search for your Work Order enter information into one or more Filter Fields , or put your cursor in the Work Order field and press Enter and a list of all Work Orders will display. Select the appropriate Work Order.",
+      "metadata": {
+        "chunk_id": "chunk_010",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 7060,
+        "char_end": 8039,
+        "word_count": 188
+      }
+    },
+    {
+      "text": "Work Order enter information into one or more Filter Fields , or put your cursor in the Work Order field and press Enter and a list of all Work Orders will display. Select the appropriate Work Order. The Work Order opens on the Work Order tab. Figure 2. Work Order List Tab - Filter Fields ## Step 3. Select the Log tab. Figure 3. Log Tab Step 4. From the Work Log Sub tab, select the New Row button. - Step 5. In the Summary field, type a short description about the work performed. - Step 6. In the Details free-form text area, type a detailed description or information about the work performed. Figure 4. Work Log Sub Tab Note: If unable to enter information into Summary field verify that va.gov has been added in your IE browser compatibility settings. Select the Save icon on the toolbar. Figure 5. Toolbar - Save Work Order Icon Step 7. ## REASSIGN RESPONSIBLE DEPARTMENT If you receive a Work Order that belongs to a different responsible department, you can follow the process below that h",
+      "metadata": {
+        "chunk_id": "chunk_011",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 7839,
+        "char_end": 8839,
+        "word_count": 182
+      }
+    },
+    {
+      "text": "Toolbar - Save Work Order Icon Step 7. ## REASSIGN RESPONSIBLE DEPARTMENT If you receive a Work Order that belongs to a different responsible department, you can follow the process below that highlights how to reassign the Work Order to the appropriate department. NOTE : This process is performed by Admins and Techs. Step 1. From the Start Center , select Work Order Tracking in the Favorite Applications portlet. The Work Order Tracking application opens with the List tab selected. Figure 6. Work Order - List Tab Step 2. On the List tab, to search for your Work Order enter information into one or more Filter Fields , or put your cursor in the Work Order field and press Enter and a list of all Work Orders will display. Select the appropriate Work Order. The Work Order opens on the Work Order tab. Figure 7. Work Order - Filter Fields Step 3. To reassign the responsible department, open the appropriate Work Order. ## Step 4. To the right of the Responsible Department field, select t",
+      "metadata": {
+        "chunk_id": "chunk_012",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 8645,
+        "char_end": 9639,
+        "word_count": 175
+      }
+    },
+    {
+      "text": "Figure 7. Work Order - Filter Fields Step 3. To reassign the responsible department, open the appropriate Work Order. ## Step 4. To the right of the Responsible Department field, select the Select Value (magnifying glass) icon. Figure 8. Select Responsible Department - Step 5. Select the appropriate Responsible Department to reassign to another department. Step 6. Select the Save icon on the toolbar. ## CREATE A JOB PLAN You would create a Job Plan when there is a request to perform some repetitive action that hasn't been documented yet. NOTE : Creating a Job Plan is something that you will rarely do. Applying a Job Plan, on the other hand, is something that you will perform more often. - Step 1. From the Start Center , select Job Plans in the Favorite Applications portlet. The Job Plans application opens with the List tab selected. - Step 2. Select the New Job Plan status. icon on the toolbar. The Job Plan tab opens in a DRAFT - Step 3.",
+      "metadata": {
+        "chunk_id": "chunk_013",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 9451,
+        "char_end": 10403,
+        "word_count": 169
+      }
+    },
+    {
+      "text": "The Job Plans application opens with the List tab selected. - Step 2. Select the New Job Plan status. icon on the toolbar. The Job Plan tab opens in a DRAFT - Step 3. In the Description field, type a brief description of the Job Plan. Figure 9. New Job Plan IMPORTANT! (HTM only) You must enter information in the Description Details section to generate the Job Plan Description. The description field is auto generated based on the logged in user's site and information entered in the Description Details section. Figure 10. Job Plan - Description Field - \u00b7 If a VA-MDNS Code is needed on the Job Plan, select the Select Value (magnifying glass) icon to search for and select the appropriate value. Figure 11. Job Plan - Select Value: VA-MDNS Code Step 4. Under the Description Details section, enter or select information in the appropriate fields. IMPORTANT! ( HTM only) Fields populated in this section generate the Job Plan Description field.",
+      "metadata": {
+        "chunk_id": "chunk_014",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10236,
+        "char_end": 11184,
+        "word_count": 163
+      }
+    },
+    {
+      "text": "Under the Description Details section, enter or select information in the appropriate fields. IMPORTANT! ( HTM only) Fields populated in this section generate the Job Plan Description field. Figure 12. Description Details - \u00b7 In the Work Type field, select the Select Value (magnifying glass) icon and then select the appropriate value. - \u00b7 In the Manufacturer field, select the Detail Menu (chevron) icon and then select the Select Value (magnifying glass) icon. Search for then select the appropriate value. - \u00b7 In the Model # field, type the model number. - \u00b7 In the Frequency field, type the appropriate value (1, 2, 3, etc.). - \u00b7 In the Frequency Units field, select the Select Value (magnifying glass) icon and then select the appropriate value. Step 5. In the Details section, enter or select information in any of the fields (as seen below), if desired. This data will populate the appropriate fields when applied to a Work Order, PM, or Route.",
+      "metadata": {
+        "chunk_id": "chunk_015",
+        "page_number": 6,
+        "section_title": "Content",
+        "char_start": 10993,
+        "char_end": 11946,
+        "word_count": 161
+      }
+    },
+    {
+      "text": "In the Details section, enter or select information in any of the fields (as seen below), if desired. This data will populate the appropriate fields when applied to a Work Order, PM, or Route. Figure 13. Details Section Fields Step 6. In the Responsibility section, select the appropriate department in the Responsible Department field. Figure 14. Responsibility Section - Responsible Department Field - Step 7. If appropriate, in the Job Plan Tasks section, add tasks to a Job Plan by doing the following: ## Figure 15. Job Plan Tasks Section - New Row \u00b7 Select the New Row button located in lower right portion of the Job Plan Tasks section. Figure 16. Job Plan Tasks Section - New Row Button - \u00b7 Select the Close Details desired. icon to display only the Job Plan Task header row, if - \u00b7 If appropriate, in the Sequence field, enter the order in which the task is performed. - \u00b7 If appropriate, in the Task field, modify the task identifier.",
+      "metadata": {
+        "chunk_id": "chunk_016",
+        "page_number": 6,
+        "section_title": "Content",
+        "char_start": 11753,
+        "char_end": 12698,
+        "word_count": 167
+      }
+    },
+    {
+      "text": "play only the Job Plan Task header row, if - \u00b7 If appropriate, in the Sequence field, enter the order in which the task is performed. - \u00b7 If appropriate, in the Task field, modify the task identifier. - \u00b7 In the Description field, enter a brief description of the task. If appropriate, in the Duration field, enter the estimated hours needed to complete the task. Figure 17. Job Plan Tasks Section - Details ## Step 8. Select the Save icon on the toolbar. IMPORTANT! Before the Job Plan can be used, the status must be changed to Active , which is what we will cover next. ## Change a Job Plan Status IMPORTANT! Every time you create a Job Plan, Maximo defaults the Status to Draft . You need to change the Status to Active in order to apply it to a Work Order. Once you have created your Job Plan or found the Job Plan that you intend to edit, pull it up from the List tab of the Job Plans application. - Step 1. From the Start Center , select Job Plans in the Favorite Applications portlet.",
+      "metadata": {
+        "chunk_id": "chunk_017",
+        "page_number": 6,
+        "section_title": "Content",
+        "char_start": 12498,
+        "char_end": 13490,
+        "word_count": 190
+      }
+    },
+    {
+      "text": "Plan or found the Job Plan that you intend to edit, pull it up from the List tab of the Job Plans application. - Step 1. From the Start Center , select Job Plans in the Favorite Applications portlet. The Job Plans application opens with the List tab selected. Figure 18. Job Plans - List Tab Step 2. On the List tab, to search for your Job Plan enter information into one or more Filter Fields , or put your cursor in the Job Plan field and press Enter and a list of all Job Plans will display. Select the appropriate Job Plan. The Work Order opens on the Job Plan tab. Figure 19. Job Plans List Tab - Filter Fields Step 3. Select the Change Status displays. icon on the toolbar. The Change Status dialog box ## Step 4. In the New Status field, select Active from the drop-down menu. Figure 20. Change Job Plan Status - Active Step 5. Select OK . ## Revise a Job Plan Once you created a Job Plan and changed its status to Active , if you realize that revisions are necessary, follow the steps below",
+      "metadata": {
+        "chunk_id": "chunk_018",
+        "page_number": 7,
+        "section_title": "Content",
+        "char_start": 13290,
+        "char_end": 14290,
+        "word_count": 193
+      }
+    },
+    {
+      "text": "Select OK . ## Revise a Job Plan Once you created a Job Plan and changed its status to Active , if you realize that revisions are necessary, follow the steps below in order to revise your Job Plan. IMPORTANT! When revising a Job Plan, Maximo automatically creates a new record. - Step 1. From the Start Center , select Job Plans in the Favorite Applications portlet. The Job Plans application opens with the List tab selected. Figure 21. Job Plans - List Tab Step 2. On the List tab, to search for your Job Plan enter information into one or more Filter Fields , or put your cursor in the Job Plan field and press Enter and a list of all Job Plans will display. Select the appropriate Job Plan. The Work Order opens on the Job Plan tab. Figure 22. Job Plans List Tab - Filter Fields ## Step 3. From the Select Action menu, select Revise Job Plan . The Revise Job Plan dialog box displays. Figure 23. Job Plans Application - Revise Job Plan - Step 4.",
+      "metadata": {
+        "chunk_id": "chunk_019",
+        "page_number": 7,
+        "section_title": "Content",
+        "char_start": 14125,
+        "char_end": 15075,
+        "word_count": 181
+      }
+    },
+    {
+      "text": "From the Select Action menu, select Revise Job Plan . The Revise Job Plan dialog box displays. Figure 23. Job Plans Application - Revise Job Plan - Step 4. In the Revision Description field, enter a short description of the revision(s) and then select OK . - Step 5. Select OK to close the dialog box. - Step 6. Make the appropriate changes to the Job Plan. - Step 7. Select the Change Status displays. icon on the toolbar. The Change Status dialog box Figure 24. Revise Job Plan Dialog Box Step 8. In the New Status field, select Active from the drop-down menu and then select OK . Figure 25. Change Job Plan Status - Active NOTE: You can use the Select Action menu to View Revision History for a Job Plan. Figure 26. Select Action Menu - View Revision History Figure 27. View Revision History Dialog Box ## APPLY A JOB PLAN TO A WORK ORDER Job Plans can only be applied to a Work Order in WAPPR Status. Job Plans are detailed descriptions of work tasks",
+      "metadata": {
+        "chunk_id": "chunk_020",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 14919,
+        "char_end": 15875,
+        "word_count": 179
+      }
+    },
+    {
+      "text": "View Revision History Dialog Box ## APPLY A JOB PLAN TO A WORK ORDER Job Plans can only be applied to a Work Order in WAPPR Status. Job Plans are detailed descriptions of work tasks (operations), labor, materials, and tools for a type of work and allow users to plan and standardize work tasks. A Job Plan becomes a work plan on a Work Order, creating tasks which can be changed on the Work Order without affecting the original Job Plan. - Step 1. From the Start Center , select Work Order Tracking in the Favorite Applications portlet. The Work Order Tracking application opens with the List tab selected. Figure 28. Work Order - List Tab Step 2. On the List tab, to search for your Work Order enter information into one or more Filter Fields , or put your cursor in the Work Order field and press Enter and a list of all Work Orders will display. Select the appropriate Work Order. The Work Order opens on the Work Order tab. Figure 29.",
+      "metadata": {
+        "chunk_id": "chunk_021",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 15692,
+        "char_end": 16631,
+        "word_count": 174
+      }
+    },
+    {
+      "text": "ields , or put your cursor in the Work Order field and press Enter and a list of all Work Orders will display. Select the appropriate Work Order. The Work Order opens on the Work Order tab. Figure 29. Work Order List Tab - Filter Fields Step 3. Verify the Work Order Status is WAPPR (Waiting on Approval). NOTE: If the Work Order is in any other status, the Job Plan field will be read-only and a Job Plan cannot be applied at this time. Figure 30. Work Order Status Step 4. In the Job Details section, select the Detail Menu (chevron) icon next to the Job Select Value (magnifying glass) icon. The Select Value Plan field and then select the dialog box displays. Figure 31. Job Details Section Step 5. If needed, de-select the Show Job Plans for the Work Order's Asset and Location Only? check box and/or the Show Job Plans with No Classes Defined? check box and then select Refresh . Figure 32. Job Plan Select Value Dialog Box - Step 6. Search for and select the desired Job Plan.",
+      "metadata": {
+        "chunk_id": "chunk_022",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 16431,
+        "char_end": 17414,
+        "word_count": 183
+      }
+    },
+    {
+      "text": "check box and/or the Show Job Plans with No Classes Defined? check box and then select Refresh . Figure 32. Job Plan Select Value Dialog Box - Step 6. Search for and select the desired Job Plan. The Job Plan field populates on the Work Order tab. Figure 33. Job Details Section icon on the toolbar. Step 7. Select the Save ## ASSIGN OWNERSHIP AND APPROVE A WORK ORDER ## Assign Ownership to Responsible Shop If you haven't assigned a Responsible Tech to your Work Order yet, you can either take responsibility of the Work Order yourself or assign it to someone else. Let us look at how this is accomplished. ## portlet. Step 1. From the Start Center , select Work Order Tracking in the Favorite Applications The Work Order Tracking application opens with the List tab selected. Figure 34. Work Order - List Tab Step 2. On the List tab, to search for your Work Order enter information into one or more Filter Fields , or put your cursor in the Work Order field and press Enter and a list of all",
+      "metadata": {
+        "chunk_id": "chunk_023",
+        "page_number": 9,
+        "section_title": "Content",
+        "char_start": 17219,
+        "char_end": 18214,
+        "word_count": 184
+      }
+    },
+    {
+      "text": "On the List tab, to search for your Work Order enter information into one or more Filter Fields , or put your cursor in the Work Order field and press Enter and a list of all Work Orders will display. Select the appropriate Work Order. The Work Order opens on the Work Order tab. Figure 35. Work Order List Tab - Filter Fields ## Step 3. Select the Select Owner icon on the toolbar Figure 36. Toolbar - Select Owner Step 4. The Select Owner dialog box displays. - Step 5. Use the Filter Fields on the Person Groups tab to search for the Responsible Shop you want to assign the Work Order to and then press Enter on your keyboard. Your search results display. - Step 6. From the list, select the Responsible Shop you want. The information populates the Responsible Shop field on the Work Order. Figure 37. Select Owner Dialog Box Figure 38. Responsibility Section - Responsible Shop ## Assign Ownership to a Person If you haven't assigned a Responsible Tech to your Work Order",
+      "metadata": {
+        "chunk_id": "chunk_024",
+        "page_number": 9,
+        "section_title": "Content",
+        "char_start": 18038,
+        "char_end": 19014,
+        "word_count": 178
+      }
+    },
+    {
+      "text": "Figure 37. Select Owner Dialog Box Figure 38. Responsibility Section - Responsible Shop ## Assign Ownership to a Person If you haven't assigned a Responsible Tech to your Work Order yet, you can either take responsibility of the Work Order yourself or assign it someone else. Let us look at how this is accomplished. Step 1. From the Start Center , select Work Order Tracking in the Favorite Applications portlet. The Work Order Tracking application opens with the List tab selected. Figure 39. Work Order - List Tab Step 2. On the List tab, to search for your Work Order enter information into one or more Filter Fields , or put your cursor in the Work Order field and press Enter and a list of all Work Orders will display. Select the appropriate Work Order. The Work Order opens on the Work Order tab. Figure 40. Work Order List Tab - Filter Fields ## Step 3. Do one of the following: Figure 41. Selecting Owner and Assigning Ownership - \u00b7 Take responsibility of the Work Order",
+      "metadata": {
+        "chunk_id": "chunk_025",
+        "page_number": 9,
+        "section_title": "Content",
+        "char_start": 18832,
+        "char_end": 19814,
+        "word_count": 176
+      }
+    },
+    {
+      "text": "Figure 40. Work Order List Tab - Filter Fields ## Step 3. Do one of the following: Figure 41. Selecting Owner and Assigning Ownership - \u00b7 Take responsibility of the Work Order yourself by selecting the Take Ownership icon on the toolbar. Your ID populates in the Responsible Tech field. - \u00b7 Assign responsibility to someone else, by following these steps ( Note : HTM Techs cannot assign responsibility to another person): - \u2022 - Select the Select Owner displays. icon on the toolbar. The Select Owner dialog box - Step 4. Use the Filter Fields on the Persons tab to search for the person you want to assign the Work Order to and then press Enter on your keyboard. Your search results display. - Step 5. From the list, select the person you want. The information populates the Responsible Tech field on the Work Order. Figure 42. Select Owner Dialog Box Figure 43. Responsibility Details - Responsible Tech ## Approve a Work Order After assigning a Responsible Tech to the Work",
+      "metadata": {
+        "chunk_id": "chunk_026",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 19637,
+        "char_end": 20614,
+        "word_count": 172
+      }
+    },
+    {
+      "text": "Figure 42. Select Owner Dialog Box Figure 43. Responsibility Details - Responsible Tech ## Approve a Work Order After assigning a Responsible Tech to the Work Order or taking ownership yourself, follow the steps below to verify Job Plan information and approve the Work Order: Step 1. From the Start Center , select Work Order Tracking in the Favorite Applications portlet. The Work Order Tracking application opens with the List tab selected. Figure 44. Work Order - List Tab Step 2. On the List tab, to search for your Work Order enter information into one or more Filter Fields , or put your cursor in the Work Order field and press Enter and a list of all Work Orders will display. Select the appropriate Work Order. The Work Order opens on the Work Order tab. Figure 45. Work Order List Tab - Filter Fields - Step 3. Scroll down to the Responsibility section at the bottom of the screen to verify the name of the person you assigned appears in the Respo",
+      "metadata": {
+        "chunk_id": "chunk_027",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20455,
+        "char_end": 21414,
+        "word_count": 172
+      }
+    },
+    {
+      "text": "Figure 45. Work Order List Tab - Filter Fields - Step 3. Scroll down to the Responsibility section at the bottom of the screen to verify the name of the person you assigned appears in the Responsible Tech field. Figure 46. Responsibility Section - Responsible Tech Step 4. Next to the Priority field, select the Select Value (magnifying glass) icon and then select the appropriate priority. The options are: .1 - Low, 2 - Average, 3 - High, or 4 Emergency. NOTE: As a general rule, PM should be Priority 2 -Average . Figure 47. Priority Section Step 5. Verify the Job Plan field is populated if appropriate. In general, the Job Plan number would be automatically populated in the Job Plan field for routine or PM Work. If the Job Plan number is missing or is incorrect, follow these steps: - \u00b7 Select the Change Status icon in the toolbar to open the Change Status window and select Waiting on Approval from the drop down list in the New Status field.",
+      "metadata": {
+        "chunk_id": "chunk_028",
+        "page_number": 11,
+        "section_title": "Content",
+        "char_start": 21220,
+        "char_end": 22172,
+        "word_count": 172
+      }
+    },
+    {
+      "text": "g or is incorrect, follow these steps: - \u00b7 Select the Change Status icon in the toolbar to open the Change Status window and select Waiting on Approval from the drop down list in the New Status field. - \u00b7 Select the OK button to complete the status change. Figure 48. Change Status Dialog Box - Waiting on Approval Step 6. From the Select Action menu, select the Remove Work Plan action to remove the current Job Plan from the Work Order. You may then apply another job plan. Figure 49. Remove a Work Plan ## Step 7. Verify the current Status of the Work Order. Figure 50. Work Order Status - \u00b7 If it is approved, no further action in needed. - \u00b7 If it is not approved yet, continue to the next step. Step 8. Select the Approve Work Order icon on the toolbar. The Change Status dialog box displays with the New Status field showing Approved APPR ( ). Figure 51. Change Status - Approved IMPORTANT! If you selected the Approve Work Order icon when your Work Order already had a status of approved, the",
+      "metadata": {
+        "chunk_id": "chunk_029",
+        "page_number": 11,
+        "section_title": "Content",
+        "char_start": 21972,
+        "char_end": 22972,
+        "word_count": 188
+      }
+    },
+    {
+      "text": "Figure 51. Change Status - Approved IMPORTANT! If you selected the Approve Work Order icon when your Work Order already had a status of approved, the status will change to a synonym of Approved specifically WPCOND (Waiting on Plant Condition) WPCOND indicates you don't currently have access to the Asset or location, so the work cannot be performed until you do). Step 9. Select OK . Step 10. Select the Save icon on the toolbar. NOTE: Another way to change the status of a Work Order is to: - \u00b7 Select the Change Status icon on the toolbar. - \u00b7 In the New Status field, select Approved from the drop-down menu. NOTE: If Approved does not appear on the drop-down menu, check to make sure that your Work Order is not already in an Approved status. - \u00b7 Select OK . ## ASSESS READINESS This step is completed outside Maximo. Check that you have any parts, tools or consumables required to perform the work, and that you do not need a maintenance contr",
+      "metadata": {
+        "chunk_id": "chunk_030",
+        "page_number": 11,
+        "section_title": "Content",
+        "char_start": 22822,
+        "char_end": 23772,
+        "word_count": 173
+      }
+    },
+    {
+      "text": "## ASSESS READINESS This step is completed outside Maximo. Check that you have any parts, tools or consumables required to perform the work, and that you do not need a maintenance contract written for an outside vendor to perform the work. If the Work Order requires parts, change the Work Order status to Waiting on Parts . If the Work Order requires contracting, change the Work Order status to Waiting on Contracting . The Admin or Work Lead then assesses readiness (meaning a required contract or needed parts are ready for use). When all parts are in place and any needed contract has been executed, you need to change the status of the Work Order back to Approved and execute the PM, like any other Work Order. ## REVIEW ## Knowledge Check ## 'A Minute to Win It' Use your Guide, if needed, to answer the following questions within the minute allowed. - 1. True or False. The Admin or Work Order Clerk should always check whether there is an available Job Plan for the Work Order",
+      "metadata": {
+        "chunk_id": "chunk_031",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 23586,
+        "char_end": 24572,
+        "word_count": 177
+      }
+    },
+    {
+      "text": "if needed, to answer the following questions within the minute allowed. - 1. True or False. The Admin or Work Order Clerk should always check whether there is an available Job Plan for the Work Order before creating a new one. - a. True - b. False - 2. What are some common reasons that result in creating a Job Plan? Select all that apply. - a. PM procedures - b. Safety procedures - c. Implementation of safety response - d. All of above - 3. True or False. When updating a Work Order Log, it's not recommended to type a detailed description or information about the work performed in the Details field. - a. True - c. False - 4. Which icon should you select in order to approve a Work Order? - a. b. ## APPENDIX A - PLAN AND APPROVE WORK BUSINESS PROCESS Figure 52. Plan and Approve Work Business Process Table 1. Plan and Approve Work Business Process | StepNumber | Description | |--------------|--------------------------------------------------------------------------------------------------",
+      "metadata": {
+        "chunk_id": "chunk_032",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24372,
+        "char_end": 25372,
+        "word_count": 168
+      }
+    },
+    {
+      "text": "Plan and Approve Work Business Process | StepNumber | Description | |--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+      "metadata": {
+        "chunk_id": "chunk_033",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 25189,
+        "char_end": 26172,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | 2.2.1 | If the Responsible Departmentis correct, the Admin or Work Order Clerk assigns Priority, Work Type, and vendor information on the Work Order. If the Work Order is incorrect, but has beensent to 2.3, Execute Work, it is returnedto Plan and Approve Work for correction/edit. \u2022 If a Job Plan is needed,continue to step 2.2.4 to see if one exists. \u2022 If no Job Plan is needed,continue to step 2.2.7. IMPORTANT! If the planned work is to be doneby an outside vendor, the HTM Administrator or Engineer will have to specify whetherthe work is Corrective Maintenance (CM)or Preventive Maintenance (PM)and whetherit is to be doneon or off site. NOTE : If this Work Orderis for FM, a person group will be usedto reflect shop assignment (e.g.",
+      "metadata": {
+        "chunk_id": "chunk_034",
+        "page_number": 13,
+        "section_title": "Content",
+        "char_start": 25972,
+        "char_end": 26951,
+        "word_count": 129
+      }
+    },
+    {
+      "text": "k is Corrective Maintenance (CM)or Preventive Maintenance (PM)and whetherit is to be doneon or off site. NOTE : If this Work Orderis for FM, a person group will be usedto reflect shop assignment (e.g., Plumbing) and will be assigned by the FMAdmin or FM Work Order Clerk. HTM and EPS will capture the Priority, Work Type, and Status automatically when creating workorders directly from Service Requests. | | 2.2.2 | The Admin or Work Order Clerk reassigns an incorrect responsible department. | | 2.2.3 | If the responsible departmentis not correct, the Admin or Work Order Clerk notifies the owner and/or Service Requestorthat the original responsible department was not correct. This notification is intendedto help the Service Requestorselect the correct departmentin the future. | | 2.2.4 | The Admin or Work Order Clerk checks to see if there is an available Job Plan for the Work Order. | | 2.2.5 | If there is no predefined Job Plan, but one is needed,the Admin or Work Order Clerk develops on",
+      "metadata": {
+        "chunk_id": "chunk_035",
+        "page_number": 13,
+        "section_title": "Content",
+        "char_start": 26751,
+        "char_end": 27751,
+        "word_count": 169
+      }
+    },
+    {
+      "text": "dmin or Work Order Clerk checks to see if there is an available Job Plan for the Work Order. | | 2.2.5 | If there is no predefined Job Plan, but one is needed,the Admin or Work Order Clerk develops one. | | 2.2.6 | The Admin or Work Order Clerk adds the Job Plan to the Work Order. NOTE: HTM and EPS will capture then apply the Job Plan record on the Service Request, when creating work orders directly from Service Requests. | | 2.2.7 | The Admin or Work Order Clerk approves the Work Order. The process ends. | ## APPENDIX B - SCHEDULE PM WORK BUSINESS PROCESS Figure 53. Schedule PM Work Business Process Map Table 2. Schedule PM Work Business Process Narrative | Step Number | Description | |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | 2.5.1 | The Admin or Work Lead receives one or more system-generatedPMWork Order(s).",
+      "metadata": {
+        "chunk_id": "chunk_036",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 27551,
+        "char_end": 28537,
+        "word_count": 147
+      }
+    },
+    {
+      "text": "----------------------------------------------------------------------------------------------------------------| | 2.5.1 | The Admin or Work Lead receives one or more system-generatedPMWork Order(s). | | 2.5.2 | The Admin or Work Lead prioritizes and assigns the PMWork Order. \u2022 If the workis donein house,continue to step 2.5.3. \u2022 If a contract for vendorsupport is needed,continue to step2.5.7. | | 2.5.3 | The Admin or Work Lead assigns Work Order Priority. | | 2.5.4 | The Admin or Work Lead identifies planning required. \u2022 If Procurementis needed,continue to 2.5.5. \u2022 If Procurementis not needed,continue to WM-2.3 Execute Work. | | 2.5.5 | The Admin or Work Lead contacts Procurementfor parts and/or service contract. | | 2.5.6 | The Admin or Work Lead assessesreadiness, meaning a requiredcontract or neededparts are readyfor use. The process continues to WM-2.3 Execute Work. The process ends. | | 2.5.7 | The Admin or Work Lead contacts the vendorthat will performthe work and arranges for",
+      "metadata": {
+        "chunk_id": "chunk_037",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 28337,
+        "char_end": 29337,
+        "word_count": 150
+      }
+    },
+    {
+      "text": "tract or neededparts are readyfor use. The process continues to WM-2.3 Execute Work. The process ends. | | 2.5.7 | The Admin or Work Lead contacts the vendorthat will performthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_038",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29137,
+        "char_end": 29480,
+        "word_count": 61
+      }
+    },
+    {
+      "text": "cts the vendorthat will performthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_039",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29280,
+        "char_end": 29480,
+        "word_count": 36
+      }
+    },
+    {
+      "text": "ts the vendorthat will performthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_040",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29281,
+        "char_end": 29480,
+        "word_count": 36
+      }
+    },
+    {
+      "text": "s the vendorthat will performthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_041",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29282,
+        "char_end": 29480,
+        "word_count": 36
+      }
+    },
+    {
+      "text": "the vendorthat will performthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_042",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29283,
+        "char_end": 29480,
+        "word_count": 35
+      }
+    },
+    {
+      "text": "the vendorthat will performthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_043",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29284,
+        "char_end": 29480,
+        "word_count": 35
+      }
+    },
+    {
+      "text": "he vendorthat will performthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_044",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29285,
+        "char_end": 29480,
+        "word_count": 35
+      }
+    },
+    {
+      "text": "e vendorthat will performthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_045",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29286,
+        "char_end": 29480,
+        "word_count": 35
+      }
+    },
+    {
+      "text": "vendorthat will performthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_046",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29287,
+        "char_end": 29480,
+        "word_count": 34
+      }
+    },
+    {
+      "text": "vendorthat will performthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_047",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29288,
+        "char_end": 29480,
+        "word_count": 34
+      }
+    },
+    {
+      "text": "endorthat will performthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_048",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29289,
+        "char_end": 29480,
+        "word_count": 34
+      }
+    },
+    {
+      "text": "ndorthat will performthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_049",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29290,
+        "char_end": 29480,
+        "word_count": 34
+      }
+    },
+    {
+      "text": "dorthat will performthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_050",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29291,
+        "char_end": 29480,
+        "word_count": 34
+      }
+    },
+    {
+      "text": "orthat will performthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_051",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29292,
+        "char_end": 29480,
+        "word_count": 34
+      }
+    },
+    {
+      "text": "rthat will performthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_052",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29293,
+        "char_end": 29480,
+        "word_count": 34
+      }
+    },
+    {
+      "text": "that will performthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_053",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29294,
+        "char_end": 29480,
+        "word_count": 34
+      }
+    },
+    {
+      "text": "hat will performthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_054",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29295,
+        "char_end": 29480,
+        "word_count": 34
+      }
+    },
+    {
+      "text": "at will performthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_055",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29296,
+        "char_end": 29480,
+        "word_count": 34
+      }
+    },
+    {
+      "text": "t will performthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_056",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29297,
+        "char_end": 29480,
+        "word_count": 34
+      }
+    },
+    {
+      "text": "will performthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_057",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29298,
+        "char_end": 29480,
+        "word_count": 33
+      }
+    },
+    {
+      "text": "will performthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_058",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29299,
+        "char_end": 29480,
+        "word_count": 33
+      }
+    },
+    {
+      "text": "ill performthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_059",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29300,
+        "char_end": 29480,
+        "word_count": 33
+      }
+    },
+    {
+      "text": "ll performthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_060",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29301,
+        "char_end": 29480,
+        "word_count": 33
+      }
+    },
+    {
+      "text": "l performthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_061",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29302,
+        "char_end": 29480,
+        "word_count": 33
+      }
+    },
+    {
+      "text": "performthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_062",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29303,
+        "char_end": 29480,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "performthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_063",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29304,
+        "char_end": 29480,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "erformthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_064",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29305,
+        "char_end": 29480,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "rformthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_065",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29306,
+        "char_end": 29480,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "formthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_066",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29307,
+        "char_end": 29480,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "ormthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_067",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29308,
+        "char_end": 29480,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "rmthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_068",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29309,
+        "char_end": 29480,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "mthe work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_069",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29310,
+        "char_end": 29480,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "the work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_070",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29311,
+        "char_end": 29480,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "he work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_071",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29312,
+        "char_end": 29480,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "e work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_072",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29313,
+        "char_end": 29480,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_073",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29314,
+        "char_end": 29480,
+        "word_count": 31
+      }
+    },
+    {
+      "text": "work and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_074",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29315,
+        "char_end": 29480,
+        "word_count": 31
+      }
+    },
+    {
+      "text": "ork and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_075",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29316,
+        "char_end": 29480,
+        "word_count": 31
+      }
+    },
+    {
+      "text": "rk and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_076",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29317,
+        "char_end": 29480,
+        "word_count": 31
+      }
+    },
+    {
+      "text": "k and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_077",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29318,
+        "char_end": 29480,
+        "word_count": 31
+      }
+    },
+    {
+      "text": "and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_078",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29319,
+        "char_end": 29480,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "and arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_079",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29320,
+        "char_end": 29480,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "nd arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_080",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29321,
+        "char_end": 29480,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "d arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_081",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29322,
+        "char_end": 29480,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_082",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29323,
+        "char_end": 29480,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "arranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_083",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29324,
+        "char_end": 29480,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "rranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_084",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29325,
+        "char_end": 29480,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "ranges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_085",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29326,
+        "char_end": 29480,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "anges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_086",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29327,
+        "char_end": 29480,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "nges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_087",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29328,
+        "char_end": 29480,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "ges for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_088",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29329,
+        "char_end": 29480,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "es for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_089",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29330,
+        "char_end": 29480,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "s for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_090",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29331,
+        "char_end": 29480,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_091",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29332,
+        "char_end": 29480,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "for the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_092",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29333,
+        "char_end": 29480,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "or the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_093",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29334,
+        "char_end": 29480,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "r the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_094",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29335,
+        "char_end": 29480,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_095",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29336,
+        "char_end": 29480,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "the work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_096",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29337,
+        "char_end": 29480,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "he work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_097",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29338,
+        "char_end": 29480,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "e work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_098",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29339,
+        "char_end": 29480,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_099",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29340,
+        "char_end": 29480,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "work to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_100",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29341,
+        "char_end": 29480,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "ork to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_101",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29342,
+        "char_end": 29480,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "rk to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_102",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29343,
+        "char_end": 29480,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "k to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_103",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29344,
+        "char_end": 29480,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_104",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29345,
+        "char_end": 29480,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "to be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_105",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29346,
+        "char_end": 29480,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "o be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_106",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29347,
+        "char_end": 29480,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_107",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29348,
+        "char_end": 29480,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "be done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_108",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29349,
+        "char_end": 29480,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "e done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_109",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29350,
+        "char_end": 29480,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_110",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29351,
+        "char_end": 29480,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "done. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_111",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29352,
+        "char_end": 29480,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "one. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_112",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29353,
+        "char_end": 29480,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "ne. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_113",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29354,
+        "char_end": 29480,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "e. | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_114",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29355,
+        "char_end": 29480,
+        "word_count": 23
+      }
+    },
+    {
+      "text": ". | | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_115",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29356,
+        "char_end": 29480,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "| | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_116",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29357,
+        "char_end": 29480,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "| | 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_117",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29358,
+        "char_end": 29480,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "| 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_118",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29359,
+        "char_end": 29480,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "| 2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_119",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29360,
+        "char_end": 29480,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_120",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29361,
+        "char_end": 29480,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "2.5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_121",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29362,
+        "char_end": 29480,
+        "word_count": 20
+      }
+    },
+    {
+      "text": ".5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_122",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29363,
+        "char_end": 29480,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "5.8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_123",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29364,
+        "char_end": 29480,
+        "word_count": 20
+      }
+    },
+    {
+      "text": ".8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_124",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29365,
+        "char_end": 29480,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "8 | The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_125",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29366,
+        "char_end": 29480,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "| The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_126",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29367,
+        "char_end": 29480,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "| The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_127",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29368,
+        "char_end": 29480,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_128",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29369,
+        "char_end": 29480,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "The vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_129",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29370,
+        "char_end": 29480,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "he vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_130",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29371,
+        "char_end": 29480,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "e vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_131",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29372,
+        "char_end": 29480,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_132",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29373,
+        "char_end": 29480,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "vendorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_133",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29374,
+        "char_end": 29480,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "endorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_134",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29375,
+        "char_end": 29480,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "ndorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_135",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29376,
+        "char_end": 29480,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "dorperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_136",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29377,
+        "char_end": 29480,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "orperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_137",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29378,
+        "char_end": 29480,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "rperforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_138",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29379,
+        "char_end": 29480,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "performs the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_139",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29380,
+        "char_end": 29480,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "erforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_140",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29381,
+        "char_end": 29480,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "rforms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_141",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29382,
+        "char_end": 29480,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "forms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_142",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29383,
+        "char_end": 29480,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "orms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_143",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29384,
+        "char_end": 29480,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "rms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_144",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29385,
+        "char_end": 29480,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "ms the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_145",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29386,
+        "char_end": 29480,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "s the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_146",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29387,
+        "char_end": 29480,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_147",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29388,
+        "char_end": 29480,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "the work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_148",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29389,
+        "char_end": 29480,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "he work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_149",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29390,
+        "char_end": 29480,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "e work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_150",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29391,
+        "char_end": 29480,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_151",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29392,
+        "char_end": 29480,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "work, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_152",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29393,
+        "char_end": 29480,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "ork, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_153",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29394,
+        "char_end": 29480,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "rk, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_154",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29395,
+        "char_end": 29480,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "k, and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_155",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29396,
+        "char_end": 29480,
+        "word_count": 15
+      }
+    },
+    {
+      "text": ", and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_156",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29397,
+        "char_end": 29480,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_157",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29398,
+        "char_end": 29480,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "and the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_158",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29399,
+        "char_end": 29480,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "nd the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_159",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29400,
+        "char_end": 29480,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "d the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_160",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29401,
+        "char_end": 29480,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_161",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29402,
+        "char_end": 29480,
+        "word_count": 13
+      }
+    },
+    {
+      "text": "the processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_162",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29403,
+        "char_end": 29480,
+        "word_count": 13
+      }
+    },
+    {
+      "text": "he processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_163",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29404,
+        "char_end": 29480,
+        "word_count": 13
+      }
+    },
+    {
+      "text": "e processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_164",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29405,
+        "char_end": 29480,
+        "word_count": 13
+      }
+    },
+    {
+      "text": "processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_165",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29406,
+        "char_end": 29480,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "processcontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_166",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29407,
+        "char_end": 29480,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "rocesscontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_167",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29408,
+        "char_end": 29480,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "ocesscontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_168",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29409,
+        "char_end": 29480,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "cesscontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_169",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29410,
+        "char_end": 29480,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "esscontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_170",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29411,
+        "char_end": 29480,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "sscontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_171",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29412,
+        "char_end": 29480,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "scontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_172",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29413,
+        "char_end": 29480,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "continues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_173",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29414,
+        "char_end": 29480,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "ontinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_174",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29415,
+        "char_end": 29480,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "ntinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_175",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29416,
+        "char_end": 29480,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "tinues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_176",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29417,
+        "char_end": 29480,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "inues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_177",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29418,
+        "char_end": 29480,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "nues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_178",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29419,
+        "char_end": 29480,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "ues to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_179",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29420,
+        "char_end": 29480,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "es to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_180",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29421,
+        "char_end": 29480,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "s to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_181",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29422,
+        "char_end": 29480,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_182",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29423,
+        "char_end": 29480,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "to WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_183",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29424,
+        "char_end": 29480,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "o WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_184",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29425,
+        "char_end": 29480,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_185",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29426,
+        "char_end": 29480,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "WM-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_186",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29427,
+        "char_end": 29480,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "M-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_187",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29428,
+        "char_end": 29480,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "-2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_188",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29429,
+        "char_end": 29480,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "2.4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_189",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29430,
+        "char_end": 29480,
+        "word_count": 10
+      }
+    },
+    {
+      "text": ".4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_190",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29431,
+        "char_end": 29480,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "4 Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_191",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29432,
+        "char_end": 29480,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_192",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29433,
+        "char_end": 29480,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "Record and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_193",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29434,
+        "char_end": 29480,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "ecord and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_194",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29435,
+        "char_end": 29480,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "cord and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_195",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29436,
+        "char_end": 29480,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "ord and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_196",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29437,
+        "char_end": 29480,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "rd and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_197",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29438,
+        "char_end": 29480,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "d and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_198",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29439,
+        "char_end": 29480,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_199",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29440,
+        "char_end": 29480,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "and Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_200",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29441,
+        "char_end": 29480,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "nd Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_201",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29442,
+        "char_end": 29480,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "d Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_202",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29443,
+        "char_end": 29480,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_203",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29444,
+        "char_end": 29480,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "Close Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_204",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29445,
+        "char_end": 29480,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "lose Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_205",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29446,
+        "char_end": 29480,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "ose Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_206",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29447,
+        "char_end": 29480,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "se Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_207",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29448,
+        "char_end": 29480,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "e Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_208",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29449,
+        "char_end": 29480,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_209",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29450,
+        "char_end": 29480,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "Out Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_210",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29451,
+        "char_end": 29480,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "ut Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_211",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29452,
+        "char_end": 29480,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "t Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_212",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29453,
+        "char_end": 29480,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_213",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29454,
+        "char_end": 29480,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "Work. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_214",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29455,
+        "char_end": 29480,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "ork. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_215",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29456,
+        "char_end": 29480,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "rk. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_216",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29457,
+        "char_end": 29480,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "k. The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_217",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29458,
+        "char_end": 29480,
+        "word_count": 5
+      }
+    },
+    {
+      "text": ". The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_218",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29459,
+        "char_end": 29480,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_219",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29460,
+        "char_end": 29480,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "The process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_220",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29461,
+        "char_end": 29480,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "he process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_221",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29462,
+        "char_end": 29480,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "e process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_222",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29463,
+        "char_end": 29480,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_223",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29464,
+        "char_end": 29480,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "process ends. |",
+      "metadata": {
+        "chunk_id": "chunk_224",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29465,
+        "char_end": 29480,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "rocess ends. |",
+      "metadata": {
+        "chunk_id": "chunk_225",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29466,
+        "char_end": 29480,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "ocess ends. |",
+      "metadata": {
+        "chunk_id": "chunk_226",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29467,
+        "char_end": 29480,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "cess ends. |",
+      "metadata": {
+        "chunk_id": "chunk_227",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29468,
+        "char_end": 29480,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "ess ends. |",
+      "metadata": {
+        "chunk_id": "chunk_228",
+        "page_number": 14,
+        "section_title": "Content",
+        "char_start": 29469,
+        "char_end": 29480,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "ss ends. |",
+      "metadata": {
+        "chunk_id": "chunk_229",
+        "page_number": 15,
+        "section_title": "Content",
+        "char_start": 29470,
+        "char_end": 29480,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "s ends. |",
+      "metadata": {
+        "chunk_id": "chunk_230",
+        "page_number": 15,
+        "section_title": "Content",
+        "char_start": 29471,
+        "char_end": 29480,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "ends. |",
+      "metadata": {
+        "chunk_id": "chunk_231",
+        "page_number": 15,
+        "section_title": "Content",
+        "char_start": 29472,
+        "char_end": 29480,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "ends. |",
+      "metadata": {
+        "chunk_id": "chunk_232",
+        "page_number": 15,
+        "section_title": "Content",
+        "char_start": 29473,
+        "char_end": 29480,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "nds. |",
+      "metadata": {
+        "chunk_id": "chunk_233",
+        "page_number": 15,
+        "section_title": "Content",
+        "char_start": 29474,
+        "char_end": 29480,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "ds. |",
+      "metadata": {
+        "chunk_id": "chunk_234",
+        "page_number": 15,
+        "section_title": "Content",
+        "char_start": 29475,
+        "char_end": 29480,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "s. |",
+      "metadata": {
+        "chunk_id": "chunk_235",
+        "page_number": 15,
+        "section_title": "Content",
+        "char_start": 29476,
+        "char_end": 29480,
+        "word_count": 2
+      }
+    },
+    {
+      "text": ". |",
+      "metadata": {
+        "chunk_id": "chunk_236",
+        "page_number": 15,
+        "section_title": "Content",
+        "char_start": 29477,
+        "char_end": 29480,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "|",
+      "metadata": {
+        "chunk_id": "chunk_237",
+        "page_number": 15,
+        "section_title": "Content",
+        "char_start": 29478,
+        "char_end": 29480,
+        "word_count": 1
+      }
+    },
+    {
+      "text": "|",
+      "metadata": {
+        "chunk_id": "chunk_238",
+        "page_number": 15,
+        "section_title": "Content",
+        "char_start": 29479,
+        "char_end": 29480,
+        "word_count": 1
+      }
+    }
+  ]
+}

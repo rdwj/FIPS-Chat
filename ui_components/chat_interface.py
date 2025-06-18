@@ -1,7 +1,7 @@
 """Chat interface component for the FIPS Chat application."""
 
 import streamlit as st
-from typing import List, Dict
+from typing import List, Dict, Union, Any
 import time
 from datetime import datetime
 
@@ -230,7 +230,7 @@ def get_chat_statistics():
     if not st.session_state.chat_messages:
         return {}
     
-    stats = {
+    stats: Dict[str, Any] = {
         "total_messages": len(st.session_state.chat_messages),
         "user_messages": sum(1 for msg in st.session_state.chat_messages if msg["role"] == "user"),
         "assistant_messages": sum(1 for msg in st.session_state.chat_messages if msg["role"] == "assistant"),
@@ -239,6 +239,6 @@ def get_chat_statistics():
     # Calculate average response time
     response_times = [msg.get("response_time", 0.0) for msg in st.session_state.chat_messages if "response_time" in msg]
     if response_times:
-        stats["avg_response_time"] = float(sum(response_times) / len(response_times))
+        stats["avg_response_time"] = sum(response_times) / len(response_times)
     
     return stats

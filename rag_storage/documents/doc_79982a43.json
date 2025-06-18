@@ -1,0 +1,2554 @@
+{
+  "metadata": {
+    "doc_id": "79982a439f4603001c15f1edb2aff29153f9bffbed925975e96338e614ab250e",
+    "filename": "tmp559g10pn.pdf",
+    "upload_timestamp": "2025-06-18T16:21:12.732358",
+    "total_pages": 12,
+    "total_chunks": 231,
+    "processing_status": "completed",
+    "file_size_bytes": 1981642
+  },
+  "chunks": [
+    {
+      "text": "## Maximo\u00ae Training HTM Admin User Guide RECORD AND COMPLETE WORK SEPTEMBER 2022 User Guide Record and Complete Work - HTM Admin THIS PAGE INTENTIONALLY LEFT BLANK ## TABLE OF CONTENTS | Record and Complete Work......................................................................................................1 | |---------------------------------------------------------------------------------------------------------------------------------------------| | Summary..............................................................................................................................1 | | User Roles and Responsibilities..........................................................................................1 | | Learning Objectives...........................................................................................................2 | | Agenda....................................................................................",
+      "metadata": {
+        "chunk_id": "chunk_001",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 0,
+        "char_end": 951,
+        "word_count": 53
+      }
+    },
+    {
+      "text": ".......................................................................................................2 | | Agenda.............................................................................................................................2 | | Acronyms Used in This Lesson...................................................................................................3 | | Record Work Performance and Narrative ..................................................................................4 | | Record Labor Hours ..................................................................................................................6 | | Record Labor Hours for Yourself............................................................................................6 | | Record Labor Hours for Someone Else ...................................................................................9 | | Record Labor Hours and/or Cost for a Contractor.....",
+      "metadata": {
+        "chunk_id": "chunk_002",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 752,
+        "char_end": 1702,
+        "word_count": 51
+      }
+    },
+    {
+      "text": "................6 | | Record Labor Hours for Someone Else ...................................................................................9 | | Record Labor Hours and/or Cost for a Contractor.................................................................11 | | Record Materials Used........................................................................................................13 | | Change Work Order Status to Complete..................................................................................16 | | Complete Multiple Work Orders with the Same Information....................................................17 | | Review and Determine Work Order Disposition.......................................................................24 | | Review...................................................................................................................................25 | | Knowledge Check ................................",
+      "metadata": {
+        "chunk_id": "chunk_003",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 1503,
+        "char_end": 2453,
+        "word_count": 59
+      }
+    },
+    {
+      "text": "24 | | Review...................................................................................................................................25 | | Knowledge Check ................................................................................................................25 | | Appendix A - Record and Complete Work Business Process.....................................................26 | User Guide Record and Complete Work - HTM Admin THIS PAGE INTENTIONALLY LEFT BLANK ## RECORD AND COMPLETE WORK ## Summary This lesson introduces how to record work performance and narrative, record Labor hours for yourself or someone else and record materials. This lesson also provides a review of how to update the Work Order status, and how to determine disposition, if warranted. For more information about this process, please go to Appendix A - Record and Complete Work Business Process to review the flowchart and process narrative. IMPORTANT! If a Work Order has not been created, you will nee",
+      "metadata": {
+        "chunk_id": "chunk_004",
+        "page_number": 2,
+        "section_title": "Content",
+        "char_start": 2254,
+        "char_end": 3253,
+        "word_count": 121
+      }
+    },
+    {
+      "text": "ion about this process, please go to Appendix A - Record and Complete Work Business Process to review the flowchart and process narrative. IMPORTANT! If a Work Order has not been created, you will need to create one. Refer to Create a Work Order section in the previous lesson . For true emergencies, e.g. a medical gas leak - the work may be done before a Work Order is created. The Create a Work Order process within the Record and Complete work process accounts for this after-the-fact reporting. ## User Roles and Responsibilities The audience for this training includes the following user roles: | Role | Responsibility | |-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | EPS Admin | Reviews,assigns and approves Work Orders; developsJob Plans; creates PMs (preventive maint",
+      "metadata": {
+        "chunk_id": "chunk_005",
+        "page_number": 2,
+        "section_title": "Content",
+        "char_start": 3053,
+        "char_end": 4053,
+        "word_count": 124
+      }
+    },
+    {
+      "text": "----------------------------------------------------------------------------------------------| | EPS Admin | Reviews,assigns and approves Work Orders; developsJob Plans; creates PMs (preventive maintenance);prioritizes and schedulesPM Work Orders | | EPS Work Lead | Reviews,assigns, prioritizes and completes Work Orders | | FMAdmin | Receives, classifies and disposes building service equipment(BSE) Assets; reviewsand approvesWork Orders; creates PMs (preventive maintenance); approvesPM work deferrals; creates JobPlans | | FMSupervisor | Reviewsand evaluates Service Requests;plans and approveswork; monitors and assigns Work Orders to FMTechs in their Responsible Shops | | FMTech | Performswork and completes work orders; identifies needto deferwork; updatesPM work status | | FMWork OrderClerk | Reviewsand evaluatesService Requests;receives, classifies and disposes building service equipment (BSE) Assets; reviewsand evaluates Service Requests;plans and approves work and assigns Work Orde",
+      "metadata": {
+        "chunk_id": "chunk_006",
+        "page_number": 2,
+        "section_title": "Content",
+        "char_start": 3853,
+        "char_end": 4853,
+        "word_count": 119
+      }
+    },
+    {
+      "text": "rk | Reviewsand evaluatesService Requests;receives, classifies and disposes building service equipment (BSE) Assets; reviewsand evaluates Service Requests;plans and approves work and assigns Work Ordersto FMshops; creates PMs(preventive maintenance) | | HTM Admin | Classifies Assets;reviewsand approves Work Orders; creates PMs (preventive maintenance);approvesPM workdeferrals; creates Job Plans; determinesneedfordecontamination/sanitization of turned in Assets | | HTM Tech Plus | Performswork, identifies needto deferwork, and updatesPM workstatus, work reassignment | | HTM Tech | Performswork and completes Work Orders, identifies needto deferwork; updatesPM workstatus; completes decontaminates/sanitizesWork Orders on turned in Assets | | Role | Responsibility | |--------------------|--------------------------------------------------------------------------------------------------| | VAWork Order Clerk | Reviewsand evaluatesService Requests;plans and approves workand assigns Work Orders",
+      "metadata": {
+        "chunk_id": "chunk_007",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 4653,
+        "char_end": 5653,
+        "word_count": 109
+      }
+    },
+    {
+      "text": "--------------------------------------------------------------------------------------------| | VAWork Order Clerk | Reviewsand evaluatesService Requests;plans and approves workand assigns Work Orders to HTM shops | ## Learning Objectives - \u00b7 Describe how to record and complete work in Maximo - \u00b7 Record work performance, narrative, Labor hours, contractor costs and materials - \u00b7 Change Work Order status - \u00b7 Complete Multiple PM Work Orders with Identical Information - \u00b7 Review and Determine Work Order Disposition ## Agenda | Topic | Estimated Time | |------------------------------------------------------------|------------------| | Introduction | 10 min | | Record Work Performance and Narrative | 05 min | | Record Labor Hours, Contractor Costs and Materials | 15 min | | Change Work Order Status to Complete | 05 min | | Complete Multiple PMWork Orders with Identical Information | 15 min | | Reviewand Determine Work Order Disposition | 05 min | | Review/Knowledge Check | 05 min | | TOTAL",
+      "metadata": {
+        "chunk_id": "chunk_008",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 5453,
+        "char_end": 6453,
+        "word_count": 148
+      }
+    },
+    {
+      "text": "tatus to Complete | 05 min | | Complete Multiple PMWork Orders with Identical Information | 15 min | | Reviewand Determine Work Order Disposition | 05 min | | Review/Knowledge Check | 05 min | | TOTAL: | 60 min | ## ACRONYMS USED IN THIS LESSON | Acronym | Description | |-----------|-----------------------------------| | ADMIN | Administrator | | APPR | Approved | | CAN | Cancelled | | CLOSE | Closed | | COMP | Complete | | EAWM | Enterprise Asset& Work Management | | ID | Identification | | PM | Preventive Maintenance | | PS | ProfessionalServices | | TECH | Technician | | VA | VeteransAffairs | | WO | Work Order | ## RECORD WORK PERFORMANCE AND NARRATIVE Admins, Work Order Clerks, and Work Order Techs are able to record work performance and narrative related to a Work Order. Here are the steps for recording work performance and narrative: - Step 1. From the Start Center, select the appropriate Work Order in the My Work Orders portlet. Figure 1.",
+      "metadata": {
+        "chunk_id": "chunk_009",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 6253,
+        "char_end": 7213,
+        "word_count": 176
+      }
+    },
+    {
+      "text": "Here are the steps for recording work performance and narrative: - Step 1. From the Start Center, select the appropriate Work Order in the My Work Orders portlet. Figure 1. Work Order Portlet - Step 2. Select the Complete Work Order icon on the toolbar. Note that this will not impact your recording of work performance, hours or materials. Select the Log tab. Figure 2. Complete Work Order Icon Important ! FM Admin, HTM Admin, and EPS Admin are the only roles allowed to change a work order to close when appropriate. The system automatically closes all complete WOs after 365 days. - Step 3. Select the Log tab. This is where you will record details about the work performed. ## Step 4. Select the New Row button. Figure 3. Log Tab - New Row Button Step 5. In the Summary field, type a short description about the work performed. Figure 4. Work Log tab - Summary and Details Fields Step 6. In the Details free-form text area, type a detailed description or information.",
+      "metadata": {
+        "chunk_id": "chunk_010",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 7040,
+        "char_end": 8013,
+        "word_count": 174
+      }
+    },
+    {
+      "text": "ry field, type a short description about the work performed. Figure 4. Work Log tab - Summary and Details Fields Step 6. In the Details free-form text area, type a detailed description or information. Step 7. Select the Save icon on the toolbar. IMPORTANT! Once a Work Log is created by clicking on the New Row button, it cannot be deleted. Once saved, it cannot be edited. Step 8. Record the Labor spent to complete the work. We will cover this topic next. ## RECORD LABOR HOURS ## Record Labor Hours for Yourself After you record work performance and narrative, it's time to record labor hours spent. First, we will look at how to record labor hours for yourself. - Step 1. From the Start Center, select the appropriate Work Order in the My Work Orders portlet. This will open the work order in the Work Order Tracking application. Figure 5. Work Order Portlet ## Step 2. Select the Actuals tab. Figure 6. Actuals Tab in Work Order Tracking Application - Step 3.",
+      "metadata": {
+        "chunk_id": "chunk_011",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 7813,
+        "char_end": 8777,
+        "word_count": 173
+      }
+    },
+    {
+      "text": "This will open the work order in the Work Order Tracking application. Figure 5. Work Order Portlet ## Step 2. Select the Actuals tab. Figure 6. Actuals Tab in Work Order Tracking Application - Step 3. Scroll down to the Labor sub-tab. IMPORTANT! The Work Order must be in the Status of APPR (Approved) before Labor can be entered. Step 4. To the right side of the screen, select the New Row button. Figure 7. Actuals Tab - New Row Button IMPORTANT! After entering information in the Labor section fields, use your Tab key on the key board. Using the enter key will create a new labor row. ## Step 5. A new Labor row is created defaulting with the Labor and Name of the logged-in user. Figure 8. Labor Section - Labor Row NOTE: Selecting the Close Details icon on the left of the Labor row will hide the details section below it, making it easier to work on recording the required information. Step 6. In the Work Action Code field, select the Select Value then select the appropriate Work Action Code",
+      "metadata": {
+        "chunk_id": "chunk_012",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 8577,
+        "char_end": 9577,
+        "word_count": 183
+      }
+    },
+    {
+      "text": "he details section below it, making it easier to work on recording the required information. Step 6. In the Work Action Code field, select the Select Value then select the appropriate Work Action Code . (magnifying glass) icon and Figure 9. Work Action Code - Select Value Dialog Box Step 7. If the work performed was before today's date, to the right of the Start Date field, select the Calendar icon and then select the appropriate date. Figure 10. Start Date - Calendar IMPORTANT! You cannot record Labor for a future date and time. The amount of Regular Hours recorded cannot exceed the amount of time that has lapsed between the Start Date/Start Time and the current date and time. Step 8. In the Regular Hours field, enter the number of hours you spent to complete the work. For example, to enter one and one half hours of labor, enter the decimal value 1.5 or the time value 1:30. If you enter the decimal value 1.5 Maximo will automatically convert it to the time value 1:30.",
+      "metadata": {
+        "chunk_id": "chunk_013",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 9377,
+        "char_end": 10360,
+        "word_count": 176
+      }
+    },
+    {
+      "text": "r example, to enter one and one half hours of labor, enter the decimal value 1.5 or the time value 1:30. If you enter the decimal value 1.5 Maximo will automatically convert it to the time value 1:30. Figure 11. Regular Hours Field Step 9. If appropriate, select the New Row button to record more Labor for yourself. Step 10. Select the Save icon on the toolbar. IMPORTANT! Once a Labor transaction is saved, it is not editable . If Labor hours need to be adjusted, add a new row and enter the corrected hours. If Labor hours need to be reduced, add a new row and enter in a negative number , in the Regular Hours field to correct the hours (example: Enter -.5 hours will result in a reduction of one-half hour). Keep in mind: - \u00b7 2 hours, thirty minutes can be entered as 2:30 or as 2.5 in the Regular Hours field. - \u00b7 2 hours, fifteen minutes can be entered as 2:15 or as 2.25 in the Regular Hours field. ## Record Labor Hours for Someone Else Next, we will look at how on how to record Labor hours",
+      "metadata": {
+        "chunk_id": "chunk_014",
+        "page_number": 6,
+        "section_title": "Content",
+        "char_start": 10160,
+        "char_end": 11160,
+        "word_count": 194
+      }
+    },
+    {
+      "text": "- \u00b7 2 hours, fifteen minutes can be entered as 2:15 or as 2.25 in the Regular Hours field. ## Record Labor Hours for Someone Else Next, we will look at how on how to record Labor hours for someone else. - Step 1. From the Start Center, select the appropriate Work Order in the My Work Orders portlet. This will open the work order in the Work Order Tracking application. Figure 12. Work Order Portlet ## Step 2. Select the Actuals tab. Figure 13. Actuals Tab in Work Order Tracking Application - Step 3. Scroll down to the Labor section. - Step 4. To the right side of the screen, select the Select Labor button. The Select Labor dialog box displays. Figure 14. Labor Section - Select Labor Button - Step 5. Enter the person's last name in the Name filter field then press Enter on your keyboard to drill down the list to only individuals with that last name. A list displays. - Step 6. Select the person you want to record Labor for by selecting the check box to the left of their na",
+      "metadata": {
+        "chunk_id": "chunk_015",
+        "page_number": 6,
+        "section_title": "Content",
+        "char_start": 10975,
+        "char_end": 11960,
+        "word_count": 187
+      }
+    },
+    {
+      "text": "ur keyboard to drill down the list to only individuals with that last name. A list displays. - Step 6. Select the person you want to record Labor for by selecting the check box to the left of their name and then selecting OK . - Step 7. In the Work Action Code field, select the Select Value (magnifying glass) then select the appropriate Work Action Code . icon and - Step 8. If the work performed was completed before today's date, to the right of the Start Date field, select the Calendar icon and select the appropriate date. - Step 9. In the Regular Hours field, enter the number of hours it took to complete the work. Figure 15. Select Labor dialog box Step 10. Select the Save icon on the toolbar. ## Record Labor Hours and/or Cost for a Contractor Next, we will look at how on how to record Labor hours and/or cost for a contractor. - Step 1. From the Start Center, select the appropriate Work Order in the My Work Orders portlet. This will open the work order in the Work Order Tracking appl",
+      "metadata": {
+        "chunk_id": "chunk_016",
+        "page_number": 6,
+        "section_title": "Content",
+        "char_start": 11760,
+        "char_end": 12760,
+        "word_count": 189
+      }
+    },
+    {
+      "text": "- Step 1. From the Start Center, select the appropriate Work Order in the My Work Orders portlet. This will open the work order in the Work Order Tracking application. Figure 16. Work Order Portlet ## Step 2. Select the Actuals tab. Figure 17. Actuals Tab in Work Order Tracking Application - Step 3. Scroll down to the Labor section. Step 4. To the right side of the screen, select the New Row button. Figure 18. Actuals Tab - New Row Button Step 5. A new Labor row is created defaulting with the Labor and Name of the logged-in user. - Step 6. Click in the Labor field, delete your information and type in ' contractor '. - Step 7. Press the Tab key and the Labor field changes to CONTRACTOR and the Name field changes to Contractor, External . - Step 8. In the Work Action Code field, select the Select Value (magnifying glass) then select the appropriate Work Action Code . icon and - Step 9. If the work performed was completed before today's date, to th",
+      "metadata": {
+        "chunk_id": "chunk_017",
+        "page_number": 7,
+        "section_title": "Content",
+        "char_start": 12600,
+        "char_end": 13560,
+        "word_count": 179
+      }
+    },
+    {
+      "text": "the Work Action Code field, select the Select Value (magnifying glass) then select the appropriate Work Action Code . icon and - Step 9. If the work performed was completed before today's date, to the right of the Start Date field, select the Calendar icon and select the appropriate date. Figure 19. Labor Section - Contractor Labor Figure 20. Labor Section - Contractor Labor Step 10. In the Regular Hours field, enter the number of hours performed by the contractor (if applicable) and/or in the Rate field enter the cost charged by the contractor (if applicable). Figure 21. Regular Hours and Rate Fields Step 11. Select the Save icon on the toolbar. ## Record Materials Used If there were materials used to complete the work, follow the steps below in order to record them on your Work Order. - Step 1. From the Start Center, select the appropriate Work Order in the My Work Orders portlet. This will open the work order in the Work Order Tracking application.",
+      "metadata": {
+        "chunk_id": "chunk_018",
+        "page_number": 7,
+        "section_title": "Content",
+        "char_start": 13360,
+        "char_end": 14326,
+        "word_count": 168
+      }
+    },
+    {
+      "text": "- Step 1. From the Start Center, select the appropriate Work Order in the My Work Orders portlet. This will open the work order in the Work Order Tracking application. Figure 22. Work Order Portlet ## Step 2. Select the Actuals tab. Figure 23. Actuals Tab in Work Order Tracking Application - Step 3. Scroll down and select the Materials sub-tab. - Step 4. Select the New Row button. Figure 24. Materials Section - New Row Button ## Step 5. In the Line Type field, select the Drop-down Arrow the drop-down menu. icon and select Material from Figure 25. Materials Section - Change Line Type to Material NOTE: By changing Line Type to Material, the Description field for Item becomes editable Step 6. Type in a description of the materials used in the long field to the right of the Item field. Figure 26. Materials Section - Description, Quantity, and Unit Cost Fields - Step 7. In the Quantity field, enter a numeric value to record how many materials were used.",
+      "metadata": {
+        "chunk_id": "chunk_019",
+        "page_number": 7,
+        "section_title": "Content",
+        "char_start": 14158,
+        "char_end": 15121,
+        "word_count": 171
+      }
+    },
+    {
+      "text": "Figure 26. Materials Section - Description, Quantity, and Unit Cost Fields - Step 7. In the Quantity field, enter a numeric value to record how many materials were used. - Step 8. Enter the dollar value in the Unit Cost field, if known. - Step 9. Select the Save icon on the toolbar. Step 10. Repeat these steps for each Material to be recorded. ## CHANGE WORK ORDER STATUS TO COMPLETE At this point in the process, and since the work has been completed, the Tech Work Lead changes the Work Order status to Complete ( COMP ). The COMP Complete ( ) status indicates all the physical work has been completed. You cannot delete any information on the Work Order when the status is complete; however, information (Log, Labor, Material, etc.) can be added to the Work Order. Selecting the Complete Work Order ( COMP ). icon changes the Work Order status to Complete IMPORTANT! They system will automatically change the work order status to Closed ( CLOSE ) after 365 days.",
+      "metadata": {
+        "chunk_id": "chunk_020",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 14951,
+        "char_end": 15919,
+        "word_count": 173
+      }
+    },
+    {
+      "text": "Selecting the Complete Work Order ( COMP ). icon changes the Work Order status to Complete IMPORTANT! They system will automatically change the work order status to Closed ( CLOSE ) after 365 days. Do not change a work order status to Closed. ## COMPLETE MULTIPLE WORK ORDERS WITH THE SAME INFORMATION Admins, Work Order Clerks, and Work Order Techs are able to complete multiple work orders using a developed Maximo Report: VA WO Rapid Completion . This copies the PM Results, Labor transactions and Work Log entries from the source Work Order to the multiple destination Work Orders. Here are the steps for using this report to complete multiple Work Orders: - Step 1. From your Start Center , select Work Order Tracking from the Favorite Applications portlet. - Step 2. The Work Order Tracking application open on the List tab. - Advanced Search Step 3. Use the Advanced Search on the List tab to find the PM Work Orders you have entered the PM Results, Labor and Work Log entries to be duplica",
+      "metadata": {
+        "chunk_id": "chunk_021",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 15721,
+        "char_end": 16719,
+        "word_count": 175
+      }
+    },
+    {
+      "text": "- Advanced Search Step 3. Use the Advanced Search on the List tab to find the PM Work Orders you have entered the PM Results, Labor and Work Log entries to be duplicated to other Work Orders. - Step 4. In the Responsible Tech field, enter or select your Person ID . - Step 5. In the Work Type field, enter or sect PM . - Step 6. In the Work Type field, select the Select Value (magnifying glass) icon and select the Statuses APPR WAPPR , and INPRG to search for open work orders. Figure 27. Favorite Applications Portlet Step 7. Select the Find button to execute the search. Figure 28. Advances Search Dialog Box Figure 29. Filter Work Orders on the List tab Step 8. Review the Work Orders to determine which Work Order contains the PM Results, Labor and Work Log entries that will be used to be duplicated to other Work Orders. Write down the desired Work Order Number . This will be used to populate the Source Work Order field.",
+      "metadata": {
+        "chunk_id": "chunk_022",
+        "page_number": 9,
+        "section_title": "Content",
+        "char_start": 16552,
+        "char_end": 17483,
+        "word_count": 175
+      }
+    },
+    {
+      "text": "he PM Results, Labor and Work Log entries that will be used to be duplicated to other Work Orders. Write down the desired Work Order Number . This will be used to populate the Source Work Order field. NOTE: You may need to follow the instructions from earlier in this lesson to add the PM Results, Labor and Work Log entries to one of these Work Orders if you have not already done so previous to this part of the lesson. Step 9. Use the Select Action menu to select Run Reports . Figure 30. Select Action Run Reports ## Step 10. Search for and select the VA WO Rapid Completion report. Figure 31. Select the VA WO Rapid Completion Report Step 11. In the Parameters section on the Report Request Page , enter the Work Order number you wrote down in the Source Work Order field. - Step 12. Alternatively, you can also select the Select Value (magnifying glass) and select the Source Work Order . icon to find NOTE: The Select Value list for this Source field is filtered for Work Orders with a Status",
+      "metadata": {
+        "chunk_id": "chunk_023",
+        "page_number": 9,
+        "section_title": "Content",
+        "char_start": 17283,
+        "char_end": 18283,
+        "word_count": 187
+      }
+    },
+    {
+      "text": "ly, you can also select the Select Value (magnifying glass) and select the Source Work Order . icon to find NOTE: The Select Value list for this Source field is filtered for Work Orders with a Status of APPR Work Types , of PM and PS . If the logged in user is a ' TECH ', this is also filtered for the logged in User ID in the Responsible Tech field on the Work Order . If the logged in User is an ' ADMIN ', there is no additional filtering for Responsible Tech so that the ADMIN User can see all PM and PS type Work Orders with a Status of APPR . Figure 32. Request Page - Parameters Section Step 13. To the right of the Destination Work Orders field, select the Select Value (magnifying glass) icon. Step 14. From the Select Value dialog box, using the filter fields, search for and select the appropriate Work Orders by clicking the check box to the left of the Work Order number. NOTE: The Select Value list for this Destination field is filtered for Work Orders without a Status of COMP CLOSE",
+      "metadata": {
+        "chunk_id": "chunk_024",
+        "page_number": 9,
+        "section_title": "Content",
+        "char_start": 18083,
+        "char_end": 19083,
+        "word_count": 193
+      }
+    },
+    {
+      "text": "propriate Work Orders by clicking the check box to the left of the Work Order number. NOTE: The Select Value list for this Destination field is filtered for Work Orders without a Status of COMP CLOSE , , or CAN , and Work Types of PM and PS . If the logged in user is a ' TECH ', this is also filtered for the logged in User ID in the Responsible Tech field on the Work Order . If the logged in User is an ' ADMIN ', there is no additional filtering for Responsible Tech so that the ADMIN User can see all PM and PS type Work Orders in any open Status. Figure 33. Select Value Dialog Box Step 15. To the right of the Site Id filed, select the Select Value (magnifying glass) choose the appropriate Site. icon and Figure 34. Request Page Site Field Select Value ## Step 16. Select the Submit button. Figure 35. Request Page Submit Step 17. The BIRT Report Viewer opens on a separate tab - Step 18. The Work Order Rapid Completion Report shows the Source Work Order section with the pertinent informati",
+      "metadata": {
+        "chunk_id": "chunk_025",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 18883,
+        "char_end": 19883,
+        "word_count": 193
+      }
+    },
+    {
+      "text": "Request Page Submit Step 17. The BIRT Report Viewer opens on a separate tab - Step 18. The Work Order Rapid Completion Report shows the Source Work Order section with the pertinent information such as PM Results , Status , Actual Labor transactions and Log entries. The Destination Work Orders section lists the Work Orders to be populated the information from the Source Work Order. - Step 19. Select the Complete Work Orders button at the bottom of the Work Order Rapid Completion report. - Step 20. The Completed Work Orders Report opens showing the Work Orders that have be updated. - Step 21. This sub report shown after selecting the Complete Work Orders button. This report lists the completed Destination Work Orders . The Source Work Order is also completed. From here you can navigate back to the Work Order Tracking application to view the completed Work Orders. Figure 36. Work Order Rapid Completion Report NOTE: Work Orders may take up to 5 minutes to update.",
+      "metadata": {
+        "chunk_id": "chunk_026",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 19692,
+        "char_end": 20666,
+        "word_count": 167
+      }
+    },
+    {
+      "text": "here you can navigate back to the Work Order Tracking application to view the completed Work Orders. Figure 36. Work Order Rapid Completion Report NOTE: Work Orders may take up to 5 minutes to update. This is due to the scheduled background process that runs every 5 minutes to transfer the data and complete the Work Orders. Figure 37. Completed Work Orders Report ## REVIEW AND DETERMINE WORK ORDER DISPOSITION IMPORTANT! The Admin or Work Lead does not review all completed Work Orders. However, if it is determined that a review is required, the Admin or Work Lead will review the Work Order and determine a disposition that can vary by circumstances. Generally, discrepancies are reconciled. Maximo sends a status change notice to the Requestor or on behalf of user, if it was indicated on the Service Request that they wanted status change notifications. If no review is required, Maximo will close a Work Order with a status of Complete after a 365-day period of inactivity.",
+      "metadata": {
+        "chunk_id": "chunk_027",
+        "page_number": 11,
+        "section_title": "Content",
+        "char_start": 20466,
+        "char_end": 21447,
+        "word_count": 166
+      }
+    },
+    {
+      "text": "indicated on the Service Request that they wanted status change notifications. If no review is required, Maximo will close a Work Order with a status of Complete after a 365-day period of inactivity. Work Order disposition is required when: - 1. There is an error in recording the work, whether hours, narrative or materials. These errors are corrected directly within the Actuals tab of the Work Order in question (following the same steps we covered earlier when we did the actual recording of hours and materials). - 2. The Work Order was completed in error or that requires re-work. These errors are corrected by creating a follow-up Work Order, which is what we covered in the Execute Work lesson. Figure 38. Actual Tab - Labor and Materials Sections ## REVIEW ## Knowledge Check ## 'A Minute to Win It' Use your Guide, if needed, to answer the following questions within the minute allowed. - 1. In what format are Labor Hours entered on a work order?",
+      "metadata": {
+        "chunk_id": "chunk_028",
+        "page_number": 11,
+        "section_title": "Content",
+        "char_start": 21247,
+        "char_end": 22205,
+        "word_count": 166
+      }
+    },
+    {
+      "text": "# REVIEW ## Knowledge Check ## 'A Minute to Win It' Use your Guide, if needed, to answer the following questions within the minute allowed. - 1. In what format are Labor Hours entered on a work order? - a. Decimal value - b. Roman Numerals - c. Time value - d. Time value or decimal value. Maximo automatically converts a decimal value to time value. - 2. When should you close a work order? - a. When the work is complete - b. When the completed work order is reviewed by a supervisor - c. Never, Maximo automatically closes work orders after 365 days - d. At the end of each day - 3. How are multiple PM work orders completed with the same information - a. Using the VA WO Rapid Completion report - b. Using the Automated VA Work Order Multiple Completion report - c. Manual copy of information from a source work order to destination work orders - d. Selection the Create Report icon on the toolbar ## APPENDIX A - RECORD AND COMPLETE WORK BUSINESS PROCESS Figure 39.",
+      "metadata": {
+        "chunk_id": "chunk_029",
+        "page_number": 11,
+        "section_title": "Content",
+        "char_start": 22005,
+        "char_end": 22975,
+        "word_count": 183
+      }
+    },
+    {
+      "text": "Manual copy of information from a source work order to destination work orders - d. Selection the Create Report icon on the toolbar ## APPENDIX A - RECORD AND COMPLETE WORK BUSINESS PROCESS Figure 39. Record and Complete Work Business Process Map Table 1. Record and Complete Work Process | Step Number | Description | |---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | 2.4.1 | The Tech or Work Lead records actual Labor hours (e.g., Labor, Craft, Hours, Work Log, etc.) for each task on the Work Order. | | 2.4.2 | The Tech or Work Lead creates a Work Order, only if the Work Order doesnot already exist. | | 2.4.3 | The Tech or Work Lead records the work performance (Work Action code) and narrative. | | 2.",
+      "metadata": {
+        "chunk_id": "chunk_030",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 22775,
+        "char_end": 23728,
+        "word_count": 124
+      }
+    },
+    {
+      "text": ".4.2 | The Tech or Work Lead creates a Work Order, only if the Work Order doesnot already exist. | | 2.4.3 | The Tech or Work Lead records the work performance (Work Action code) and narrative. | | 2.4.4 | The Tech Work Lead changes the Work Order status to Complete ( COMP ). | | 2.4.5 | As a rule, the Admin or Work Lead doesnot reviewa completed work order. However, if it is determinedthat a reviewis required, the Admin or Work Lead reviews the Work Order and determinesa disposition that can vary by circumstances. Generally, discrepancies are reconciled. | | 2.4.6 | Maximo sends a status change notice to the Requestoror Ownerif it was indicated on the Service Requestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_031",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 23528,
+        "char_end": 24369,
+        "word_count": 147
+      }
+    },
+    {
+      "text": "as indicated on the Service Requestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_032",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24169,
+        "char_end": 24369,
+        "word_count": 31
+      }
+    },
+    {
+      "text": "s indicated on the Service Requestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_033",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24170,
+        "char_end": 24369,
+        "word_count": 31
+      }
+    },
+    {
+      "text": "indicated on the Service Requestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_034",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24171,
+        "char_end": 24369,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "indicated on the Service Requestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_035",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24172,
+        "char_end": 24369,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "ndicated on the Service Requestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_036",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24173,
+        "char_end": 24369,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "dicated on the Service Requestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_037",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24174,
+        "char_end": 24369,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "icated on the Service Requestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_038",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24175,
+        "char_end": 24369,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "cated on the Service Requestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_039",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24176,
+        "char_end": 24369,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "ated on the Service Requestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_040",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24177,
+        "char_end": 24369,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "ted on the Service Requestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_041",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24178,
+        "char_end": 24369,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "ed on the Service Requestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_042",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24179,
+        "char_end": 24369,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "d on the Service Requestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_043",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24180,
+        "char_end": 24369,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "on the Service Requestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_044",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24181,
+        "char_end": 24369,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "on the Service Requestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_045",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24182,
+        "char_end": 24369,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "n the Service Requestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_046",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24183,
+        "char_end": 24369,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "the Service Requestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_047",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24184,
+        "char_end": 24369,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "the Service Requestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_048",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24185,
+        "char_end": 24369,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "he Service Requestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_049",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24186,
+        "char_end": 24369,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "e Service Requestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_050",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24187,
+        "char_end": 24369,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "Service Requestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_051",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24188,
+        "char_end": 24369,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "Service Requestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_052",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24189,
+        "char_end": 24369,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "ervice Requestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_053",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24190,
+        "char_end": 24369,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "rvice Requestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_054",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24191,
+        "char_end": 24369,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "vice Requestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_055",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24192,
+        "char_end": 24369,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "ice Requestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_056",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24193,
+        "char_end": 24369,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "ce Requestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_057",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24194,
+        "char_end": 24369,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "e Requestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_058",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24195,
+        "char_end": 24369,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "Requestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_059",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24196,
+        "char_end": 24369,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "Requestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_060",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24197,
+        "char_end": 24369,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "equestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_061",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24198,
+        "char_end": 24369,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "questthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_062",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24199,
+        "char_end": 24369,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "uestthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_063",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24200,
+        "char_end": 24369,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "estthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_064",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24201,
+        "char_end": 24369,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "stthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_065",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24202,
+        "char_end": 24369,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "tthat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_066",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24203,
+        "char_end": 24369,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "that theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_067",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24204,
+        "char_end": 24369,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "hat theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_068",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24205,
+        "char_end": 24369,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "at theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_069",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24206,
+        "char_end": 24369,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "t theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_070",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24207,
+        "char_end": 24369,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_071",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24208,
+        "char_end": 24369,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "theywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_072",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24209,
+        "char_end": 24369,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "heywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_073",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24210,
+        "char_end": 24369,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "eywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_074",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24211,
+        "char_end": 24369,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "ywanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_075",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24212,
+        "char_end": 24369,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "wanted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_076",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24213,
+        "char_end": 24369,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "anted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_077",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24214,
+        "char_end": 24369,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "nted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_078",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24215,
+        "char_end": 24369,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "ted status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_079",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24216,
+        "char_end": 24369,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "ed status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_080",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24217,
+        "char_end": 24369,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "d status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_081",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24218,
+        "char_end": 24369,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_082",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24219,
+        "char_end": 24369,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "status change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_083",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24220,
+        "char_end": 24369,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "tatus change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_084",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24221,
+        "char_end": 24369,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "atus change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_085",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24222,
+        "char_end": 24369,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "tus change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_086",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24223,
+        "char_end": 24369,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "us change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_087",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24224,
+        "char_end": 24369,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "s change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_088",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24225,
+        "char_end": 24369,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_089",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24226,
+        "char_end": 24369,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "change notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_090",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24227,
+        "char_end": 24369,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "hange notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_091",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24228,
+        "char_end": 24369,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "ange notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_092",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24229,
+        "char_end": 24369,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "nge notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_093",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24230,
+        "char_end": 24369,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "ge notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_094",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24231,
+        "char_end": 24369,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "e notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_095",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24232,
+        "char_end": 24369,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_096",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24233,
+        "char_end": 24369,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "notifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_097",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24234,
+        "char_end": 24369,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "otifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_098",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24235,
+        "char_end": 24369,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "tifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_099",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24236,
+        "char_end": 24369,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "ifications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_100",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24237,
+        "char_end": 24369,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "fications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_101",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24238,
+        "char_end": 24369,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "ications. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_102",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24239,
+        "char_end": 24369,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "cations. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_103",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24240,
+        "char_end": 24369,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "ations. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_104",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24241,
+        "char_end": 24369,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "tions. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_105",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24242,
+        "char_end": 24369,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "ions. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_106",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24243,
+        "char_end": 24369,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "ons. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_107",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24244,
+        "char_end": 24369,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "ns. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_108",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24245,
+        "char_end": 24369,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "s. Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_109",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24246,
+        "char_end": 24369,
+        "word_count": 22
+      }
+    },
+    {
+      "text": ". Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_110",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24247,
+        "char_end": 24369,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_111",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24248,
+        "char_end": 24369,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "Maximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_112",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24249,
+        "char_end": 24369,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "aximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_113",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24250,
+        "char_end": 24369,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "ximo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_114",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24251,
+        "char_end": 24369,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "imo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_115",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24252,
+        "char_end": 24369,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "mo closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_116",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24253,
+        "char_end": 24369,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "o closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_117",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24254,
+        "char_end": 24369,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_118",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24255,
+        "char_end": 24369,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "closes the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_119",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24256,
+        "char_end": 24369,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "loses the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_120",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24257,
+        "char_end": 24369,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "oses the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_121",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24258,
+        "char_end": 24369,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "ses the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_122",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24259,
+        "char_end": 24369,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "es the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_123",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24260,
+        "char_end": 24369,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "s the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_124",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24261,
+        "char_end": 24369,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_125",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24262,
+        "char_end": 24369,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "the Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_126",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24263,
+        "char_end": 24369,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "he Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_127",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24264,
+        "char_end": 24369,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "e Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_128",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24265,
+        "char_end": 24369,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_129",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24266,
+        "char_end": 24369,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "Work Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_130",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24267,
+        "char_end": 24369,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "ork Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_131",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24268,
+        "char_end": 24369,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "rk Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_132",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24269,
+        "char_end": 24369,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "k Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_133",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24270,
+        "char_end": 24369,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_134",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24271,
+        "char_end": 24369,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "Order, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_135",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24272,
+        "char_end": 24369,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "rder, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_136",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24273,
+        "char_end": 24369,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "der, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_137",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24274,
+        "char_end": 24369,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "er, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_138",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24275,
+        "char_end": 24369,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "r, if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_139",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24276,
+        "char_end": 24369,
+        "word_count": 17
+      }
+    },
+    {
+      "text": ", if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_140",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24277,
+        "char_end": 24369,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_141",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24278,
+        "char_end": 24369,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "if its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_142",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24279,
+        "char_end": 24369,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "f its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_143",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24280,
+        "char_end": 24369,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_144",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24281,
+        "char_end": 24369,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "its status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_145",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24282,
+        "char_end": 24369,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "ts status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_146",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24283,
+        "char_end": 24369,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "s status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_147",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24284,
+        "char_end": 24369,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_148",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24285,
+        "char_end": 24369,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "status is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_149",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24286,
+        "char_end": 24369,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "tatus is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_150",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24287,
+        "char_end": 24369,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "atus is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_151",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24288,
+        "char_end": 24369,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "tus is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_152",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24289,
+        "char_end": 24369,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "us is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_153",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24290,
+        "char_end": 24369,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "s is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_154",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24291,
+        "char_end": 24369,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_155",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24292,
+        "char_end": 24369,
+        "word_count": 13
+      }
+    },
+    {
+      "text": "is complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_156",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24293,
+        "char_end": 24369,
+        "word_count": 13
+      }
+    },
+    {
+      "text": "s complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_157",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24294,
+        "char_end": 24369,
+        "word_count": 13
+      }
+    },
+    {
+      "text": "complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_158",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24295,
+        "char_end": 24369,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "complete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_159",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24296,
+        "char_end": 24369,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "omplete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_160",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24297,
+        "char_end": 24369,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "mplete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_161",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24298,
+        "char_end": 24369,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "plete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_162",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24299,
+        "char_end": 24369,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "lete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_163",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24300,
+        "char_end": 24369,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "ete,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_164",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24301,
+        "char_end": 24369,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "te,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_165",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24302,
+        "char_end": 24369,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "e,after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_166",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24303,
+        "char_end": 24369,
+        "word_count": 12
+      }
+    },
+    {
+      "text": ",after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_167",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24304,
+        "char_end": 24369,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "after a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_168",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24305,
+        "char_end": 24369,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "fter a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_169",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24306,
+        "char_end": 24369,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "ter a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_170",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24307,
+        "char_end": 24369,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "er a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_171",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24308,
+        "char_end": 24369,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "r a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_172",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24309,
+        "char_end": 24369,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_173",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24310,
+        "char_end": 24369,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "a 365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_174",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24311,
+        "char_end": 24369,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_175",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24312,
+        "char_end": 24369,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "365-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_176",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24313,
+        "char_end": 24369,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "65-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_177",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24314,
+        "char_end": 24369,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "5-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_178",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24315,
+        "char_end": 24369,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "-day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_179",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24316,
+        "char_end": 24369,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "day period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_180",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24317,
+        "char_end": 24369,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "ay period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_181",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24318,
+        "char_end": 24369,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "y period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_182",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24319,
+        "char_end": 24369,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_183",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24320,
+        "char_end": 24369,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "period of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_184",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24321,
+        "char_end": 24369,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "eriod of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_185",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24322,
+        "char_end": 24369,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "riod of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_186",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24323,
+        "char_end": 24369,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "iod of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_187",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24324,
+        "char_end": 24369,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "od of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_188",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24325,
+        "char_end": 24369,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "d of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_189",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24326,
+        "char_end": 24369,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_190",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24327,
+        "char_end": 24369,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "of inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_191",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24328,
+        "char_end": 24369,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "f inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_192",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24329,
+        "char_end": 24369,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_193",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24330,
+        "char_end": 24369,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "inactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_194",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24331,
+        "char_end": 24369,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "nactivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_195",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24332,
+        "char_end": 24369,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "activity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_196",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24333,
+        "char_end": 24369,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "ctivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_197",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24334,
+        "char_end": 24369,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "tivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_198",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24335,
+        "char_end": 24369,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "ivity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_199",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24336,
+        "char_end": 24369,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "vity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_200",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24337,
+        "char_end": 24369,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "ity if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_201",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24338,
+        "char_end": 24369,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "ty if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_202",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24339,
+        "char_end": 24369,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "y if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_203",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24340,
+        "char_end": 24369,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_204",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24341,
+        "char_end": 24369,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "if no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_205",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24342,
+        "char_end": 24369,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "f no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_206",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24343,
+        "char_end": 24369,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_207",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24344,
+        "char_end": 24369,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "no review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_208",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24345,
+        "char_end": 24369,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "o review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_209",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24346,
+        "char_end": 24369,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_210",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24347,
+        "char_end": 24369,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "review is required. |",
+      "metadata": {
+        "chunk_id": "chunk_211",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24348,
+        "char_end": 24369,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "eview is required. |",
+      "metadata": {
+        "chunk_id": "chunk_212",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24349,
+        "char_end": 24369,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "view is required. |",
+      "metadata": {
+        "chunk_id": "chunk_213",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24350,
+        "char_end": 24369,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "iew is required. |",
+      "metadata": {
+        "chunk_id": "chunk_214",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24351,
+        "char_end": 24369,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "ew is required. |",
+      "metadata": {
+        "chunk_id": "chunk_215",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24352,
+        "char_end": 24369,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "w is required. |",
+      "metadata": {
+        "chunk_id": "chunk_216",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24353,
+        "char_end": 24369,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "is required. |",
+      "metadata": {
+        "chunk_id": "chunk_217",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24354,
+        "char_end": 24369,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "is required. |",
+      "metadata": {
+        "chunk_id": "chunk_218",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24355,
+        "char_end": 24369,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "s required. |",
+      "metadata": {
+        "chunk_id": "chunk_219",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24356,
+        "char_end": 24369,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "required. |",
+      "metadata": {
+        "chunk_id": "chunk_220",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24357,
+        "char_end": 24369,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "required. |",
+      "metadata": {
+        "chunk_id": "chunk_221",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24358,
+        "char_end": 24369,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "equired. |",
+      "metadata": {
+        "chunk_id": "chunk_222",
+        "page_number": 12,
+        "section_title": "Content",
+        "char_start": 24359,
+        "char_end": 24369,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "quired. |",
+      "metadata": {
+        "chunk_id": "chunk_223",
+        "page_number": 13,
+        "section_title": "Content",
+        "char_start": 24360,
+        "char_end": 24369,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "uired. |",
+      "metadata": {
+        "chunk_id": "chunk_224",
+        "page_number": 13,
+        "section_title": "Content",
+        "char_start": 24361,
+        "char_end": 24369,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "ired. |",
+      "metadata": {
+        "chunk_id": "chunk_225",
+        "page_number": 13,
+        "section_title": "Content",
+        "char_start": 24362,
+        "char_end": 24369,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "red. |",
+      "metadata": {
+        "chunk_id": "chunk_226",
+        "page_number": 13,
+        "section_title": "Content",
+        "char_start": 24363,
+        "char_end": 24369,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "ed. |",
+      "metadata": {
+        "chunk_id": "chunk_227",
+        "page_number": 13,
+        "section_title": "Content",
+        "char_start": 24364,
+        "char_end": 24369,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "d. |",
+      "metadata": {
+        "chunk_id": "chunk_228",
+        "page_number": 13,
+        "section_title": "Content",
+        "char_start": 24365,
+        "char_end": 24369,
+        "word_count": 2
+      }
+    },
+    {
+      "text": ". |",
+      "metadata": {
+        "chunk_id": "chunk_229",
+        "page_number": 13,
+        "section_title": "Content",
+        "char_start": 24366,
+        "char_end": 24369,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "|",
+      "metadata": {
+        "chunk_id": "chunk_230",
+        "page_number": 13,
+        "section_title": "Content",
+        "char_start": 24367,
+        "char_end": 24369,
+        "word_count": 1
+      }
+    },
+    {
+      "text": "|",
+      "metadata": {
+        "chunk_id": "chunk_231",
+        "page_number": 13,
+        "section_title": "Content",
+        "char_start": 24368,
+        "char_end": 24369,
+        "word_count": 1
+      }
+    }
+  ]
+}

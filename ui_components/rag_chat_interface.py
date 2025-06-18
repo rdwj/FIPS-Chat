@@ -653,7 +653,7 @@ def get_rag_chat_statistics():
     if not st.session_state.rag_chat_messages:
         return {}
     
-    stats = {
+    stats: Dict[str, Any] = {
         "total_messages": len(st.session_state.rag_chat_messages),
         "user_messages": sum(1 for msg in st.session_state.rag_chat_messages if msg["role"] == "user"),
         "assistant_messages": sum(1 for msg in st.session_state.rag_chat_messages if msg["role"] == "assistant"),

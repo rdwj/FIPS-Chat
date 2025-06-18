@@ -19,8 +19,8 @@
   },
   "d78a90bea9e15f023cb2d205f9d05cece41bd12370a554af25a7b8936f2fff67": {
     "doc_id": "d78a90bea9e15f023cb2d205f9d05cece41bd12370a554af25a7b8936f2fff67",
-    "filename": "tmphljjse5w.pdf",
-    "upload_date": "2025-06-18T16:18:14.172445",
+    "filename": "tmpluyiia_0.pdf",
+    "upload_date": "2025-06-18T16:19:44.603533",
     "total_pages": 12,
     "total_chunks": 232,
     "file_size_bytes": 1184866,
@@ -28,8 +28,8 @@
   },
   "efb52dc4e20192ace3c54aef9de04b60a4df1af00ce95a2276e2f9b4aae82265": {
     "doc_id": "efb52dc4e20192ace3c54aef9de04b60a4df1af00ce95a2276e2f9b4aae82265",
-    "filename": "tmpyciur6rt.pdf",
-    "upload_date": "2025-06-18T16:18:28.683091",
+    "filename": "tmpfzyi1qyy.pdf",
+    "upload_date": "2025-06-18T16:19:55.517189",
     "total_pages": 5,
     "total_chunks": 214,
     "file_size_bytes": 1200449,
@@ -37,11 +37,29 @@
   },
   "16c4855eb79f5350dd68872707a17287db8746633e0b2bf0840363f4a3c38695": {
     "doc_id": "16c4855eb79f5350dd68872707a17287db8746633e0b2bf0840363f4a3c38695",
-    "filename": "tmpc4nk3470.pdf",
-    "upload_date": "2025-06-18T16:18:44.873593",
+    "filename": "tmpjufo3pq1.pdf",
+    "upload_date": "2025-06-18T16:20:08.442049",
     "total_pages": 10,
     "total_chunks": 226,
     "file_size_bytes": 1036293,
+    "status": "completed"
+  },
+  "d7413f6a2172d87509b75d64480455fc87124c6a590feb22cf70212a9bb72e95": {
+    "doc_id": "d7413f6a2172d87509b75d64480455fc87124c6a590feb22cf70212a9bb72e95",
+    "filename": "tmpz6yagz8o.pdf",
+    "upload_date": "2025-06-18T16:20:39.627875",
+    "total_pages": 14,
+    "total_chunks": 238,
+    "file_size_bytes": 2433924,
+    "status": "completed"
+  },
+  "79982a439f4603001c15f1edb2aff29153f9bffbed925975e96338e614ab250e": {
+    "doc_id": "79982a439f4603001c15f1edb2aff29153f9bffbed925975e96338e614ab250e",
+    "filename": "tmp559g10pn.pdf",
+    "upload_date": "2025-06-18T16:21:12.732358",
+    "total_pages": 12,
+    "total_chunks": 231,
+    "file_size_bytes": 1981642,
     "status": "completed"
   }
 }

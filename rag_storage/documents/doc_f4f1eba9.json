@@ -1,0 +1,2312 @@
+{
+  "metadata": {
+    "doc_id": "f4f1eba907cd98f56d6edbd8c55d565afc363780b3252ac38c79a4d3db2a7750",
+    "filename": "tmpp7ntisv4.pdf",
+    "upload_timestamp": "2025-06-18T16:23:38.344610",
+    "total_pages": 3,
+    "total_chunks": 209,
+    "processing_status": "completed",
+    "file_size_bytes": 286817
+  },
+  "chunks": [
+    {
+      "text": "## MAXIMO SELF-PACED TRAINING GUIDE ## HEALTHCARE TECHNOLOGY MANAGEMENT - HTM TECH TRAINING ## HTM Tech Roles in Maximo In Maximo, HTM Techs/Tech Plus roles can review and create related Work Orders to Service Requests, review, assign, take ownership, update statuses and complete Work Orders. The difference between the HTM Tech and HTM Tech Plus role is that the Tech cannot assign Work Orders to another Tech whereas the Tech Plus can. ## Available Training Resources User Guides, Job Aids and Quick Reference Documents are available on the EAWM Maximo Training Page to help users learn their role and responsibilities in Maximo at their own pace and in a mode that best fits their learning style. - \u00b7 User Guides provide the greatest amount of detail on each topic. User Guides include a high-level summary, detailed step-by-step instructions with screen captures, and a Business Process Model mapping out the activities performed by each affected Functional Community.",
+      "metadata": {
+        "chunk_id": "chunk_001",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 0,
+        "char_end": 973,
+        "word_count": 156
+      }
+    },
+    {
+      "text": "r Guides include a high-level summary, detailed step-by-step instructions with screen captures, and a Business Process Model mapping out the activities performed by each affected Functional Community. User Guides can be found in the 'Training Materials by Role' section of the Training page, under via links to the Functional Community and Role name. - \u00b7 Job Aids target critical functionality in Maximo. These documents are intended to be brief and focus on key issues, highlighting essential steps. These are found in the 'User Documentation' section of the Training page. - \u00b7 Quick Reference Documents (QRDs) include step-by-step work instructions, in simplest terms. Unlike Job Aids and User Guides, QRDs normally do not include screen captures. These are also posted in the 'User Documentation' section. In addition to the items available on the Training page, this Self-Paced Training Guide directs you to short video demonstrations recorded and narrated by Maximo Instructors as they walk thro",
+      "metadata": {
+        "chunk_id": "chunk_002",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 773,
+        "char_end": 1773,
+        "word_count": 154
+      }
+    },
+    {
+      "text": "In addition to the items available on the Training page, this Self-Paced Training Guide directs you to short video demonstrations recorded and narrated by Maximo Instructors as they walk through the steps of completing specific tasks in Maximo. To train for your role, read the appropriate User Guide, Job Aid and/or QRD for a given topic to gain an understanding of the process. Also, watch the video demonstrations as noted below. Continue reviewing this information until you are ready to start working in Maximo. IMPORTANT! Please DO NOT attempt to practice any of the steps in the Maximo Production system. If, after reviewing the materials, you are still uncomfortable with working in Maximo, contact your Maximo Site Lead for additional guidance. ## MAXIMO SELF-PACED TRAINING GUIDE ## 1. Request Work HTM Techs can use the Maximo Service Requests application to create a new Service Request and the Work Order Tracking application to create new Work Orders.",
+      "metadata": {
+        "chunk_id": "chunk_003",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 1581,
+        "char_end": 2547,
+        "word_count": 156
+      }
+    },
+    {
+      "text": "Request Work HTM Techs can use the Maximo Service Requests application to create a new Service Request and the Work Order Tracking application to create new Work Orders. In some cases, only the Work Order will be created. Service Requests are used to request work to be done by another Department. - \u00b7 To read the User Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech tab, select the Request Work User Guide to download the file. - \u00b7 To see demonstrations of using Maximo, please go to the EAWM Maximo Video Demos. Under the section, Healthcare Technology Management (HTM) , locate the videos for the role HTM Tech/Plus . The following video demonstrations pertain to this topic (please note that the videos will launch in a separate media player): - o Create a Service Request - o Create Related Work Order from Service Request - o Create a New Work Order without a Service Request - o Print Work Order ## 2.",
+      "metadata": {
+        "chunk_id": "chunk_004",
+        "page_number": 2,
+        "section_title": "Content",
+        "char_start": 2377,
+        "char_end": 3329,
+        "word_count": 171
+      }
+    },
+    {
+      "text": "ill launch in a separate media player): - o Create a Service Request - o Create Related Work Order from Service Request - o Create a New Work Order without a Service Request - o Print Work Order ## 2. Plan and Approve Work and Execute Work HTM Techs use the Maximo Work Order Tracking application to plan and approve work orders. Work planning can be done on the Work Order Plans tab and a Job Plan can also be added to the work order if one is available for the tasks to be completed on the work order. - \u00b7 To read the User Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech tab, select the Plan and Execute Work User Guide to download the file. - \u00b7 To see demonstrations of using Maximo, please go to the EAWM Maximo Video Demos. Under the section, Healthcare Technology Management (HTM) , locate the videos for the role HTM Tech/Plus . The following video demonstrations pertain to this topic (please note that the videos will launch in a separate media pla",
+      "metadata": {
+        "chunk_id": "chunk_005",
+        "page_number": 2,
+        "section_title": "Content",
+        "char_start": 3129,
+        "char_end": 4129,
+        "word_count": 188
+      }
+    },
+    {
+      "text": "e Technology Management (HTM) , locate the videos for the role HTM Tech/Plus . The following video demonstrations pertain to this topic (please note that the videos will launch in a separate media player): - o Apply Job Plan to Work Order - o Assign Ownership to a Responsible Shop-Tech - o Update Work Order Status-Approve Work Order ## 3. Record and Complete Work HTM Techs use the Maximo Work Order Tracking application to record work performance by entering labor and materials used for work, record work log entries about the work performed, and change the work order status to Complete. - \u00b7 To read the User Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech tab, select the Record and Complete Work User Guide to download the file. - \u00b7 To see demonstrations of using Maximo, please go to the EAWM Maximo Video Demos. Under the section, Healthcare Technology Management (HTM) , locate the videos for ## MAXIMO SELF-PACED TRAINING GUIDE the role HTM Tech/",
+      "metadata": {
+        "chunk_id": "chunk_006",
+        "page_number": 2,
+        "section_title": "Content",
+        "char_start": 3929,
+        "char_end": 4929,
+        "word_count": 174
+      }
+    },
+    {
+      "text": "ions of using Maximo, please go to the EAWM Maximo Video Demos. Under the section, Healthcare Technology Management (HTM) , locate the videos for ## MAXIMO SELF-PACED TRAINING GUIDE the role HTM Tech/Plus . The following videos pertain to this topic (please note that the videos will launch in a separate media player): - o Record Work Performance Narrative (Log Note) - o Record Labor for Yourself - o Record Labor for Someone Else - o Record Contract Labor Hours-Cost - o Record Materials - o Complete Multiple PM Work Orders with Same Information ## 4. Defer Work (PMs) HTM Techs use the Maximo Work Order Tracking application to record when a PM Work Order is Deferred. - \u00b7 To read the User Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech tab, select the Defer Work User Guide to download the file. - \u00b7 To see demonstrations of using Maximo, please go to the EAWM Maximo Video Demos. Under the section, Healthcare Technology Management (HTM) , locate th",
+      "metadata": {
+        "chunk_id": "chunk_007",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 4729,
+        "char_end": 5729,
+        "word_count": 177
+      }
+    },
+    {
+      "text": "- \u00b7 To see demonstrations of using Maximo, please go to the EAWM Maximo Video Demos. Under the section, Healthcare Technology Management (HTM) , locate the videos for the role HTM Tech/Plus . The following video demonstrations pertain to this topic (please note that the videos will launch in a separate media player): - o Defer PM Work Order ## 5. Asset Turn In Work Order Completing an Asset Turn In Work Order is the same as completing any Work Order in Maximo. The key difference is to ensure Sanitization and/or Decontamination of the Asset(s) is completed by the Responsible Tech and depending on your local business process, verified by a Supervisor. If authorized, a Tech can verify sanitization. Key points to remember are that once work is completed, the Work Order must be in the Status of COMPLETE and the associated Service Request in the Status of WSAN (Waiting on Sanitization). These two factors will enable the ISO to be notified, allowi",
+      "metadata": {
+        "chunk_id": "chunk_008",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 5574,
+        "char_end": 6529,
+        "word_count": 163
+      }
+    },
+    {
+      "text": "leted, the Work Order must be in the Status of COMPLETE and the associated Service Request in the Status of WSAN (Waiting on Sanitization). These two factors will enable the ISO to be notified, allowing them to certify the Asset(s) have been sanitized. - \u00b7 To read the User Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_009",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6329,
+        "char_end": 6777,
+        "word_count": 83
+      }
+    },
+    {
+      "text": "zed. - \u00b7 To read the User Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_010",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6577,
+        "char_end": 6777,
+        "word_count": 41
+      }
+    },
+    {
+      "text": "ed. - \u00b7 To read the User Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_011",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6578,
+        "char_end": 6777,
+        "word_count": 41
+      }
+    },
+    {
+      "text": "d. - \u00b7 To read the User Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_012",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6579,
+        "char_end": 6777,
+        "word_count": 41
+      }
+    },
+    {
+      "text": ". - \u00b7 To read the User Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_013",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6580,
+        "char_end": 6777,
+        "word_count": 41
+      }
+    },
+    {
+      "text": "- \u00b7 To read the User Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_014",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6581,
+        "char_end": 6777,
+        "word_count": 40
+      }
+    },
+    {
+      "text": "- \u00b7 To read the User Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_015",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6582,
+        "char_end": 6777,
+        "word_count": 40
+      }
+    },
+    {
+      "text": "\u00b7 To read the User Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_016",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6583,
+        "char_end": 6777,
+        "word_count": 39
+      }
+    },
+    {
+      "text": "\u00b7 To read the User Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_017",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6584,
+        "char_end": 6777,
+        "word_count": 39
+      }
+    },
+    {
+      "text": "To read the User Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_018",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6585,
+        "char_end": 6777,
+        "word_count": 38
+      }
+    },
+    {
+      "text": "To read the User Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_019",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6586,
+        "char_end": 6777,
+        "word_count": 38
+      }
+    },
+    {
+      "text": "o read the User Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_020",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6587,
+        "char_end": 6777,
+        "word_count": 38
+      }
+    },
+    {
+      "text": "read the User Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_021",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6588,
+        "char_end": 6777,
+        "word_count": 37
+      }
+    },
+    {
+      "text": "read the User Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_022",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6589,
+        "char_end": 6777,
+        "word_count": 37
+      }
+    },
+    {
+      "text": "ead the User Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_023",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6590,
+        "char_end": 6777,
+        "word_count": 37
+      }
+    },
+    {
+      "text": "ad the User Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_024",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6591,
+        "char_end": 6777,
+        "word_count": 37
+      }
+    },
+    {
+      "text": "d the User Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_025",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6592,
+        "char_end": 6777,
+        "word_count": 37
+      }
+    },
+    {
+      "text": "the User Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_026",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6593,
+        "char_end": 6777,
+        "word_count": 36
+      }
+    },
+    {
+      "text": "the User Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_027",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6594,
+        "char_end": 6777,
+        "word_count": 36
+      }
+    },
+    {
+      "text": "he User Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_028",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6595,
+        "char_end": 6777,
+        "word_count": 36
+      }
+    },
+    {
+      "text": "e User Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_029",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6596,
+        "char_end": 6777,
+        "word_count": 36
+      }
+    },
+    {
+      "text": "User Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_030",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6597,
+        "char_end": 6777,
+        "word_count": 35
+      }
+    },
+    {
+      "text": "User Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_031",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6598,
+        "char_end": 6777,
+        "word_count": 35
+      }
+    },
+    {
+      "text": "ser Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_032",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6599,
+        "char_end": 6777,
+        "word_count": 35
+      }
+    },
+    {
+      "text": "er Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_033",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6600,
+        "char_end": 6777,
+        "word_count": 35
+      }
+    },
+    {
+      "text": "r Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_034",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6601,
+        "char_end": 6777,
+        "word_count": 35
+      }
+    },
+    {
+      "text": "Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_035",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6602,
+        "char_end": 6777,
+        "word_count": 34
+      }
+    },
+    {
+      "text": "Guide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_036",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6603,
+        "char_end": 6777,
+        "word_count": 34
+      }
+    },
+    {
+      "text": "uide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_037",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6604,
+        "char_end": 6777,
+        "word_count": 34
+      }
+    },
+    {
+      "text": "ide on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_038",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6605,
+        "char_end": 6777,
+        "word_count": 34
+      }
+    },
+    {
+      "text": "de on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_039",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6606,
+        "char_end": 6777,
+        "word_count": 34
+      }
+    },
+    {
+      "text": "e on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_040",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6607,
+        "char_end": 6777,
+        "word_count": 34
+      }
+    },
+    {
+      "text": "on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_041",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6608,
+        "char_end": 6777,
+        "word_count": 33
+      }
+    },
+    {
+      "text": "on this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_042",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6609,
+        "char_end": 6777,
+        "word_count": 33
+      }
+    },
+    {
+      "text": "n this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_043",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6610,
+        "char_end": 6777,
+        "word_count": 33
+      }
+    },
+    {
+      "text": "this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_044",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6611,
+        "char_end": 6777,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "this topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_045",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6612,
+        "char_end": 6777,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "his topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_046",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6613,
+        "char_end": 6777,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "is topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_047",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6614,
+        "char_end": 6777,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "s topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_048",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6615,
+        "char_end": 6777,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_049",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6616,
+        "char_end": 6777,
+        "word_count": 31
+      }
+    },
+    {
+      "text": "topic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_050",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6617,
+        "char_end": 6777,
+        "word_count": 31
+      }
+    },
+    {
+      "text": "opic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_051",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6618,
+        "char_end": 6777,
+        "word_count": 31
+      }
+    },
+    {
+      "text": "pic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_052",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6619,
+        "char_end": 6777,
+        "word_count": 31
+      }
+    },
+    {
+      "text": "ic, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_053",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6620,
+        "char_end": 6777,
+        "word_count": 31
+      }
+    },
+    {
+      "text": "c, please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_054",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6621,
+        "char_end": 6777,
+        "word_count": 31
+      }
+    },
+    {
+      "text": ", please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_055",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6622,
+        "char_end": 6777,
+        "word_count": 31
+      }
+    },
+    {
+      "text": "please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_056",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6623,
+        "char_end": 6777,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "please go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_057",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6624,
+        "char_end": 6777,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "lease go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_058",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6625,
+        "char_end": 6777,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "ease go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_059",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6626,
+        "char_end": 6777,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "ase go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_060",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6627,
+        "char_end": 6777,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "se go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_061",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6628,
+        "char_end": 6777,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "e go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_062",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6629,
+        "char_end": 6777,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_063",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6630,
+        "char_end": 6777,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "go to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_064",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6631,
+        "char_end": 6777,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "o to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_065",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6632,
+        "char_end": 6777,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_066",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6633,
+        "char_end": 6777,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "to the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_067",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6634,
+        "char_end": 6777,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "o the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_068",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6635,
+        "char_end": 6777,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_069",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6636,
+        "char_end": 6777,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "the HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_070",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6637,
+        "char_end": 6777,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "he HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_071",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6638,
+        "char_end": 6777,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "e HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_072",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6639,
+        "char_end": 6777,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_073",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6640,
+        "char_end": 6777,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "HTM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_074",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6641,
+        "char_end": 6777,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "TM Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_075",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6642,
+        "char_end": 6777,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "M Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_076",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6643,
+        "char_end": 6777,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_077",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6644,
+        "char_end": 6777,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "Tech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_078",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6645,
+        "char_end": 6777,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "ech Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_079",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6646,
+        "char_end": 6777,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "ch Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_080",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6647,
+        "char_end": 6777,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "h Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_081",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6648,
+        "char_end": 6777,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_082",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6649,
+        "char_end": 6777,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "Training Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_083",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6650,
+        "char_end": 6777,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "raining Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_084",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6651,
+        "char_end": 6777,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "aining Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_085",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6652,
+        "char_end": 6777,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "ining Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_086",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6653,
+        "char_end": 6777,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "ning Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_087",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6654,
+        "char_end": 6777,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "ing Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_088",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6655,
+        "char_end": 6777,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "ng Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_089",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6656,
+        "char_end": 6777,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "g Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_090",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6657,
+        "char_end": 6777,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_091",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6658,
+        "char_end": 6777,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "Materials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_092",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6659,
+        "char_end": 6777,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "aterials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_093",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6660,
+        "char_end": 6777,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "terials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_094",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6661,
+        "char_end": 6777,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "erials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_095",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6662,
+        "char_end": 6777,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "rials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_096",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6663,
+        "char_end": 6777,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "ials page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_097",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6664,
+        "char_end": 6777,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "als page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_098",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6665,
+        "char_end": 6777,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "ls page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_099",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6666,
+        "char_end": 6777,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "s page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_100",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6667,
+        "char_end": 6777,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_101",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6668,
+        "char_end": 6777,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "page; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_102",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6669,
+        "char_end": 6777,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "age; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_103",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6670,
+        "char_end": 6777,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "ge; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_104",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6671,
+        "char_end": 6777,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "e; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_105",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6672,
+        "char_end": 6777,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "; under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_106",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6673,
+        "char_end": 6777,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_107",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6674,
+        "char_end": 6777,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "under the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_108",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6675,
+        "char_end": 6777,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "nder the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_109",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6676,
+        "char_end": 6777,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "der the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_110",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6677,
+        "char_end": 6777,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "er the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_111",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6678,
+        "char_end": 6777,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "r the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_112",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6679,
+        "char_end": 6777,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_113",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6680,
+        "char_end": 6777,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "the HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_114",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6681,
+        "char_end": 6777,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "he HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_115",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6682,
+        "char_end": 6777,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "e HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_116",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6683,
+        "char_end": 6777,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_117",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6684,
+        "char_end": 6777,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "HTM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_118",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6685,
+        "char_end": 6777,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "TM Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_119",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6686,
+        "char_end": 6777,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "M Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_120",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6687,
+        "char_end": 6777,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_121",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6688,
+        "char_end": 6777,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "Tech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_122",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6689,
+        "char_end": 6777,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "ech or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_123",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6690,
+        "char_end": 6777,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "ch or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_124",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6691,
+        "char_end": 6777,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "h or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_125",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6692,
+        "char_end": 6777,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_126",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6693,
+        "char_end": 6777,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "or the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_127",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6694,
+        "char_end": 6777,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "r the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_128",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6695,
+        "char_end": 6777,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_129",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6696,
+        "char_end": 6777,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "the HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_130",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6697,
+        "char_end": 6777,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "he HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_131",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6698,
+        "char_end": 6777,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "e HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_132",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6699,
+        "char_end": 6777,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_133",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6700,
+        "char_end": 6777,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "HTM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_134",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6701,
+        "char_end": 6777,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "TM Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_135",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6702,
+        "char_end": 6777,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "M Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_136",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6703,
+        "char_end": 6777,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_137",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6704,
+        "char_end": 6777,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "Tech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_138",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6705,
+        "char_end": 6777,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "ech Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_139",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6706,
+        "char_end": 6777,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "ch Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_140",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6707,
+        "char_end": 6777,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "h Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_141",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6708,
+        "char_end": 6777,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_142",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6709,
+        "char_end": 6777,
+        "word_count": 13
+      }
+    },
+    {
+      "text": "Plus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_143",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6710,
+        "char_end": 6777,
+        "word_count": 13
+      }
+    },
+    {
+      "text": "lus tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_144",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6711,
+        "char_end": 6777,
+        "word_count": 13
+      }
+    },
+    {
+      "text": "us tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_145",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6712,
+        "char_end": 6777,
+        "word_count": 13
+      }
+    },
+    {
+      "text": "s tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_146",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6713,
+        "char_end": 6777,
+        "word_count": 13
+      }
+    },
+    {
+      "text": "tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_147",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6714,
+        "char_end": 6777,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "tab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_148",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6715,
+        "char_end": 6777,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "ab, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_149",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6716,
+        "char_end": 6777,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "b, select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_150",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6717,
+        "char_end": 6777,
+        "word_count": 12
+      }
+    },
+    {
+      "text": ", select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_151",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6718,
+        "char_end": 6777,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_152",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6719,
+        "char_end": 6777,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "select the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_153",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6720,
+        "char_end": 6777,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "elect the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_154",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6721,
+        "char_end": 6777,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "lect the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_155",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6722,
+        "char_end": 6777,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "ect the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_156",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6723,
+        "char_end": 6777,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "ct the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_157",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6724,
+        "char_end": 6777,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "t the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_158",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6725,
+        "char_end": 6777,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_159",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6726,
+        "char_end": 6777,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "the Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_160",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6727,
+        "char_end": 6777,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "he Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_161",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6728,
+        "char_end": 6777,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "e Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_162",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6729,
+        "char_end": 6777,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_163",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6730,
+        "char_end": 6777,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "Asset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_164",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6731,
+        "char_end": 6777,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "sset Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_165",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6732,
+        "char_end": 6777,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "set Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_166",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6733,
+        "char_end": 6777,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "et Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_167",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6734,
+        "char_end": 6777,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "t Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_168",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6735,
+        "char_end": 6777,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_169",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6736,
+        "char_end": 6777,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "Turn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_170",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6737,
+        "char_end": 6777,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "urn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_171",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6738,
+        "char_end": 6777,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "rn In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_172",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6739,
+        "char_end": 6777,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "n In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_173",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6740,
+        "char_end": 6777,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_174",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6741,
+        "char_end": 6777,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "In User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_175",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6742,
+        "char_end": 6777,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "n User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_176",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6743,
+        "char_end": 6777,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_177",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6744,
+        "char_end": 6777,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "User Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_178",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6745,
+        "char_end": 6777,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "ser Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_179",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6746,
+        "char_end": 6777,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "er Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_180",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6747,
+        "char_end": 6777,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "r Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_181",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6748,
+        "char_end": 6777,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_182",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6749,
+        "char_end": 6777,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "Guide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_183",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6750,
+        "char_end": 6777,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "uide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_184",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6751,
+        "char_end": 6777,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "ide to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_185",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6752,
+        "char_end": 6777,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "de to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_186",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6753,
+        "char_end": 6777,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "e to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_187",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6754,
+        "char_end": 6777,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_188",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6755,
+        "char_end": 6777,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "to download the file.",
+      "metadata": {
+        "chunk_id": "chunk_189",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6756,
+        "char_end": 6777,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "o download the file.",
+      "metadata": {
+        "chunk_id": "chunk_190",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6757,
+        "char_end": 6777,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "download the file.",
+      "metadata": {
+        "chunk_id": "chunk_191",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6758,
+        "char_end": 6777,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "download the file.",
+      "metadata": {
+        "chunk_id": "chunk_192",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6759,
+        "char_end": 6777,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "ownload the file.",
+      "metadata": {
+        "chunk_id": "chunk_193",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6760,
+        "char_end": 6777,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "wnload the file.",
+      "metadata": {
+        "chunk_id": "chunk_194",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6761,
+        "char_end": 6777,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "nload the file.",
+      "metadata": {
+        "chunk_id": "chunk_195",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6762,
+        "char_end": 6777,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "load the file.",
+      "metadata": {
+        "chunk_id": "chunk_196",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6763,
+        "char_end": 6777,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "oad the file.",
+      "metadata": {
+        "chunk_id": "chunk_197",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6764,
+        "char_end": 6777,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "ad the file.",
+      "metadata": {
+        "chunk_id": "chunk_198",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6765,
+        "char_end": 6777,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "d the file.",
+      "metadata": {
+        "chunk_id": "chunk_199",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6766,
+        "char_end": 6777,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "the file.",
+      "metadata": {
+        "chunk_id": "chunk_200",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6767,
+        "char_end": 6777,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "the file.",
+      "metadata": {
+        "chunk_id": "chunk_201",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6768,
+        "char_end": 6777,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "he file.",
+      "metadata": {
+        "chunk_id": "chunk_202",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6769,
+        "char_end": 6777,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "e file.",
+      "metadata": {
+        "chunk_id": "chunk_203",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6770,
+        "char_end": 6777,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "file.",
+      "metadata": {
+        "chunk_id": "chunk_204",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6771,
+        "char_end": 6777,
+        "word_count": 1
+      }
+    },
+    {
+      "text": "file.",
+      "metadata": {
+        "chunk_id": "chunk_205",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6772,
+        "char_end": 6777,
+        "word_count": 1
+      }
+    },
+    {
+      "text": "ile.",
+      "metadata": {
+        "chunk_id": "chunk_206",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6773,
+        "char_end": 6777,
+        "word_count": 1
+      }
+    },
+    {
+      "text": "le.",
+      "metadata": {
+        "chunk_id": "chunk_207",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6774,
+        "char_end": 6777,
+        "word_count": 1
+      }
+    },
+    {
+      "text": "e.",
+      "metadata": {
+        "chunk_id": "chunk_208",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6775,
+        "char_end": 6777,
+        "word_count": 1
+      }
+    },
+    {
+      "text": ".",
+      "metadata": {
+        "chunk_id": "chunk_209",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6776,
+        "char_end": 6777,
+        "word_count": 1
+      }
+    }
+  ]
+}

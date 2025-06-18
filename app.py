@@ -125,10 +125,18 @@ def render_api_configuration():
     templates = get_all_api_templates()
     template_options = ["custom"] + list(templates.keys())
     
+    # Remember current template selection
+    current_template = st.session_state.get("selected_template", "custom")
+    try:
+        current_index = template_options.index(current_template)
+    except ValueError:
+        current_index = 0
+    
     selected_template = st.selectbox(
         "API Template",
         template_options,
-        index=0,
+        index=current_index,
+        key="template_selector",
         help="Choose a pre-configured template or use custom settings"
     )
     
@@ -140,16 +148,25 @@ def render_api_configuration():
             if template.get('example_models'):
                 st.caption(f"Example models: {', '.join(template['example_models'][:3])}")
     
+    # Handle template changes and auto-populate endpoint
+    if selected_template != st.session_state.get("selected_template"):
+        st.session_state.selected_template = selected_template
+        if selected_template != "custom":
+            template = get_api_template(selected_template)
+            if template:
+                st.session_state.api_endpoint = template["endpoint"]
+                st.rerun()  # Refresh to show the updated endpoint
+    
     # API endpoint configuration
-    default_endpoint = ""
-    if selected_template != "custom":
+    current_endpoint = st.session_state.get("api_endpoint", "")
+    if not current_endpoint and selected_template != "custom":
         template = get_api_template(selected_template)
         if template:
-            default_endpoint = template["endpoint"]
+            current_endpoint = template["endpoint"]
     
     api_endpoint = st.text_input(
         "API Endpoint",
-        value=st.session_state.get("api_endpoint", default_endpoint),
+        value=current_endpoint,
         placeholder="https://api.example.com/v1 or http://localhost:8000/v1",
         help="Full URL to your API endpoint"
     )
@@ -267,20 +284,19 @@ def render_model_discovery():
     models = st.session_state.get("discovered_models", [])
     
     if models:
-        # Filter models by capability
-        chat_models = [m for m in models if ModelCapability.CHAT in m.capabilities]
+        # Show all models for chat (most Ollama models can do chat)
+        st.write("**💬 Chat Models:**")
+        selected_chat = st.selectbox(
+            "Select Chat Model",
+            [m.id for m in models],
+            index=0,
+            key="selected_chat_model_select",
+            help=f"Choose from {len(models)} available models"
+        )
+        st.session_state.selected_chat_model = selected_chat
+        
+        # Show vision-capable models separately (if any)
         vision_models = [m for m in models if ModelCapability.VISION in m.capabilities]
-        
-        if chat_models:
-            st.write("**💬 Chat Models:**")
-            selected_chat = st.selectbox(
-                "Select Chat Model",
-                [m.id for m in chat_models],
-                index=0,
-                key="selected_chat_model_select"
-            )
-            st.session_state.selected_chat_model = selected_chat
-        
         if vision_models:
             st.write("**🖼️ Vision Models:**")
             selected_vision = st.selectbox(
@@ -290,6 +306,9 @@ def render_model_discovery():
                 key="selected_vision_model_select"
             )
             st.session_state.selected_vision_model = selected_vision
+        else:
+            # Use the same model for vision if no dedicated vision models
+            st.session_state.selected_vision_model = selected_chat
         
         # Show model details
         with st.expander("📋 Model Details"):
@@ -419,8 +438,11 @@ def render_sidebar_actions():
         try:
             from ui_components.document_interface import initialize_rag_system
             initialize_rag_system()
-            st.session_state.search_engine.build_index_from_storage()
-            st.success("Search index rebuilt!")
+            if hasattr(st.session_state, 'search_engine') and st.session_state.search_engine:
+                st.session_state.search_engine.build_index(force_rebuild=True)
+                st.success("Search index rebuilt!")
+            else:
+                st.error("Search engine not initialized")
         except Exception as e:
             st.error(f"Failed to rebuild index: {str(e)}")
     

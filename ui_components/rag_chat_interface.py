@@ -340,7 +340,7 @@ def render_rag_chat_input():
     else:
         placeholder = "Ask me anything..."
     
-    if prompt := st.chat_input(placeholder):
+    if prompt := st.chat_input(placeholder, key="rag_chat_input"):
         # Add user message
         timestamp = datetime.now().strftime("%H:%M:%S")
         user_message = {
@@ -527,16 +527,16 @@ def render_rag_chat_controls():
     col1, col2, col3, col4 = st.columns([1, 1, 1, 2])
     
     with col1:
-        if st.button("🗑️ Clear Chat", help="Clear conversation history"):
+        if st.button("🗑️ Clear Chat", help="Clear conversation history", key="rag_clear_chat"):
             st.session_state.rag_chat_messages = []
             st.rerun()
     
     with col2:
-        if st.button("📋 Copy Last", help="Copy last response to clipboard"):
+        if st.button("📋 Copy Last", help="Copy last response to clipboard", key="rag_copy_last"):
             copy_last_rag_response()
     
     with col3:
-        if st.button("💾 Export", help="Export conversation with sources"):
+        if st.button("💾 Export", help="Export conversation with sources", key="rag_export"):
             export_rag_conversation()
     
     with col4:

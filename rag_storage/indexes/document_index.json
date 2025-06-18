@@ -1,0 +1,47 @@
+{
+  "fc1d6cd566b6cc394e45a641b285e89728fd218525ce29b2a6fe22d51bc8fa25": {
+    "doc_id": "fc1d6cd566b6cc394e45a641b285e89728fd218525ce29b2a6fe22d51bc8fa25",
+    "filename": "tmp1pqvnmfy.pdf",
+    "upload_date": "2025-06-18T16:19:15.937152",
+    "total_pages": 17,
+    "total_chunks": 245,
+    "file_size_bytes": 1916904,
+    "status": "completed"
+  },
+  "40f272b93070e22d3ebc104a90824d42fe0df91935b54017c41d908e84d497ba": {
+    "doc_id": "40f272b93070e22d3ebc104a90824d42fe0df91935b54017c41d908e84d497ba",
+    "filename": "tmpcwjz54ib.pdf",
+    "upload_date": "2025-06-18T16:19:24.958610",
+    "total_pages": 4,
+    "total_chunks": 211,
+    "file_size_bytes": 554163,
+    "status": "completed"
+  },
+  "d78a90bea9e15f023cb2d205f9d05cece41bd12370a554af25a7b8936f2fff67": {
+    "doc_id": "d78a90bea9e15f023cb2d205f9d05cece41bd12370a554af25a7b8936f2fff67",
+    "filename": "tmphljjse5w.pdf",
+    "upload_date": "2025-06-18T16:18:14.172445",
+    "total_pages": 12,
+    "total_chunks": 232,
+    "file_size_bytes": 1184866,
+    "status": "completed"
+  },
+  "efb52dc4e20192ace3c54aef9de04b60a4df1af00ce95a2276e2f9b4aae82265": {
+    "doc_id": "efb52dc4e20192ace3c54aef9de04b60a4df1af00ce95a2276e2f9b4aae82265",
+    "filename": "tmpyciur6rt.pdf",
+    "upload_date": "2025-06-18T16:18:28.683091",
+    "total_pages": 5,
+    "total_chunks": 214,
+    "file_size_bytes": 1200449,
+    "status": "completed"
+  },
+  "16c4855eb79f5350dd68872707a17287db8746633e0b2bf0840363f4a3c38695": {
+    "doc_id": "16c4855eb79f5350dd68872707a17287db8746633e0b2bf0840363f4a3c38695",
+    "filename": "tmpc4nk3470.pdf",
+    "upload_date": "2025-06-18T16:18:44.873593",
+    "total_pages": 10,
+    "total_chunks": 226,
+    "file_size_bytes": 1036293,
+    "status": "completed"
+  }
+}

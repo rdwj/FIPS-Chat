@@ -393,19 +393,29 @@ class UnifiedAPIClient:
     def _infer_capabilities_from_name(self, model_name: str) -> List[ModelCapability]:
         """Infer model capabilities from model name."""
         name_lower = model_name.lower()
-        capabilities = [ModelCapability.CHAT]  # Default to chat
+        capabilities = []
+        
+        # Embedding models first (most specific)
+        if any(keyword in name_lower for keyword in ["embed", "embedding", "text-embedding"]):
+            capabilities = [ModelCapability.EMBEDDING]
+            return capabilities
+        
+        # All other models get chat capability by default
+        capabilities.append(ModelCapability.CHAT)
         
         # Vision models
-        if any(keyword in name_lower for keyword in ["vision", "llava", "claude-3", "gpt-4-vision", "gpt-4o"]):
+        if any(keyword in name_lower for keyword in [
+            "vision", "llava", "claude-3", "gpt-4-vision", "gpt-4o", "gpt-4-turbo",
+            "minicpm-v", "qwen-vl", "internvl", "cogvlm", "blip", "instructblip"
+        ]):
             capabilities.append(ModelCapability.VISION)
         
         # Code models
-        if any(keyword in name_lower for keyword in ["code", "coder", "codellama", "starcoder", "deepseek-coder"]):
+        if any(keyword in name_lower for keyword in [
+            "code", "coder", "codellama", "starcoder", "deepseek-coder", 
+            "phind-codellama", "wizardcoder", "magicoder", "granite-code"
+        ]):
             capabilities.append(ModelCapability.CODE)
-        
-        # Embedding models
-        if any(keyword in name_lower for keyword in ["embed", "embedding", "text-embedding"]):
-            capabilities = [ModelCapability.EMBEDDING]
         
         return capabilities
     

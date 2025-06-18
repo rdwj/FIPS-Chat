@@ -1,0 +1,2334 @@
+{
+  "metadata": {
+    "doc_id": "40f272b93070e22d3ebc104a90824d42fe0df91935b54017c41d908e84d497ba",
+    "filename": "tmpcwjz54ib.pdf",
+    "upload_timestamp": "2025-06-18T16:19:24.958610",
+    "total_pages": 4,
+    "total_chunks": 211,
+    "processing_status": "completed",
+    "file_size_bytes": 554163
+  },
+  "chunks": [
+    {
+      "text": "Maximo\u00ae Training HTM Admin User Guide CREATE ASSET TEMPLATES SEPETEMBER 2022 User Guide Create Asset Templates - HTM Admin THIS PAGE INTENTIONALLY LEFT BLANK ## TABLE OF CONTENTS | Create Asset Templates .............................................................................................................1 | |---------------------------------------------------------------------------------------------------------------------------------------------| | Summary..............................................................................................................................1 | | User Roles and Responsibilities..........................................................................................1 | | Learning Objectives...........................................................................................................1 | | Agenda....................................................................................",
+      "metadata": {
+        "chunk_id": "chunk_001",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 0,
+        "char_end": 951,
+        "word_count": 50
+      }
+    },
+    {
+      "text": ".......................................................................................................1 | | Agenda............................................................................................................................. 1 | | Acronyms Used in This Lesson................................................................................................... 2 | | Add or Update VA MDNSCode..................................................................................................3 | | Create Asset Template to Update Multiple Assets......................................................................5 | | Review...................................................................................................................................10 | | Knowledge Check ................................................................................................................10 | | Appendix A - Classify Asset Business Process Flow.",
+      "metadata": {
+        "chunk_id": "chunk_002",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 752,
+        "char_end": 1714,
+        "word_count": 47
+      }
+    },
+    {
+      "text": ".......10 | | Knowledge Check ................................................................................................................10 | | Appendix A - Classify Asset Business Process Flow...................................................................11 | User Guide Create Asset Templates - HTM Admin THIS PAGE INTENTIONALLY LEFT BLANK ## CREATE ASSET TEMPLATES ## Summary This lesson provides an overview of how to properly classify an Asset utilizing Maximo. HTM Admins create Asset Templates and assign them to Assets. These Asset Templates include Asset values and can include assignment of Master PMs. For more information about this process, please go to Appendix A - Classify Asset Business Process to view the flowchart and process narrative. ## User Roles and Responsibilities The audience for this training includes the following user roles: | Role | Responsibility | |-----------|---------------------------------------------------------------------------------------------",
+      "metadata": {
+        "chunk_id": "chunk_003",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 1515,
+        "char_end": 2514,
+        "word_count": 117
+      }
+    },
+    {
+      "text": "s The audience for this training includes the following user roles: | Role | Responsibility | |-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | FMAdmin | Receives, classifies and disposes Building Service Equipment (BSE) Assets; reviewsand approvesWork Orders; creates PMs (Preventive Maintenance); approves PMwork deferrals; creates Job Plans | | HTM Admin | Classifies Assets;reviewsand approves Work Orders; creates PMs (Preventive Maintenance);approvesPMwork deferrals; creates JobPlans; determinesneedfordecontamination/sanitization of turned in Assets | ## Learning Objectives - \u00b7 Describe how to create and update Assets using Maximo - \u00b7 Assign VA-MDNS Code - \u00b7 Apply an Asset Template to a new Asset ## Agenda | Topic | Estimated Time | |--------------------------------|------------------| | Introduction | 15 min | | AssignV",
+      "metadata": {
+        "chunk_id": "chunk_004",
+        "page_number": 2,
+        "section_title": "Content",
+        "char_start": 2314,
+        "char_end": 3314,
+        "word_count": 111
+      }
+    },
+    {
+      "text": "Maximo - \u00b7 Assign VA-MDNS Code - \u00b7 Apply an Asset Template to a new Asset ## Agenda | Topic | Estimated Time | |--------------------------------|------------------| | Introduction | 15 min | | AssignVA-MDNSCode | 15 min | | Apply Asset TemplatetoNewAsset | 10 min | | Review | 05 min | | TOTAL: | 45 min | ## ACRONYMS USED IN THIS LESSON | Acronym | Description | |-----------|--------------------------------------| | APPR | Approved | | CM | Corrective Maintenance | | EAWM | Enterprise Asset& Work Management | | EM | EmergencyMaintenance | | EPS | EnvironmentalPrograms Services | | FM | Facility Management | | HTM | Healthcare TechnologyManagement | | IO | Internal Operations | | PM | Preventive Maintenance | | PPM | PersonalPropertyManagement | | PS | ProfessionalServices | | VAMC | VAMedical Center | | VA-MDNS | VAMedical Device Nomenclature System | ## ADD OR UPDATE VA MDNS CODE To add or update the VA-MDNS code to an Asset, follow these steps: Step 1.",
+      "metadata": {
+        "chunk_id": "chunk_005",
+        "page_number": 2,
+        "section_title": "Content",
+        "char_start": 3114,
+        "char_end": 4081,
+        "word_count": 169
+      }
+    },
+    {
+      "text": "sionalServices | | VAMC | VAMedical Center | | VA-MDNS | VAMedical Device Nomenclature System | ## ADD OR UPDATE VA MDNS CODE To add or update the VA-MDNS code to an Asset, follow these steps: Step 1. From the Start Center , select Assets from the Favorite Applications portlet. Figure 1. Select Assets from the Favorite Applications Portlet Step 2. Place the cursor in the Asset Number field and press Enter . A list of Assets displays. Review the list and select the Asset you want to assign. You may narrow the list results by entering information in one or more of the available filter fields and pressing Enter once again. Figure 2. Assets - List Tab - Step 3. Under the Details section, select the Select Value icon for the correct VA-MDNS code. (magnifying glass) to search Figure 3. Edit the VA-MDNS Code Field in the Details Section Step 4. A dialog box will appear. Use the filter fields to narrow the list and select the appropriate code. Figure 4.",
+      "metadata": {
+        "chunk_id": "chunk_006",
+        "page_number": 2,
+        "section_title": "Content",
+        "char_start": 3881,
+        "char_end": 4840,
+        "word_count": 172
+      }
+    },
+    {
+      "text": "Edit the VA-MDNS Code Field in the Details Section Step 4. A dialog box will appear. Use the filter fields to narrow the list and select the appropriate code. Figure 4. Select Value Dialog Box: VA-MDNS Code Save icon on the toolbar. Step 5. Select the ## CREATE ASSET TEMPLATE TO UPDATE MULTIPLE ASSETS Anytime multiple Assets need updating (for example, when the VA-MDNS equipment category needs to be updated or changed), you will use Asset Templates to complete this action. - Step 1. From the Go To Menu , select Assets and then Asset Templates . Figure 5. Select Asset Templates from Go To Dropdown Select the New Asset Template icon on the toolbar. Figure 6. Select New Template - Step 3. In the Asset Template field, type a unique value to identify the Asset template. - Step 4. In the Description field, enter a short description. Figure 7. Edit Asset Template and Description Fields Status Step 2. Step 5. If you are updating existing Assets, enter or select",
+      "metadata": {
+        "chunk_id": "chunk_007",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 4671,
+        "char_end": 5640,
+        "word_count": 170
+      }
+    },
+    {
+      "text": "- Step 4. In the Description field, enter a short description. Figure 7. Edit Asset Template and Description Fields Status Step 2. Step 5. If you are updating existing Assets, enter or select information in the appropriate fields under the following sections: - \u00b7 Header section - \u00b7 Details section - \u00b7 Purchase Information section - \u00b7 Financial Information section Figure 8. Asset Template Header Section Figure 9. Asset Template Details Section Figure 10. Asset Template Purchase Information Section Figure 11. Asset Template Purchase Information Section Step 6. HTM, FM ONLY: If desired, you can associate a Master PM to an Asset Template that will generate a PM for one or more existing Assets. To associate a Master PM to an Asset Template, do the following: - \u00b7 Select the PMs tab. - \u00b7 Under the PMs section, select the New Row Figure 12. PMs Tab button. Figure 13. Select New Row - \u00b7 Select the Detail Menu (chevron) icon next to the Master PM field then select the Select Value (magni",
+      "metadata": {
+        "chunk_id": "chunk_008",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 5447,
+        "char_end": 6440,
+        "word_count": 172
+      }
+    },
+    {
+      "text": "Under the PMs section, select the New Row Figure 12. PMs Tab button. Figure 13. Select New Row - \u00b7 Select the Detail Menu (chevron) icon next to the Master PM field then select the Select Value (magnifying glass) icon and choose the appropriate value. Figure 14. Choose Appropriate Master PM IMPORTANT! The status of any PMs generated by the Asset Template must be changed to Active before any Work Orders can generate. Step 7. Select the Save Asset Template icon on the toolbar. Step 8. Before the Asset Template can be used the Status must be changed to Active . Figure 15. Change Asset Template Status Step 9. The Change Status dialog box will appear. Change the Status from DRAFT to ACTIVE and select the OK button. Figure 16. Status - DRAFT to ACTIVE ## REVIEW ## Knowledge Check ## 'A Minute to Win It' Use your Guide, if needed, to answer the following questions within the minute allowed. - 1. In order to generate Work Orders from a PM, to what must that PM's status be set?",
+      "metadata": {
+        "chunk_id": "chunk_009",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6240,
+        "char_end": 7223,
+        "word_count": 179
+      }
+    },
+    {
+      "text": "k ## 'A Minute to Win It' Use your Guide, if needed, to answer the following questions within the minute allowed. - 1. In order to generate Work Orders from a PM, to what must that PM's status be set? - a. Inactive - b. Draft - c. Deactivated - d. Active - 2. True or false: You can use Asset Templates to update multiple work orders - a. True - b. False ## APPENDIX A - CLASSIFY ASSET BUSINESS PROCESS FLOW Figure 17. Classify Asset Business Process Flow Table 1. Classify Asset Business Process | Step Number | Description | |---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | 1.10.1 | The Admin (HTM) receives a newAsset(s) andhas a needto assign a VA-MDNSAssetequipmentcategory and related national standards. The HTM Admin opensthe Asset(s) record and selects the VA-MDNScodefor the Asset.",
+      "metadata": {
+        "chunk_id": "chunk_010",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 7023,
+        "char_end": 7994,
+        "word_count": 133
+      }
+    },
+    {
+      "text": "min (HTM) receives a newAsset(s) andhas a needto assign a VA-MDNSAssetequipmentcategory and related national standards. The HTM Admin opensthe Asset(s) record and selects the VA-MDNScodefor the Asset. | | 1.10.2 | The Admin (HTM) applies an AssetTemplate to a newAsset(s) in Maximo that will contain values for the Asset(s). | | 1.10.3 | The Admin (HTM) will apply a PMscheduleto the Asset(s) throughthe Assettemplate or through the PM application. | | 1.10.4 | Maximo applies a PMto everynewAsset,based on the MasterPM selected for the Asset. | | 1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_011",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 7794,
+        "char_end": 8513,
+        "word_count": 113
+      }
+    },
+    {
+      "text": "selected for the Asset. | | 1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_012",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8313,
+        "char_end": 8513,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "selected for the Asset. | | 1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_013",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8314,
+        "char_end": 8513,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "elected for the Asset. | | 1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_014",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8315,
+        "char_end": 8513,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "lected for the Asset. | | 1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_015",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8316,
+        "char_end": 8513,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "ected for the Asset. | | 1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_016",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8317,
+        "char_end": 8513,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "cted for the Asset. | | 1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_017",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8318,
+        "char_end": 8513,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "ted for the Asset. | | 1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_018",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8319,
+        "char_end": 8513,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "ed for the Asset. | | 1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_019",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8320,
+        "char_end": 8513,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "d for the Asset. | | 1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_020",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8321,
+        "char_end": 8513,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "for the Asset. | | 1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_021",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8322,
+        "char_end": 8513,
+        "word_count": 31
+      }
+    },
+    {
+      "text": "for the Asset. | | 1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_022",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8323,
+        "char_end": 8513,
+        "word_count": 31
+      }
+    },
+    {
+      "text": "or the Asset. | | 1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_023",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8324,
+        "char_end": 8513,
+        "word_count": 31
+      }
+    },
+    {
+      "text": "r the Asset. | | 1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_024",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8325,
+        "char_end": 8513,
+        "word_count": 31
+      }
+    },
+    {
+      "text": "the Asset. | | 1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_025",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8326,
+        "char_end": 8513,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "the Asset. | | 1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_026",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8327,
+        "char_end": 8513,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "he Asset. | | 1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_027",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8328,
+        "char_end": 8513,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "e Asset. | | 1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_028",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8329,
+        "char_end": 8513,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "Asset. | | 1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_029",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8330,
+        "char_end": 8513,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "Asset. | | 1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_030",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8331,
+        "char_end": 8513,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "sset. | | 1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_031",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8332,
+        "char_end": 8513,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "set. | | 1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_032",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8333,
+        "char_end": 8513,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "et. | | 1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_033",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8334,
+        "char_end": 8513,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "t. | | 1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_034",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8335,
+        "char_end": 8513,
+        "word_count": 29
+      }
+    },
+    {
+      "text": ". | | 1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_035",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8336,
+        "char_end": 8513,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "| | 1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_036",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8337,
+        "char_end": 8513,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "| | 1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_037",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8338,
+        "char_end": 8513,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "| 1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_038",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8339,
+        "char_end": 8513,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "| 1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_039",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8340,
+        "char_end": 8513,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_040",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8341,
+        "char_end": 8513,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "1.10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_041",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8342,
+        "char_end": 8513,
+        "word_count": 26
+      }
+    },
+    {
+      "text": ".10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_042",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8343,
+        "char_end": 8513,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "10.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_043",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8344,
+        "char_end": 8513,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "0.5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_044",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8345,
+        "char_end": 8513,
+        "word_count": 26
+      }
+    },
+    {
+      "text": ".5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_045",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8346,
+        "char_end": 8513,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "5 | The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_046",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8347,
+        "char_end": 8513,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "| The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_047",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8348,
+        "char_end": 8513,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "| The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_048",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8349,
+        "char_end": 8513,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_049",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8350,
+        "char_end": 8513,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "The Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_050",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8351,
+        "char_end": 8513,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "he Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_051",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8352,
+        "char_end": 8513,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "e Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_052",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8353,
+        "char_end": 8513,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_053",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8354,
+        "char_end": 8513,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "Admin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_054",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8355,
+        "char_end": 8513,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "dmin (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_055",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8356,
+        "char_end": 8513,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "min (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_056",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8357,
+        "char_end": 8513,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "in (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_057",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8358,
+        "char_end": 8513,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "n (HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_058",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8359,
+        "char_end": 8513,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "(HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_059",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8360,
+        "char_end": 8513,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "(HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_060",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8361,
+        "char_end": 8513,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "HTM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_061",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8362,
+        "char_end": 8513,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "TM) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_062",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8363,
+        "char_end": 8513,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "M) at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_063",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8364,
+        "char_end": 8513,
+        "word_count": 22
+      }
+    },
+    {
+      "text": ") at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_064",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8365,
+        "char_end": 8513,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_065",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8366,
+        "char_end": 8513,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "at a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_066",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8367,
+        "char_end": 8513,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "t a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_067",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8368,
+        "char_end": 8513,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_068",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8369,
+        "char_end": 8513,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "a site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_069",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8370,
+        "char_end": 8513,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_070",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8371,
+        "char_end": 8513,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "site may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_071",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8372,
+        "char_end": 8513,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "ite may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_072",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8373,
+        "char_end": 8513,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "te may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_073",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8374,
+        "char_end": 8513,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "e may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_074",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8375,
+        "char_end": 8513,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_075",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8376,
+        "char_end": 8513,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "may customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_076",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8377,
+        "char_end": 8513,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "ay customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_077",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8378,
+        "char_end": 8513,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "y customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_078",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8379,
+        "char_end": 8513,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_079",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8380,
+        "char_end": 8513,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "customize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_080",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8381,
+        "char_end": 8513,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "ustomize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_081",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8382,
+        "char_end": 8513,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "stomize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_082",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8383,
+        "char_end": 8513,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "tomize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_083",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8384,
+        "char_end": 8513,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "omize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_084",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8385,
+        "char_end": 8513,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "mize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_085",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8386,
+        "char_end": 8513,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "ize the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_086",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8387,
+        "char_end": 8513,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "ze the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_087",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8388,
+        "char_end": 8513,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "e the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_088",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8389,
+        "char_end": 8513,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_089",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8390,
+        "char_end": 8513,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "the PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_090",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8391,
+        "char_end": 8513,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "he PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_091",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8392,
+        "char_end": 8513,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "e PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_092",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8393,
+        "char_end": 8513,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_093",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8394,
+        "char_end": 8513,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "PMcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_094",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8395,
+        "char_end": 8513,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "Mcreatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_095",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8396,
+        "char_end": 8513,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "createdby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_096",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8397,
+        "char_end": 8513,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "reatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_097",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8398,
+        "char_end": 8513,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "eatedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_098",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8399,
+        "char_end": 8513,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "atedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_099",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8400,
+        "char_end": 8513,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "tedby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_100",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8401,
+        "char_end": 8513,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "edby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_101",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8402,
+        "char_end": 8513,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "dby Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_102",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8403,
+        "char_end": 8513,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "by Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_103",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8404,
+        "char_end": 8513,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "y Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_104",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8405,
+        "char_end": 8513,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_105",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8406,
+        "char_end": 8513,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "Maximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_106",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8407,
+        "char_end": 8513,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "aximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_107",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8408,
+        "char_end": 8513,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "ximo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_108",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8409,
+        "char_end": 8513,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "imo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_109",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8410,
+        "char_end": 8513,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "mo. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_110",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8411,
+        "char_end": 8513,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "o. The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_111",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8412,
+        "char_end": 8513,
+        "word_count": 14
+      }
+    },
+    {
+      "text": ". The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_112",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8413,
+        "char_end": 8513,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_113",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8414,
+        "char_end": 8513,
+        "word_count": 13
+      }
+    },
+    {
+      "text": "The Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_114",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8415,
+        "char_end": 8513,
+        "word_count": 13
+      }
+    },
+    {
+      "text": "he Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_115",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8416,
+        "char_end": 8513,
+        "word_count": 13
+      }
+    },
+    {
+      "text": "e Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_116",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8417,
+        "char_end": 8513,
+        "word_count": 13
+      }
+    },
+    {
+      "text": "Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_117",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8418,
+        "char_end": 8513,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "Admin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_118",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8419,
+        "char_end": 8513,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "dmin (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_119",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8420,
+        "char_end": 8513,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "min (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_120",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8421,
+        "char_end": 8513,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "in (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_121",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8422,
+        "char_end": 8513,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "n (HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_122",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8423,
+        "char_end": 8513,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "(HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_123",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8424,
+        "char_end": 8513,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "(HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_124",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8425,
+        "char_end": 8513,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "HTM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_125",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8426,
+        "char_end": 8513,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "TM) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_126",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8427,
+        "char_end": 8513,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "M) reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_127",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8428,
+        "char_end": 8513,
+        "word_count": 11
+      }
+    },
+    {
+      "text": ") reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_128",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8429,
+        "char_end": 8513,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_129",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8430,
+        "char_end": 8513,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "reviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_130",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8431,
+        "char_end": 8513,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "eviewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_131",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8432,
+        "char_end": 8513,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "viewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_132",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8433,
+        "char_end": 8513,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "iewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_133",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8434,
+        "char_end": 8513,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "ewsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_134",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8435,
+        "char_end": 8513,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "wsand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_135",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8436,
+        "char_end": 8513,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "sand activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_136",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8437,
+        "char_end": 8513,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "and activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_137",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8438,
+        "char_end": 8513,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "nd activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_138",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8439,
+        "char_end": 8513,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "d activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_139",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8440,
+        "char_end": 8513,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_140",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8441,
+        "char_end": 8513,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "activates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_141",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8442,
+        "char_end": 8513,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "ctivates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_142",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8443,
+        "char_end": 8513,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "tivates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_143",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8444,
+        "char_end": 8513,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "ivates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_144",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8445,
+        "char_end": 8513,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "vates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_145",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8446,
+        "char_end": 8513,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "ates the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_146",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8447,
+        "char_end": 8513,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "tes the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_147",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8448,
+        "char_end": 8513,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "es the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_148",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8449,
+        "char_end": 8513,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "s the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_149",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8450,
+        "char_end": 8513,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_150",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8451,
+        "char_end": 8513,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "the PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_151",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8452,
+        "char_end": 8513,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "he PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_152",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8453,
+        "char_end": 8513,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "e PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_153",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8454,
+        "char_end": 8513,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_154",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8455,
+        "char_end": 8513,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "PMfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_155",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8456,
+        "char_end": 8513,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "Mfora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_156",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8457,
+        "char_end": 8513,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "fora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_157",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8458,
+        "char_end": 8513,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "ora newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_158",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8459,
+        "char_end": 8513,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "ra newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_159",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8460,
+        "char_end": 8513,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "a newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_160",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8461,
+        "char_end": 8513,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_161",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8462,
+        "char_end": 8513,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "newAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_162",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8463,
+        "char_end": 8513,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "ewAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_163",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8464,
+        "char_end": 8513,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "wAsset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_164",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8465,
+        "char_end": 8513,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "Asset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_165",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8466,
+        "char_end": 8513,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "sset(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_166",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8467,
+        "char_end": 8513,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "set(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_167",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8468,
+        "char_end": 8513,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "et(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_168",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8469,
+        "char_end": 8513,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "t(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_169",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8470,
+        "char_end": 8513,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "(s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_170",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8471,
+        "char_end": 8513,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "s).Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_171",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8472,
+        "char_end": 8513,
+        "word_count": 6
+      }
+    },
+    {
+      "text": ").Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_172",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8473,
+        "char_end": 8513,
+        "word_count": 6
+      }
+    },
+    {
+      "text": ".Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_173",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8474,
+        "char_end": 8513,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "Continue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_174",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8475,
+        "char_end": 8513,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "ontinue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_175",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8476,
+        "char_end": 8513,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "ntinue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_176",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8477,
+        "char_end": 8513,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "tinue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_177",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8478,
+        "char_end": 8513,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "inue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_178",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8479,
+        "char_end": 8513,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "nue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_179",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8480,
+        "char_end": 8513,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "ue to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_180",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8481,
+        "char_end": 8513,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "e to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_181",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8482,
+        "char_end": 8513,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_182",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8483,
+        "char_end": 8513,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "to WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_183",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8484,
+        "char_end": 8513,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "o WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_184",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8485,
+        "char_end": 8513,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_185",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8486,
+        "char_end": 8513,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "WM-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_186",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8487,
+        "char_end": 8513,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "M-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_187",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8488,
+        "char_end": 8513,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "-2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_188",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8489,
+        "char_end": 8513,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "2.5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_189",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8490,
+        "char_end": 8513,
+        "word_count": 4
+      }
+    },
+    {
+      "text": ".5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_190",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8491,
+        "char_end": 8513,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "5, Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_191",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8492,
+        "char_end": 8513,
+        "word_count": 4
+      }
+    },
+    {
+      "text": ", Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_192",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8493,
+        "char_end": 8513,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_193",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8494,
+        "char_end": 8513,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "Schedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_194",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8495,
+        "char_end": 8513,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "chedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_195",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8496,
+        "char_end": 8513,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "hedule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_196",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8497,
+        "char_end": 8513,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "edule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_197",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8498,
+        "char_end": 8513,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "dule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_198",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8499,
+        "char_end": 8513,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "ule PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_199",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8500,
+        "char_end": 8513,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "le PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_200",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8501,
+        "char_end": 8513,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "e PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_201",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8502,
+        "char_end": 8513,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_202",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8503,
+        "char_end": 8513,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "PMWork. |",
+      "metadata": {
+        "chunk_id": "chunk_203",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8504,
+        "char_end": 8513,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "MWork. |",
+      "metadata": {
+        "chunk_id": "chunk_204",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8505,
+        "char_end": 8513,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "Work. |",
+      "metadata": {
+        "chunk_id": "chunk_205",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8506,
+        "char_end": 8513,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "ork. |",
+      "metadata": {
+        "chunk_id": "chunk_206",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8507,
+        "char_end": 8513,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "rk. |",
+      "metadata": {
+        "chunk_id": "chunk_207",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8508,
+        "char_end": 8513,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "k. |",
+      "metadata": {
+        "chunk_id": "chunk_208",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8509,
+        "char_end": 8513,
+        "word_count": 2
+      }
+    },
+    {
+      "text": ". |",
+      "metadata": {
+        "chunk_id": "chunk_209",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8510,
+        "char_end": 8513,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "|",
+      "metadata": {
+        "chunk_id": "chunk_210",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8511,
+        "char_end": 8513,
+        "word_count": 1
+      }
+    },
+    {
+      "text": "|",
+      "metadata": {
+        "chunk_id": "chunk_211",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 8512,
+        "char_end": 8513,
+        "word_count": 1
+      }
+    }
+  ]
+}

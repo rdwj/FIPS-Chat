@@ -37,7 +37,7 @@ def initialize_rag_system():
         st.session_state.search_engine = TFIDFSearchEngine(st.session_state.rag_storage)
         # Initialize search engine from stored documents
         try:
-            st.session_state.search_engine.build_index_from_storage()
+            st.session_state.search_engine.build_index()
         except Exception as e:
             logger.error(f"Error building search index: {e}")
 
@@ -189,11 +189,11 @@ def process_uploaded_files(files: List, overwrite_existing: bool = False, auto_i
         with col3:
             st.metric("❌ Failed", failed_count)
     
-    # Rebuild search index if requested and documents were processed
+                # Rebuild search index if requested and documents were processed
     if auto_index and processed_count > 0:
         with st.spinner("Building search index..."):
             try:
-                st.session_state.search_engine.build_index_from_storage()
+                st.session_state.search_engine.build_index(force_rebuild=True)
                 st.success("🔍 Search index updated successfully!")
             except Exception as e:
                 st.error(f"Failed to update search index: {str(e)}")
@@ -435,7 +435,7 @@ def show_document_stats(doc: DocumentIndex):
             if word_counts:
                 import pandas as pd
                 df = pd.DataFrame({'Word Count': word_counts})
-                st.histogram(df, x='Word Count', bins=20)
+                st.bar_chart(df.set_index('Word Count'))
                 
         except Exception as e:
             st.error(f"Error generating statistics: {str(e)}")
@@ -466,7 +466,7 @@ def delete_document(doc: DocumentIndex):
             
             # Rebuild search index
             with st.spinner("Updating search index..."):
-                st.session_state.search_engine.build_index_from_storage()
+                st.session_state.search_engine.build_index(force_rebuild=True)
             
             # Add to history
             if "upload_history" not in st.session_state:
@@ -562,7 +562,7 @@ def rebuild_search_index():
     """Rebuild the search index from stored documents."""
     try:
         with st.spinner("Rebuilding search index..."):
-            st.session_state.search_engine.build_index_from_storage()
+            st.session_state.search_engine.build_index(force_rebuild=True)
         st.success("✅ Search index rebuilt successfully!")
         
         # Show index stats
@@ -636,7 +636,7 @@ def clean_storage():
             # Rebuild search index after cleanup  
             if cleanup_results.get('removed_old_documents', 0) > 0:
                 with st.spinner("Updating search index..."):
-                    st.session_state.search_engine.build_index_from_storage()
+                    st.session_state.search_engine.build_index(force_rebuild=True)
                     
         except Exception as e:
             st.error(f"Error during cleanup: {str(e)}")

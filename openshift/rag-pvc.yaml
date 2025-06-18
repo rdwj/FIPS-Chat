@@ -1,0 +1,35 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: rag-storage
+  labels:
+    app: fips-chat
+    component: rag-storage
+    app.kubernetes.io/name: fips-chat
+    app.kubernetes.io/component: rag-storage
+    app.kubernetes.io/part-of: ollama-platform
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 10Gi  # Sufficient for demo (300 pages, 75 PDFs)
+  storageClassName: gp3-csi  # Use appropriate storage class for your cluster
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: rag-cache
+  labels:
+    app: fips-chat
+    component: rag-cache
+    app.kubernetes.io/name: fips-chat
+    app.kubernetes.io/component: rag-cache
+    app.kubernetes.io/part-of: ollama-platform
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 2Gi  # For search indexes and cache
+  storageClassName: gp3-csi  # Use appropriate storage class for your cluster 

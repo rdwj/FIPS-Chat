@@ -11,6 +11,8 @@ from config import get_config, get_all_api_templates, get_api_template
 from ui_components.model_selector import render_model_selector, render_model_management
 from ui_components.chat_interface import render_chat_interface, get_chat_statistics
 from ui_components.image_interface import render_image_interface, get_image_statistics
+from ui_components.document_interface import render_document_interface, get_document_statistics
+from ui_components.rag_chat_interface import render_rag_chat_interface, get_rag_chat_statistics
 from utils.session_manager import (
     initialize_session_state, 
     get_session_statistics, 
@@ -365,6 +367,27 @@ def render_statistics():
         if chat_stats.get("avg_response_time", 0) > 0:
             st.metric("Avg Response", f"{chat_stats['avg_response_time']:.1f}s")
     
+    # RAG chat stats
+    try:
+        rag_stats = get_rag_chat_statistics()
+        if rag_stats.get("total_messages", 0) > 0:
+            st.metric("RAG Messages", rag_stats["total_messages"])
+            if rag_stats.get("rag_messages", 0) > 0:
+                st.metric("RAG Enhanced", rag_stats["rag_messages"])
+    except Exception:
+        pass
+    
+    # Document stats
+    try:
+        doc_stats = get_document_statistics()
+        if doc_stats.get("total_documents", 0) > 0:
+            st.metric("Documents", doc_stats["total_documents"])
+            disk_mb = doc_stats.get("disk_usage_mb", 0)
+            if disk_mb > 0:
+                st.metric("Storage", f"{disk_mb:.1f} MB")
+    except Exception:
+        pass
+    
     # Image stats
     image_stats = stats.get("image_stats", {})
     if image_stats.get("total_images", 0) > 0:
@@ -377,13 +400,29 @@ def render_sidebar_actions():
     """Render sidebar action buttons."""
     st.subheader("🔧 Actions")
     
-    if st.button("🗑️ Clear All Data", help="Clear all chat and image data"):
+    if st.button("🗑️ Clear Chat Data", help="Clear all chat and image data"):
         clear_all_session_data()
-        st.success("All data cleared!")
+        # Also clear RAG chat data
+        if "rag_chat_messages" in st.session_state:
+            st.session_state.rag_chat_messages = []
+        st.success("All chat data cleared!")
         st.rerun()
     
     if st.button("📊 Export Session", help="Export session data"):
         export_session_data()
+    
+    # RAG-specific actions
+    st.divider()
+    st.write("**RAG Actions**")
+    
+    if st.button("🔄 Rebuild Search Index", help="Rebuild document search index"):
+        try:
+            from ui_components.document_interface import initialize_rag_system
+            initialize_rag_system()
+            st.session_state.search_engine.build_index_from_storage()
+            st.success("Search index rebuilt!")
+        except Exception as e:
+            st.error(f"Failed to rebuild index: {str(e)}")
     
     # Memory warning
     if should_show_memory_warning():
@@ -412,20 +451,26 @@ def export_session_data():
 def render_main_content():
     """Render main content area with tabs."""
     # Create tabs
-    tab1, tab2, tab3 = st.tabs(["💬 Chat", "🖼️ Image Analysis", "🔧 Models"])
+    tab1, tab2, tab3, tab4, tab5 = st.tabs(["💬 Chat", "🔍 RAG Chat", "📄 Documents", "🖼️ Image Analysis", "🔧 Models"])
     
     with tab1:
         render_chat_tab()
     
     with tab2:
-        render_image_tab()
+        render_rag_chat_tab()
     
     with tab3:
+        render_documents_tab()
+    
+    with tab4:
+        render_image_tab()
+    
+    with tab5:
         render_models_tab()
 
 
 def render_chat_tab():
-    """Render chat interface tab."""
+    """Render standard chat interface tab."""
     # Check if API is configured
     api_endpoint = st.session_state.get("api_endpoint")
     if not api_endpoint:
@@ -439,10 +484,48 @@ def render_chat_tab():
         return
     
     # Show current configuration
-    st.info(f"Using model: **{selected_model}**")
+    col1, col2 = st.columns([3, 1])
+    with col1:
+        st.info(f"💬 Standard Chat Mode • Using model: **{selected_model}**")
+    with col2:
+        if st.button("🔍 Switch to RAG Chat"):
+            st.session_state.active_tab = "rag_chat"
+            st.rerun()
     
     # Render chat interface
     render_chat_interface()
+
+
+def render_rag_chat_tab():
+    """Render RAG-enhanced chat interface tab."""
+    # Check if API is configured
+    api_endpoint = st.session_state.get("api_endpoint")
+    if not api_endpoint:
+        st.warning("Please configure your API endpoint in the sidebar.")
+        return
+    
+    # Check if model is selected
+    selected_model = st.session_state.get("selected_chat_model")
+    if not selected_model:
+        st.warning("Please select a chat model in the sidebar.")
+        return
+    
+    # Show current configuration
+    col1, col2 = st.columns([3, 1])
+    with col1:
+        st.info(f"🔍 RAG-Enhanced Chat Mode • Using model: **{selected_model}**")
+    with col2:
+        if st.button("💬 Switch to Standard Chat"):
+            st.session_state.active_tab = "standard_chat"
+            st.rerun()
+    
+    # Render RAG chat interface
+    render_rag_chat_interface()
+
+
+def render_documents_tab():
+    """Render documents management tab."""
+    render_document_interface()
 
 
 def render_image_tab():

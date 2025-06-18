@@ -1,0 +1,38 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: fips-chat-rag-config
+  labels:
+    app: fips-chat
+    component: rag-config
+    app.kubernetes.io/name: fips-chat
+    app.kubernetes.io/component: rag-config
+    app.kubernetes.io/part-of: ollama-platform
+data:
+  # RAG Core Settings
+  ENABLE_RAG: "true"
+  RAG_STORAGE_PATH: "/mnt/rag-storage"
+  RAG_CACHE_PATH: "/mnt/rag-cache"
+  
+  # Memory and Performance
+  RAG_MAX_MEMORY_MB: "100"
+  RAG_CACHE_SIZE: "50"
+  
+  # Document Processing
+  RAG_CHUNK_SIZE: "1000"
+  RAG_CHUNK_OVERLAP: "200"
+  RAG_MAX_DOCUMENT_SIZE_MB: "10"
+  RAG_MAX_DOCUMENTS: "100"
+  
+  # Search Configuration
+  RAG_MAX_SEARCH_RESULTS: "5"
+  RAG_RELEVANCE_THRESHOLD: "0.1"
+  RAG_TFIDF_MAX_FEATURES: "5000"
+  
+  # Demo Environment
+  RAG_DEMO_MODE: "true"
+  RAG_DEMO_MAX_PAGES: "300"
+  RAG_DEMO_MAX_PDFS: "75"
+  
+  # FIPS Compliance
+  RAG_HASH_ALGORITHM: "sha256" 

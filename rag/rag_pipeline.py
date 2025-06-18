@@ -136,9 +136,13 @@ class ContextManager:
                     sources.append(source)
                 break
         
-        # Build context string
-        context = "\n\n".join(f"[Source {i+1}]: {chunk}" 
-                             for i, chunk in enumerate(selected_chunks))
+        # Build context string with clear document identification
+        context_parts = []
+        for i, (chunk, source) in enumerate(zip(selected_chunks, sources)):
+            context_parts.append(
+                f"[From {source.document}, Page {source.page_number}, Section: {source.section_title}]:\n{chunk}"
+            )
+        context = "\n\n".join(context_parts)
         
         return context, sources
     
@@ -252,10 +256,12 @@ class RAGPromptTemplates:
 
 Guidelines:
 1. Use the provided context to inform your response
-2. Always cite your sources using [Source N] format when referencing specific information
-3. If the context doesn't fully answer the question, you may supplement with general knowledge but clearly distinguish this
-4. If the context contradicts your general knowledge, defer to the context
-5. Be precise and factual, avoiding speculation
+2. When referencing information from the documents, ALWAYS include both the document name and a relevant quote/snippet from that document
+3. Format your citations as: "According to [Document Name], '[brief relevant quote]'"
+4. If the context doesn't fully answer the question, you may supplement with general knowledge but clearly distinguish this
+5. If the context contradicts your general knowledge, defer to the context
+6. Be precise and factual, avoiding speculation
+7. Always include specific examples or quotes from the source documents when possible
 
 Context:
 {context}
@@ -265,7 +271,7 @@ Available Sources:
 
 Question: {query}
 
-Please provide a comprehensive answer and cite relevant sources."""
+Please provide a comprehensive answer that includes direct references to document names and relevant quotes/snippets from those documents."""
     
     FALLBACK_PROMPT = """The user asked: {query}
 
@@ -284,25 +290,29 @@ Available Sources:
 {sources}
 
 Please provide a comprehensive answer that:
-1. Uses the available context where relevant, citing sources with [Source N] format
-2. Supplements with your general knowledge where the context is insufficient
-3. Clearly distinguishes between information from the provided context and your general knowledge
-4. Indicates any limitations in the available information"""
+1. Uses the available context where relevant, citing documents by name with relevant quotes: "According to [Document Name], '[relevant quote]'"
+2. Supplements with your general knowledge where the context is insufficient, but clearly mark this as general knowledge
+3. Always include specific document names and quotes when referencing the provided context
+4. Indicates any limitations in the available information
+5. Distinguishes between information from the provided documents and your general knowledge"""
     
     @classmethod
     def format_sources_list(cls, sources: List[SourceCitation]) -> str:
-        """Format sources list for prompt inclusion."""
+        """Format sources list for prompt inclusion with enhanced details."""
         if not sources:
             return "No sources available."
         
         sources_text = []
         for i, source in enumerate(sources, 1):
-            sources_text.append(
+            # Include more detailed source information for better citation
+            source_info = (
                 f"Source {i}: {source.document}, Page {source.page_number}"
-                f" (Section: {source.section_title})"
+                f" (Section: {source.section_title})\n"
+                f"  Key excerpt: \"{source.excerpt}\""
             )
+            sources_text.append(source_info)
         
-        return "\n".join(sources_text)
+        return "\n\n".join(sources_text)
     
     @classmethod
     def get_prompt_for_mode(cls, mode: str, query: str, context: str, sources: List[SourceCitation]) -> str:

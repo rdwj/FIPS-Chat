@@ -1,0 +1,2367 @@
+{
+  "metadata": {
+    "doc_id": "24dcabfcbd273b9873afa4fb69a51e4c8083450489d71dfc5caaa100a3e4ef21",
+    "filename": "tmp0kms_dsg.pdf",
+    "upload_timestamp": "2025-06-18T16:44:35.268224",
+    "total_pages": 5,
+    "total_chunks": 214,
+    "processing_status": "completed",
+    "file_size_bytes": 935843
+  },
+  "chunks": [
+    {
+      "text": "## Maximo\u00ae Training IT Tech User Guide MANAGE ASSET INVENTORY (EILS) April 2023 User Guide Manage Asset Inventory (EILs) - IT Tech THIS PAGE INTENTIONALLY LEFT BLANK ## TABLE OF CONTENTS | Manage Asset Inventory (EIL S ) ................................................................................................. 1 | |---------------------------------------------------------------------------------------------------------------------------------------------| | Summary............................................................................................................................. 1 | | User Roles and Responsibilities ........................................................................................ 1 | | Learning Objectives.......................................................................................................... 1 | | Agenda..............................................................................",
+      "metadata": {
+        "chunk_id": "chunk_001",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 0,
+        "char_end": 951,
+        "word_count": 61
+      }
+    },
+    {
+      "text": "......................................................................................................... 1 | | Agenda............................................................................................................................ 1 | | Acronyms Used in This Lesson.................................................................................................. 2 | | Update Last inventory Date and Asset Location ........................................................................ 3 | | Update Asset Location ......................................................................................................... 7 | | Review...................................................................................................................................10 | | Knowledge Check................................................................................................................10 | | Appendix A- Manage Asset Inventory Business Process.",
+      "metadata": {
+        "chunk_id": "chunk_002",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 755,
+        "char_end": 1726,
+        "word_count": 48
+      }
+    },
+    {
+      "text": "......10 | | Knowledge Check................................................................................................................10 | | Appendix A- Manage Asset Inventory Business Process..........................................................11 | User Guide Manage Asset Inventory (EILs) - IT Tech ## THIS PAGE INTENTIONALLY LEFT BLANK ## MANAGE ASSET INVENTORY (EILS) ## Summary This lesson provides an overview of how to perform activities necessary to physically inventory Assets and reconcile EIL information in Maximo. For more information about this process, please go to Appendix A - Manage Asset Inventory Business Process to view the flowchart and process narrative. ## User Roles and Responsibilities The audience for this training includes the following user roles: | Role | Responsibility | |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------",
+      "metadata": {
+        "chunk_id": "chunk_003",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 1527,
+        "char_end": 2526,
+        "word_count": 103
+      }
+    },
+    {
+      "text": "Responsibility | |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | Custodial Official | Certifies Assetinventories of assigned equipmentinventory lists (EIL); participates in EIL inventory spot check; approves requestsfor Assetturn- ins; assigns EIL alternate officials | | NX Admin | Creates newAssetrecords (individually or in bulk using Asset templates); runs EIL reports; updates Assetlocation and last inventory date; processes and records Assetturn ins and disposition; manages/coordinates report of surveyWork Orders | | NX Tech | Creates newequipmentrecords individually; runs EIL reports and updates location and last inventory date for Assets;retrieves, processesand records Assetturn ins and disposition; manages/coordinates Report of SurveyWork Orders | ## Learning Objec",
+      "metadata": {
+        "chunk_id": "chunk_004",
+        "page_number": 2,
+        "section_title": "Content",
+        "char_start": 2326,
+        "char_end": 3326,
+        "word_count": 98
+      }
+    },
+    {
+      "text": "s EIL reports and updates location and last inventory date for Assets;retrieves, processesand records Assetturn ins and disposition; manages/coordinates Report of SurveyWork Orders | ## Learning Objectives - \u00b7 Describe the process for managing Asset inventory - \u00b7 Update Last Inventory Date and Asset Location in Maximo ## Agenda | Topic | Estimated Time | |----------------------------------------------|------------------| | Introduction | 05 min | | Update Last Inventory Date and AssetLocation | 45 min | | Review/Knowledge Check | 05 min | | TOTAL: | 55 min | ## ACRONYMS USED IN THIS LESSON | Acronym | Description | |-----------|---------------------------------------------------------------------| | AEMS/MERS | AutomatedEngineeringManagementSystem/MedicalEquipmentRepair Service | | BIRT | BusinessIntelligence andReporting Tool | | EIL | Equipment Inventory List | | RTLS | Real-Time Locating System | | VA | DepartmentofVeteransAffairs | | VHA | VeteransHealthAdministration | ## UPDATE L",
+      "metadata": {
+        "chunk_id": "chunk_005",
+        "page_number": 2,
+        "section_title": "Content",
+        "char_start": 3126,
+        "char_end": 4126,
+        "word_count": 138
+      }
+    },
+    {
+      "text": "BusinessIntelligence andReporting Tool | | EIL | Equipment Inventory List | | RTLS | Real-Time Locating System | | VA | DepartmentofVeteransAffairs | | VHA | VeteransHealthAdministration | ## UPDATE LAST INVENTORY DATE AND ASSET LOCATION The Assets application is used to view and update the Last Inventory Date and related fields for your Assets (equipment). The Last Inventory Date , Last Inventory By , and Last Inventory Memo fields are automatically updated when: - \u00b7 A Work Order with an associated Asset is changed to a status of completed - \u00b7 An Asset barcode scan is imported into Maximo - \u00b7 An Asset is manually updated in the Maximo Asset application To update the last inventory date, follow these steps: - Step 1. On the Start Center , under the Favorite Applications portlet, select Assets . - Step 2. The Assets application opens on the List tab. - Step 3. Search for the Asset (equipment) you want to view or update by entering information in the Filter Fields on the List tab.",
+      "metadata": {
+        "chunk_id": "chunk_006",
+        "page_number": 2,
+        "section_title": "Content",
+        "char_start": 3926,
+        "char_end": 4919,
+        "word_count": 173
+      }
+    },
+    {
+      "text": "- Step 2. The Assets application opens on the List tab. - Step 3. Search for the Asset (equipment) you want to view or update by entering information in the Filter Fields on the List tab. - Step 4. Press Enter . Your search results display. Figure 1. Select Assets from Favorite Applications portlet Figure 2. Asset Search Results Step 5. Select the appropriate Asset Number to open the Asset record. Step 6. Scroll down to the Details section and review the following inventory-related fields. - \u00b7 Last Inventory Date - \u00b7 Last Inventory By - \u00b7 Last Inventory Memo Figure 3. Asset Details, Inventory-related Fields Step 7. To update the Asset's Last Inventory Date , from the Select Action drop-down menu, select Update Inventory Date . The Update Last Inventory Date dialog box opens. Figure 4. Select Action Update Last Inventory Date Figure 5. Update Last Inventory Date Dialog Box Step 8. Select the Select Date and Time (calendar) icon next to the Last Inventory Date field.",
+      "metadata": {
+        "chunk_id": "chunk_007",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 4731,
+        "char_end": 5711,
+        "word_count": 168
+      }
+    },
+    {
+      "text": "Figure 4. Select Action Update Last Inventory Date Figure 5. Update Last Inventory Date Dialog Box Step 8. Select the Select Date and Time (calendar) icon next to the Last Inventory Date field. The Select Date and Time assistant appears. Figure 6. Select Date and Time Assistant Step 9. Select the appropriate inventory date and time, then select the OK button. The following data automatically populates: - \u00b7 The Last Inventory Date field contains the date you selected. - \u00b7 The Last Inventory Change By field contains the logged in VHA User ID. - \u00b7 The Last Inventory Memo field contains data, such as 'Based on Manual Update by NXTECH_CLV'. NOTE : If a Work Order status is changed to completed and an Asset is associated to the Work Order, the Last Inventory Memo field will automatically populate with data such as 'Based on Work Order 12345.' If the Asset's Last Inventory Date is updated by RTLS, the Last Inventory Memo field will automatically update with 'Based on RTLS.",
+      "metadata": {
+        "chunk_id": "chunk_008",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 5517,
+        "char_end": 6498,
+        "word_count": 169
+      }
+    },
+    {
+      "text": "utomatically populate with data such as 'Based on Work Order 12345.' If the Asset's Last Inventory Date is updated by RTLS, the Last Inventory Memo field will automatically update with 'Based on RTLS.' Step 10. Select the OK button. The dialog box closes and the inventory-related fields in the Details section display the updated information. Figure 7. Details Section Step 11. Select the Save Asset icon on the toolbar. Figure 8: Toolbar - Save Asset Icon ## Update Asset Location An Asset's location is updated using the Move/Modify functionality in the Assets application. An Asset can be moved to a new location using a Work Order or directly in the Assets Application. When an Asset is moved from one site to another, a new barcode label will be generated using the new site's Station Number and applied to the Asset. To update an Asset's location, follow these steps: - Step 1. Select Assets from the Favorite Applications portlet on the Start Center .",
+      "metadata": {
+        "chunk_id": "chunk_009",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6298,
+        "char_end": 7257,
+        "word_count": 163
+      }
+    },
+    {
+      "text": "ed using the new site's Station Number and applied to the Asset. To update an Asset's location, follow these steps: - Step 1. Select Assets from the Favorite Applications portlet on the Start Center . The Assets application opens to the List tab. - Step 2. Type the Asset number of the equipment you want to move in the Asset field. NOTE: If you do not know the Asset number, type in at least the last 5 digits of the equipment number into the AEMS/MERS Ref ID (EE Number) field. - Step 3. Press Enter on your keyboard. - Step 4. Highlight the row of the Asset you want to move and then select the Move/Modify Assets icon on the toolbar. The Move/Modify Assets dialog box displays. Figure 9 . Assets - Move/Modify Icon - Step 5. Next to Location, select the Detail Menu (chevron) icon then select the Select Value (magnifying glass) icon. The Select Value dialog box displays. Figure 10. Move/Modify Assets Dialog Box ## Step 6. Search for the appropriate location by scanning the list or using the F",
+      "metadata": {
+        "chunk_id": "chunk_010",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 7057,
+        "char_end": 8057,
+        "word_count": 182
+      }
+    },
+    {
+      "text": "The Select Value dialog box displays. Figure 10. Move/Modify Assets Dialog Box ## Step 6. Search for the appropriate location by scanning the list or using the Filter Fields . Figure 11. Location Select Value Dialog Box - Step 7. Select the location you want. The To Location field populates on the Move/Modify dialog box. Figure 12. Move/Modify Assets Dialog Box Step 8. If you need to change the parent of the Asset, do the following: - \u00b7 Next to the To Parent field, select the Detail Menu (chevron) icon. - \u00b7 Select the Select Value (magnifying glass) icon to search for Assets. - \u00b7 From your results, select the appropriate parent Asset. Step 9. Select the OK button. A System Message displays informing you of a successful move. Figure 13. System Message - Asset Move Successful Step 10. Select the OK button to close the message. The new location displays in the Location field on the Asset tab. Figure 14.",
+      "metadata": {
+        "chunk_id": "chunk_011",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 7895,
+        "char_end": 8809,
+        "word_count": 161
+      }
+    },
+    {
+      "text": "Figure 13. System Message - Asset Move Successful Step 10. Select the OK button to close the message. The new location displays in the Location field on the Asset tab. Figure 14. Asset Record - Location ## REVIEW ## Knowledge Check You will have 'A Minute to Win It.' You will have one minute to answer the questions listed. You can use your participant guide, if needed. Remember you only have one minute. When time is called, the class will review the answers. - 1. Which roles will create new EILs (choose all that apply)? - a. NX Tech - b. NX Admin - c. HTM Admin - 2. What are examples of documents that might be attached to EILs (choose all that apply)? - a. Property Pass - b. Work Order Report - c. Spot Check Certifications - d. All of the above - 3. True or False? To update the Asset's location, you use the Move/Modify function in Maximo. - a. True - b. False - 4. True or False? Once you set the Last Reconciled Date, Maximo automatically populates the Next Reconci",
+      "metadata": {
+        "chunk_id": "chunk_012",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8630,
+        "char_end": 9609,
+        "word_count": 185
+      }
+    },
+    {
+      "text": "update the Asset's location, you use the Move/Modify function in Maximo. - a. True - b. False - 4. True or False? Once you set the Last Reconciled Date, Maximo automatically populates the Next Reconcile Date. - a. True - b. False ## APPENDIX A - MANAGE ASSET INVENTORY BUSINESS PROCESS Figure 15: Manage Asset Inventory Business Process Table 1. Manage Asset Inventory Business Process | Step Number | Description | |---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | 1.3.1 | The Admin (NX), Tech (NX) produces the EIL Report(s) using Maximo, and manually provides themto the Custodial Official. | | 1.3.2 | The Custodial Official manually conducts the EIL physical inventory, and provides the Admin (NX), Tech (NX) updated Assetinformation.",
+      "metadata": {
+        "chunk_id": "chunk_013",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 9409,
+        "char_end": 10368,
+        "word_count": 115
+      }
+    },
+    {
+      "text": ", and manually provides themto the Custodial Official. | | 1.3.2 | The Custodial Official manually conducts the EIL physical inventory, and provides the Admin (NX), Tech (NX) updated Assetinformation. | | 1.3.3 | The Admin (NX), Tech (NX) updates the Assets' location and Last Inventory Date fields using Maximo (either directly through the Maximo interface or via a barcode scan upload). | | 1.3.4 | Using Maximo, the Admin (NX), Tech (NX) re-runs the EIL Exception Report, and manually determineswhetheror not the inventory is complete. If the inventory is NOTcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_014",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10168,
+        "char_end": 10900,
+        "word_count": 116
+      }
+    },
+    {
+      "text": "plete. If the inventory is NOTcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_015",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10700,
+        "char_end": 10900,
+        "word_count": 31
+      }
+    },
+    {
+      "text": "lete. If the inventory is NOTcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_016",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10701,
+        "char_end": 10900,
+        "word_count": 31
+      }
+    },
+    {
+      "text": "ete. If the inventory is NOTcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_017",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10702,
+        "char_end": 10900,
+        "word_count": 31
+      }
+    },
+    {
+      "text": "te. If the inventory is NOTcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_018",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10703,
+        "char_end": 10900,
+        "word_count": 31
+      }
+    },
+    {
+      "text": "e. If the inventory is NOTcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_019",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10704,
+        "char_end": 10900,
+        "word_count": 31
+      }
+    },
+    {
+      "text": ". If the inventory is NOTcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_020",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10705,
+        "char_end": 10900,
+        "word_count": 31
+      }
+    },
+    {
+      "text": "If the inventory is NOTcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_021",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10706,
+        "char_end": 10900,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "If the inventory is NOTcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_022",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10707,
+        "char_end": 10900,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "f the inventory is NOTcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_023",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10708,
+        "char_end": 10900,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "the inventory is NOTcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_024",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10709,
+        "char_end": 10900,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "the inventory is NOTcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_025",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10710,
+        "char_end": 10900,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "he inventory is NOTcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_026",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10711,
+        "char_end": 10900,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "e inventory is NOTcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_027",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10712,
+        "char_end": 10900,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "inventory is NOTcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_028",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10713,
+        "char_end": 10900,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "inventory is NOTcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_029",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10714,
+        "char_end": 10900,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "nventory is NOTcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_030",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10715,
+        "char_end": 10900,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "ventory is NOTcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_031",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10716,
+        "char_end": 10900,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "entory is NOTcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_032",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10717,
+        "char_end": 10900,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "ntory is NOTcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_033",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10718,
+        "char_end": 10900,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "tory is NOTcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_034",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10719,
+        "char_end": 10900,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "ory is NOTcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_035",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10720,
+        "char_end": 10900,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "ry is NOTcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_036",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10721,
+        "char_end": 10900,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "y is NOTcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_037",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10722,
+        "char_end": 10900,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "is NOTcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_038",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10723,
+        "char_end": 10900,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "is NOTcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_039",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10724,
+        "char_end": 10900,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "s NOTcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_040",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10725,
+        "char_end": 10900,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "NOTcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_041",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10726,
+        "char_end": 10900,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "NOTcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_042",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10727,
+        "char_end": 10900,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "OTcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_043",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10728,
+        "char_end": 10900,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "Tcomplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_044",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10729,
+        "char_end": 10900,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "complete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_045",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10730,
+        "char_end": 10900,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "omplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_046",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10731,
+        "char_end": 10900,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "mplete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_047",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10732,
+        "char_end": 10900,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "plete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_048",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10733,
+        "char_end": 10900,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "lete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_049",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10734,
+        "char_end": 10900,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "ete,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_050",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10735,
+        "char_end": 10900,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "te,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_051",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10736,
+        "char_end": 10900,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "e,proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_052",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10737,
+        "char_end": 10900,
+        "word_count": 26
+      }
+    },
+    {
+      "text": ",proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_053",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10738,
+        "char_end": 10900,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "proceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_054",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10739,
+        "char_end": 10900,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "roceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_055",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10740,
+        "char_end": 10900,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "oceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_056",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10741,
+        "char_end": 10900,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "ceed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_057",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10742,
+        "char_end": 10900,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "eed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_058",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10743,
+        "char_end": 10900,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "ed to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_059",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10744,
+        "char_end": 10900,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "d to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_060",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10745,
+        "char_end": 10900,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_061",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10746,
+        "char_end": 10900,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "to step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_062",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10747,
+        "char_end": 10900,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "o step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_063",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10748,
+        "char_end": 10900,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_064",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10749,
+        "char_end": 10900,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "step 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_065",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10750,
+        "char_end": 10900,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "tep 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_066",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10751,
+        "char_end": 10900,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "ep 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_067",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10752,
+        "char_end": 10900,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "p 1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_068",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10753,
+        "char_end": 10900,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_069",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10754,
+        "char_end": 10900,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "1.3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_070",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10755,
+        "char_end": 10900,
+        "word_count": 23
+      }
+    },
+    {
+      "text": ".3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_071",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10756,
+        "char_end": 10900,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "3.5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_072",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10757,
+        "char_end": 10900,
+        "word_count": 23
+      }
+    },
+    {
+      "text": ".5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_073",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10758,
+        "char_end": 10900,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "5, and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_074",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10759,
+        "char_end": 10900,
+        "word_count": 23
+      }
+    },
+    {
+      "text": ", and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_075",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10760,
+        "char_end": 10900,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_076",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10761,
+        "char_end": 10900,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "and if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_077",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10762,
+        "char_end": 10900,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "nd if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_078",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10763,
+        "char_end": 10900,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "d if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_079",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10764,
+        "char_end": 10900,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_080",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10765,
+        "char_end": 10900,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "if the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_081",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10766,
+        "char_end": 10900,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "f the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_082",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10767,
+        "char_end": 10900,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_083",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10768,
+        "char_end": 10900,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "the inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_084",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10769,
+        "char_end": 10900,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "he inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_085",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10770,
+        "char_end": 10900,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "e inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_086",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10771,
+        "char_end": 10900,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_087",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10772,
+        "char_end": 10900,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "inventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_088",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10773,
+        "char_end": 10900,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "nventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_089",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10774,
+        "char_end": 10900,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "ventory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_090",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10775,
+        "char_end": 10900,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "entory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_091",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10776,
+        "char_end": 10900,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "ntory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_092",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10777,
+        "char_end": 10900,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "tory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_093",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10778,
+        "char_end": 10900,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "ory IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_094",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10779,
+        "char_end": 10900,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "ry IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_095",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10780,
+        "char_end": 10900,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "y IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_096",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10781,
+        "char_end": 10900,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_097",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10782,
+        "char_end": 10900,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "IS complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_098",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10783,
+        "char_end": 10900,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "S complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_099",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10784,
+        "char_end": 10900,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_100",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10785,
+        "char_end": 10900,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "complete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_101",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10786,
+        "char_end": 10900,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "omplete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_102",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10787,
+        "char_end": 10900,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "mplete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_103",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10788,
+        "char_end": 10900,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "plete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_104",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10789,
+        "char_end": 10900,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "lete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_105",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10790,
+        "char_end": 10900,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "ete,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_106",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10791,
+        "char_end": 10900,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "te,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_107",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10792,
+        "char_end": 10900,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "e,proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_108",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10793,
+        "char_end": 10900,
+        "word_count": 17
+      }
+    },
+    {
+      "text": ",proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_109",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10794,
+        "char_end": 10900,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "proceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_110",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10795,
+        "char_end": 10900,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "roceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_111",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10796,
+        "char_end": 10900,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "oceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_112",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10797,
+        "char_end": 10900,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "ceed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_113",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10798,
+        "char_end": 10900,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "eed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_114",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10799,
+        "char_end": 10900,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "ed to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_115",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10800,
+        "char_end": 10900,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "d to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_116",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10801,
+        "char_end": 10900,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_117",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10802,
+        "char_end": 10900,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "to step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_118",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10803,
+        "char_end": 10900,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "o step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_119",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10804,
+        "char_end": 10900,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_120",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10805,
+        "char_end": 10900,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "step1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_121",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10806,
+        "char_end": 10900,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "tep1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_122",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10807,
+        "char_end": 10900,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "ep1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_123",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10808,
+        "char_end": 10900,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "p1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_124",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10809,
+        "char_end": 10900,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "1.3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_125",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10810,
+        "char_end": 10900,
+        "word_count": 15
+      }
+    },
+    {
+      "text": ".3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_126",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10811,
+        "char_end": 10900,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "3.6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_127",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10812,
+        "char_end": 10900,
+        "word_count": 15
+      }
+    },
+    {
+      "text": ".6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_128",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10813,
+        "char_end": 10900,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "6. | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_129",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10814,
+        "char_end": 10900,
+        "word_count": 15
+      }
+    },
+    {
+      "text": ". | | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_130",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10815,
+        "char_end": 10900,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "| | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_131",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10816,
+        "char_end": 10900,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "| | 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_132",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10817,
+        "char_end": 10900,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "| 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_133",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10818,
+        "char_end": 10900,
+        "word_count": 13
+      }
+    },
+    {
+      "text": "| 1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_134",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10819,
+        "char_end": 10900,
+        "word_count": 13
+      }
+    },
+    {
+      "text": "1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_135",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10820,
+        "char_end": 10900,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "1.3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_136",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10821,
+        "char_end": 10900,
+        "word_count": 12
+      }
+    },
+    {
+      "text": ".3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_137",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10822,
+        "char_end": 10900,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "3.5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_138",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10823,
+        "char_end": 10900,
+        "word_count": 12
+      }
+    },
+    {
+      "text": ".5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_139",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10824,
+        "char_end": 10900,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "5 | Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_140",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10825,
+        "char_end": 10900,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "| Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_141",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10826,
+        "char_end": 10900,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "| Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_142",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10827,
+        "char_end": 10900,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_143",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10828,
+        "char_end": 10900,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "Manually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_144",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10829,
+        "char_end": 10900,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "anually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_145",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10830,
+        "char_end": 10900,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "nually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_146",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10831,
+        "char_end": 10900,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "ually, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_147",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10832,
+        "char_end": 10900,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "ally, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_148",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10833,
+        "char_end": 10900,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "lly, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_149",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10834,
+        "char_end": 10900,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "ly, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_150",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10835,
+        "char_end": 10900,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "y, the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_151",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10836,
+        "char_end": 10900,
+        "word_count": 10
+      }
+    },
+    {
+      "text": ", the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_152",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10837,
+        "char_end": 10900,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_153",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10838,
+        "char_end": 10900,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "the Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_154",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10839,
+        "char_end": 10900,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "he Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_155",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10840,
+        "char_end": 10900,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "e Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_156",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10841,
+        "char_end": 10900,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_157",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10842,
+        "char_end": 10900,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "Custodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_158",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10843,
+        "char_end": 10900,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "ustodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_159",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10844,
+        "char_end": 10900,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "stodial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_160",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10845,
+        "char_end": 10900,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "todial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_161",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10846,
+        "char_end": 10900,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "odial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_162",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10847,
+        "char_end": 10900,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "dial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_163",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10848,
+        "char_end": 10900,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "ial Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_164",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10849,
+        "char_end": 10900,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "al Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_165",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10850,
+        "char_end": 10900,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "l Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_166",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10851,
+        "char_end": 10900,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_167",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10852,
+        "char_end": 10900,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "Official attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_168",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10853,
+        "char_end": 10900,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "fficial attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_169",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10854,
+        "char_end": 10900,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "ficial attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_170",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10855,
+        "char_end": 10900,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "icial attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_171",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10856,
+        "char_end": 10900,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "cial attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_172",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10857,
+        "char_end": 10900,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "ial attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_173",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10858,
+        "char_end": 10900,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "al attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_174",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10859,
+        "char_end": 10900,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "l attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_175",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10860,
+        "char_end": 10900,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_176",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10861,
+        "char_end": 10900,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "attempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_177",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10862,
+        "char_end": 10900,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "ttempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_178",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10863,
+        "char_end": 10900,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "tempts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_179",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10864,
+        "char_end": 10900,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "empts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_180",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10865,
+        "char_end": 10900,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "mpts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_181",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10866,
+        "char_end": 10900,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "pts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_182",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10867,
+        "char_end": 10900,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "ts to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_183",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10868,
+        "char_end": 10900,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "s to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_184",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10869,
+        "char_end": 10900,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_185",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10870,
+        "char_end": 10900,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "to resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_186",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10871,
+        "char_end": 10900,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "o resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_187",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10872,
+        "char_end": 10900,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_188",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10873,
+        "char_end": 10900,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "resolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_189",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10874,
+        "char_end": 10900,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "esolves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_190",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10875,
+        "char_end": 10900,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "solves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_191",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10876,
+        "char_end": 10900,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "olves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_192",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10877,
+        "char_end": 10900,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "lves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_193",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10878,
+        "char_end": 10900,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "ves the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_194",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10879,
+        "char_end": 10900,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "es the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_195",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10880,
+        "char_end": 10900,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "s the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_196",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10881,
+        "char_end": 10900,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_197",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10882,
+        "char_end": 10900,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "the exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_198",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10883,
+        "char_end": 10900,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "he exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_199",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10884,
+        "char_end": 10900,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "e exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_200",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10885,
+        "char_end": 10900,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_201",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10886,
+        "char_end": 10900,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "exceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_202",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10887,
+        "char_end": 10900,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "xceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_203",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10888,
+        "char_end": 10900,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "ceptions. |",
+      "metadata": {
+        "chunk_id": "chunk_204",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10889,
+        "char_end": 10900,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "eptions. |",
+      "metadata": {
+        "chunk_id": "chunk_205",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10890,
+        "char_end": 10900,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "ptions. |",
+      "metadata": {
+        "chunk_id": "chunk_206",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10891,
+        "char_end": 10900,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "tions. |",
+      "metadata": {
+        "chunk_id": "chunk_207",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10892,
+        "char_end": 10900,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "ions. |",
+      "metadata": {
+        "chunk_id": "chunk_208",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10893,
+        "char_end": 10900,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "ons. |",
+      "metadata": {
+        "chunk_id": "chunk_209",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10894,
+        "char_end": 10900,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "ns. |",
+      "metadata": {
+        "chunk_id": "chunk_210",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10895,
+        "char_end": 10900,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "s. |",
+      "metadata": {
+        "chunk_id": "chunk_211",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10896,
+        "char_end": 10900,
+        "word_count": 2
+      }
+    },
+    {
+      "text": ". |",
+      "metadata": {
+        "chunk_id": "chunk_212",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10897,
+        "char_end": 10900,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "|",
+      "metadata": {
+        "chunk_id": "chunk_213",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10898,
+        "char_end": 10900,
+        "word_count": 1
+      }
+    },
+    {
+      "text": "|",
+      "metadata": {
+        "chunk_id": "chunk_214",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10899,
+        "char_end": 10900,
+        "word_count": 1
+      }
+    }
+  ]
+}

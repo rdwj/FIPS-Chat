@@ -1,0 +1,2455 @@
+{
+  "metadata": {
+    "doc_id": "d27f897526cbc2b7af6b550c8f3a1ec06a4061b6e07d7696ee95c7d6c0309925",
+    "filename": "tmpf0lkgxfl.pdf",
+    "upload_timestamp": "2025-06-18T16:45:07.127126",
+    "total_pages": 8,
+    "total_chunks": 222,
+    "processing_status": "completed",
+    "file_size_bytes": 814894
+  },
+  "chunks": [
+    {
+      "text": "## Maximo\u00ae Training IT Tech User Guide REQUEST WORK APRIL 2023 User Guide Request Work - IT Tech THIS PAGE INTENTIONALLY LEFT BLANK. ## TABLE OF CONTENTS | Request Work.......................................................................................................................... 1 | |---------------------------------------------------------------------------------------------------------------------------------------------| | Summary............................................................................................................................. 1 | | User Roles and Responsibilities ........................................................................................ 1 | | Learning Objectives.......................................................................................................... 2 | | Agenda..........................................................................................................",
+      "metadata": {
+        "chunk_id": "chunk_001",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 0,
+        "char_end": 951,
+        "word_count": 52
+      }
+    },
+    {
+      "text": "................................................................................ 2 | | Agenda............................................................................................................................ 2 | | Acronyms Used in This Lesson.................................................................................................. 3 | | Create a Service Request......................................................................................................... 4 | | Attach Documents to a Service Request ............................................................................... 7 | | Evaluate a Service Request................................................................................................... 8 | | Disapprove a Service Request............................................................................................... 9 | | Print a Work Order ....................................................",
+      "metadata": {
+        "chunk_id": "chunk_002",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 752,
+        "char_end": 1702,
+        "word_count": 52
+      }
+    },
+    {
+      "text": ".............................................................................................. 9 | | Print a Work Order .................................................................................................................12 | | Review...................................................................................................................................13 | | Knowledge Check................................................................................................................13 | | Appendix A- Request Work Business Process Flow.................................................................14 | User Guide Request Work - IT Tech THIS PAGE INTENTIONALLY LEFT BLANK ## REQUEST WORK ## Summary This lesson introduces how to create a Service Request in Maximo, evaluate it, validate it and then create a related Work Order. Service Requests are reviewed by the function receiving them and turned into Work Orders once approved.",
+      "metadata": {
+        "chunk_id": "chunk_003",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 1530,
+        "char_end": 2492,
+        "word_count": 81
+      }
+    },
+    {
+      "text": "eate a Service Request in Maximo, evaluate it, validate it and then create a related Work Order. Service Requests are reviewed by the function receiving them and turned into Work Orders once approved. The Work Orders are then scheduled and assigned to a person and/or shop. For more information about this process, please go to Appendix A - Request Work Business Process to view the flowchart and narrative. ## User Roles and Responsibilities The audience for this training includes the following user roles: | Role | Responsibility | |----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | EPS Admin | Reviews,assigns, and approvesWork Orders; developsJob Plans; creates PMs (Preventive Maintenance);prioritizes and schedulesPM Work Orders | | EPS Work Lead | Reviews,assigns, prior",
+      "metadata": {
+        "chunk_id": "chunk_004",
+        "page_number": 2,
+        "section_title": "Content",
+        "char_start": 2292,
+        "char_end": 3292,
+        "word_count": 115
+      }
+    },
+    {
+      "text": "----| | EPS Admin | Reviews,assigns, and approvesWork Orders; developsJob Plans; creates PMs (Preventive Maintenance);prioritizes and schedulesPM Work Orders | | EPS Work Lead | Reviews,assigns, prioritizes, and completes Work Orders | | FMAdmin | Receives, classifies and disposes Building Service Equipment (BSE) Assets; reviewsand approvesWork Orders; creates PMs (Preventive Maintenance); approvesPM work deferrals; creates Job Plans | | FMSupervisor | Reviewsand evaluates Service Requests;plans and approveswork; monitors and assigns Work Orders to FMTechs in their Responsible Shops. | | FMTech | Performswork and completes Work Orders; identifies needto deferwork; updatesPM work status | | FMWork Order Clerk | Reviewsand evaluatesService Requests;receives, classifies and disposes Building Service Equipment (BSE) Assets;reviewsand evaluates Service Requests;plans and approveswork and assigns Work Orders to FMshops; creates PMs(Preventive Maintenance) | | HTM Admin | Classifies Assets;re",
+      "metadata": {
+        "chunk_id": "chunk_005",
+        "page_number": 2,
+        "section_title": "Content",
+        "char_start": 3092,
+        "char_end": 4092,
+        "word_count": 131
+      }
+    },
+    {
+      "text": "Service Equipment (BSE) Assets;reviewsand evaluates Service Requests;plans and approveswork and assigns Work Orders to FMshops; creates PMs(Preventive Maintenance) | | HTM Admin | Classifies Assets;reviewsand approves Work Orders; creates PMs (Preventive Maintenance);approvesPM work deferrals; creates Job Plans; determinesneedfor decontamination/sanitization of turned in Assets | | HTM Tech Plus | Performswork, identifies needto deferwork,and updatesPM work status, work reassignment | | HTM Tech | Performswork and completes Work Orders, identifies needto deferwork; updates PMwork status; completes decontaminates/sanitizesWork Orders on turned in Assets | | HTM Work Order Clerk | Reviewsand evaluates Service Requests;plans and approves workand assigns Work Orders to HTM shops | | IT Tech | Manages IT Assetsand prints barcode labels; determinesneedfor decontamination/sanitization of turned in Assetsand completes associated Work Orders | | Role | Responsibility | |----------|-------------",
+      "metadata": {
+        "chunk_id": "chunk_006",
+        "page_number": 2,
+        "section_title": "Content",
+        "char_start": 3892,
+        "char_end": 4892,
+        "word_count": 129
+      }
+    },
+    {
+      "text": "Manages IT Assetsand prints barcode labels; determinesneedfor decontamination/sanitization of turned in Assetsand completes associated Work Orders | | Role | Responsibility | |----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | NX Admin | Creates newAssetrecords (individually or in bulk using Asset templates); runs EIL reports; updates Assetlocation and last inventory date; processes and records Assetturn ins and disposition; manages/coordinates report of surveyWork Orders | | NX Tech | Creates newequipmentrecords individually; runs EIL reports and update's soarlocation and last inventory date for Assets;retrieves, processes and recordsAssetturn ins and disposition; manages/coordinatesReport of SurveyWork Orders | ## Learning Objectives - \u00b7 Review how to create a Service Request in Maxi",
+      "metadata": {
+        "chunk_id": "chunk_007",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 4692,
+        "char_end": 5692,
+        "word_count": 102
+      }
+    },
+    {
+      "text": "ate for Assets;retrieves, processes and recordsAssetturn ins and disposition; manages/coordinatesReport of SurveyWork Orders | ## Learning Objectives - \u00b7 Review how to create a Service Request in Maximo - \u00b7 Evaluate a Service Request - \u00b7 Disapprove a Service Request, if not valid - \u00b7 Explain how to print a Work Order ## Agenda | Topic | Estimated Time | |--------------------------|------------------| | Create a Service Request | 45 min | | Print a Work Order | 10 min | | Review/Knowledge Check | 5 min | | TOTAL: | 60 min | ## ACRONYMS USED IN THIS LESSON | Acronym | Description | |-----------|--------------------------------------------------------------------------| | ADPAC | AutomatedData Processing and Application Coordinator | | AEMS/MERS | AutomatedEngineering ManagementSystem/Medical Equipment Reporting System | | CM | Corrective Maintenance | | EM | Emergency Maintenance | | FM | Facilities Management(Engineering) | | EPS | Environmental Programs Services | | HTM | Healthcare Te",
+      "metadata": {
+        "chunk_id": "chunk_008",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 5492,
+        "char_end": 6492,
+        "word_count": 152
+      }
+    },
+    {
+      "text": "Equipment Reporting System | | CM | Corrective Maintenance | | EM | Emergency Maintenance | | FM | Facilities Management(Engineering) | | EPS | Environmental Programs Services | | HTM | Healthcare Technology Management(Biomedical Engineering) | | IBI | Internal Business Information | | IO | Internal Operations | | MB | Megabyte | | N/A | Not applicable | | NX | Nonexpendable | | PDF | Portable Document Format | | PHI | Personally Identifiable Health Information | | PII | Personally Identifiable Information | | PM | Preventive Maintenance | | PPM | Personal PropertyManagement(Logistics) | | PS | Professional Services | | VA | Department of VeteransAffairs | | WBT | Web-basedTraining | ## CREATE A SERVICE REQUEST The Create Service Request application is used to request maintenance or services at a location. Service Requests can be submitted for yourself or on behalf of another person. Service Requests are reviewed by the function receiving them and turned into Work Orders once approved",
+      "metadata": {
+        "chunk_id": "chunk_009",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6292,
+        "char_end": 7292,
+        "word_count": 167
+      }
+    },
+    {
+      "text": "Service Requests can be submitted for yourself or on behalf of another person. Service Requests are reviewed by the function receiving them and turned into Work Orders once approved. You have the option of automatically receiving key status notifications for any Service Request that you create. Common uses for Service Requests are: - \u00b7 Requesting environmental services (EMS) or (EPS) support to clean a patient room - \u00b7 Issuing a request to logistics (PPM) to turn in an Asset - \u00b7 Requesting repairs on plumbing or electrical systems from Facilities Management (FM) - \u00b7 Reporting malfunctioning biomedical Assets (HTM) NOTE: Individuals creating Service Requests in Maximo are the same individuals who created Work Requests in AEMS/MERS. As you learned in the Service Request Overview module, you can create a new Service Request in Maximo by: - \u00b7 Selecting the New Service Request link in the Quick Insert portlet on your Start Center .",
+      "metadata": {
+        "chunk_id": "chunk_010",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 7110,
+        "char_end": 8051,
+        "word_count": 153
+      }
+    },
+    {
+      "text": "As you learned in the Service Request Overview module, you can create a new Service Request in Maximo by: - \u00b7 Selecting the New Service Request link in the Quick Insert portlet on your Start Center . Figure 1. Favorite Applications - New Service Request Link NOTE: You may also select Go To &gt; Self Service&gt;Service Requests&gt;Create Service Request from the Navigation Bar. When the New Service Request page opens, make sure you fill out the necessary fields. Remember that an asterisk (*) next to a field indicates a required field. All required fields should be filled out before you can submit your Service Request for approval. The Create Service Request Job Aid outlines the steps for creating the following types of Service Requests. - \u00b7 Basic Service Request for an Asset or Location - \u00b7 Asset Turn In Service Request - \u00b7 Report of Survey (ROS) Survey Service Request - \u00b7 Special Event (Set Up) Service Request NOTE: The Job Aid can be found using this link to the EAWM Maximo Training",
+      "metadata": {
+        "chunk_id": "chunk_011",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 7851,
+        "char_end": 8851,
+        "word_count": 173
+      }
+    },
+    {
+      "text": "\u00b7 Asset Turn In Service Request - \u00b7 Report of Survey (ROS) Survey Service Request - \u00b7 Special Event (Set Up) Service Request NOTE: The Job Aid can be found using this link to the EAWM Maximo Training &amp; Project Resource Site: http://vaww.infoshare.va.gov/sites/vhaspt/projectresource/End%20User%20Resource%2 0Documents/Forms/Job_Aids.aspx Figure 2. Create Service Request - Required Fields If you are reporting the Service Request for someone else, you must change the Affected Person field. When entering the name of the Affected Person , remember: - \u00b7 Existing User: Search for and then select the VA Network ID or Name of the user. - \u00b7 New User: If the affected person is new and has not been provisioned, their name will not be found in the Select/Value list. If you don't find the name of your affected user, you'll need to contact your Site Lead or POC to get him/her added. NOTE: If you do not know your local Functional Community POC or Site Lead, you can search for them by going to the E",
+      "metadata": {
+        "chunk_id": "chunk_012",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 8651,
+        "char_end": 9651,
+        "word_count": 169
+      }
+    },
+    {
+      "text": "r affected user, you'll need to contact your Site Lead or POC to get him/her added. NOTE: If you do not know your local Functional Community POC or Site Lead, you can search for them by going to the EAWM Maximo Training and Project Resource Site at: http://vaww.infoshare.va.gov/sites/vhaspt/projectresource/Pages/OnePage.aspx. Select Points of Contact, select your VISN and select your site to locate the appropriate contact. IMPORTANT! Remember that sensitive information, such as Internal Business Information (IBI), Personally Identifiable Information (PII), and Personally Identifiable Health Information (PHI) is NOT ALLOWED anywhere on the Service Request, attached documents, or when creating a communication. If you are unsure what the correct responsible department should be on your Service Request, please leave it blank. This way, all the communities will see the Service Request on their Start Centers and they will assign it to the appropriate department.",
+      "metadata": {
+        "chunk_id": "chunk_013",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 9451,
+        "char_end": 10421,
+        "word_count": 142
+      }
+    },
+    {
+      "text": "tment should be on your Service Request, please leave it blank. This way, all the communities will see the Service Request on their Start Centers and they will assign it to the appropriate department. ## Attach Documents to a Service Request As you learned in the WBT, when necessary, you can attach documents or forms to the Service Request you created. - \u00b7 Remember that all attachments require storage, and that storage contributes to the recurring costs of maintaining the Maximo system. Please be judicious when scanning simple black and white documents and please compress photos to the extent that you can. Most cameras provide resolutions in excess of simple documentation needs - \u00b7 Use your judgement and upload what is minimally needed to convey the information you want to attach. - \u00b7 Note that .html and .htm attachments are forbidden to preclude the risks associated with these file types. Please consider using Adobe Acrobat as your primary file type, since it is resistant to tampering",
+      "metadata": {
+        "chunk_id": "chunk_014",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10221,
+        "char_end": 11221,
+        "word_count": 166
+      }
+    },
+    {
+      "text": "html and .htm attachments are forbidden to preclude the risks associated with these file types. Please consider using Adobe Acrobat as your primary file type, since it is resistant to tampering and has good compression. WARNING! ATTACHMENTS: Avoid attaching actual documents. Store the document on a network/shared drive and attach the link to the document. When you Add New Attachments use the Add New Web Page option rather than the Add New File Option whenever possible. Figure 3. Attachments ## Evaluate a Service Request The Service Requestor creates a Service Request in Maximo and submits it for approval. - \u00b7 If the facility has Work Order Clerks who are Maximo users, then they are the first responders to incoming requests. - \u00b7 If there is no Work Order Clerk at the facility, then the Admin is the first responder to incoming requests. IMPORTANT! EPS Admins will receive an automatic notification when a new Service Request is created for the EPS Responsible Department .",
+      "metadata": {
+        "chunk_id": "chunk_015",
+        "page_number": 6,
+        "section_title": "Content",
+        "char_start": 11028,
+        "char_end": 12010,
+        "word_count": 163
+      }
+    },
+    {
+      "text": "ity, then the Admin is the first responder to incoming requests. IMPORTANT! EPS Admins will receive an automatic notification when a new Service Request is created for the EPS Responsible Department . The Admin or Work Order Clerk evaluates the Service Request: - \u00b7 If the Service Request is valid, the Admin, Supervisor, or Work Order Clerk needs to determine whether or not planning is required and then route the workflow in order to generate the Work Order in Maximo. If the Service Request is invalid, the Admin or Work Order Clerk needs to disapprove it, which is what we will learn next. ## Disapprove a Service Request If the Service Request is not valid, the Admin or Work Order Clerk disapproves the Service Request in Maximo, which ends the process. Here are the steps on how this is done: - Step 1. From the Start Center , select Service Requests in the Favorite Applications portlet. The Service Requests application opens with the List tab selected.",
+      "metadata": {
+        "chunk_id": "chunk_016",
+        "page_number": 6,
+        "section_title": "Content",
+        "char_start": 11810,
+        "char_end": 12773,
+        "word_count": 166
+      }
+    },
+    {
+      "text": "From the Start Center , select Service Requests in the Favorite Applications portlet. The Service Requests application opens with the List tab selected. - Step 2. On the List tab, to search for the Service Request enter information into one or more Filter Fields , or put your cursor in the Service Request field and press Enter and a list of all Service Requests will display. Select the Service Request you wish to disapprove (Reject). The Service Request opens on the Service Request tab. Figure 4. Service Requests Application - Log Tab - New Row Step 3. Select the Log tab. Add a new log stating why you are disapproving the Service Request by selecting the New Row button. Figure 5. Service Requests Application - Log Tab - Step 4. Enter a short reason for disapproval in both the Summary field and if necessary, a more detailed reason in the Details free-form text area. Figure 6. Log Tab - Summary and Details - Step 5.",
+      "metadata": {
+        "chunk_id": "chunk_017",
+        "page_number": 6,
+        "section_title": "Content",
+        "char_start": 12620,
+        "char_end": 13548,
+        "word_count": 165
+      }
+    },
+    {
+      "text": "Enter a short reason for disapproval in both the Summary field and if necessary, a more detailed reason in the Details free-form text area. Figure 6. Log Tab - Summary and Details - Step 5. Select the Change Status icon in the toolbar. Step 6. When changing the status of a Service Request to Rejected , enter a reason into the Memo field. This information will be included in a communication back to the Service Requester. Figure 7. Enter Memo Before Rejecting SR ## Step 7. Change the status of the Service Request to REJECTED . Figure 8. Change Status - Rejected Note: This status and Memo information will be included in a communication back to the Service Requester. ## Step 8. Select OK . Some common reasons why Service Requests are disapproved: - \u00b7 There is a duplicate of another Service Request (this is the most common reason why a Service Request is disapproved) - \u00b7 Someone calls and indicates errors on the Service Request. The Service Request may be disapproved as a result",
+      "metadata": {
+        "chunk_id": "chunk_018",
+        "page_number": 7,
+        "section_title": "Content",
+        "char_start": 13358,
+        "char_end": 14348,
+        "word_count": 175
+      }
+    },
+    {
+      "text": "Service Request (this is the most common reason why a Service Request is disapproved) - \u00b7 Someone calls and indicates errors on the Service Request. The Service Request may be disapproved as a result of user error. ## PRINT A WORK ORDER If you wish to print the Work Order you are working on, follow the steps below: Step 1. Select the Direct Print Order toolbar. icon (Direct Print: VA Work Order Details) on the Work Figure 9. Direct Print: VA Work Order Details - Step 2. Do NOT close the information window that displays, stating 'Do not close the Printing in progress\u2026. window.' - Step 3. If you receive any Warning or Security messages, accept or run the required software. The printout is sent to your default printer. ## REVIEW ## Knowledge Check ## 'A Minute to Win It' Use your Guide, if needed, to answer the following questions within the minute allowed. - 1. True or False. A service request may be rejected if it is a duplicate. - a. True - b.",
+      "metadata": {
+        "chunk_id": "chunk_019",
+        "page_number": 7,
+        "section_title": "Content",
+        "char_start": 14148,
+        "char_end": 15105,
+        "word_count": 175
+      }
+    },
+    {
+      "text": "'A Minute to Win It' Use your Guide, if needed, to answer the following questions within the minute allowed. - 1. True or False. A service request may be rejected if it is a duplicate. - a. True - b. False - 2. If the work being reported has been completed before a Work Order was ever created, you can record completed work in which application? - a. Smart Reporting - b. Job Plans - c. Quick Reporting - d. Start Center - True or False. The Direct Print order directly to your printer. icon (Direct Print: VA Work Order Details) on the Work Order toolbar will print the work - a. True - b. False - 3. ## APPENDIX A - REQUEST WORK BUSINESS PROCESS FLOW Figure 10. Request Work Business Process Map Table 1. Request Work Business Process | Step Number | Description | |---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+      "metadata": {
+        "chunk_id": "chunk_020",
+        "page_number": 7,
+        "section_title": "Content",
+        "char_start": 14905,
+        "char_end": 15905,
+        "word_count": 147
+      }
+    },
+    {
+      "text": "---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | 2.1.1 | The Service Requestoridentifies a needfor work. NOTE: All Maximo userswill create Service Requestsdirectly in Maximo. | | 2.1.2 | The Service Requestor, Admin, or Work Order Clerk creates a Service Request in Maximo and submits it for approval. \u2022 If the facility has Work Order Clerks, the Work Order Clerks are the first responders to incoming requests. If there is no Work Order Clerk at the facility, then the Admin is the first responder to incoming requests. \u2022 EPS Admins will receive an automatic notification when a new Service Reques",
+      "metadata": {
+        "chunk_id": "chunk_021",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 15705,
+        "char_end": 16705,
+        "word_count": 94
+      }
+    },
+    {
+      "text": "ing requests. If there is no Work Order Clerk at the facility, then the Admin is the first responder to incoming requests. \u2022 EPS Admins will receive an automatic notification when a new Service Request is created for the EPS responsible department. | | 2.1.3 | The Admin or Work Order Clerk evaluates the Service Request. \u2022 If the Service Requestis valid, continue to step2.1.5. \u2022 If the Service Requestis not valid, disapprove the Service Request. The process ends. | | 2.1.4 | The Admin or Work Order Clerk disapproves the invalid Service Request.The process ends. | | 2.1.5 | The Admin, Supervisor, or Work Order Clerk creates a Work Orderin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_022",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 16505,
+        "char_end": 17315,
+        "word_count": 139
+      }
+    },
+    {
+      "text": "Order Clerk creates a Work Orderin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_023",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17115,
+        "char_end": 17315,
+        "word_count": 34
+      }
+    },
+    {
+      "text": "rder Clerk creates a Work Orderin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_024",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17116,
+        "char_end": 17315,
+        "word_count": 34
+      }
+    },
+    {
+      "text": "der Clerk creates a Work Orderin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_025",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17117,
+        "char_end": 17315,
+        "word_count": 34
+      }
+    },
+    {
+      "text": "er Clerk creates a Work Orderin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_026",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17118,
+        "char_end": 17315,
+        "word_count": 34
+      }
+    },
+    {
+      "text": "r Clerk creates a Work Orderin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_027",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17119,
+        "char_end": 17315,
+        "word_count": 34
+      }
+    },
+    {
+      "text": "Clerk creates a Work Orderin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_028",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17120,
+        "char_end": 17315,
+        "word_count": 33
+      }
+    },
+    {
+      "text": "Clerk creates a Work Orderin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_029",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17121,
+        "char_end": 17315,
+        "word_count": 33
+      }
+    },
+    {
+      "text": "lerk creates a Work Orderin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_030",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17122,
+        "char_end": 17315,
+        "word_count": 33
+      }
+    },
+    {
+      "text": "erk creates a Work Orderin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_031",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17123,
+        "char_end": 17315,
+        "word_count": 33
+      }
+    },
+    {
+      "text": "rk creates a Work Orderin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_032",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17124,
+        "char_end": 17315,
+        "word_count": 33
+      }
+    },
+    {
+      "text": "k creates a Work Orderin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_033",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17125,
+        "char_end": 17315,
+        "word_count": 33
+      }
+    },
+    {
+      "text": "creates a Work Orderin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_034",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17126,
+        "char_end": 17315,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "creates a Work Orderin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_035",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17127,
+        "char_end": 17315,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "reates a Work Orderin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_036",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17128,
+        "char_end": 17315,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "eates a Work Orderin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_037",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17129,
+        "char_end": 17315,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "ates a Work Orderin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_038",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17130,
+        "char_end": 17315,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "tes a Work Orderin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_039",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17131,
+        "char_end": 17315,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "es a Work Orderin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_040",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17132,
+        "char_end": 17315,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "s a Work Orderin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_041",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17133,
+        "char_end": 17315,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "a Work Orderin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_042",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17134,
+        "char_end": 17315,
+        "word_count": 31
+      }
+    },
+    {
+      "text": "a Work Orderin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_043",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17135,
+        "char_end": 17315,
+        "word_count": 31
+      }
+    },
+    {
+      "text": "Work Orderin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_044",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17136,
+        "char_end": 17315,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "Work Orderin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_045",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17137,
+        "char_end": 17315,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "ork Orderin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_046",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17138,
+        "char_end": 17315,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "rk Orderin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_047",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17139,
+        "char_end": 17315,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "k Orderin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_048",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17140,
+        "char_end": 17315,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "Orderin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_049",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17141,
+        "char_end": 17315,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "Orderin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_050",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17142,
+        "char_end": 17315,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "rderin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_051",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17143,
+        "char_end": 17315,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "derin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_052",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17144,
+        "char_end": 17315,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "erin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_053",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17145,
+        "char_end": 17315,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "rin Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_054",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17146,
+        "char_end": 17315,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "in Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_055",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17147,
+        "char_end": 17315,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "n Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_056",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17148,
+        "char_end": 17315,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_057",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17149,
+        "char_end": 17315,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "Maximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_058",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17150,
+        "char_end": 17315,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "aximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_059",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17151,
+        "char_end": 17315,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "ximo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_060",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17152,
+        "char_end": 17315,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "imo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_061",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17153,
+        "char_end": 17315,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "mo. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_062",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17154,
+        "char_end": 17315,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "o. \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_063",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17155,
+        "char_end": 17315,
+        "word_count": 28
+      }
+    },
+    {
+      "text": ". \u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_064",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17156,
+        "char_end": 17315,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "\u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_065",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17157,
+        "char_end": 17315,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "\u2022 If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_066",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17158,
+        "char_end": 17315,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_067",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17159,
+        "char_end": 17315,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "If planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_068",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17160,
+        "char_end": 17315,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "f planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_069",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17161,
+        "char_end": 17315,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_070",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17162,
+        "char_end": 17315,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "planning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_071",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17163,
+        "char_end": 17315,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "lanning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_072",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17164,
+        "char_end": 17315,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "anning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_073",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17165,
+        "char_end": 17315,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "nning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_074",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17166,
+        "char_end": 17315,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "ning is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_075",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17167,
+        "char_end": 17315,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "ing is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_076",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17168,
+        "char_end": 17315,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "ng is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_077",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17169,
+        "char_end": 17315,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "g is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_078",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17170,
+        "char_end": 17315,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_079",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17171,
+        "char_end": 17315,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "is required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_080",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17172,
+        "char_end": 17315,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "s required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_081",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17173,
+        "char_end": 17315,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_082",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17174,
+        "char_end": 17315,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "required, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_083",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17175,
+        "char_end": 17315,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "equired, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_084",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17176,
+        "char_end": 17315,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "quired, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_085",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17177,
+        "char_end": 17315,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "uired, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_086",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17178,
+        "char_end": 17315,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "ired, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_087",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17179,
+        "char_end": 17315,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "red, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_088",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17180,
+        "char_end": 17315,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "ed, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_089",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17181,
+        "char_end": 17315,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "d, this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_090",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17182,
+        "char_end": 17315,
+        "word_count": 23
+      }
+    },
+    {
+      "text": ", this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_091",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17183,
+        "char_end": 17315,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_092",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17184,
+        "char_end": 17315,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "this initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_093",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17185,
+        "char_end": 17315,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "his initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_094",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17186,
+        "char_end": 17315,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "is initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_095",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17187,
+        "char_end": 17315,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "s initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_096",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17188,
+        "char_end": 17315,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_097",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17189,
+        "char_end": 17315,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "initiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_098",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17190,
+        "char_end": 17315,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "nitiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_099",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17191,
+        "char_end": 17315,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "itiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_100",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17192,
+        "char_end": 17315,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "tiates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_101",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17193,
+        "char_end": 17315,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "iates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_102",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17194,
+        "char_end": 17315,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "ates process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_103",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17195,
+        "char_end": 17315,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "tes process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_104",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17196,
+        "char_end": 17315,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "es process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_105",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17197,
+        "char_end": 17315,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "s process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_106",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17198,
+        "char_end": 17315,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_107",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17199,
+        "char_end": 17315,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "process WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_108",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17200,
+        "char_end": 17315,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "rocess WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_109",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17201,
+        "char_end": 17315,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "ocess WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_110",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17202,
+        "char_end": 17315,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "cess WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_111",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17203,
+        "char_end": 17315,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "ess WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_112",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17204,
+        "char_end": 17315,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "ss WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_113",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17205,
+        "char_end": 17315,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "s WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_114",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17206,
+        "char_end": 17315,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_115",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17207,
+        "char_end": 17315,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "WM-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_116",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17208,
+        "char_end": 17315,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "M-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_117",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17209,
+        "char_end": 17315,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "-2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_118",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17210,
+        "char_end": 17315,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "2.2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_119",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17211,
+        "char_end": 17315,
+        "word_count": 19
+      }
+    },
+    {
+      "text": ".2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_120",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17212,
+        "char_end": 17315,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "2 Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_121",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17213,
+        "char_end": 17315,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_122",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17214,
+        "char_end": 17315,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "Plan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_123",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17215,
+        "char_end": 17315,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "lan and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_124",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17216,
+        "char_end": 17315,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "an and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_125",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17217,
+        "char_end": 17315,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "n and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_126",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17218,
+        "char_end": 17315,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_127",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17219,
+        "char_end": 17315,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "and Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_128",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17220,
+        "char_end": 17315,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "nd Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_129",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17221,
+        "char_end": 17315,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "d Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_130",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17222,
+        "char_end": 17315,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_131",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17223,
+        "char_end": 17315,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "Approve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_132",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17224,
+        "char_end": 17315,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "pprove Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_133",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17225,
+        "char_end": 17315,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "prove Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_134",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17226,
+        "char_end": 17315,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "rove Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_135",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17227,
+        "char_end": 17315,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "ove Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_136",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17228,
+        "char_end": 17315,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "ve Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_137",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17229,
+        "char_end": 17315,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "e Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_138",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17230,
+        "char_end": 17315,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_139",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17231,
+        "char_end": 17315,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "Work. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_140",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17232,
+        "char_end": 17315,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "ork. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_141",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17233,
+        "char_end": 17315,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "rk. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_142",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17234,
+        "char_end": 17315,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "k. \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_143",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17235,
+        "char_end": 17315,
+        "word_count": 15
+      }
+    },
+    {
+      "text": ". \u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_144",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17236,
+        "char_end": 17315,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "\u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_145",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17237,
+        "char_end": 17315,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "\u2022 If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_146",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17238,
+        "char_end": 17315,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_147",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17239,
+        "char_end": 17315,
+        "word_count": 13
+      }
+    },
+    {
+      "text": "If planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_148",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17240,
+        "char_end": 17315,
+        "word_count": 13
+      }
+    },
+    {
+      "text": "f planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_149",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17241,
+        "char_end": 17315,
+        "word_count": 13
+      }
+    },
+    {
+      "text": "planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_150",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17242,
+        "char_end": 17315,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "planning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_151",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17243,
+        "char_end": 17315,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "lanning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_152",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17244,
+        "char_end": 17315,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "anning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_153",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17245,
+        "char_end": 17315,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "nning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_154",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17246,
+        "char_end": 17315,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "ning is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_155",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17247,
+        "char_end": 17315,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "ing is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_156",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17248,
+        "char_end": 17315,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "ng is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_157",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17249,
+        "char_end": 17315,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "g is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_158",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17250,
+        "char_end": 17315,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_159",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17251,
+        "char_end": 17315,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "is not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_160",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17252,
+        "char_end": 17315,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "s not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_161",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17253,
+        "char_end": 17315,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_162",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17254,
+        "char_end": 17315,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "not required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_163",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17255,
+        "char_end": 17315,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "ot required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_164",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17256,
+        "char_end": 17315,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "t required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_165",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17257,
+        "char_end": 17315,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_166",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17258,
+        "char_end": 17315,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "required, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_167",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17259,
+        "char_end": 17315,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "equired, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_168",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17260,
+        "char_end": 17315,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "quired, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_169",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17261,
+        "char_end": 17315,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "uired, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_170",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17262,
+        "char_end": 17315,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "ired, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_171",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17263,
+        "char_end": 17315,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "red, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_172",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17264,
+        "char_end": 17315,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "ed, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_173",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17265,
+        "char_end": 17315,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "d, this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_174",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17266,
+        "char_end": 17315,
+        "word_count": 9
+      }
+    },
+    {
+      "text": ", this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_175",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17267,
+        "char_end": 17315,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_176",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17268,
+        "char_end": 17315,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "this initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_177",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17269,
+        "char_end": 17315,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "his initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_178",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17270,
+        "char_end": 17315,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "is initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_179",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17271,
+        "char_end": 17315,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "s initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_180",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17272,
+        "char_end": 17315,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_181",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17273,
+        "char_end": 17315,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "initiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_182",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17274,
+        "char_end": 17315,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "nitiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_183",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17275,
+        "char_end": 17315,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "itiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_184",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17276,
+        "char_end": 17315,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "tiates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_185",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17277,
+        "char_end": 17315,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "iates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_186",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17278,
+        "char_end": 17315,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "ates process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_187",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17279,
+        "char_end": 17315,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "tes process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_188",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17280,
+        "char_end": 17315,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "es process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_189",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17281,
+        "char_end": 17315,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "s process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_190",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17282,
+        "char_end": 17315,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_191",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17283,
+        "char_end": 17315,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "process WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_192",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17284,
+        "char_end": 17315,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "rocess WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_193",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17285,
+        "char_end": 17315,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "ocess WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_194",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17286,
+        "char_end": 17315,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "cess WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_195",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17287,
+        "char_end": 17315,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "ess WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_196",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17288,
+        "char_end": 17315,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "ss WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_197",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17289,
+        "char_end": 17315,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "s WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_198",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17290,
+        "char_end": 17315,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_199",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17291,
+        "char_end": 17315,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "WM2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_200",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17292,
+        "char_end": 17315,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "M2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_201",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17293,
+        "char_end": 17315,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "2.3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_202",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17294,
+        "char_end": 17315,
+        "word_count": 5
+      }
+    },
+    {
+      "text": ".3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_203",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17295,
+        "char_end": 17315,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "3 - Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_204",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17296,
+        "char_end": 17315,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "- Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_205",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17297,
+        "char_end": 17315,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "- Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_206",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17298,
+        "char_end": 17315,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_207",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17299,
+        "char_end": 17315,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "Execute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_208",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17300,
+        "char_end": 17315,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "xecute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_209",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17301,
+        "char_end": 17315,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "ecute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_210",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17302,
+        "char_end": 17315,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "cute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_211",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17303,
+        "char_end": 17315,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "ute Work. |",
+      "metadata": {
+        "chunk_id": "chunk_212",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17304,
+        "char_end": 17315,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "te Work. |",
+      "metadata": {
+        "chunk_id": "chunk_213",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17305,
+        "char_end": 17315,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "e Work. |",
+      "metadata": {
+        "chunk_id": "chunk_214",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17306,
+        "char_end": 17315,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "Work. |",
+      "metadata": {
+        "chunk_id": "chunk_215",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17307,
+        "char_end": 17315,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "Work. |",
+      "metadata": {
+        "chunk_id": "chunk_216",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17308,
+        "char_end": 17315,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "ork. |",
+      "metadata": {
+        "chunk_id": "chunk_217",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17309,
+        "char_end": 17315,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "rk. |",
+      "metadata": {
+        "chunk_id": "chunk_218",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17310,
+        "char_end": 17315,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "k. |",
+      "metadata": {
+        "chunk_id": "chunk_219",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 17311,
+        "char_end": 17315,
+        "word_count": 2
+      }
+    },
+    {
+      "text": ". |",
+      "metadata": {
+        "chunk_id": "chunk_220",
+        "page_number": 9,
+        "section_title": "Content",
+        "char_start": 17312,
+        "char_end": 17315,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "|",
+      "metadata": {
+        "chunk_id": "chunk_221",
+        "page_number": 9,
+        "section_title": "Content",
+        "char_start": 17313,
+        "char_end": 17315,
+        "word_count": 1
+      }
+    },
+    {
+      "text": "|",
+      "metadata": {
+        "chunk_id": "chunk_222",
+        "page_number": 9,
+        "section_title": "Content",
+        "char_start": 17314,
+        "char_end": 17315,
+        "word_count": 1
+      }
+    }
+  ]
+}

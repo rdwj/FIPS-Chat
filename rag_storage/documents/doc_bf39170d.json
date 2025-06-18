@@ -1,0 +1,2510 @@
+{
+  "metadata": {
+    "doc_id": "bf39170d4648f26e508bb7e1e899031213f5c39a4cb84f515e9c0bd482894500",
+    "filename": "tmpput_g4a4.pdf",
+    "upload_timestamp": "2025-06-18T16:44:22.688677",
+    "total_pages": 10,
+    "total_chunks": 227,
+    "processing_status": "completed",
+    "file_size_bytes": 981794
+  },
+  "chunks": [
+    {
+      "text": "## Maximo\u00ae Training User Guide ASSET TURN IN PROCESS March 2023 User Guide Asset Turn In THIS PAGE INTENTIONALLY LEFT BLANK. ## TABLE OF CONTENTS | Asset Turn In............................................................................................................................1 | |----------------------------------------------------------------------------------------------------------------------------------------------| | Summary..............................................................................................................................1 | | User Roles and Responsibilities .........................................................................................1 | | Learning Objectives...........................................................................................................2 | | Agenda...............................................................................................................",
+      "metadata": {
+        "chunk_id": "chunk_001",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 0,
+        "char_end": 951,
+        "word_count": 47
+      }
+    },
+    {
+      "text": "............................................................................2 | | Agenda.............................................................................................................................2 | | Acronyms Used in this Lesson...................................................................................................3 | | Provisioning Requirements - Person Groups.............................................................................4 | | Asset Sanitization Certification (ISO).........................................................................................5 | | Printing Equipment Sanitization Certificate (0751) ....................................................................9 | | Printing Turn In Form (2237)...................................................................................................12 | | Review............................................................................",
+      "metadata": {
+        "chunk_id": "chunk_002",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 752,
+        "char_end": 1702,
+        "word_count": 42
+      }
+    },
+    {
+      "text": "..................................................................................................12 | | Review...................................................................................................................................15 | | Knowledge Check...............................................................................................................15 | | Appendix A- Turn In Asset Business Process...........................................................................16 | User Guide Asset Turn In ## THIS PAGE INTENTIONALLY LEFT BLANK ## ASSET TURN IN ## Summary The Turn In process uses Maximo's workflow features to route service requests and work orders automatically. Transactions are logged, and digital signatures captured for use in autogenerating documentation, such as form 0751. This lesson covers community and role responsibilities in the Asset Turn In process. For more information about the process, please go to Appendix A - Turn In Asset B",
+      "metadata": {
+        "chunk_id": "chunk_003",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 1515,
+        "char_end": 2502,
+        "word_count": 96
+      }
+    },
+    {
+      "text": "This lesson covers community and role responsibilities in the Asset Turn In process. For more information about the process, please go to Appendix A - Turn In Asset Business Process to view the flowchart and process narrative. ## User Roles and Responsibilities The audience for this training includes the following user roles: | Role | Responsibility | |------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | Custodial Official | Certifies asset inventory lists (EILs); approves requestsfor Assetturn-ins and Reports of Survey;assigns Custodial Official alternates | | HTM Admin | Classifies Assets;reviewsand approves Work Orders; creates PMs (preventive maintenance);approves PMwork",
+      "metadata": {
+        "chunk_id": "chunk_004",
+        "page_number": 2,
+        "section_title": "Content",
+        "char_start": 2335,
+        "char_end": 3302,
+        "word_count": 92
+      }
+    },
+    {
+      "text": "tsfor Assetturn-ins and Reports of Survey;assigns Custodial Official alternates | | HTM Admin | Classifies Assets;reviewsand approves Work Orders; creates PMs (preventive maintenance);approves PMwork deferrals; creates Job Plans; determinesneedfor decontamination and/or special handling of turned in Assets | | HTM Tech Plus | Performswork, identifies needto deferwork,and updatesPM work status, workreassignment | | HTM Tech | Performswork and completes Work Orders, identifies needto defer work; updatesPM work status; performs decontamination and/or performing special handling of sensitive devices;Work Orders on turned in Assets | | HTM Work Order Clerk | Reviewsand evaluates Service Requests;plans and approves workand assigns Work Orders to HTM shops | | Information Security Officer (ISO) | Certifies Assetsanitization is completedappropriately | | IT Tech | Manages certain data on IT assets and prints barcode labels; performs special handling of sensitive turnedin Assets, and completes",
+      "metadata": {
+        "chunk_id": "chunk_005",
+        "page_number": 2,
+        "section_title": "Content",
+        "char_start": 3102,
+        "char_end": 4102,
+        "word_count": 137
+      }
+    },
+    {
+      "text": "Certifies Assetsanitization is completedappropriately | | IT Tech | Manages certain data on IT assets and prints barcode labels; performs special handling of sensitive turnedin Assets, and completes associated Work Orders | | NX Admin | Creates newAssetrecords (individually or in bulk using Asset templates); runs EIL reports; updates Assetlocation and last inventory date; processesand records Assetturn ins and disposition; updatesthe indication of whetheran asset is sensitive; manages/coordinates report of surveyWork Orders | | NX Tech | Createsnew equipmentrecords individually; runs EIL reports and updates location and last inventory date for Assets;retrieves, processesand | | | records Assetturn ins and disposition; manages/coordinatesReport of SurveyWork Orders, updatesthe indication of whetheran asset is sensitive | |------------|---------------------------------------------------------------------------------------------------------------------------------------------------------",
+      "metadata": {
+        "chunk_id": "chunk_006",
+        "page_number": 2,
+        "section_title": "Content",
+        "char_start": 3902,
+        "char_end": 4902,
+        "word_count": 114
+      }
+    },
+    {
+      "text": "f whetheran asset is sensitive | |------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | Supervisor | Verifies Asset sanitization is completed prior to ISO certification. Supervisors for IT Assets(78 series) are IT Supervisors and will needto have that role; Supervisors for biomedical Assetsare anyone with the HTM Admin role. | ## Learning Objectives - \u00b7 Describe the Asset Turn In Process - \u00b7 Create an Asset Turn In Service Request - \u00b7 Approve an Asset Turn In Service Request - \u00b7 Reject Asset Turn In Service Request - \u00b7 Review Asset Turn In Work Order for Appropriate Action - \u00b7 Complete Work Required to Enable Asset Turn In - \u00b7 Verify Sanitization if Required - \u00b7 Certify Assets Requiring Sanitization - \u00b7 Complete Asset Turn In Work Orders ## Agenda | Topic | Estimated Time | |------------------------",
+      "metadata": {
+        "chunk_id": "chunk_007",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 4702,
+        "char_end": 5702,
+        "word_count": 131
+      }
+    },
+    {
+      "text": "Enable Asset Turn In - \u00b7 Verify Sanitization if Required - \u00b7 Certify Assets Requiring Sanitization - \u00b7 Complete Asset Turn In Work Orders ## Agenda | Topic | Estimated Time | |-------------------------------------------------------|------------------| | Create an AssetTurn In Service Request | 10 min | | Validate Asset Turn In Service Request | 10 min | | RejectAsset Turn In Service Request | 05 min | | ReviewTurn In Service RequestforAppropriate Action | 10 min | | Complete Tasks on Sanitization Work Order | 20 min | | Verify Sanitization, Complete Sanitization Work Order | 10 min | | AssetSanitation Certification | 10 min | | Complete Turn In Work Order | 10 min | | TOTAL: | 80 Total min | ## ACRONYMS USED IN THIS LESSON | Acronym | Description | |-----------|-------------------------------------| | FM | Facilities Management(Engineering) | | HTM | Health TechnologyManagement(Biomed) | | IT | InformationTechnology | | ISO | Information Security Officer | | PPM | Non-Expendable Equipm",
+      "metadata": {
+        "chunk_id": "chunk_008",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 5502,
+        "char_end": 6502,
+        "word_count": 162
+      }
+    },
+    {
+      "text": "---------| | FM | Facilities Management(Engineering) | | HTM | Health TechnologyManagement(Biomed) | | IT | InformationTechnology | | ISO | Information Security Officer | | PPM | Non-Expendable EquipmentTechnicians | | PM | Preventive Maintenance | | EAWM | Enterprise Asset& Work Management | | SR | Service Request | | VA | The Department of VeteransAffairs | | VAMC | VAMedical Center | | WO | Work Order | ## PROVISIONING REQUIREMENTS - PERSON GROUPS The appropriate individuals MUST be provisioned in the appropriate Person Groups to ensure proper flow of an Asset Turn In process. Should any Role not have an individual provisioned in it, the Turn In process is not pressed correctly and the flow of the work order will stall. ## ROLE ## PERSON GROUPS Description ISO ISO Tech IMPORTANT! Local Site Support should be contacted if individuals need to be provisioned as required to allow a seamless flow of the Asset Turn In process. ## ASSET SANITIZATION CERTIFICATION (ISO) The Information Secu",
+      "metadata": {
+        "chunk_id": "chunk_009",
+        "page_number": 3,
+        "section_title": "Content",
+        "char_start": 6302,
+        "char_end": 7302,
+        "word_count": 168
+      }
+    },
+    {
+      "text": "Site Support should be contacted if individuals need to be provisioned as required to allow a seamless flow of the Asset Turn In process. ## ASSET SANITIZATION CERTIFICATION (ISO) The Information Security Officer must certify that Asset(s) marked as a Sensitive Item must have had all work completed prior to being picked up by PPM. Step 1. From the Inbox/Assignments portlet on the Start Center , select the appropriate Certify Sanitization of Assets on WO. Figure 1. Inbox/Assignments Portlet - Step 1. The Work Order opens in Work Order Tracking on the Work Order tab. Click the Route Workflow icon tool bar to accept responsibility. Figure 2. Route Work Flow Icon - Step 2. The Complete Workflow Assignment dialog box appears to Accept Responsibility to Certify Sanitization . Select the OK button. - Step 3. Scroll down to the Multiple Assets, Locations and CIs section. Clicking the - View Details - icon to the left of the first item listed. Figure 3.",
+      "metadata": {
+        "chunk_id": "chunk_010",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 7102,
+        "char_end": 8060,
+        "word_count": 162
+      }
+    },
+    {
+      "text": "Select the OK button. - Step 3. Scroll down to the Multiple Assets, Locations and CIs section. Clicking the - View Details - icon to the left of the first item listed. Figure 3. Complete Workflow Assignment Dialog Box Figure 4. Multiple Assets, Locations and CIs Section - View Details Icon Step 4. The Details section will display, and the icon will change to a Close Details . Review/verify the information in the Details section. Perform any physical validation needed on the assets listed. Repeat this for each item listed. NOTE: Values listed under Configuration Items are hard drives that have been removed and have had work performed on them. NOTE: A partially completed Equipment Sanitization Certificate (0751) can be printed to have a list of hard drives reported on the 0751 to help with the certification activity. Follow the steps in the Printing Equipment Sanitization Certificate (0751) section of this User Guide.",
+      "metadata": {
+        "chunk_id": "chunk_011",
+        "page_number": 4,
+        "section_title": "Content",
+        "char_start": 7882,
+        "char_end": 8812,
+        "word_count": 153
+      }
+    },
+    {
+      "text": "inted to have a list of hard drives reported on the 0751 to help with the certification activity. Follow the steps in the Printing Equipment Sanitization Certificate (0751) section of this User Guide. Figure 5. Details Section section. When Step 5. Repeat for each item listed in the Multiple Assets, Locations and CIs review is completed, click the Route Workflow icon on the tool bar. Figure 6. Route Work Flow Icon - Step 6. The Manual Input dialog box appears. Information can be entered the Memo field (optional) then click the OK button: - \u00b7 Approve and Send to PPM : Certifies all required work has been completed and forwards the Work Order to PPM for appropriate action. - \u00b7 Return to Responsible Department for Additional Work : Identifies additional work which is required before certification can be provided. Returns the Work Order back to the Responsible Department to take appropriate action. - Step 7. The completed Equipment Sanitization Certificate (0751) can now be printed.",
+      "metadata": {
+        "chunk_id": "chunk_012",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 8612,
+        "char_end": 9605,
+        "word_count": 165
+      }
+    },
+    {
+      "text": "Returns the Work Order back to the Responsible Department to take appropriate action. - Step 7. The completed Equipment Sanitization Certificate (0751) can now be printed. Please refer to the Printing Equipment Sanitization Certificate (0751) section of this User Guide. - Step 8. Return to the Start Center . The Work Order no longer appears in the Inbox/Assignments portlet. Figure 7. Manual Input Dialog Box ## PRINTING EQUIPMENT SANITIZATION CERTIFICATE (0751) The Equipment Sanitization Certificate (0751) can be printed from the Turn In Work Order in the Work Order application after each process (sanitization, verification and certification) is completed. The 0751 will not be fully populated until certification is completed by the ISO. This report lists Configuration Items (hard drives) only and will not list the Assets. Assets are listed on the Those are listed on the Turn In Form (2237) report. IMPORTANT! The Work Order MUST BE a Turn In Work Order and ha",
+      "metadata": {
+        "chunk_id": "chunk_013",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 9433,
+        "char_end": 10405,
+        "word_count": 155
+      }
+    },
+    {
+      "text": "ration Items (hard drives) only and will not list the Assets. Assets are listed on the Those are listed on the Turn In Form (2237) report. IMPORTANT! The Work Order MUST BE a Turn In Work Order and have at least one Configuration Item (hard drive) associated to an Asset. - Step 1. From the Work Order Tracking application and on an Asset Turn In Work Order , click on the Select Action and select Run Reports . - Step 2. The Reports and Schedules dialog box opens. In the Description filter field, enter 0751 and press the enter key on the key board. Select Equipment Sanitization Certificate (0751) . Figure 8. Work Order Tracking Application Figure 9. Reports and Schedules Dialog Box - Description Field ## Step 3. The Request Page dialog box opens. Select the Submit button. Figure 10. Request Page Dialog Box ## Step 4. The BIRT Report Viewer tab will display the Equipment Sanitization Certificate (0751) report. Figure 11. BIRT Report - Equipment Sanitization Certificate (0751) - \u00b7 If no Con",
+      "metadata": {
+        "chunk_id": "chunk_014",
+        "page_number": 5,
+        "section_title": "Content",
+        "char_start": 10205,
+        "char_end": 11205,
+        "word_count": 175
+      }
+    },
+    {
+      "text": "The BIRT Report Viewer tab will display the Equipment Sanitization Certificate (0751) report. Figure 11. BIRT Report - Equipment Sanitization Certificate (0751) - \u00b7 If no Configuration Item (hard drive) is associated with an Asset listed on the Work Order, the results will state - ' No returned results. If this is a TURN IN Work Order, no Configuration Items have been associated. ' Figure 12. BIRT Report Viewer - No Returned Results Step 5. The information populated on this certificate is from a combination of fields from the Asset record, Configuration Items fields and completion dates of the Work Order: Figure 13. Equipment Sanitization Certificate (0751) - \u00b7 1: Date - Date Sanitization, Verification and Certification is completed. - \u00b7 2: EQUIPMENT DESCRIPTION - From Configuration Item Model. - \u00b7 3: INVENTORY TRACKING NO. - From Asset Record AEMS_MERS Ref ID (EE Number). - \u00b7 4: SERIAL NUMBER - From Configuration Item Hard Drive Serial Number.",
+      "metadata": {
+        "chunk_id": "chunk_015",
+        "page_number": 6,
+        "section_title": "Content",
+        "char_start": 11030,
+        "char_end": 11989,
+        "word_count": 157
+      }
+    },
+    {
+      "text": "- \u00b7 3: INVENTORY TRACKING NO. - From Asset Record AEMS_MERS Ref ID (EE Number). - \u00b7 4: SERIAL NUMBER - From Configuration Item Hard Drive Serial Number. - \u00b7 5: DATE DESTROYED - Date sanitization completed by Tech. - \u00b7 6: METHOD USED TO REMOVE DATA - From Configuration Item Method Used to Remove Data on 0751. - \u00b7 7: CONDITION CODE - From Configuration Item Condition Codes on 0751. - \u00b7 8: COMMENTS FOR CONDITION CODE 7 - From Configuration Item Comments for Condition Code 7. - \u00b7 9: PRINTED NAME / DATE - Name and Date Tech completed Sanitization. - \u00b7 10: PRINTED NAME / DATE - Name and Date Supervisor verified Sanitization. - \u00b7 11: PRINTED NAME / DATE - Name and Date ISO Certified Sanitization. ## PRINTING TURN IN FORM (2237) The Turn In Form (2237) report can be printed from the Turn In Work Order in the Work Order application at any point; however, will not be fully populate until PPM picks up the Asset(s) and finalizes there Turn In process",
+      "metadata": {
+        "chunk_id": "chunk_016",
+        "page_number": 6,
+        "section_title": "Content",
+        "char_start": 11836,
+        "char_end": 12789,
+        "word_count": 177
+      }
+    },
+    {
+      "text": "7) report can be printed from the Turn In Work Order in the Work Order application at any point; however, will not be fully populate until PPM picks up the Asset(s) and finalizes there Turn In process. This report lists Assets only and will not list Configuration Items (hard drives). Those are listed on the Equipment Sanitization Certificate (0751) report. IMPORTANT! The Work Order MUST BE a Turn In Work Order and have at least one Asset. Configuration Items will not be printed on the Turn In Form (2237), only the EIL Asset(s). - Step 1. From the Work Order Tracking application and on an Asset Turn In Work Order , click on the Select Action and select Run Reports . - Step 2. The Reports and Schedules dialog box opens. In the Description filter field, enter 2237 and press the enter key on the key board. Select Turn In Form (2237) . Figure 14. Work Order Tracking Application Figure 15. Reports and Schedules Dialog Box - Description Field ## Step 3.",
+      "metadata": {
+        "chunk_id": "chunk_017",
+        "page_number": 6,
+        "section_title": "Content",
+        "char_start": 12589,
+        "char_end": 13549,
+        "word_count": 172
+      }
+    },
+    {
+      "text": "enter 2237 and press the enter key on the key board. Select Turn In Form (2237) . Figure 14. Work Order Tracking Application Figure 15. Reports and Schedules Dialog Box - Description Field ## Step 3. The Request Page dialog box opens. Select the Submit button. Figure 16. Request Page Dialog Box ## Step 4. The BIRT Report Viewer tab will display the Equipment Sanitization Certificate (0751) report. Figure 17. BIRT Report - Turn In From (2237) - \u00b7 If not a Turn In Work Order or if no Asset have been associated to the Turn In Work Order, the results will state - ' No returned results. If this is a TURN IN Work Order, no Assets have been associated. ' Figure 18. BIRT Report Viewer - No Returned Results Step 5. The information populated on the Turn In Form (2237) is based on when the Asset Turn In Service Request was Approved by the Custodial Official and when PPM finalized the Asset Turn In Work Order: NOTE : As the Turn In process flow, segments of data will be populated on this form; ho",
+      "metadata": {
+        "chunk_id": "chunk_018",
+        "page_number": 7,
+        "section_title": "Content",
+        "char_start": 13349,
+        "char_end": 14349,
+        "word_count": 186
+      }
+    },
+    {
+      "text": "n In Service Request was Approved by the Custodial Official and when PPM finalized the Asset Turn In Work Order: NOTE : As the Turn In process flow, segments of data will be populated on this form; however, the form will not contain all information until PPM finalizes the turn in process and completes the Asset Turn In Work Order. Figure 19. Equipment Sanitization Certificate (0751) - \u00b7 1: Service Request Number and Work Order Number - From Maximo. - \u00b7 2: To Supply Officer - Site designated Accountable Officer in Maximo. - \u00b7 3: Requesting Office / Date Prepared - Custodial Official, EIL and EIL Description / Date the Asset Turn In Service Request was approved. - \u00b7 4: Turn In Assets - \u00b7 5: JUSTIFICATION - Asset Turn In Service Request Description - \u00b7 6: Signature of Approver / Date - Custodial Official approving the Asset Turn In Service Request / Date Approved - \u00b7 7: RECEIPT ACTION - Name who completed the Turn In Work Order, Date completed and Work Order number.",
+      "metadata": {
+        "chunk_id": "chunk_019",
+        "page_number": 7,
+        "section_title": "Content",
+        "char_start": 14149,
+        "char_end": 15126,
+        "word_count": 175
+      }
+    },
+    {
+      "text": "pprover / Date - Custodial Official approving the Asset Turn In Service Request / Date Approved - \u00b7 7: RECEIPT ACTION - Name who completed the Turn In Work Order, Date completed and Work Order number. ## REVIEW ## Knowledge Check You will have 'A Minute to Win It.' You will have one minute to answer the questions listed. You can use your user guide, if needed. Remember - you only have one minute. When I call 'Time,' we will review the answers. - 1. The ISO must be provisioned in Maximo? - a. Ture - b. False - 2. For assets requiring sanitization, the ISO must provide certification before it is picked up by PPM. - a. True - b. False - 3. The ISO can print the 0751 report. - a. Any time while on the work order - b. After certification to display all signature blocks are populated - c. Never - d. Both a. and b. ## APPENDIX A - TURN IN ASSET BUSINESS PROCESS Figure 20: Asset Turn In Process Flow | Step Number | Description | |---------------|------------------------------------------------",
+      "metadata": {
+        "chunk_id": "chunk_020",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 14926,
+        "char_end": 15926,
+        "word_count": 183
+      }
+    },
+    {
+      "text": "Both a. and b. ## APPENDIX A - TURN IN ASSET BUSINESS PROCESS Figure 20: Asset Turn In Process Flow | Step Number | Description | |---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+      "metadata": {
+        "chunk_id": "chunk_021",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 15730,
+        "char_end": 16726,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | 1.4.1 | The Service Requestorhas identified asset(s) for turn in and creates a turn in requestin Maximo (for one or many assets). Note: Turn in requestsshould only be made for assets that are intended to leave their current site (e.g., for ultimate decommissioning). If assigned or signed assets are no longer neededbya Borrower, such requests should be handled using Service Now. | | 1.4.2 | Using Maximo, the Custodial Official ensuresthat the turn in requ",
+      "metadata": {
+        "chunk_id": "chunk_022",
+        "page_number": 8,
+        "section_title": "Content",
+        "char_start": 16526,
+        "char_end": 17526,
+        "word_count": 77
+      }
+    },
+    {
+      "text": "If assigned or signed assets are no longer neededbya Borrower, such requests should be handled using Service Now. | | 1.4.2 | Using Maximo, the Custodial Official ensuresthat the turn in requestis valid and that all assets on the request should be turned in. If turn in request is valid, proceedto step 1.4.3. If the turn in request is not valid, proceedto step1.4.11. | | 1.4.3 | The Responsible Department(which may be FM, HTM, or IT) receives a work order and manually handles any necessarypre-turn in work if needed.Note:If the Responsible Department on the assets being turnedin is HTM or FMthenthe turn in work order will go to HTM or FMaccordingly. If the assets being turned in are on a 78 series EIL ANDif at least one of the assets on the work order is marked as a Sensitive Item, thenthe work order will go to IT. In any other cases, the work order will go directly to PPM. Note:If the Responsible Departmentof the asset(s) on the work order is HTM or FM, the HTM Admin or FMWO Cl",
+      "metadata": {
+        "chunk_id": "chunk_023",
+        "page_number": 9,
+        "section_title": "Content",
+        "char_start": 17334,
+        "char_end": 18326,
+        "word_count": 179
+      }
+    },
+    {
+      "text": "In any other cases, the work order will go directly to PPM. Note:If the Responsible Departmentof the asset(s) on the work order is HTM or FM, the HTM Admin or FMWO Clerk may first choose to delegate the work to and HTM Tech or an FM Tech. If the asset(s) on the work order are IT assets (on a 78 series EIL), the IT Tech will begin executionof any work needed. Examples of pre-turnin work include decontamination/wipe down of an asset, purging or removal of fluids, environmental management(such as cleaning hospital beds), ensuringsafe disposal of specialized assets (such as radioactive or other contaminates), cleaning lab equipmentcontaining reagents, removing freon from and defrosting refrigerators, uninstalling a piece of equipment. | | 1.4.4 | If the asset(s) onthe work order require data sanitization (e.g., removal of hard drives). The Responsible Department manually sanitizes the assets. | Table 1. Asset Turn In Business Process Narrative | Step Numbe",
+      "metadata": {
+        "chunk_id": "chunk_024",
+        "page_number": 9,
+        "section_title": "Content",
+        "char_start": 18159,
+        "char_end": 19126,
+        "word_count": 155
+      }
+    },
+    {
+      "text": "g., removal of hard drives). The Responsible Department manually sanitizes the assets. | Table 1. Asset Turn In Business Process Narrative | Step Number | Description | |---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | 1.4.5 | In Maximo, the Responsible Departmentwill record the sanitization activity for any asset(s) that underwent data sanitization. This includes creating a Configuration Item within the work order for each hard drive removed from an assetand recording the date the hard drive was remove",
+      "metadata": {
+        "chunk_id": "chunk_025",
+        "page_number": 9,
+        "section_title": "Content",
+        "char_start": 18975,
+        "char_end": 19926,
+        "word_count": 73
+      }
+    },
+    {
+      "text": "This includes creating a Configuration Item within the work order for each hard drive removed from an assetand recording the date the hard drive was removed. If any assets on the turn in work order underwentdata sanitization, proceedto step 1.4.6. If noneof the assets on the turn in work order underwentdata sanitization, proceedto step 1.4.8. | | 1.4.6 | In Maximo, the Supervisor will record his/her verification that the asset(s) onthe work order weredata sanitized, once all physical verification has beencompleted. | | 1.4.7 | Using Maximo, the ISOwill record his/her certification that the asset(s) on the work order weresanitized appropriately, once all physical review has beencompleted. | | 1.4.8 | Once the sanitization is certified bythe ISO, Maximo informs Logistics (Admin (NX), Tech(NX)). | | 1.4.9 | The Admin (NX), Tech (NX) physically retrieves the assets. | | 1.4.10 | Using Maximo, the Admin (NX), Tech (NX) records the turn in of the",
+      "metadata": {
+        "chunk_id": "chunk_026",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 19770,
+        "char_end": 20726,
+        "word_count": 154
+      }
+    },
+    {
+      "text": "Maximo informs Logistics (Admin (NX), Tech(NX)). | | 1.4.9 | The Admin (NX), Tech (NX) physically retrieves the assets. | | 1.4.10 | Using Maximo, the Admin (NX), Tech (NX) records the turn in of the asset(s) on the work order (e.g., assigns Action Codesto the assets within the work order) and closes the work order. Closing the work order automatically sets the asset(s) status to TURN IN and sets the asset(s) EIL to 991. The process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_027",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20526,
+        "char_end": 21124,
+        "word_count": 99
+      }
+    },
+    {
+      "text": "s the asset(s) EIL to 991. The process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_028",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20924,
+        "char_end": 21124,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "the asset(s) EIL to 991. The process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_029",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20925,
+        "char_end": 21124,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "the asset(s) EIL to 991. The process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_030",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20926,
+        "char_end": 21124,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "he asset(s) EIL to 991. The process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_031",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20927,
+        "char_end": 21124,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "e asset(s) EIL to 991. The process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_032",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20928,
+        "char_end": 21124,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "asset(s) EIL to 991. The process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_033",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20929,
+        "char_end": 21124,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "asset(s) EIL to 991. The process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_034",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20930,
+        "char_end": 21124,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "sset(s) EIL to 991. The process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_035",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20931,
+        "char_end": 21124,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "set(s) EIL to 991. The process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_036",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20932,
+        "char_end": 21124,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "et(s) EIL to 991. The process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_037",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20933,
+        "char_end": 21124,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "t(s) EIL to 991. The process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_038",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20934,
+        "char_end": 21124,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "(s) EIL to 991. The process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_039",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20935,
+        "char_end": 21124,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "s) EIL to 991. The process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_040",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20936,
+        "char_end": 21124,
+        "word_count": 28
+      }
+    },
+    {
+      "text": ") EIL to 991. The process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_041",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20937,
+        "char_end": 21124,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "EIL to 991. The process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_042",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20938,
+        "char_end": 21124,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "EIL to 991. The process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_043",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20939,
+        "char_end": 21124,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "IL to 991. The process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_044",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20940,
+        "char_end": 21124,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "L to 991. The process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_045",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20941,
+        "char_end": 21124,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "to 991. The process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_046",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20942,
+        "char_end": 21124,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "to 991. The process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_047",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20943,
+        "char_end": 21124,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "o 991. The process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_048",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20944,
+        "char_end": 21124,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "991. The process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_049",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20945,
+        "char_end": 21124,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "991. The process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_050",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20946,
+        "char_end": 21124,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "91. The process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_051",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20947,
+        "char_end": 21124,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "1. The process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_052",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20948,
+        "char_end": 21124,
+        "word_count": 25
+      }
+    },
+    {
+      "text": ". The process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_053",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20949,
+        "char_end": 21124,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "The process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_054",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20950,
+        "char_end": 21124,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "The process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_055",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20951,
+        "char_end": 21124,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "he process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_056",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20952,
+        "char_end": 21124,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "e process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_057",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20953,
+        "char_end": 21124,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_058",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20954,
+        "char_end": 21124,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "process endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_059",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20955,
+        "char_end": 21124,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "rocess endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_060",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20956,
+        "char_end": 21124,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "ocess endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_061",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20957,
+        "char_end": 21124,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "cess endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_062",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20958,
+        "char_end": 21124,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "ess endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_063",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20959,
+        "char_end": 21124,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "ss endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_064",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20960,
+        "char_end": 21124,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "s endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_065",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20961,
+        "char_end": 21124,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_066",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20962,
+        "char_end": 21124,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "endsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_067",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20963,
+        "char_end": 21124,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "ndsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_068",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20964,
+        "char_end": 21124,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "dsuntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_069",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20965,
+        "char_end": 21124,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "suntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_070",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20966,
+        "char_end": 21124,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "until the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_071",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20967,
+        "char_end": 21124,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "ntil the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_072",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20968,
+        "char_end": 21124,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "til the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_073",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20969,
+        "char_end": 21124,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "il the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_074",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20970,
+        "char_end": 21124,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "l the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_075",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20971,
+        "char_end": 21124,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_076",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20972,
+        "char_end": 21124,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "the asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_077",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20973,
+        "char_end": 21124,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "he asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_078",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20974,
+        "char_end": 21124,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "e asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_079",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20975,
+        "char_end": 21124,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_080",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20976,
+        "char_end": 21124,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "asset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_081",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20977,
+        "char_end": 21124,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "sset(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_082",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20978,
+        "char_end": 21124,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "set(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_083",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20979,
+        "char_end": 21124,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "et(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_084",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20980,
+        "char_end": 21124,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "t(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_085",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20981,
+        "char_end": 21124,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "(s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_086",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20982,
+        "char_end": 21124,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "s) are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_087",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20983,
+        "char_end": 21124,
+        "word_count": 20
+      }
+    },
+    {
+      "text": ") are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_088",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20984,
+        "char_end": 21124,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_089",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20985,
+        "char_end": 21124,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "are ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_090",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20986,
+        "char_end": 21124,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "re ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_091",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20987,
+        "char_end": 21124,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "e ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_092",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20988,
+        "char_end": 21124,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_093",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20989,
+        "char_end": 21124,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "ready for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_094",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20990,
+        "char_end": 21124,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "eady for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_095",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20991,
+        "char_end": 21124,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "ady for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_096",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20992,
+        "char_end": 21124,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "dy for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_097",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20993,
+        "char_end": 21124,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "y for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_098",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20994,
+        "char_end": 21124,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_099",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20995,
+        "char_end": 21124,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "for final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_100",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20996,
+        "char_end": 21124,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "or final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_101",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20997,
+        "char_end": 21124,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "r final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_102",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20998,
+        "char_end": 21124,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_103",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 20999,
+        "char_end": 21124,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "final disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_104",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21000,
+        "char_end": 21124,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "inal disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_105",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21001,
+        "char_end": 21124,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "nal disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_106",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21002,
+        "char_end": 21124,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "al disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_107",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21003,
+        "char_end": 21124,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "l disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_108",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21004,
+        "char_end": 21124,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_109",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21005,
+        "char_end": 21124,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "disposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_110",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21006,
+        "char_end": 21124,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "isposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_111",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21007,
+        "char_end": 21124,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "sposition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_112",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21008,
+        "char_end": 21124,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "position. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_113",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21009,
+        "char_end": 21124,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "osition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_114",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21010,
+        "char_end": 21124,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "sition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_115",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21011,
+        "char_end": 21124,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "ition. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_116",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21012,
+        "char_end": 21124,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "tion. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_117",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21013,
+        "char_end": 21124,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "ion. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_118",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21014,
+        "char_end": 21124,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "on. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_119",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21015,
+        "char_end": 21124,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "n. | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_120",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21016,
+        "char_end": 21124,
+        "word_count": 15
+      }
+    },
+    {
+      "text": ". | | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_121",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21017,
+        "char_end": 21124,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "| | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_122",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21018,
+        "char_end": 21124,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "| | 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_123",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21019,
+        "char_end": 21124,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "| 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_124",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21020,
+        "char_end": 21124,
+        "word_count": 13
+      }
+    },
+    {
+      "text": "| 1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_125",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21021,
+        "char_end": 21124,
+        "word_count": 13
+      }
+    },
+    {
+      "text": "1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_126",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21022,
+        "char_end": 21124,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "1.4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_127",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21023,
+        "char_end": 21124,
+        "word_count": 12
+      }
+    },
+    {
+      "text": ".4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_128",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21024,
+        "char_end": 21124,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "4.11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_129",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21025,
+        "char_end": 21124,
+        "word_count": 12
+      }
+    },
+    {
+      "text": ".11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_130",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21026,
+        "char_end": 21124,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "11 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_131",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21027,
+        "char_end": 21124,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "1 | The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_132",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21028,
+        "char_end": 21124,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "| The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_133",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21029,
+        "char_end": 21124,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "| The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_134",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21030,
+        "char_end": 21124,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_135",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21031,
+        "char_end": 21124,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "The Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_136",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21032,
+        "char_end": 21124,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "he Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_137",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21033,
+        "char_end": 21124,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "e Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_138",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21034,
+        "char_end": 21124,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_139",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21035,
+        "char_end": 21124,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "Service Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_140",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21036,
+        "char_end": 21124,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "ervice Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_141",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21037,
+        "char_end": 21124,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "rvice Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_142",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21038,
+        "char_end": 21124,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "vice Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_143",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21039,
+        "char_end": 21124,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "ice Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_144",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21040,
+        "char_end": 21124,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "ce Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_145",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21041,
+        "char_end": 21124,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "e Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_146",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21042,
+        "char_end": 21124,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_147",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21043,
+        "char_end": 21124,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "Requestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_148",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21044,
+        "char_end": 21124,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "equestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_149",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21045,
+        "char_end": 21124,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "questorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_150",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21046,
+        "char_end": 21124,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "uestorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_151",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21047,
+        "char_end": 21124,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "estorreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_152",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21048,
+        "char_end": 21124,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "storreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_153",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21049,
+        "char_end": 21124,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "torreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_154",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21050,
+        "char_end": 21124,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "orreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_155",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21051,
+        "char_end": 21124,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "rreceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_156",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21052,
+        "char_end": 21124,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "receivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_157",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21053,
+        "char_end": 21124,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "eceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_158",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21054,
+        "char_end": 21124,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "ceivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_159",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21055,
+        "char_end": 21124,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "eivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_160",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21056,
+        "char_end": 21124,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "ivesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_161",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21057,
+        "char_end": 21124,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "vesnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_162",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21058,
+        "char_end": 21124,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "esnotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_163",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21059,
+        "char_end": 21124,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "snotification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_164",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21060,
+        "char_end": 21124,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "notification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_165",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21061,
+        "char_end": 21124,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "otification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_166",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21062,
+        "char_end": 21124,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "tification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_167",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21063,
+        "char_end": 21124,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "ification fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_168",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21064,
+        "char_end": 21124,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "fication fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_169",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21065,
+        "char_end": 21124,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "ication fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_170",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21066,
+        "char_end": 21124,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "cation fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_171",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21067,
+        "char_end": 21124,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "ation fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_172",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21068,
+        "char_end": 21124,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "tion fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_173",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21069,
+        "char_end": 21124,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "ion fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_174",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21070,
+        "char_end": 21124,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "on fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_175",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21071,
+        "char_end": 21124,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "n fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_176",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21072,
+        "char_end": 21124,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_177",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21073,
+        "char_end": 21124,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "fromMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_178",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21074,
+        "char_end": 21124,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "romMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_179",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21075,
+        "char_end": 21124,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "omMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_180",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21076,
+        "char_end": 21124,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "mMaximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_181",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21077,
+        "char_end": 21124,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "Maximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_182",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21078,
+        "char_end": 21124,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "aximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_183",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21079,
+        "char_end": 21124,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "ximo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_184",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21080,
+        "char_end": 21124,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "imo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_185",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21081,
+        "char_end": 21124,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "mo that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_186",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21082,
+        "char_end": 21124,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "o that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_187",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21083,
+        "char_end": 21124,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_188",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21084,
+        "char_end": 21124,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "that the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_189",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21085,
+        "char_end": 21124,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "hat the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_190",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21086,
+        "char_end": 21124,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "at the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_191",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21087,
+        "char_end": 21124,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "t the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_192",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21088,
+        "char_end": 21124,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_193",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21089,
+        "char_end": 21124,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "the service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_194",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21090,
+        "char_end": 21124,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "he service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_195",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21091,
+        "char_end": 21124,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "e service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_196",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21092,
+        "char_end": 21124,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_197",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21093,
+        "char_end": 21124,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "service requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_198",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21094,
+        "char_end": 21124,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "ervice requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_199",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21095,
+        "char_end": 21124,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "rvice requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_200",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21096,
+        "char_end": 21124,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "vice requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_201",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21097,
+        "char_end": 21124,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "ice requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_202",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21098,
+        "char_end": 21124,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "ce requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_203",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21099,
+        "char_end": 21124,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "e requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_204",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21100,
+        "char_end": 21124,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_205",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21101,
+        "char_end": 21124,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "requestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_206",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21102,
+        "char_end": 21124,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "equestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_207",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21103,
+        "char_end": 21124,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "questwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_208",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21104,
+        "char_end": 21124,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "uestwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_209",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21105,
+        "char_end": 21124,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "estwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_210",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21106,
+        "char_end": 21124,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "stwas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_211",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21107,
+        "char_end": 21124,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "twas rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_212",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21108,
+        "char_end": 21124,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "was rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_213",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21109,
+        "char_end": 21124,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "as rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_214",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21110,
+        "char_end": 21124,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "s rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_215",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21111,
+        "char_end": 21124,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_216",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21112,
+        "char_end": 21124,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "rejected. |",
+      "metadata": {
+        "chunk_id": "chunk_217",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21113,
+        "char_end": 21124,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "ejected. |",
+      "metadata": {
+        "chunk_id": "chunk_218",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21114,
+        "char_end": 21124,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "jected. |",
+      "metadata": {
+        "chunk_id": "chunk_219",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21115,
+        "char_end": 21124,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "ected. |",
+      "metadata": {
+        "chunk_id": "chunk_220",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21116,
+        "char_end": 21124,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "cted. |",
+      "metadata": {
+        "chunk_id": "chunk_221",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21117,
+        "char_end": 21124,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "ted. |",
+      "metadata": {
+        "chunk_id": "chunk_222",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21118,
+        "char_end": 21124,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "ed. |",
+      "metadata": {
+        "chunk_id": "chunk_223",
+        "page_number": 10,
+        "section_title": "Content",
+        "char_start": 21119,
+        "char_end": 21124,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "d. |",
+      "metadata": {
+        "chunk_id": "chunk_224",
+        "page_number": 11,
+        "section_title": "Content",
+        "char_start": 21120,
+        "char_end": 21124,
+        "word_count": 2
+      }
+    },
+    {
+      "text": ". |",
+      "metadata": {
+        "chunk_id": "chunk_225",
+        "page_number": 11,
+        "section_title": "Content",
+        "char_start": 21121,
+        "char_end": 21124,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "|",
+      "metadata": {
+        "chunk_id": "chunk_226",
+        "page_number": 11,
+        "section_title": "Content",
+        "char_start": 21122,
+        "char_end": 21124,
+        "word_count": 1
+      }
+    },
+    {
+      "text": "|",
+      "metadata": {
+        "chunk_id": "chunk_227",
+        "page_number": 11,
+        "section_title": "Content",
+        "char_start": 21123,
+        "char_end": 21124,
+        "word_count": 1
+      }
+    }
+  ]
+}

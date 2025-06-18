@@ -169,12 +169,49 @@ def render_rag_statistics_panel():
     """Render RAG statistics panel."""
     with st.expander("📊 RAG Statistics", expanded=True):
         try:
+            # Ensure RAG system is initialized before accessing stats
             if not st.session_state.get("rag_pipeline"):
-                st.warning("RAG pipeline not initialized")
-                return
+                if not check_rag_system_available():
+                    st.error("❌ RAG system is not available")
+                    st.info("Please check that documents are uploaded and the system is properly configured.")
+                    return
+                
+                # Try to initialize the RAG pipeline
+                try:
+                    initialize_rag_system()
+                    ai_client = get_ai_client()
+                    
+                    if ai_client:
+                        st.session_state.rag_pipeline = RAGPipeline(
+                            storage=st.session_state.rag_storage,
+                            search_engine=st.session_state.search_engine,
+                            ai_client=ai_client,
+                            max_context_tokens=st.session_state.get("rag_context_length", 3000)
+                        )
+                        st.success("✅ RAG pipeline initialized successfully!")
+                    else:
+                        st.warning("⚠️ AI client not configured. Please configure your API settings first.")
+                        return
+                except Exception as e:
+                    st.error(f"❌ Failed to initialize RAG pipeline: {str(e)}")
+                    logger.error(f"Failed to initialize RAG pipeline in stats panel: {e}")
+                    return
             
             # Get pipeline stats
             stats = st.session_state.rag_pipeline.get_pipeline_stats()
+            
+            # Check if there are any stats to display
+            if stats.get('total_queries', 0) == 0:
+                st.info("📊 No RAG queries processed yet. Start a conversation to see statistics!")
+                st.write("**Current Configuration:**")
+                col1, col2 = st.columns(2)
+                with col1:
+                    st.metric("Max Sources", st.session_state.get("rag_max_sources", 5))
+                    st.metric("Context Length", st.session_state.get("rag_context_length", 3000))
+                with col2:
+                    st.metric("Relevance Threshold", st.session_state.get("rag_threshold", 0.1))
+                    st.metric("RAG Enabled", "Yes" if st.session_state.get("rag_enabled", True) else "No")
+                return
             
             col1, col2, col3 = st.columns(3)
             
@@ -211,6 +248,7 @@ def render_rag_statistics_panel():
         
         except Exception as e:
             st.error(f"Error loading RAG statistics: {str(e)}")
+            logger.error(f"Error in RAG statistics panel: {e}")
 
 
 def display_rag_chat_messages():

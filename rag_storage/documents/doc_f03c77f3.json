@@ -1,0 +1,2257 @@
+{
+  "metadata": {
+    "doc_id": "f03c77f3e8ed95215aaea79b0330f38c332038d263ca9745621313c761fd02ba",
+    "filename": "tmp92v6e8m_.pdf",
+    "upload_timestamp": "2025-06-18T16:44:06.228722",
+    "total_pages": 1,
+    "total_chunks": 204,
+    "processing_status": "completed",
+    "file_size_bytes": 226383
+  },
+  "chunks": [
+    {
+      "text": "## MAXIMO SELF-PACED TRAINING GUIDE ## INFORMATION SECURITY OFFICER (ISO) TRAINING ## The Information Security Officer (ISO) Role in Maximo In Maximo, the Information Security Officer (ISO) uses the Service Request application to certify Asset(s) requiring sanitization prior to final approval by the Custodial Official and the Asset picked up the Personal Property Management (PPM). ## Available Training Resources User Guides, Job Aids and Quick Reference Documents are available on the EAWM Maximo Training Page to help users learn their role and responsibilities in Maximo at their own pace and in a mode that best fits their learning style. - \u00b7 User Guides provide the greatest amount of detail on each topic. User Guides include a high-level summary, detailed step-by-step instructions with screen captures, and a Business Process Model mapping out the activities performed by each affected Functional Community. User Guides can be found in the 'Training Materials by Role' section of the Train",
+      "metadata": {
+        "chunk_id": "chunk_001",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 0,
+        "char_end": 1000,
+        "word_count": 154
+      }
+    },
+    {
+      "text": "een captures, and a Business Process Model mapping out the activities performed by each affected Functional Community. User Guides can be found in the 'Training Materials by Role' section of the Training page, under via links to the Functional Community and Role name. - \u00b7 Job Aids target critical functionality in Maximo. These documents are intended to be brief and focus on key issues, highlighting essential steps. These are found in the 'User Documentation' section of the Training page. - \u00b7 Quick Reference Documents (QRDs) include step-by-step work instructions, in simplest terms. Unlike Job Aids and User Guides, QRDs normally do not include screen captures. These are also posted in the 'User Documentation' section. In addition to the items available on the Training page, this Self-Paced Training Guide directs you to short video demonstrations recorded and narrated by Maximo Instructors as they walk through the steps of completing specific tasks in Maximo.",
+      "metadata": {
+        "chunk_id": "chunk_002",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 800,
+        "char_end": 1771,
+        "word_count": 152
+      }
+    },
+    {
+      "text": "aining page, this Self-Paced Training Guide directs you to short video demonstrations recorded and narrated by Maximo Instructors as they walk through the steps of completing specific tasks in Maximo. To train for your role, read the appropriate User Guide, Job Aid and/or QRD for a given topic to gain an understanding of the process. Also, watch the video demonstrations as noted below. Continue reviewing this information until you are ready to start working in Maximo. IMPORTANT! Please DO NOT attempt to practice any of the steps in the Maximo Production system. If, after reviewing the materials, you are still uncomfortable with working in Maximo, contact your Maximo Site Lead for additional guidance. ## MAXIMO SELF-PACED TRAINING GUIDE ## Asset Turn-In and Sanitization The ISO certifies Turn-In Asset(s) requiring sanitization have been sanitized changes Status of the Service Request to move the process forward for final disposition of the Asset(s) using the Service Request application.",
+      "metadata": {
+        "chunk_id": "chunk_003",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 1571,
+        "char_end": 2571,
+        "word_count": 155
+      }
+    },
+    {
+      "text": "rn-In Asset(s) requiring sanitization have been sanitized changes Status of the Service Request to move the process forward for final disposition of the Asset(s) using the Service Request application. - \u00b7 To read the User Guide on this topic, please go to the Information Technology Asset Turn In Process page; under the ISO tab, select the Asset Turn In User Guide to download the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_004",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2371,
+        "char_end": 2916,
+        "word_count": 94
+      }
+    },
+    {
+      "text": "t Turn In User Guide to download the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_005",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2716,
+        "char_end": 2916,
+        "word_count": 38
+      }
+    },
+    {
+      "text": "Turn In User Guide to download the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_006",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2717,
+        "char_end": 2916,
+        "word_count": 37
+      }
+    },
+    {
+      "text": "Turn In User Guide to download the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_007",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2718,
+        "char_end": 2916,
+        "word_count": 37
+      }
+    },
+    {
+      "text": "urn In User Guide to download the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_008",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2719,
+        "char_end": 2916,
+        "word_count": 37
+      }
+    },
+    {
+      "text": "rn In User Guide to download the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_009",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2720,
+        "char_end": 2916,
+        "word_count": 37
+      }
+    },
+    {
+      "text": "n In User Guide to download the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_010",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2721,
+        "char_end": 2916,
+        "word_count": 37
+      }
+    },
+    {
+      "text": "In User Guide to download the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_011",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2722,
+        "char_end": 2916,
+        "word_count": 36
+      }
+    },
+    {
+      "text": "In User Guide to download the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_012",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2723,
+        "char_end": 2916,
+        "word_count": 36
+      }
+    },
+    {
+      "text": "n User Guide to download the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_013",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2724,
+        "char_end": 2916,
+        "word_count": 36
+      }
+    },
+    {
+      "text": "User Guide to download the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_014",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2725,
+        "char_end": 2916,
+        "word_count": 35
+      }
+    },
+    {
+      "text": "User Guide to download the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_015",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2726,
+        "char_end": 2916,
+        "word_count": 35
+      }
+    },
+    {
+      "text": "ser Guide to download the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_016",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2727,
+        "char_end": 2916,
+        "word_count": 35
+      }
+    },
+    {
+      "text": "er Guide to download the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_017",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2728,
+        "char_end": 2916,
+        "word_count": 35
+      }
+    },
+    {
+      "text": "r Guide to download the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_018",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2729,
+        "char_end": 2916,
+        "word_count": 35
+      }
+    },
+    {
+      "text": "Guide to download the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_019",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2730,
+        "char_end": 2916,
+        "word_count": 34
+      }
+    },
+    {
+      "text": "Guide to download the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_020",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2731,
+        "char_end": 2916,
+        "word_count": 34
+      }
+    },
+    {
+      "text": "uide to download the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_021",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2732,
+        "char_end": 2916,
+        "word_count": 34
+      }
+    },
+    {
+      "text": "ide to download the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_022",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2733,
+        "char_end": 2916,
+        "word_count": 34
+      }
+    },
+    {
+      "text": "de to download the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_023",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2734,
+        "char_end": 2916,
+        "word_count": 34
+      }
+    },
+    {
+      "text": "e to download the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_024",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2735,
+        "char_end": 2916,
+        "word_count": 34
+      }
+    },
+    {
+      "text": "to download the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_025",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2736,
+        "char_end": 2916,
+        "word_count": 33
+      }
+    },
+    {
+      "text": "to download the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_026",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2737,
+        "char_end": 2916,
+        "word_count": 33
+      }
+    },
+    {
+      "text": "o download the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_027",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2738,
+        "char_end": 2916,
+        "word_count": 33
+      }
+    },
+    {
+      "text": "download the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_028",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2739,
+        "char_end": 2916,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "download the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_029",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2740,
+        "char_end": 2916,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "ownload the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_030",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2741,
+        "char_end": 2916,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "wnload the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_031",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2742,
+        "char_end": 2916,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "nload the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_032",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2743,
+        "char_end": 2916,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "load the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_033",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2744,
+        "char_end": 2916,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "oad the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_034",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2745,
+        "char_end": 2916,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "ad the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_035",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2746,
+        "char_end": 2916,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "d the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_036",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2747,
+        "char_end": 2916,
+        "word_count": 32
+      }
+    },
+    {
+      "text": "the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_037",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2748,
+        "char_end": 2916,
+        "word_count": 31
+      }
+    },
+    {
+      "text": "the file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_038",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2749,
+        "char_end": 2916,
+        "word_count": 31
+      }
+    },
+    {
+      "text": "he file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_039",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2750,
+        "char_end": 2916,
+        "word_count": 31
+      }
+    },
+    {
+      "text": "e file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_040",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2751,
+        "char_end": 2916,
+        "word_count": 31
+      }
+    },
+    {
+      "text": "file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_041",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2752,
+        "char_end": 2916,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "file. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_042",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2753,
+        "char_end": 2916,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "ile. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_043",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2754,
+        "char_end": 2916,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "le. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_044",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2755,
+        "char_end": 2916,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "e. - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_045",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2756,
+        "char_end": 2916,
+        "word_count": 30
+      }
+    },
+    {
+      "text": ". - \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_046",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2757,
+        "char_end": 2916,
+        "word_count": 30
+      }
+    },
+    {
+      "text": "- \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_047",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2758,
+        "char_end": 2916,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "- \u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_048",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2759,
+        "char_end": 2916,
+        "word_count": 29
+      }
+    },
+    {
+      "text": "\u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_049",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2760,
+        "char_end": 2916,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "\u00b7 To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_050",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2761,
+        "char_end": 2916,
+        "word_count": 28
+      }
+    },
+    {
+      "text": "To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_051",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2762,
+        "char_end": 2916,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "To read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_052",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2763,
+        "char_end": 2916,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "o read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_053",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2764,
+        "char_end": 2916,
+        "word_count": 27
+      }
+    },
+    {
+      "text": "read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_054",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2765,
+        "char_end": 2916,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "read the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_055",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2766,
+        "char_end": 2916,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "ead the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_056",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2767,
+        "char_end": 2916,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "ad the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_057",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2768,
+        "char_end": 2916,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "d the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_058",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2769,
+        "char_end": 2916,
+        "word_count": 26
+      }
+    },
+    {
+      "text": "the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_059",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2770,
+        "char_end": 2916,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "the Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_060",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2771,
+        "char_end": 2916,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "he Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_061",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2772,
+        "char_end": 2916,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "e Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_062",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2773,
+        "char_end": 2916,
+        "word_count": 25
+      }
+    },
+    {
+      "text": "Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_063",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2774,
+        "char_end": 2916,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "Job Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_064",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2775,
+        "char_end": 2916,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "ob Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_065",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2776,
+        "char_end": 2916,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "b Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_066",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2777,
+        "char_end": 2916,
+        "word_count": 24
+      }
+    },
+    {
+      "text": "Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_067",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2778,
+        "char_end": 2916,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "Aid on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_068",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2779,
+        "char_end": 2916,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "id on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_069",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2780,
+        "char_end": 2916,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "d on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_070",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2781,
+        "char_end": 2916,
+        "word_count": 23
+      }
+    },
+    {
+      "text": "on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_071",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2782,
+        "char_end": 2916,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "on this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_072",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2783,
+        "char_end": 2916,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "n this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_073",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2784,
+        "char_end": 2916,
+        "word_count": 22
+      }
+    },
+    {
+      "text": "this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_074",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2785,
+        "char_end": 2916,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "this topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_075",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2786,
+        "char_end": 2916,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "his topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_076",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2787,
+        "char_end": 2916,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "is topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_077",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2788,
+        "char_end": 2916,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "s topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_078",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2789,
+        "char_end": 2916,
+        "word_count": 21
+      }
+    },
+    {
+      "text": "topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_079",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2790,
+        "char_end": 2916,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "topic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_080",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2791,
+        "char_end": 2916,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "opic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_081",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2792,
+        "char_end": 2916,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "pic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_082",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2793,
+        "char_end": 2916,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "ic, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_083",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2794,
+        "char_end": 2916,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "c, please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_084",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2795,
+        "char_end": 2916,
+        "word_count": 20
+      }
+    },
+    {
+      "text": ", please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_085",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2796,
+        "char_end": 2916,
+        "word_count": 20
+      }
+    },
+    {
+      "text": "please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_086",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2797,
+        "char_end": 2916,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "please select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_087",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2798,
+        "char_end": 2916,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "lease select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_088",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2799,
+        "char_end": 2916,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "ease select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_089",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2800,
+        "char_end": 2916,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "ase select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_090",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2801,
+        "char_end": 2916,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "se select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_091",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2802,
+        "char_end": 2916,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "e select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_092",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2803,
+        "char_end": 2916,
+        "word_count": 19
+      }
+    },
+    {
+      "text": "select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_093",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2804,
+        "char_end": 2916,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "select the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_094",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2805,
+        "char_end": 2916,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "elect the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_095",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2806,
+        "char_end": 2916,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "lect the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_096",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2807,
+        "char_end": 2916,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "ect the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_097",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2808,
+        "char_end": 2916,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "ct the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_098",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2809,
+        "char_end": 2916,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "t the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_099",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2810,
+        "char_end": 2916,
+        "word_count": 18
+      }
+    },
+    {
+      "text": "the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_100",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2811,
+        "char_end": 2916,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "the Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_101",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2812,
+        "char_end": 2916,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "he Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_102",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2813,
+        "char_end": 2916,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "e Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_103",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2814,
+        "char_end": 2916,
+        "word_count": 17
+      }
+    },
+    {
+      "text": "Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_104",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2815,
+        "char_end": 2916,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "Media Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_105",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2816,
+        "char_end": 2916,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "edia Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_106",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2817,
+        "char_end": 2916,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "dia Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_107",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2818,
+        "char_end": 2916,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "ia Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_108",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2819,
+        "char_end": 2916,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "a Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_109",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2820,
+        "char_end": 2916,
+        "word_count": 16
+      }
+    },
+    {
+      "text": "Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_110",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2821,
+        "char_end": 2916,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "Sanitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_111",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2822,
+        "char_end": 2916,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "anitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_112",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2823,
+        "char_end": 2916,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "nitation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_113",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2824,
+        "char_end": 2916,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "itation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_114",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2825,
+        "char_end": 2916,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "tation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_115",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2826,
+        "char_end": 2916,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "ation Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_116",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2827,
+        "char_end": 2916,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "tion Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_117",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2828,
+        "char_end": 2916,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "ion Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_118",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2829,
+        "char_end": 2916,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "on Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_119",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2830,
+        "char_end": 2916,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "n Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_120",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2831,
+        "char_end": 2916,
+        "word_count": 15
+      }
+    },
+    {
+      "text": "Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_121",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2832,
+        "char_end": 2916,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "Job Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_122",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2833,
+        "char_end": 2916,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "ob Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_123",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2834,
+        "char_end": 2916,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "b Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_124",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2835,
+        "char_end": 2916,
+        "word_count": 14
+      }
+    },
+    {
+      "text": "Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_125",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2836,
+        "char_end": 2916,
+        "word_count": 13
+      }
+    },
+    {
+      "text": "Aid found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_126",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2837,
+        "char_end": 2916,
+        "word_count": 13
+      }
+    },
+    {
+      "text": "id found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_127",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2838,
+        "char_end": 2916,
+        "word_count": 13
+      }
+    },
+    {
+      "text": "d found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_128",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2839,
+        "char_end": 2916,
+        "word_count": 13
+      }
+    },
+    {
+      "text": "found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_129",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2840,
+        "char_end": 2916,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "found in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_130",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2841,
+        "char_end": 2916,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "ound in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_131",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2842,
+        "char_end": 2916,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "und in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_132",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2843,
+        "char_end": 2916,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "nd in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_133",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2844,
+        "char_end": 2916,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "d in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_134",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2845,
+        "char_end": 2916,
+        "word_count": 12
+      }
+    },
+    {
+      "text": "in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_135",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2846,
+        "char_end": 2916,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "in the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_136",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2847,
+        "char_end": 2916,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "n the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_137",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2848,
+        "char_end": 2916,
+        "word_count": 11
+      }
+    },
+    {
+      "text": "the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_138",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2849,
+        "char_end": 2916,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "the 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_139",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2850,
+        "char_end": 2916,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "he 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_140",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2851,
+        "char_end": 2916,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "e 'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_141",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2852,
+        "char_end": 2916,
+        "word_count": 10
+      }
+    },
+    {
+      "text": "'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_142",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2853,
+        "char_end": 2916,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "'User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_143",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2854,
+        "char_end": 2916,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "User Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_144",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2855,
+        "char_end": 2916,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "ser Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_145",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2856,
+        "char_end": 2916,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "er Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_146",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2857,
+        "char_end": 2916,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "r Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_147",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2858,
+        "char_end": 2916,
+        "word_count": 9
+      }
+    },
+    {
+      "text": "Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_148",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2859,
+        "char_end": 2916,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "Documentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_149",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2860,
+        "char_end": 2916,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "ocumentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_150",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2861,
+        "char_end": 2916,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "cumentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_151",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2862,
+        "char_end": 2916,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "umentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_152",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2863,
+        "char_end": 2916,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "mentation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_153",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2864,
+        "char_end": 2916,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "entation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_154",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2865,
+        "char_end": 2916,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "ntation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_155",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2866,
+        "char_end": 2916,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "tation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_156",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2867,
+        "char_end": 2916,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "ation' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_157",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2868,
+        "char_end": 2916,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "tion' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_158",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2869,
+        "char_end": 2916,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "ion' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_159",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2870,
+        "char_end": 2916,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "on' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_160",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2871,
+        "char_end": 2916,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "n' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_161",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2872,
+        "char_end": 2916,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "' section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_162",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2873,
+        "char_end": 2916,
+        "word_count": 8
+      }
+    },
+    {
+      "text": "section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_163",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2874,
+        "char_end": 2916,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "section of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_164",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2875,
+        "char_end": 2916,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "ection of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_165",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2876,
+        "char_end": 2916,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "ction of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_166",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2877,
+        "char_end": 2916,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "tion of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_167",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2878,
+        "char_end": 2916,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "ion of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_168",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2879,
+        "char_end": 2916,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "on of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_169",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2880,
+        "char_end": 2916,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "n of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_170",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2881,
+        "char_end": 2916,
+        "word_count": 7
+      }
+    },
+    {
+      "text": "of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_171",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2882,
+        "char_end": 2916,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "of the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_172",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2883,
+        "char_end": 2916,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "f the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_173",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2884,
+        "char_end": 2916,
+        "word_count": 6
+      }
+    },
+    {
+      "text": "the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_174",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2885,
+        "char_end": 2916,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "the EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_175",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2886,
+        "char_end": 2916,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "he EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_176",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2887,
+        "char_end": 2916,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "e EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_177",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2888,
+        "char_end": 2916,
+        "word_count": 5
+      }
+    },
+    {
+      "text": "EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_178",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2889,
+        "char_end": 2916,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "EAWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_179",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2890,
+        "char_end": 2916,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "AWM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_180",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2891,
+        "char_end": 2916,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "WM Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_181",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2892,
+        "char_end": 2916,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "M Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_182",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2893,
+        "char_end": 2916,
+        "word_count": 4
+      }
+    },
+    {
+      "text": "Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_183",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2894,
+        "char_end": 2916,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "Maximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_184",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2895,
+        "char_end": 2916,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "aximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_185",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2896,
+        "char_end": 2916,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "ximo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_186",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2897,
+        "char_end": 2916,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "imo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_187",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2898,
+        "char_end": 2916,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "mo Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_188",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2899,
+        "char_end": 2916,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "o Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_189",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2900,
+        "char_end": 2916,
+        "word_count": 3
+      }
+    },
+    {
+      "text": "Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_190",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2901,
+        "char_end": 2916,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "Training Page.",
+      "metadata": {
+        "chunk_id": "chunk_191",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2902,
+        "char_end": 2916,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "raining Page.",
+      "metadata": {
+        "chunk_id": "chunk_192",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2903,
+        "char_end": 2916,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "aining Page.",
+      "metadata": {
+        "chunk_id": "chunk_193",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2904,
+        "char_end": 2916,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "ining Page.",
+      "metadata": {
+        "chunk_id": "chunk_194",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2905,
+        "char_end": 2916,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "ning Page.",
+      "metadata": {
+        "chunk_id": "chunk_195",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2906,
+        "char_end": 2916,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "ing Page.",
+      "metadata": {
+        "chunk_id": "chunk_196",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2907,
+        "char_end": 2916,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "ng Page.",
+      "metadata": {
+        "chunk_id": "chunk_197",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2908,
+        "char_end": 2916,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "g Page.",
+      "metadata": {
+        "chunk_id": "chunk_198",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2909,
+        "char_end": 2916,
+        "word_count": 2
+      }
+    },
+    {
+      "text": "Page.",
+      "metadata": {
+        "chunk_id": "chunk_199",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2910,
+        "char_end": 2916,
+        "word_count": 1
+      }
+    },
+    {
+      "text": "Page.",
+      "metadata": {
+        "chunk_id": "chunk_200",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2911,
+        "char_end": 2916,
+        "word_count": 1
+      }
+    },
+    {
+      "text": "age.",
+      "metadata": {
+        "chunk_id": "chunk_201",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2912,
+        "char_end": 2916,
+        "word_count": 1
+      }
+    },
+    {
+      "text": "ge.",
+      "metadata": {
+        "chunk_id": "chunk_202",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2913,
+        "char_end": 2916,
+        "word_count": 1
+      }
+    },
+    {
+      "text": "e.",
+      "metadata": {
+        "chunk_id": "chunk_203",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2914,
+        "char_end": 2916,
+        "word_count": 1
+      }
+    },
+    {
+      "text": ".",
+      "metadata": {
+        "chunk_id": "chunk_204",
+        "page_number": 1,
+        "section_title": "Content",
+        "char_start": 2915,
+        "char_end": 2916,
+        "word_count": 1
+      }
+    }
+  ]
+}

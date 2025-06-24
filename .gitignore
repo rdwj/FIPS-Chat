@@ -1,35 +1,6 @@
-# FIPS-Chat
-# Ignore node_modules directory
-node_modules/
-# Ignore build output directory
-dist/
-# Ignore log files
-*.log
-# Ignore environment variable files
-.env
-# Ignore coverage reports
-coverage/
-# Ignore IDE specific files
-.vscode/
-# Ignore system files
-.DS_Store
-# Ignore temporary files
-*.tmp
-# Ignore package lock files
-package-lock.json
-# Ignore yarn lock files
-yarn.lock
-# Ignore npm debug files
-npm-debug.log*
-# Ignore test output files
-test-output/
-# Ignore build artifacts
-build/
-# Ignore pytest cache
-__pycache__/
-.pytest_cache/
-.claude/
-CLAUDE.md
+# ===============================
+# FIPS-Chat Project .gitignore
+# ===============================
 
 # ===============================
 # Python
@@ -73,10 +44,10 @@ venv.bak/
 .venv/
 .env/
 pyvenv.cfg
+.conda/
+conda-meta/
 
 # PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
 
@@ -98,22 +69,35 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 .nose2.cfg
+test-output/
+test_results/
+
+# Performance testing artifacts
+performance_results/
+benchmark_results/
+*.prof
+*.profile
+memory_profile_*.txt
+perf_*.json
 
 # Translations
 *.mo
 *.pot
 
-# Django stuff:
-*.log
+# Framework specific
+# Django
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
 
-# Flask stuff:
+# Flask
 instance/
 .webassets-cache
 
-# Scrapy stuff:
+# FastAPI
+.pytest_cache/
+
+# Scrapy
 .scrapy
 
 # Sphinx documentation
@@ -124,66 +108,50 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*.ipynb_checkpoints/
 
 # IPython
 profile_default/
 ipython_config.py
 
+# Environment management
 # pyenv
 .python-version
 
 # pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
+Pipfile.lock
 
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+# poetry
+poetry.lock
+
+# PEP 582
 __pypackages__/
 
-# Celery stuff
+# Celery
 celerybeat-schedule
 celerybeat.pid
 
-# SageMath parsed files
+# SageMath
 *.sage.py
 
-# Environments
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Spyder project settings
+# Spyder
 .spyderproject
 .spyproject
 
-# Rope project settings
+# Rope
 .ropeproject
 
-# mkdocs documentation
+# mkdocs
 /site
 
-# mypy
+# Type checkers
 .mypy_cache/
 .dmypy.json
 dmypy.json
-
-# Pyre type checker
 .pyre/
-
-# pytype static type analyzer
 .pytype/
 
-# Cython debug symbols
+# Cython
 cython_debug/
 
 # ===============================
@@ -202,6 +170,9 @@ cython_debug/
 *.pkl
 *.npz
 *.npy
+*.json.gz
+*.jsonl
+*.arrow
 
 # Model files
 *.model
@@ -212,12 +183,11 @@ cython_debug/
 *.onnx
 *.pb
 *.tflite
+*.safetensors
 
 # TensorFlow
 *.tfrecord
 *.tfrecords
-*.tfstate
-*.tfstate.backup
 
 # MLflow
 mlruns/
@@ -230,6 +200,9 @@ wandb/
 .dvc/
 .dvcignore
 
+# Hugging Face
+.cache/huggingface/
+
 # ===============================
 # Application Specific (FIPS-Chat)
 # ===============================
@@ -237,25 +210,39 @@ wandb/
 # RAG Storage - User uploaded documents and processed data
 rag_storage/
 example_rag_storage/
+*_storage/
 
-# Backup files
+# Backup files (including project-specific backups)
 *.bak
 *.backup
 *.old
 *.orig
 *.save
+*~
+api_client.py.bak
+app.py.bak
+config.py.bak
+ollama_client.py.bak
 
 # Temporary files
 *.tmp
 *.temp
 temp/
 tmp/
+.temp/
 
 # Configuration files with sensitive data
 config_local.py
 local_config.py
 secrets.py
 .secrets
+local_settings.py
+settings_local.py
+
+# RAG configuration files that may contain local paths
+rag_config.json
+rag_config.json.backup
+*.rag_config
 
 # API keys and credentials
 .api_keys
@@ -263,15 +250,41 @@ secrets.py
 api_key.txt
 *.key
 *.pem
+*.crt
+*.p12
+.env.*
+!.env.example
+!.env.template
 
 # Session data
 sessions/
 .sessions/
+session_data/
 
 # Cache directories
 .cache/
 cache/
 .streamlit/
+streamlit_cache/
+
+# User uploads
+uploads/
+user_data/
+documents/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# ===============================
+# Streamlit Specific
+# ===============================
+
+# Streamlit
+.streamlit/
+streamlit_app_data/
 
 # ===============================
 # IDEs and Editors
@@ -294,10 +307,8 @@ cache/
 # Vim
 *.swp
 *.swo
-*~
 
 # Emacs
-*~
 \#*\#
 /.emacs.desktop
 /.emacs.desktop.lock
@@ -308,6 +319,9 @@ tramp
 
 # Atom
 .atom/
+
+# Cursor
+.cursor/
 
 # ===============================
 # Operating System
@@ -348,14 +362,13 @@ $RECYCLE.BIN/
 *.lnk
 
 # Linux
-*~
 .fuse_hidden*
 .directory
 .Trash-*
 .nfs*
 
 # ===============================
-# Web/Frontend (if applicable)
+# Web/Frontend
 # ===============================
 
 # Node.js
@@ -372,8 +385,6 @@ yarn.lock
 pnpm-lock.yaml
 
 # Build outputs
-dist/
-build/
 out/
 
 # ===============================
@@ -382,15 +393,30 @@ out/
 
 # Docker
 .docker/
+docker-compose.override.yml
 
-# Kubernetes
+# Podman
+.podman/
+
+# Container build artifacts
+*.tar
+*.tar.gz
+*.image
+
+# OpenShift/Kubernetes
 *.kubeconfig
+*.yaml.bak
+*.yml.bak
 
 # Terraform
 *.tfstate
 *.tfstate.*
 .terraform/
 .terraform.lock.hcl
+
+# Deployment artifacts
+deployment_*.json
+deployment_*.yaml
 
 # ===============================
 # Logs and Monitoring
@@ -408,23 +434,49 @@ log/
 error.txt
 
 # ===============================
-# Documentation & Claude
+# Documentation & AI Tools
 # ===============================
 
-# Claude AI assistant files
+# Claude AI assistant files (keep CLAUDE.md for project documentation)
 .claude/
+.claude/**
 CLAUDE.md
 
-# Test outputs
-test-output/
-test_results/
-.coverage
-htmlcov/
+# Other AI tools
+.cursor/
+.aider*
+
+# AI assistant generated files
+*.ai_generated
+*.assistant_notes
 
 # ===============================
-# Archive files
+# Security & Environment
 # ===============================
 
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Security files
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+.ssh/
+id_rsa*
+id_ecdsa*
+id_ed25519*
+
+# ===============================
+# Archive & Binary Files
+# ===============================
+
+# Archives
 *.7z
 *.dmg
 *.gz
@@ -433,3 +485,67 @@ htmlcov/
 *.rar
 *.tar
 *.zip
+*.bz2
+*.xz
+
+# Binary files
+*.exe
+*.dll
+*.dylib
+*.so.*
+
+# ===============================
+# Miscellaneous
+# ===============================
+
+# OS generated files
+.directory
+*.lnk
+
+# Editor backup files
+*~
+*.orig
+*.rej
+
+# Patch files
+*.patch
+*.diff
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test

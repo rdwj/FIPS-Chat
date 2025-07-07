@@ -7,7 +7,7 @@ import os
 # Add current directory to path for imports
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-from config import get_config, RECOMMENDED_MODELS
+from config import get_config, get_all_api_templates, get_api_template
 from ui_components.model_selector import render_model_selector, render_model_management
 from ui_components.chat_interface import render_chat_interface, get_chat_statistics
 from ui_components.image_interface import render_image_interface, get_image_statistics
@@ -18,8 +18,7 @@ from utils.session_manager import (
     should_show_memory_warning,
     cleanup_old_data
 )
-from ollama_client import get_ollama_client
-from api_client import get_api_client, test_api_connection
+from ai_client import get_ai_client, test_api_connection, ModelCapability
 
 
 def main():
@@ -54,45 +53,37 @@ def render_header():
     st.markdown("*FIPS-compliant multi-provider AI chat and image analysis platform*")
     
     # Connection status
-    check_ollama_connection()
+    check_api_connection()
 
 
-def check_ollama_connection():
-    """Check and display connection status based on selected provider."""
-    provider = st.session_state.get("api_provider", "ollama")
+def check_api_connection():
+    """Check and display API connection status."""
+    api_endpoint = st.session_state.get("api_endpoint")
     
-    if provider == "ollama":
-        try:
-            client = get_ollama_client()
-            models = client.get_available_models()
-            
-            if models:
-                st.success(f"✅ Connected to Ollama • {len(models)} models available")
+    if not api_endpoint:
+        st.warning("⚠️ Please configure your API endpoint")
+        return
+    
+    try:
+        client = get_ai_client()
+        if client:
+            is_connected, message = client.test_connection()
+            if is_connected:
+                # Try to discover models to get count
+                try:
+                    models = client.discover_models()
+                    if models:
+                        st.success(f"✅ {message} • {len(models)} models discovered")
+                    else:
+                        st.success(f"✅ {message}")
+                except Exception:
+                    st.success(f"✅ {message}")
             else:
-                st.warning("⚠️ Connected to Ollama but no models found")
-                
-        except Exception as e:
-            st.error(f"❌ Cannot connect to Ollama: {str(e)}")
-            st.info("Make sure Ollama is running: `ollama serve`")
-    else:
-        # Check external API connection
-        api_endpoint = st.session_state.get("api_endpoint")
-        api_key = st.session_state.get("api_key")
-        
-        if api_endpoint and api_key:
-            try:
-                is_connected, message = test_api_connection(provider, api_endpoint, api_key)
-                if is_connected:
-                    st.success(f"✅ Connected to {provider.upper()} API")
-                else:
-                    st.error(f"❌ {message}")
-            except Exception as e:
-                st.error(f"❌ API connection error: {str(e)}")
+                st.error(f"❌ {message}")
         else:
-            if provider == "agentic_pipeline":
-                st.warning("⚠️ Please configure your agentic pipeline endpoint")
-            else:
-                st.warning("⚠️ Please configure API endpoint and key")
+            st.error("❌ Could not create API client")
+    except Exception as e:
+        st.error(f"❌ API connection error: {str(e)}")
 
 
 def render_sidebar():
@@ -100,24 +91,13 @@ def render_sidebar():
     with st.sidebar:
         st.header("🎛️ Controls")
         
-        # API provider selection
-        render_api_provider_selector()
+        # API configuration
+        render_api_configuration()
         
         st.divider()
         
-        # Model selectors (conditional based on provider)
-        if st.session_state.get("api_provider") == "ollama":
-            st.subheader("Chat Model")
-            selected_chat_model = render_model_selector("chat")
-            if selected_chat_model:
-                st.session_state.selected_chat_model = selected_chat_model
-            
-            st.subheader("Vision Model")
-            selected_vision_model = render_model_selector("vision")
-            if selected_vision_model:
-                st.session_state.selected_vision_model = selected_vision_model
-        else:
-            render_external_api_models()
+        # Model discovery and selection
+        render_model_discovery()
         
         st.divider()
         
@@ -135,145 +115,211 @@ def render_sidebar():
         render_sidebar_actions()
 
 
-def render_api_provider_selector():
-    """Render API provider selection."""
-    st.subheader("🌐 API Provider")
+def render_api_configuration():
+    """Render API endpoint configuration."""
+    st.subheader("🌐 API Configuration")
     
-    provider = st.selectbox(
-        "Select Provider",
-        ["ollama", "agentic_pipeline", "openai_compatible", "custom"],
-        index=0 if st.session_state.get("api_provider", "ollama") == "ollama" else 
-              1 if st.session_state.get("api_provider") == "agentic_pipeline" else
-              2 if st.session_state.get("api_provider") == "openai_compatible" else 3,
-        help="Choose your AI API provider"
+    # API template selection
+    templates = get_all_api_templates()
+    template_options = ["custom"] + list(templates.keys())
+    
+    selected_template = st.selectbox(
+        "API Template",
+        template_options,
+        index=0,
+        help="Choose a pre-configured template or use custom settings"
     )
-    st.session_state.api_provider = provider
     
-    if provider != "ollama":
-        render_external_api_config()
-
-
-def render_external_api_config():
-    """Render external API configuration."""
-    provider = st.session_state.get("api_provider")
+    # Load template if selected
+    if selected_template != "custom":
+        template = get_api_template(selected_template)
+        if template:
+            st.info(f"**{template['name']}** - {template['endpoint']}")
+            if template.get('example_models'):
+                st.caption(f"Example models: {', '.join(template['example_models'][:3])}")
     
-    # API Endpoint
-    if provider == "agentic_pipeline":
-        st.markdown("**🤖 Agentic Pipeline Configuration:**")
-        st.caption("Connect to your external agentic application backend")
-        placeholder = "http://your-agent-service:8080/api/chat"
-    elif provider == "openai_compatible":
-        st.markdown("**For vLLM, Ollama API, or other OpenAI-compatible APIs:**")
-        placeholder = "http://your-vllm-service:8000/v1"
-    else:
-        st.markdown("**Custom API Configuration:**")
-        placeholder = "https://your-api-endpoint.com"
+    # API endpoint configuration
+    default_endpoint = ""
+    if selected_template != "custom":
+        template = get_api_template(selected_template)
+        if template:
+            default_endpoint = template["endpoint"]
     
     api_endpoint = st.text_input(
         "API Endpoint",
-        value=st.session_state.get("api_endpoint", ""),
-        placeholder=placeholder,
+        value=st.session_state.get("api_endpoint", default_endpoint),
+        placeholder="https://api.example.com/v1 or http://localhost:8000/v1",
         help="Full URL to your API endpoint"
     )
     st.session_state.api_endpoint = api_endpoint
     
-    # API Key (conditional based on provider)
-    if provider == "agentic_pipeline":
-        api_key = st.text_input(
-            "API Key (Optional)",
-            value=st.session_state.get("api_key", ""),
-            type="password",
-            placeholder="Bearer token or auth key (if required)",
-            help="Authentication key for your agentic pipeline"
-        )
-    else:
+    # API key (conditional based on template)
+    requires_key = True
+    if selected_template != "custom":
+        template = get_api_template(selected_template)
+        if template:
+            requires_key = template.get("requires_key", True)
+    
+    if requires_key:
         api_key = st.text_input(
             "API Key",
             value=st.session_state.get("api_key", ""),
             type="password",
-            placeholder="Your API key (leave empty if not required)",
+            placeholder="Your API key",
             help="API authentication key"
         )
+    else:
+        api_key = st.text_input(
+            "API Key (Optional)",
+            value=st.session_state.get("api_key", ""),
+            type="password",
+            placeholder="Leave empty if not required",
+            help="API authentication key (if required)"
+        )
+    
     st.session_state.api_key = api_key
     
-    # API Type for custom providers
-    if provider == "custom":
-        api_type = st.selectbox(
-            "API Type",
-            ["openai_compatible", "anthropic", "custom"],
-            help="Select the API format your endpoint uses"
-        )
-        st.session_state.api_type = api_type
-
-
-def render_external_api_models():
-    """Render model selection for external APIs."""
-    provider = st.session_state.get("api_provider")
-    
-    if provider == "agentic_pipeline":
-        st.subheader("Pipeline Configuration")
-        
-        # Pipeline ID/Name (optional)
-        pipeline_id = st.text_input(
-            "Pipeline ID (Optional)",
-            value=st.session_state.get("external_model_name", ""),
-            placeholder="e.g., main, production, v2.0",
-            help="Specific pipeline version or configuration to use"
-        )
-        st.session_state.external_model_name = pipeline_id
-        
-        # Session ID for conversation continuity
-        session_id = st.text_input(
-            "Session ID (Optional)",
-            value=st.session_state.get("agent_session_id", ""),
-            placeholder="Leave empty for auto-generated session",
-            help="Session ID for conversation continuity across requests"
-        )
-        st.session_state.agent_session_id = session_id
-        
+    # Store provider type for backward compatibility
+    if selected_template in ["openai", "vllm", "ollama", "text-generation-webui"]:
+        st.session_state.api_provider = "openai_compatible"
+    elif selected_template == "anthropic":
+        st.session_state.api_provider = "anthropic"
     else:
-        st.subheader("Model Configuration")
-        
-        # Model name input
-        model_name = st.text_input(
-            "Model Name",
-            value=st.session_state.get("external_model_name", ""),
-            placeholder="e.g., gpt-4, llama-2-7b-chat, claude-3-sonnet",
-            help="The exact model name as required by your API"
-        )
-        st.session_state.external_model_name = model_name
+        st.session_state.api_provider = "openai_compatible"  # Default
     
     # Test connection button
-    if st.button("🔍 Test Connection"):
-        test_external_api_connection()
+    if api_endpoint:
+        if st.button("🔍 Test Connection"):
+            test_api_connection_ui()
 
 
-def test_external_api_connection():
-    """Test external API connection and show results."""
-    provider = st.session_state.get("api_provider")
-    endpoint = st.session_state.get("api_endpoint")
+def test_api_connection_ui():
+    """Test API connection and show results in UI."""
+    api_endpoint = st.session_state.get("api_endpoint")
     api_key = st.session_state.get("api_key")
-    model_name = st.session_state.get("external_model_name")
+    provider = st.session_state.get("api_provider", "openai_compatible")
     
-    if not endpoint:
+    if not api_endpoint:
         st.error("Please enter an API endpoint")
-        return
-    
-    if not model_name:
-        st.error("Please enter a model name")
         return
     
     try:
         with st.spinner("Testing connection..."):
-            is_connected, message = test_api_connection(provider, endpoint, api_key, model_name)
+            is_connected, message = test_api_connection(api_endpoint, api_key, provider)
             
         if is_connected:
-            st.success(f"✅ Connection successful: {message}")
+            st.success(f"✅ {message}")
+            # Try to discover models
+            try:
+                client = get_ai_client()
+                if client:
+                    models = client.discover_models()
+                    if models:
+                        st.info(f"🔍 Discovered {len(models)} models")
+                        # Show first few models
+                        model_names = [m.name for m in models[:5]]
+                        st.caption(f"Examples: {', '.join(model_names)}{'...' if len(models) > 5 else ''}")
+            except Exception as e:
+                st.warning(f"Model discovery failed: {str(e)}")
         else:
-            st.error(f"❌ Connection failed: {message}")
+            st.error(f"❌ {message}")
             
     except Exception as e:
         st.error(f"❌ Error testing connection: {str(e)}")
+
+
+def render_model_discovery():
+    """Render model discovery and selection interface."""
+    st.subheader("🤖 Model Selection")
+    
+    client = get_ai_client()
+    if not client:
+        st.warning("Please configure your API endpoint first")
+        return
+    
+    # Model discovery
+    col1, col2 = st.columns([3, 1])
+    
+    with col1:
+        if st.button("🔍 Discover Models", help="Refresh model list from API"):
+            with st.spinner("Discovering models..."):
+                try:
+                    models = client.discover_models(force_refresh=True)
+                    st.session_state["discovered_models"] = models
+                    if models:
+                        st.success(f"✅ Found {len(models)} models")
+                    else:
+                        st.warning("No models found")
+                except Exception as e:
+                    st.error(f"Model discovery failed: {str(e)}")
+    
+    with col2:
+        auto_discover = st.checkbox(
+            "Auto-discover",
+            value=st.session_state.get("auto_discover_models", True),
+            help="Automatically discover models on connection"
+        )
+        st.session_state.auto_discover_models = auto_discover
+    
+    # Show discovered models
+    models = st.session_state.get("discovered_models", [])
+    
+    if models:
+        # Filter models by capability
+        chat_models = [m for m in models if ModelCapability.CHAT in m.capabilities]
+        vision_models = [m for m in models if ModelCapability.VISION in m.capabilities]
+        
+        if chat_models:
+            st.write("**💬 Chat Models:**")
+            selected_chat = st.selectbox(
+                "Select Chat Model",
+                [m.id for m in chat_models],
+                index=0,
+                key="selected_chat_model_select"
+            )
+            st.session_state.selected_chat_model = selected_chat
+        
+        if vision_models:
+            st.write("**🖼️ Vision Models:**")
+            selected_vision = st.selectbox(
+                "Select Vision Model",
+                [m.id for m in vision_models],
+                index=0,
+                key="selected_vision_model_select"
+            )
+            st.session_state.selected_vision_model = selected_vision
+        
+        # Show model details
+        with st.expander("📋 Model Details"):
+            for model in models[:10]:  # Show first 10
+                capabilities_str = ", ".join([c.value for c in model.capabilities])
+                st.write(f"**{model.name}** - {capabilities_str}")
+                if model.description:
+                    st.caption(model.description)
+    
+    else:
+        # Manual model entry as fallback
+        st.write("**Manual Model Configuration:**")
+        
+        manual_chat_model = st.text_input(
+            "Chat Model Name",
+            value=st.session_state.get("selected_chat_model", ""),
+            placeholder="e.g., gpt-4, claude-3-sonnet, llama-2-7b-chat",
+            help="Enter the exact model name for chat"
+        )
+        if manual_chat_model:
+            st.session_state.selected_chat_model = manual_chat_model
+        
+        manual_vision_model = st.text_input(
+            "Vision Model Name (Optional)",
+            value=st.session_state.get("selected_vision_model", ""),
+            placeholder="e.g., gpt-4-vision, claude-3-sonnet, llava",
+            help="Enter the exact model name for image analysis"
+        )
+        if manual_vision_model:
+            st.session_state.selected_vision_model = manual_vision_model
+
+
 
 
 def render_settings():
@@ -380,33 +426,20 @@ def render_main_content():
 
 def render_chat_tab():
     """Render chat interface tab."""
-    provider = st.session_state.get("api_provider", "ollama")
+    # Check if API is configured
+    api_endpoint = st.session_state.get("api_endpoint")
+    if not api_endpoint:
+        st.warning("Please configure your API endpoint in the sidebar.")
+        return
     
-    # Check if model/endpoint is configured
-    if provider == "ollama":
-        selected_model = st.session_state.get("selected_chat_model") or st.session_state.get("chat_model")
-        if not selected_model:
-            st.warning("Please select a chat model from the sidebar.")
-            return
-        st.info(f"Using Ollama model: **{selected_model}**")
-    else:
-        api_endpoint = st.session_state.get("api_endpoint")
-        if not api_endpoint:
-            if provider == "agentic_pipeline":
-                st.warning("Please configure your agentic pipeline endpoint in the sidebar.")
-            else:
-                st.warning("Please configure API endpoint in the sidebar.")
-            return
-        
-        model_name = st.session_state.get("external_model_name")
-        if not model_name and provider != "agentic_pipeline":
-            st.warning("Please configure model name in the sidebar.")
-            return
-        if provider == "agentic_pipeline":
-            pipeline_info = f"Pipeline: **{model_name}**" if model_name else "**Default Pipeline**"
-            st.info(f"Using Agentic Pipeline - {pipeline_info}")
-        else:
-            st.info(f"Using {provider.upper()} model: **{model_name}**")
+    # Check if model is selected
+    selected_model = st.session_state.get("selected_chat_model")
+    if not selected_model:
+        st.warning("Please select a chat model in the sidebar.")
+        return
+    
+    # Show current configuration
+    st.info(f"Using model: **{selected_model}**")
     
     # Render chat interface
     render_chat_interface()
@@ -414,15 +447,20 @@ def render_chat_tab():
 
 def render_image_tab():
     """Render image analysis interface tab."""
-    # Check if vision model is selected
-    selected_model = st.session_state.get("selected_vision_model") or st.session_state.get("vision_model")
+    # Check if API is configured
+    api_endpoint = st.session_state.get("api_endpoint")
+    if not api_endpoint:
+        st.warning("Please configure your API endpoint in the sidebar.")
+        return
     
+    # Check if vision model is selected
+    selected_model = st.session_state.get("selected_vision_model")
     if not selected_model:
-        st.warning("Please select a vision model from the sidebar.")
+        st.warning("Please select a vision model in the sidebar.")
         return
     
     # Display current model
-    st.info(f"Using model: **{selected_model}**")
+    st.info(f"Using vision model: **{selected_model}**")
     
     # Render image interface
     render_image_interface()

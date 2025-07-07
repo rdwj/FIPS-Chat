@@ -5,9 +5,8 @@ from typing import List, Dict
 import time
 from datetime import datetime
 
-from ollama_client import get_ollama_client
+from ai_client import get_ai_client
 from config import get_config
-from api_client import get_api_client
 
 
 def initialize_chat_session():
@@ -72,7 +71,16 @@ def render_chat_input():
 
 def generate_chat_response(user_input: str):
     """Generate and display assistant response."""
-    provider = st.session_state.get("api_provider", "ollama")
+    client = get_ai_client()
+    
+    if not client:
+        st.error("Please configure your API endpoint first.")
+        return
+    
+    selected_model = st.session_state.get("selected_chat_model")
+    if not selected_model:
+        st.error("Please select a chat model first.")
+        return
     
     # Prepare messages for API
     messages = []
@@ -92,10 +100,19 @@ def generate_chat_response(user_input: str):
             # Start timing
             start_time = time.time()
             
-            if provider == "ollama":
-                full_response = generate_ollama_response(messages, message_placeholder)
-            else:
-                full_response = generate_external_api_response(messages, message_placeholder)
+            # Generate response using unified client
+            for chunk in client.chat(
+                selected_model, 
+                messages, 
+                stream=True,
+                temperature=st.session_state.get("temperature", 0.7),
+                max_tokens=st.session_state.get("max_tokens", 2048)
+            ):
+                full_response += chunk
+                message_placeholder.markdown(full_response + "▌")
+            
+            # Final response without cursor
+            message_placeholder.markdown(full_response)
             
             # Calculate response time
             response_time = time.time() - start_time
@@ -202,43 +219,6 @@ def export_conversation():
     )
 
 
-def generate_ollama_response(messages: List[Dict], message_placeholder) -> str:
-    """Generate response using Ollama."""
-    client = get_ollama_client()
-    selected_model = st.session_state.get("selected_chat_model", st.session_state.chat_model)
-    
-    full_response = ""
-    
-    # Stream response
-    for chunk in client.chat(selected_model, messages, stream=True):
-        full_response += chunk
-        message_placeholder.markdown(full_response + "▌")
-    
-    # Final response without cursor
-    message_placeholder.markdown(full_response)
-    return full_response
-
-
-def generate_external_api_response(messages: List[Dict], message_placeholder) -> str:
-    """Generate response using external API."""
-    api_client = get_api_client()
-    
-    if not api_client:
-        raise Exception("External API client not configured")
-    
-    # Show loading message
-    message_placeholder.markdown("🤔 Thinking...")
-    
-    # Generate response (non-streaming for external APIs)
-    response = api_client.generate_response(
-        messages,
-        temperature=st.session_state.get("temperature", 0.7),
-        max_tokens=st.session_state.get("max_tokens", 2048)
-    )
-    
-    # Display final response
-    message_placeholder.markdown(response)
-    return response
 
 
 def get_chat_statistics():

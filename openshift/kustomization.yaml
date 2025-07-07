@@ -19,6 +19,8 @@ commonAnnotations:
 resources:
 - serviceaccount.yaml
 - configmap.yaml
+- rag-configmap.yaml
+- rag-pvc.yaml
 - deployment.yaml
 - service.yaml
 - route.yaml

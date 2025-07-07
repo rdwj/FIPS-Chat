@@ -1,7 +1,7 @@
 """Chat interface component for the FIPS Chat application."""
 
 import streamlit as st
-from typing import List, Dict
+from typing import List, Dict, Union, Any
 import time
 from datetime import datetime
 
@@ -14,8 +14,12 @@ def initialize_chat_session():
     if "chat_messages" not in st.session_state:
         st.session_state.chat_messages = []
     if "chat_model" not in st.session_state:
-        config = get_config()
-        st.session_state.chat_model = config.default_chat_model
+        # Use the selected chat model from session state instead of config
+        selected_model = st.session_state.get("selected_chat_model")
+        if selected_model:
+            st.session_state.chat_model = selected_model
+        else:
+            st.session_state.chat_model = None
 
 
 def render_chat_interface():
@@ -50,7 +54,7 @@ def display_chat_messages():
 def render_chat_input():
     """Render chat input field."""
     # Chat input
-    if prompt := st.chat_input("Ask me anything..."):
+    if prompt := st.chat_input("Ask me anything...", key="standard_chat_input"):
         # Add user message
         timestamp = datetime.now().strftime("%H:%M:%S")
         user_message = {
@@ -106,7 +110,7 @@ def generate_chat_response(user_input: str):
                 messages, 
                 stream=True,
                 temperature=st.session_state.get("temperature", 0.7),
-                max_tokens=st.session_state.get("max_tokens", 2048)
+                max_tokens=int(st.session_state.get("max_tokens", 2048))
             ):
                 full_response += chunk
                 message_placeholder.markdown(full_response + "▌")
@@ -147,16 +151,16 @@ def render_chat_controls():
     col1, col2, col3, col4 = st.columns([1, 1, 1, 2])
     
     with col1:
-        if st.button("🗑️ Clear Chat", help="Clear conversation history"):
+        if st.button("🗑️ Clear Chat", help="Clear conversation history", key="standard_clear_chat"):
             st.session_state.chat_messages = []
             st.rerun()
     
     with col2:
-        if st.button("📋 Copy Last", help="Copy last response to clipboard"):
+        if st.button("📋 Copy Last", help="Copy last response to clipboard", key="standard_copy_last"):
             copy_last_response()
     
     with col3:
-        if st.button("💾 Export", help="Export conversation"):
+        if st.button("💾 Export", help="Export conversation", key="standard_export"):
             export_conversation()
     
     with col4:
@@ -226,14 +230,14 @@ def get_chat_statistics():
     if not st.session_state.chat_messages:
         return {}
     
-    stats = {
+    stats: Dict[str, Any] = {
         "total_messages": len(st.session_state.chat_messages),
         "user_messages": sum(1 for msg in st.session_state.chat_messages if msg["role"] == "user"),
         "assistant_messages": sum(1 for msg in st.session_state.chat_messages if msg["role"] == "assistant"),
     }
     
     # Calculate average response time
-    response_times = [msg.get("response_time", 0) for msg in st.session_state.chat_messages if "response_time" in msg]
+    response_times = [msg.get("response_time", 0.0) for msg in st.session_state.chat_messages if "response_time" in msg]
     if response_times:
         stats["avg_response_time"] = sum(response_times) / len(response_times)
     

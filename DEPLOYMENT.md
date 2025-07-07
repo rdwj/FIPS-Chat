@@ -444,6 +444,296 @@ oc rollout undo deployment/fips-chat --to-revision=3
 6. **Backup**: Implement regular backup strategy
 7. **Load Testing**: Test with expected concurrent users
 
+## RAG Functionality Deployment
+
+### Prerequisites for RAG
+
+- OpenShift cluster with persistent storage support
+- FIPS-enabled nodes (for production)
+- Minimum 10Gi storage for RAG data
+- 2Gi memory limit for RAG processing
+- Document processing capabilities (Docling dependencies included)
+
+### RAG-Specific Deployment Steps
+
+#### 1. Deploy Storage Components
+
+```bash
+# Create persistent volumes for RAG storage
+oc apply -f openshift/rag-pvc.yaml
+
+# Verify storage
+oc get pvc
+```
+
+#### 2. Configure RAG Settings
+
+```bash
+# Deploy RAG configuration
+oc apply -f openshift/rag-configmap.yaml
+
+# Verify configuration
+oc get configmap fips-chat-rag-config -o yaml
+```
+
+#### 3. Deploy Updated Application
+
+```bash
+# Apply updated deployment with RAG support
+oc apply -f openshift/deployment.yaml
+
+# Monitor deployment
+oc rollout status deployment/fips-chat
+```
+
+#### 4. Verify RAG Functionality
+
+```bash
+# Check RAG health status
+oc exec deployment/fips-chat -- curl -s http://localhost:8080/_stcore/health | grep -A 10 rag_system
+
+# Check storage mounts
+oc exec deployment/fips-chat -- ls -la /mnt/rag-storage
+
+# Check configuration
+oc exec deployment/fips-chat -- env | grep RAG
+```
+
+### RAG Configuration Reference
+
+The following environment variables control RAG functionality:
+
+```yaml
+# Core RAG Settings
+ENABLE_RAG: "true"                    # Enable/disable RAG functionality
+RAG_STORAGE_PATH: "/mnt/rag-storage"  # Storage path for documents
+RAG_CACHE_PATH: "/mnt/rag-cache"      # Cache path for indexes
+
+# Memory and Performance
+RAG_MAX_MEMORY_MB: "100"              # Maximum memory for RAG processing
+RAG_CACHE_SIZE: "50"                  # Cache size for processed documents
+
+# Document Processing
+RAG_CHUNK_SIZE: "1000"                # Text chunk size for processing
+RAG_CHUNK_OVERLAP: "200"              # Overlap between chunks
+RAG_MAX_DOCUMENT_SIZE_MB: "10"        # Maximum document size
+RAG_MAX_DOCUMENTS: "100"              # Maximum number of documents
+
+# Search Configuration
+RAG_MAX_SEARCH_RESULTS: "5"           # Maximum search results returned
+RAG_RELEVANCE_THRESHOLD: "0.1"        # Minimum relevance threshold
+RAG_TFIDF_MAX_FEATURES: "5000"        # TF-IDF feature limit
+
+# Demo Environment
+RAG_DEMO_MODE: "true"                 # Enable demo constraints
+RAG_DEMO_MAX_PAGES: "300"             # Maximum pages in demo mode
+RAG_DEMO_MAX_PDFS: "75"               # Maximum PDFs in demo mode
+
+# FIPS Compliance
+RAG_HASH_ALGORITHM: "sha256"          # Hash algorithm for FIPS compliance
+```
+
+### RAG Testing Procedures
+
+#### 1. Basic Functionality Test
+
+```bash
+# Port forward to application
+oc port-forward service/fips-chat 8080:8080 &
+
+# Open browser and navigate to Documents tab
+echo "Navigate to http://localhost:8080 and test:"
+echo "1. Upload a PDF document"
+echo "2. Verify processing completes"
+echo "3. Test RAG-enhanced chat queries"
+echo "4. Verify search results include document context"
+```
+
+#### 2. Storage Validation
+
+```bash
+# Check storage accessibility
+oc exec deployment/fips-chat -- test -w /mnt/rag-storage && echo "Storage writable" || echo "Storage not writable"
+
+# Check available space
+oc exec deployment/fips-chat -- df -h /mnt/rag-storage
+
+# List processed documents
+oc exec deployment/fips-chat -- find /mnt/rag-storage -type f -name "*.json" | wc -l
+```
+
+#### 3. Performance Testing
+
+```bash
+# Monitor resource usage during document processing
+oc top pods -l app=fips-chat
+
+# Check processing times in logs
+oc logs deployment/fips-chat | grep -i "document.*processing"
+```
+
+### Troubleshooting RAG Issues
+
+#### Common RAG Problems
+
+1. **RAG Storage Not Accessible**
+   ```bash
+   # Check PVC status
+   oc get pvc rag-storage rag-cache
+   
+   # Check volume mounts
+   oc describe pod -l app=fips-chat | grep -A 5 "Mounts:"
+   
+   # Test storage access
+   oc exec deployment/fips-chat -- touch /mnt/rag-storage/test && echo "OK" || echo "FAIL"
+   ```
+
+2. **Document Processing Fails**
+   ```bash
+   # Check for dependency issues
+   oc exec deployment/fips-chat -- python -c "import docling; print('Docling OK')"
+   
+   # Check memory usage
+   oc exec deployment/fips-chat -- cat /proc/meminfo | grep Available
+   
+   # View processing errors
+   oc logs deployment/fips-chat | grep -i error
+   ```
+
+3. **Search Not Working**
+   ```bash
+   # Check search index files
+   oc exec deployment/fips-chat -- ls -la /mnt/rag-storage/indexes/
+   
+   # Test search engine initialization
+   oc logs deployment/fips-chat | grep -i "search.*engine"
+   ```
+
+4. **FIPS Compliance Issues**
+   ```bash
+   # Verify FIPS mode
+   oc exec deployment/fips-chat -- python -c "import hashlib; print('SHA256 available:', hasattr(hashlib, 'sha256'))"
+   
+   # Check FIPS environment
+   oc exec deployment/fips-chat -- env | grep -i fips
+   ```
+
+### RAG Performance Tuning
+
+#### Memory Optimization
+
+```yaml
+# In deployment.yaml, adjust resources for RAG workloads
+spec:
+  template:
+    spec:
+      containers:
+      - name: streamlit-app
+        resources:
+          requests:
+            memory: "1Gi"      # Increased for RAG processing
+            cpu: "500m"
+          limits:
+            memory: "3Gi"      # Higher limit for large documents
+            cpu: "1500m"
+```
+
+#### Storage Optimization
+
+```yaml
+# In rag-pvc.yaml, adjust storage size based on needs
+spec:
+  resources:
+    requests:
+      storage: 20Gi  # Increased for larger document collections
+```
+
+#### Processing Optimization
+
+```yaml
+# In rag-configmap.yaml, tune processing parameters
+data:
+  RAG_CHUNK_SIZE: "800"          # Smaller chunks for better search
+  RAG_MAX_MEMORY_MB: "200"       # Increase for larger documents
+  RAG_CACHE_SIZE: "100"          # Larger cache for better performance
+```
+
+### RAG Monitoring and Alerting
+
+#### Health Check Monitoring
+
+```bash
+# Continuous health monitoring
+watch -n 30 'oc exec deployment/fips-chat -- curl -s http://localhost:8080/_stcore/health | jq .checks.rag_system'
+
+# Storage usage monitoring
+watch -n 60 'oc exec deployment/fips-chat -- df -h /mnt/rag-storage'
+```
+
+#### Log Analysis
+
+```bash
+# Monitor RAG-specific logs
+oc logs deployment/fips-chat -f | grep -i "rag\|document\|search"
+
+# Check for processing errors
+oc logs deployment/fips-chat | grep -i "error\|exception" | grep -i "rag\|document"
+```
+
+### RAG Backup and Recovery
+
+#### Document Backup
+
+```bash
+# Create backup of RAG storage
+oc create job rag-backup --image=registry.access.redhat.com/ubi9/ubi:latest -- \
+  sh -c "tar czf /tmp/rag-backup-$(date +%Y%m%d).tar.gz -C /mnt/rag-storage ."
+
+# Copy backup from pod
+oc cp $(oc get pod -l job-name=rag-backup -o name | head -1):/tmp/rag-backup-*.tar.gz ./rag-backup.tar.gz
+```
+
+#### Configuration Backup
+
+```bash
+# Export RAG configuration
+oc get configmap fips-chat-rag-config -o yaml > rag-config-backup.yaml
+oc get pvc rag-storage rag-cache -o yaml > rag-pvc-backup.yaml
+```
+
+#### Recovery Procedures
+
+```bash
+# Restore RAG configuration
+oc apply -f rag-config-backup.yaml
+oc apply -f rag-pvc-backup.yaml
+
+# Restore document data
+oc create job rag-restore --image=registry.access.redhat.com/ubi9/ubi:latest -- \
+  sh -c "cd /mnt/rag-storage && tar xzf /tmp/rag-backup.tar.gz"
+```
+
+### RAG Demo Scenario Deployment
+
+For the demo environment (75 PDFs, 300 pages):
+
+```bash
+# Verify demo configuration
+oc get configmap fips-chat-rag-config -o jsonpath='{.data.RAG_DEMO_MODE}'
+
+# Monitor demo limits
+oc exec deployment/fips-chat -- find /mnt/rag-storage -name "*.pdf" | wc -l
+oc logs deployment/fips-chat | grep -i "demo.*limit"
+
+# Test demo functionality
+echo "Demo test checklist:"
+echo "1. Upload multiple PDF files"
+echo "2. Verify 75 PDF limit enforced"
+echo "3. Verify 300 page limit enforced"
+echo "4. Test search across multiple documents"
+echo "5. Verify memory usage stays within limits"
+```
+
 ## Support
 
 For issues related to:
@@ -451,3 +741,4 @@ For issues related to:
 - **OpenShift**: Consult OpenShift documentation and cluster administrators
 - **Ollama**: Verify Ollama service deployment and connectivity
 - **FIPS**: Ensure cluster and nodes are FIPS-enabled
+- **RAG**: Check storage accessibility, document processing logs, and search engine status

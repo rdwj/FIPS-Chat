@@ -58,7 +58,6 @@ class UnifiedAPIClient:
     def __init__(self, endpoint: APIEndpoint):
         self.endpoint = endpoint
         self.session = requests.Session()
-        self.session.timeout = endpoint.timeout
         self._models_cache: Dict[str, List[ModelInfo]] = {}
         self._cache_timestamp: Dict[str, float] = {}
         self.cache_ttl = 300  # 5 minutes
@@ -394,19 +393,29 @@ class UnifiedAPIClient:
     def _infer_capabilities_from_name(self, model_name: str) -> List[ModelCapability]:
         """Infer model capabilities from model name."""
         name_lower = model_name.lower()
-        capabilities = [ModelCapability.CHAT]  # Default to chat
+        capabilities = []
+        
+        # Embedding models first (most specific)
+        if any(keyword in name_lower for keyword in ["embed", "embedding", "text-embedding"]):
+            capabilities = [ModelCapability.EMBEDDING]
+            return capabilities
+        
+        # All other models get chat capability by default
+        capabilities.append(ModelCapability.CHAT)
         
         # Vision models
-        if any(keyword in name_lower for keyword in ["vision", "llava", "claude-3", "gpt-4-vision", "gpt-4o"]):
+        if any(keyword in name_lower for keyword in [
+            "vision", "llava", "claude-3", "gpt-4-vision", "gpt-4o", "gpt-4-turbo",
+            "minicpm-v", "qwen-vl", "internvl", "cogvlm", "blip", "instructblip"
+        ]):
             capabilities.append(ModelCapability.VISION)
         
         # Code models
-        if any(keyword in name_lower for keyword in ["code", "coder", "codellama", "starcoder", "deepseek-coder"]):
+        if any(keyword in name_lower for keyword in [
+            "code", "coder", "codellama", "starcoder", "deepseek-coder", 
+            "phind-codellama", "wizardcoder", "magicoder", "granite-code"
+        ]):
             capabilities.append(ModelCapability.CODE)
-        
-        # Embedding models
-        if any(keyword in name_lower for keyword in ["embed", "embedding", "text-embedding"]):
-            capabilities = [ModelCapability.EMBEDDING]
         
         return capabilities
     
@@ -662,6 +671,67 @@ class UnifiedAPIClient:
         """Get models that support a specific capability."""
         all_models = self.discover_models()
         return [model for model in all_models if capability in model.capabilities]
+    
+    def chat_with_rag(
+        self,
+        query: str,
+        model: str,
+        rag_pipeline,  # RAGPipeline from rag.rag_pipeline
+        max_sources: int = 5,
+        relevance_threshold: float = 0.1,
+        stream: bool = True,
+        **kwargs
+    ):
+        """
+        Chat with RAG enhancement using the RAG pipeline.
+        
+        Args:
+            query: User query
+            model: AI model to use
+            rag_pipeline: RAGPipeline instance for context retrieval
+            max_sources: Maximum number of sources to use
+            relevance_threshold: Minimum relevance score for sources
+            stream: Whether to stream the response
+            **kwargs: Additional arguments for chat generation
+            
+        Returns:
+            RAGResponse object with enhanced response and sources
+        """
+        return rag_pipeline.process_rag_query(
+            query=query,
+            model=model,
+            max_sources=max_sources,
+            relevance_threshold=relevance_threshold,
+            stream=stream,
+            **kwargs
+        )
+    
+    def _format_rag_messages(
+        self,
+        query: str,
+        context: str,
+        sources: List[Dict[str, Any]]
+    ) -> List[Dict[str, str]]:
+        """Format messages for RAG-enhanced chat."""
+        # This is used internally by RAGPipeline, keeping it here for potential future use
+        sources_text = "\n".join([
+            f"Source {i+1}: {source['document']}, Page {source['page_number']}"
+            for i, source in enumerate(sources)
+        ])
+        
+        rag_prompt = f"""Based on the following context, please answer the user's question.
+
+Context:
+{context}
+
+Sources:
+{sources_text}
+
+Question: {query}
+
+Please provide a comprehensive answer and cite your sources using [Source N] format."""
+        
+        return [{"role": "user", "content": rag_prompt}]
 
 
 def get_ai_client() -> Optional[UnifiedAPIClient]:

@@ -30,11 +30,12 @@ def check_health():
         # Check 2: Configuration loading
         try:
             config = get_config()
+            ollama_host = os.getenv("OLLAMA_HOST", "http://localhost:11434")
             health_status["checks"]["configuration"] = {
                 "status": "pass",
                 "message": "Configuration loaded successfully",
                 "details": {
-                    "ollama_host": config.ollama_host,
+                    "ollama_host": ollama_host,
                     "timeout": config.request_timeout
                 }
             }
@@ -56,7 +57,7 @@ def check_health():
                     "message": f"Connected to Ollama with {len(models)} models available",
                     "details": {
                         "model_count": len(models),
-                        "host": config.ollama_host
+                        "host": ollama_host
                     }
                 }
             else:
@@ -65,7 +66,7 @@ def check_health():
                     "message": "Connected to Ollama but no models available",
                     "details": {
                         "model_count": 0,
-                        "host": config.ollama_host
+                        "host": ollama_host
                     }
                 }
         except Exception as e:
@@ -73,7 +74,7 @@ def check_health():
                 "status": "warn",
                 "message": f"Ollama connection issue: {str(e)}",
                 "details": {
-                    "host": config.ollama_host,
+                    "host": ollama_host,
                     "note": "Application can start without Ollama but functionality will be limited"
                 }
             }
@@ -120,6 +121,14 @@ def check_health():
             }
             health_status["status"] = "unhealthy"
         
+        # Check 6: RAG system health
+        rag_check = check_rag_health()
+        health_status["checks"]["rag_system"] = rag_check
+        
+        # Only mark as unhealthy if RAG is enabled and failing
+        if rag_check["status"] == "fail" and os.getenv("ENABLE_RAG", "false").lower() == "true":
+            health_status["status"] = "unhealthy"
+        
         return health_status
         
     except Exception as e:
@@ -128,6 +137,71 @@ def check_health():
             "timestamp": datetime.now().isoformat(),
             "error": f"Health check failed: {str(e)}",
             "checks": health_status.get("checks", {})
+        }
+
+
+def check_rag_health():
+    """Check RAG system health"""
+    try:
+        rag_health = {
+            "rag_enabled": os.getenv("ENABLE_RAG", "false").lower() == "true",
+            "storage_accessible": False,
+            "search_engine_ready": False,
+            "fips_compliant": False
+        }
+        
+        # Check if RAG is enabled
+        if not rag_health["rag_enabled"]:
+            return {
+                "status": "disabled",
+                "message": "RAG functionality is disabled",
+                "details": rag_health
+            }
+        
+        # Check storage accessibility
+        storage_path = os.getenv("RAG_STORAGE_PATH", "./rag_storage")
+        cache_path = os.getenv("RAG_CACHE_PATH", "./rag_storage")
+        
+        if os.path.exists(storage_path) and os.access(storage_path, os.W_OK):
+            rag_health["storage_accessible"] = True
+        
+        # Check FIPS compliance
+        if os.getenv("OPENSSL_FIPS") == "1":
+            rag_health["fips_compliant"] = True
+        
+        # Check search engine initialization
+        try:
+            from rag.file_storage import FileStorage
+            from rag.search_engine import TFIDFSearchEngine
+            
+            storage = FileStorage(storage_path)
+            search_engine = TFIDFSearchEngine(storage)
+            rag_health["search_engine_ready"] = True
+        except Exception:
+            pass
+        
+        # Determine overall status
+        if rag_health["storage_accessible"] and rag_health["search_engine_ready"]:
+            status = "pass"
+            message = "RAG system is healthy"
+        elif rag_health["storage_accessible"]:
+            status = "warn"
+            message = "RAG storage accessible but search engine not ready"
+        else:
+            status = "fail"
+            message = "RAG storage not accessible"
+        
+        return {
+            "status": status,
+            "message": message,
+            "details": rag_health
+        }
+        
+    except Exception as e:
+        return {
+            "status": "fail",
+            "message": f"RAG health check error: {str(e)}",
+            "details": {"error": str(e)}
         }
 
 

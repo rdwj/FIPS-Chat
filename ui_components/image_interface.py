@@ -18,8 +18,12 @@ def initialize_image_session():
     if "image_analyses" not in st.session_state:
         st.session_state.image_analyses = []
     if "vision_model" not in st.session_state:
-        config = get_config()
-        st.session_state.vision_model = config.default_vision_model
+        # Use the selected vision model from session state instead of config
+        selected_model = st.session_state.get("selected_vision_model")
+        if selected_model:
+            st.session_state.vision_model = selected_model
+        else:
+            st.session_state.vision_model = None
 
 
 def render_image_interface():
@@ -313,8 +317,8 @@ def get_image_statistics():
     }
     
     # Calculate average response time
-    response_times = [analysis.get("response_time", 0) for analysis in st.session_state.image_analyses if analysis.get("response_time", 0) > 0]
+    response_times = [analysis.get("response_time", 0.0) for analysis in st.session_state.image_analyses if analysis.get("response_time", 0) > 0]
     if response_times:
-        stats["avg_response_time"] = sum(response_times) / len(response_times)
+        stats["avg_response_time"] = float(sum(response_times) / len(response_times))
     
     return stats

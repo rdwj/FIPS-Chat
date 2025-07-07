@@ -70,6 +70,8 @@ spec:
         envFrom:
         - configMapRef:
             name: fips-chat-config
+        - configMapRef:
+            name: fips-chat-rag-config
         
         # Additional environment variables
         env:
@@ -87,6 +89,10 @@ spec:
           mountPath: /tmp
         - name: streamlit-tmp
           mountPath: /opt/app-root/src/.streamlit-tmp
+        - name: rag-storage
+          mountPath: /mnt/rag-storage
+        - name: rag-cache
+          mountPath: /mnt/rag-cache
         
         # Health checks
         livenessProbe:
@@ -94,7 +100,7 @@ spec:
             path: /_stcore/health
             port: 8080
             scheme: HTTP
-          initialDelaySeconds: 30
+          initialDelaySeconds: 60  # Longer for RAG initialization
           periodSeconds: 30
           timeoutSeconds: 10
           failureThreshold: 3
@@ -136,6 +142,12 @@ spec:
       - name: streamlit-tmp
         emptyDir:
           sizeLimit: 500Mi
+      - name: rag-storage
+        persistentVolumeClaim:
+          claimName: rag-storage
+      - name: rag-cache
+        persistentVolumeClaim:
+          claimName: rag-cache
       
       # Restart policy
       restartPolicy: Always

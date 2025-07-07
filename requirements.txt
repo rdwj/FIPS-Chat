@@ -2,6 +2,26 @@ streamlit>=1.28.0
 requests>=2.31.0
 pillow>=10.0.0
 python-multipart>=0.0.6
-ollama>=0.1.0
+ollama>=0.5.1
 pytest>=7.4.0
 pytest-asyncio>=0.21.0
+# RAG dependencies for document processing
+docling>=1.0.0
+docling-core>=1.0.0
+docling-parse>=1.0.0
+scikit-learn>=1.3.0
+scipy>=1.10.0
+numpy>=1.24.0
+psutil>=5.9.0
+
+# Additional testing dependencies
+reportlab>=4.0.0  # For PDF generation in test fixtures
+pytest-mock>=3.11.0  # Enhanced mocking capabilities
+pytest-cov>=4.1.0  # Code coverage reporting
+pytest-xdist>=3.3.0  # Parallel test execution
+pytest-benchmark>=4.0.0  # Performance benchmarking
+pytest-timeout>=2.1.0  # Test timeout management
+
+# Performance and monitoring dependencies
+memory-profiler>=0.61.0  # Memory usage profiling
+py-spy>=0.3.14  # CPU profiling for performance tests

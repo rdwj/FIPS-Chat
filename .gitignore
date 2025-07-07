@@ -1,32 +1,551 @@
-# FIPS-Chat
-# Ignore node_modules directory
-node_modules/
-# Ignore build output directory
-dist/
-# Ignore log files
-*.log
-# Ignore environment variable files
-.env
-# Ignore coverage reports
-coverage/
-# Ignore IDE specific files
-.vscode/
-# Ignore system files
-.DS_Store
-# Ignore temporary files
-*.tmp
-# Ignore package lock files
-package-lock.json
-# Ignore yarn lock files
-yarn.lock
-# Ignore npm debug files
-npm-debug.log*
-# Ignore test output files
-test-output/
-# Ignore build artifacts
-build/
-# Ignore pytest cache
+# ===============================
+# FIPS-Chat Project .gitignore
+# ===============================
+
+# ===============================
+# Python
+# ===============================
+
+# Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.env/
+pyvenv.cfg
+.conda/
+conda-meta/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
 .pytest_cache/
+.nose2.cfg
+test-output/
+test_results/
+
+# Performance testing artifacts
+performance_results/
+benchmark_results/
+*.prof
+*.profile
+memory_profile_*.txt
+perf_*.json
+
+# Translations
+*.mo
+*.pot
+
+# Framework specific
+# Django
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# FastAPI
+.pytest_cache/
+
+# Scrapy
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Environment management
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mkdocs
+/site
+
+# Type checkers
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Cython
+cython_debug/
+
+# ===============================
+# Data Science & ML
+# ===============================
+
+# Data files
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.h5
+*.hdf5
+*.pickle
+*.pkl
+*.npz
+*.npy
+*.json.gz
+*.jsonl
+*.arrow
+
+# Model files
+*.model
+*.joblib
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.pb
+*.tflite
+*.safetensors
+
+# TensorFlow
+*.tfrecord
+*.tfrecords
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Weights & Biases
+wandb/
+
+# DVC
+.dvc/
+.dvcignore
+
+# Hugging Face
+.cache/huggingface/
+
+# ===============================
+# Application Specific (FIPS-Chat)
+# ===============================
+
+# RAG Storage - User uploaded documents and processed data
+rag_storage/
+example_rag_storage/
+*_storage/
+
+# Backup files (including project-specific backups)
+*.bak
+*.backup
+*.old
+*.orig
+*.save
+*~
+api_client.py.bak
+app.py.bak
+config.py.bak
+ollama_client.py.bak
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+.temp/
+
+# Configuration files with sensitive data
+config_local.py
+local_config.py
+secrets.py
+.secrets
+local_settings.py
+settings_local.py
+
+# RAG configuration files that may contain local paths
+rag_config.json
+rag_config.json.backup
+*.rag_config
+
+# API keys and credentials
+.api_keys
+.credentials
+api_key.txt
+*.key
+*.pem
+*.crt
+*.p12
+.env.*
+!.env.example
+!.env.template
+
+# Session data
+sessions/
+.sessions/
+session_data/
+
+# Cache directories
+.cache/
+cache/
+.streamlit/
+streamlit_cache/
+
+# User uploads
+uploads/
+user_data/
+documents/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# ===============================
+# Streamlit Specific
+# ===============================
+
+# Streamlit
+.streamlit/
+streamlit_app_data/
+
+# ===============================
+# IDEs and Editors
+# ===============================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+
+# Emacs
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Atom
+.atom/
+
+# Cursor
+.cursor/
+
+# ===============================
+# Operating System
+# ===============================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===============================
+# Web/Frontend
+# ===============================
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Package files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+out/
+
+# ===============================
+# Containers & Deployment
+# ===============================
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Podman
+.podman/
+
+# Container build artifacts
+*.tar
+*.tar.gz
+*.image
+
+# OpenShift/Kubernetes
+*.kubeconfig
+*.yaml.bak
+*.yml.bak
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Deployment artifacts
+deployment_*.json
+deployment_*.yaml
+
+# ===============================
+# Logs and Monitoring
+# ===============================
+
+# Log files
+*.log
+logs/
+log/
+*.log.*
+
+# Error files
+*.err
+*.error
+error.txt
+
+# ===============================
+# Documentation & AI Tools
+# ===============================
+
+# Claude AI assistant files (keep CLAUDE.md for project documentation)
 .claude/
+.claude/**
 CLAUDE.md
+
+# Other AI tools
+.cursor/
+.aider*
+
+# AI assistant generated files
+*.ai_generated
+*.assistant_notes
+
+# ===============================
+# Security & Environment
+# ===============================
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Security files
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+.ssh/
+id_rsa*
+id_ecdsa*
+id_ed25519*
+
+# ===============================
+# Archive & Binary Files
+# ===============================
+
+# Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.bz2
+*.xz
+
+# Binary files
+*.exe
+*.dll
+*.dylib
+*.so.*
+
+# ===============================
+# Miscellaneous
+# ===============================
+
+# OS generated files
+.directory
+*.lnk
+
+# Editor backup files
+*~
+*.orig
+*.rej
+
+# Patch files
+*.patch
+*.diff
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
